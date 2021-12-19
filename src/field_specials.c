@@ -2615,6 +2615,7 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
         gText_Kalos,
         gText_Alola,
         // gText_Galar,
+        gText_Mystery
     },
 };
 
