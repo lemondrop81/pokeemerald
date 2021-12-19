@@ -243,7 +243,6 @@ static void MainMenu_FormatSavegamePokedex(void);
 static void MainMenu_FormatSavegameTime(void);
 static void MainMenu_FormatSavegameBadges(void);
 static void NewGameBirchSpeech_CreateDialogueWindowBorder(u8, u8, u8, u8, u8, u8);
-static void region(u8);
 
 // .rodata
 
@@ -451,11 +450,6 @@ static const union AffineAnimCmd sSpriteAffineAnim_PlayerShrink[] = {
 static const union AffineAnimCmd *const sSpriteAffineAnimTable_PlayerShrink[] =
 {
     sSpriteAffineAnim_PlayerShrink
-};
-
-static const struct MenuAction choose_region[] = {
-    {gKanto, NULL},
-    {gJohto, NULL}
 };
 
 static const struct MenuAction sMenuActions_Gender[] = {
@@ -1553,21 +1547,6 @@ static void Task_NewGameBirchSpeech_SlideOutOldGenderSprite(u8 taskId)
         NewGameBirchSpeech_StartFadeInTarget1OutTarget2(taskId, 0);
         gTasks[taskId].func = Task_NewGameBirchSpeech_SlideInNewGenderSprite;
     }
-}
-
-static void NewGameBirchSpeech_ShowRegionMenu(void)
-{
-    DrawMainMenuWindowBorder(&gNewGameBirchSpeechTextWindows[1], 0xF3);
-    FillWindowPixelBuffer(1, PIXEL_FILL(1));
-    PrintMenuTable(1, ARRAY_COUNT(choose_region), choose_region);
-    InitMenuInUpperLeftCornerNormal(1, 2, 0);
-    PutWindowTilemap(1);
-    CopyWindowToVram(1, COPYWIN_FULL);
-}
-
-static void region(u8 taskId)
-{
-    NewGameBirchSpeech_ShowRegionMenu();
 }
 
 static void Task_NewGameBirchSpeech_SlideInNewGenderSprite(u8 taskId)
