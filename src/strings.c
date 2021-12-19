@@ -1830,4 +1830,4 @@ const u8 gText_Unova[] =    _("Unova");
 const u8 gText_Kalos[] =    _("Kalos");
 const u8 gText_Alola[] =    _("Alola");
 const u8 gText_Galar[] =    _("Galar");
-const u8 gText_Myster[] = _("Mystery");
+const u8 gText_Mysterious[] = _("Mysterious");

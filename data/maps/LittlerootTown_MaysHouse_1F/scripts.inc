@@ -429,5 +429,5 @@ StarterRegionStringKalos:
 StarterRegionStringAlola:
 	.string "Alola$"
 
-StarterRegionStringMystery:
-	.string "Mystery$"
+StarterRegionStringMysterious:
+	.string "Mysterious$"
