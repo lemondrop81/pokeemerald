@@ -91,7 +91,7 @@ LittlerootTown_MaysHouse_2F_EventScript_ChooseStarterSet::
 	case 4, LittlerootTown_MaysHouse_2F_EventScript_Unova
 	case 5, LittlerootTown_MaysHouse_2F_EventScript_Kalos
 	case 6, LittlerootTown_MaysHouse_2F_EventScript_Alola
-	case 7, LittlerootTown_MaysHouse_2F_EventScript_Mystery
+	case 7, LittlerootTown_MaysHouse_2F_EventScript_Mysterious
 	goto LittlerootTown_MaysHouse_2F_EventScript_Hoenn
 	end
 

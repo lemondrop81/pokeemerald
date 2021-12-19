@@ -164,7 +164,7 @@ static const u16 sStarterMonAlola[STARTER_MON_COUNT] =
     SPECIES_POPPLIO,
 };
 
-static const u16 sStarterMonMystery[STARTER_MON_COUNT] =
+static const u16 sStarterMonMysterious[STARTER_MON_COUNT] =
 {
     SPECIES_DEINO,
     SPECIES_LARVESTA,
@@ -425,7 +425,7 @@ u16 GetStarterPokemon(u16 chosenStarterId)
     case 7:
         return sStarterMonAlola[chosenStarterId];
     case 8:
-        return sStarterMonMystery[chosenStarterId];
+        return sStarterMonMysterious[chosenStarterId];
     default:
         return sStarterMonHoenn[chosenStarterId];
     } 
