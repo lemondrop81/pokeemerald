@@ -79,6 +79,56 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMay::
 	releaseall
 	end
 
+LittlerootTown_MaysHouse_2F_EventScript_ChooseStarterSet::
+	setvar VAR_0x8004, SCROLL_MULTI_REGION_NAMES
+	special ShowScrollableMultichoice
+	waitstate
+	switch VAR_RESULT
+	case 0, LittlerootTown_MaysHouse_2F_EventScript_Kanto
+	case 1, LittlerootTown_MaysHouse_2F_EventScript_Johto
+	case 2, LittlerootTown_MaysHouse_2F_EventScript_Hoenn
+	case 3, LittlerootTown_MaysHouse_2F_EventScript_Sinnoh
+	case 4, LittlerootTown_MaysHouse_2F_EventScript_Unova
+	case 5, LittlerootTown_MaysHouse_2F_EventScript_Kalos
+	case 6, LittlerootTown_MaysHouse_2F_EventScript_Alola
+	goto LittlerootTown_MaysHouse_2F_EventScript_Hoenn
+	end
+
+LittlerootTown_MaysHouse_2F_EventScript_Kanto::
+	setvar VAR_STARTER_GEN, 1
+	bufferstring 1, StarterRegionStringKanto
+	return
+
+LittlerootTown_MaysHouse_2F_EventScript_Johto::
+	setvar VAR_STARTER_GEN, 2
+	bufferstring 1, StarterRegionStringJohto
+	return
+
+LittlerootTown_MaysHouse_2F_EventScript_Hoenn::
+	setvar VAR_STARTER_GEN, 3
+	bufferstring 1, StarterRegionStringHoenn
+	return
+
+LittlerootTown_MaysHouse_2F_EventScript_Sinnoh::
+	setvar VAR_STARTER_GEN, 4
+	bufferstring 1, StarterRegionStringSinnoh
+	return
+
+LittlerootTown_MaysHouse_2F_EventScript_Unova::
+	setvar VAR_STARTER_GEN, 5
+	bufferstring 1, StarterRegionStringUnova
+	return
+
+LittlerootTown_MaysHouse_2F_EventScript_Kalos::
+	setvar VAR_STARTER_GEN, 6
+	bufferstring 1, StarterRegionStringKalos
+	return
+
+LittlerootTown_MaysHouse_2F_EventScript_Alola::
+	setvar VAR_STARTER_GEN, 7
+	bufferstring 1, StarterRegionStringAlola
+	return
+
 LittlerootTown_MaysHouse_2F_EventScript_MeetMayNorth::
 	applymovement LOCALID_RIVAL, LittlerootTown_MaysHouse_2F_Movement_MayApproachPlayerNorth
 	waitmovement 0
