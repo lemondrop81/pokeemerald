@@ -132,7 +132,7 @@ LittlerootTown_MaysHouse_2F_EventScript_Alola::
 
 LittlerootTown_MaysHouse_2F_EventScript_Mystery::
 	setvar VAR_STARTER_GEN, 7
-	bufferstring 1, StarterRegionStringAlola
+	bufferstring 1, StarterRegionStringMystery
 	return
 
 LittlerootTown_MaysHouse_2F_EventScript_MeetMayNorth::

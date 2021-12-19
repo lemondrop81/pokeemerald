@@ -407,3 +407,27 @@ RivalsHouse_1F_Text_DoYouHavePokemon:
 	.string "Hi, neighbor!\p"
 	.string "Do you already have your\n"
 	.string "own POKéMON?$"
+
+StarterRegionStringKanto:
+	.string "Kanto$"
+
+StarterRegionStringJohto:
+	.string "Johto$"
+
+StarterRegionStringHoenn:
+	.string "Hoenn$"
+
+StarterRegionStringSinnoh:
+	.string "Sinnoh$"
+
+StarterRegionStringUnova:
+	.string "Unova$"
+
+StarterRegionStringKalos:
+	.string "Kalos$"
+
+StarterRegionStringAlola:
+	.string "Alola$"
+
+StarterRegionStringMystery:
+	.string "Mystery$"
