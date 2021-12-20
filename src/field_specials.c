@@ -2335,7 +2335,7 @@ void ShowScrollableMultichoice(void)
             break;
         case SCROLL_MULTI_REGION_NAMES:
             task->tMaxItemsOnScreen = MAX_SCROLL_MULTI_ON_SCREEN;
-            task->tNumItems = 7;
+            task->tNumItems = 8;
             task->tLeft = 22;
             task->tTop = 1;
             task->tWidth = 12;
