@@ -2607,15 +2607,15 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
     },
     [SCROLL_MULTI_REGION_NAMES] = 
     {
+        gText_Mysterious,
         gText_Kanto,
         gText_Johto,
         gText_Hoenn,
         gText_Sinnoh,
         gText_Unova,
         gText_Kalos,
-        gText_Alola,
+        gText_Alola
         // gText_Galar,
-        gText_Mysterious
     },
 };
 
