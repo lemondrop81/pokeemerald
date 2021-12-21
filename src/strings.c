@@ -1821,3 +1821,13 @@ const u8 gText_Answer[] = _("ANSWER");
 const u8 gText_PokeBalls[] = _("POKé BALLS");
 const u8 gText_Berry[] = _("BERRY");
 const u8 gText_Berries[] = _("BERRIES");
+
+// Region names
+const u8 gText_Kanto[] =    _("Kanto");
+const u8 gText_Johto[] =    _("Johto");
+const u8 gText_Sinnoh[] =   _("Sinnoh");
+const u8 gText_Unova[] =    _("Unova");
+const u8 gText_Kalos[] =    _("Kalos");
+const u8 gText_Alola[] =    _("Alola");
+const u8 gText_Galar[] =    _("Galar");
+const u8 gText_Mysterious[] = _("Mysterious");
