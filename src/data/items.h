@@ -2064,6 +2064,7 @@ const struct Item gItems[] =
 
     [ITEM_ROOT_FOSSIL] =
     {
+<<<<<<< HEAD
         .name = _("Root Fossil"),
         .itemId = ITEM_ROOT_FOSSIL,
         .description = sRootFossilDesc,
@@ -2077,6 +2078,17 @@ const struct Item gItems[] =
         #endif
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+=======
+        .name = _("EXP. SHARE"),
+        .itemId = ITEM_EXP_SHARE,
+        .price = 3000,
+        .holdEffect = HOLD_EFFECT_EXP_SHARE,
+        .description = sExpShareDesc,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = 2,
+        .fieldUseFunc = ItemUseOutOfBattle_ExpShare,
+        .secondaryId = 0,
+>>>>>>> 0903ba6cf43f9535c9fec76e6ab0797f31dc9aa9
     },
 
     [ITEM_CLAW_FOSSIL] =
