@@ -46,7 +46,7 @@
 #define FLDEFF_HOT_SPRINGS_WATER         42
 #define FLDEFF_USE_WATERFALL             43
 #define FLDEFF_USE_DIVE                  44
-#define FLDEFF_POKEBALL_TRAIL            45
+#define FLDEFF_POKEBALL                  45
 #define FLDEFF_HEART_ICON                46
 #define FLDEFF_NOP_47                    47
 #define FLDEFF_NOP_48                    48
@@ -111,6 +111,7 @@
 #define FLDEFF_PAL_TAG_SECRET_POWER_TREE  0x1003
 #define FLDEFF_PAL_TAG_GENERAL_0          0x1004
 #define FLDEFF_PAL_TAG_GENERAL_1          0x1005
+#define FLDEFF_PAL_TAG_ARROW              0x1006
 #define FLDEFF_PAL_TAG_POKEBALL_GLOW      0x1007
 #define FLDEFF_PAL_TAG_SECRET_POWER_PLANT 0x1008
 #define FLDEFF_PAL_TAG_POKEBALL_TRAIL     0x1009

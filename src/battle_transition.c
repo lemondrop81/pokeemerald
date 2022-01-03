@@ -1800,7 +1800,7 @@ static bool8 PokeballsTrail_Main(struct Task *task)
         gFieldEffectArguments[1] = (i * 32) + 16;  // y
         gFieldEffectArguments[2] = side;
         gFieldEffectArguments[3] = delays[i];
-        FieldEffectStart(FLDEFF_POKEBALL_TRAIL);
+        FieldEffectStart(FLDEFF_POKEBALL);
     }
 
     task->tState++;
@@ -1809,7 +1809,7 @@ static bool8 PokeballsTrail_Main(struct Task *task)
 
 static bool8 PokeballsTrail_End(struct Task *task)
 {
-    if (!FieldEffectActiveListContains(FLDEFF_POKEBALL_TRAIL))
+    if (!FieldEffectActiveListContains(FLDEFF_POKEBALL))
     {
         FadeScreenBlack();
         DestroyTask(FindTaskIdByFunc(Task_PokeballsTrail));
@@ -1817,7 +1817,7 @@ static bool8 PokeballsTrail_End(struct Task *task)
     return FALSE;
 }
 
-bool8 FldEff_PokeballTrail(void)
+bool8 FldEff_Pokeball(void)
 {
     u8 spriteId = CreateSpriteAtEnd(&sSpriteTemplate_Pokeball, gFieldEffectArguments[0], gFieldEffectArguments[1], 0);
     gSprites[spriteId].oam.priority = 0;
@@ -1865,7 +1865,7 @@ static void SpriteCB_FldEffPokeballTrail(struct Sprite *sprite)
         }
         sprite->x += speeds[sprite->sSide];
         if (sprite->x < -15 || sprite->x > DISPLAY_WIDTH + 15)
-            FieldEffectStop(sprite, FLDEFF_POKEBALL_TRAIL);
+            FieldEffectStop(sprite, FLDEFF_POKEBALL);
     }
 }
 
