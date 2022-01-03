@@ -33,3 +33,4 @@ Text_RepelWoreOff: @ 82A4B33
 	.string "REPEL's effect wore off…$"
 Text_RepelAskAnother:
 	.string "Would you like to use another one?$"
+	

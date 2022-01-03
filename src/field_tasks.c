@@ -242,13 +242,10 @@ void ResetFieldTasksArgs(void)
     if (taskId != TASK_NONE)
     {
         data = gTasks[taskId].data;
-        tAmbientCryState = 0;
-        tAmbientCryDelay = 0;
+        data[1] = 0;
+        data[2] = 0;
     }
 }
-
-#undef tAmbientCryState
-#undef tAmbientCryDelay
 
 static void DummyPerStepCallback(u8 taskId)
 {

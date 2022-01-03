@@ -871,6 +871,11 @@ static void FieldmapUnkDummy(void)
 
 }
 
+void nullsub_3(u16 a0, u16 a1)
+{
+
+}
+
 void LoadTilesetPalette(struct Tileset const *tileset, u16 destOffset, u16 size)
 {
     u16 black = RGB_BLACK;
@@ -894,7 +899,7 @@ void LoadTilesetPalette(struct Tileset const *tileset, u16 destOffset, u16 size)
         {
             gPaletteOverrides[2] = tileset->paletteOverrides;
             LoadCompressedPalette((u32*)tileset->palettes, destOffset, size);
-            FieldmapPaletteDummy(destOffset, size >> 1);
+            nullsub_3(destOffset, size >> 1);
         }
     }
 }

@@ -1983,6 +1983,15 @@ static void LoadObjectEventPalette(u16 paletteTag)
         LoadSpritePaletteIfTagExists(&sObjectEventSpritePalettes[i]);
 }
 
+static u8 LoadSpritePaletteIfTagExists(const struct SpritePalette *spritePalette)
+{
+    if (IndexOfSpritePaletteTag(spritePalette->tag) != 0xFF)
+        return 0xFF;
+
+    return LoadSpritePalette(spritePalette);
+}
+
+
 // Unused
 static void LoadObjectEventPaletteSet(u16 *paletteTags)
 {

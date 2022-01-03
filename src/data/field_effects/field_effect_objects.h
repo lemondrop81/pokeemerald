@@ -266,13 +266,8 @@ static const union AnimCmd *const sAnimTable_Arrow[] =
 };
 
 const struct SpriteTemplate gFieldEffectObjectTemplate_Arrow = {
-<<<<<<< HEAD
-    .tileTag = TAG_NONE,
-    .paletteTag = TAG_NONE,
-=======
     .tileTag = SPRITE_INVALID_TAG,
     .paletteTag = FLDEFF_PAL_TAG_ARROW,
->>>>>>> 1c1fa2f3d31323c9030fab1819c1a8ec030776ed
     .oam = &gObjectEventBaseOam_16x16,
     .anims = sAnimTable_Arrow,
     .images = sPicTable_Arrow,
