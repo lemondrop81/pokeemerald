@@ -905,10 +905,12 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	setflag FLAG_RECEIVED_RUNNING_SHOES
 	setflag FLAG_SURFBOARD
 	setflag FLAG_DRILL
+	setflag FLAG_SPINACH
 	msgbox LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT
 	msgbox LittlerootTown_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT
 	msgbox LittlerootTown_Text_ExplainSurfBoard, MSGBOX_DEFAULT
 	msgbox LittlerootTown_Text_ExplainDrill, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_ExplainSpinach, MSGBOX_DEFAULT
 	closemessage
 	delay 30
 	return
@@ -960,6 +962,11 @@ LittlerootTown_Text_ExplainDrill:
 	.string "MOM: {PLAYER}, with this "
 	.string "drill you can now \p"
 	.string "“destroy rocks”$"
+
+LittlerootTown_Text_ExplainSpinach:
+	.string "MOM: {PLAYER}, with this "
+	.string "spinach you can now \p"
+	.string "push heavy boulders around”$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "… … … … … … … …\n"
