@@ -407,6 +407,18 @@ static bool8 TryGenerateWildMon(const struct WildPokemonInfo *wildMonInfo, u8 ar
         break;
     }
 
+    u16 dynamicLevel = 0;
+	
+    // This is used to hold the level's of the player's strongest[1] and weakest[0] Pokemon
+    u8 LevelSpread[] = {0, 0};
+
+    // This will be used when assigning the level of the opponent's Pokemon
+    u16 PartyLevelAdjust;
+
+    // Change stuff like this to get the levels you want
+    static const u8 minDynamicLevel = 3;
+    static const u8 maxDynamicLevel = 98;
+
     level = ChooseWildMonLevel(&wildMonInfo->wildPokemon[timeOfDay][wildMonIndex]);
     if (flags & WILD_CHECK_REPEL && !IsWildLevelAllowedByRepel(level))
         return FALSE;
