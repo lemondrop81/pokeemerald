@@ -174,7 +174,7 @@ static const u16 sStarterMonGalar[STARTER_MON_COUNT] =
 static const u16 sStarterMonMysterious[STARTER_MON_COUNT] =
 {
     SPECIES_DEINO,
-    SPECIES_LARVESTA,
+    SPECIES_CHARIZARD,
     SPECIES_REGIDRAGO,
 };
 
