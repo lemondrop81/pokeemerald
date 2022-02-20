@@ -3114,7 +3114,6 @@ const struct Item gItems[] =
 
     [ITEM_TOXIC_PLATE] =
     {
-<<<<<<< HEAD
         .name = _("Toxic Plate"),
         .itemId = ITEM_TOXIC_PLATE,
         .price = 1000,
@@ -3125,22 +3124,10 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = TYPE_POISON,
-=======
-        .name = _("ITEMFINDER"),
-        .itemId = ITEM_ITEMFINDER,
-        .price = 0,
-        .description = sItemfinderDesc,
-        .importance = 1,
-        .registrability = TRUE,
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Itemfinder,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
     },
 
     [ITEM_EARTH_PLATE] =
     {
-<<<<<<< HEAD
         .name = _("Earth Plate"),
         .itemId = ITEM_EARTH_PLATE,
         .price = 1000,
@@ -3151,23 +3138,10 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = TYPE_GROUND,
-=======
-        .name = _("OLD ROD"),
-        .itemId = ITEM_OLD_ROD,
-        .price = 0,
-        .description = sOldRodDesc,
-        .importance = 1,
-        .registrability = TRUE,
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Rod,
-        .secondaryId = OLD_ROD,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
     },
 
     [ITEM_SKY_PLATE] =
     {
-<<<<<<< HEAD
         .name = _("Sky Plate"),
         .itemId = ITEM_SKY_PLATE,
         .price = 1000,
@@ -3178,23 +3152,10 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = TYPE_FLYING,
-=======
-        .name = _("GOOD ROD"),
-        .itemId = ITEM_GOOD_ROD,
-        .price = 0,
-        .description = sGoodRodDesc,
-        .importance = 1,
-        .registrability = TRUE,
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Rod,
-        .secondaryId = GOOD_ROD,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
     },
 
     [ITEM_MIND_PLATE] =
     {
-<<<<<<< HEAD
         .name = _("Mind Plate"),
         .itemId = ITEM_MIND_PLATE,
         .price = 1000,
@@ -3205,18 +3166,6 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = TYPE_PSYCHIC,
-=======
-        .name = _("SUPER ROD"),
-        .itemId = ITEM_SUPER_ROD,
-        .price = 0,
-        .description = sSuperRodDesc,
-        .importance = 1,
-        .registrability = TRUE,
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Rod,
-        .secondaryId = SUPER_ROD,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
     },
 
     [ITEM_INSECT_PLATE] =
@@ -3317,44 +3266,19 @@ const struct Item gItems[] =
         .secondaryId = TYPE_FAIRY,
     },
 
-<<<<<<< HEAD
 // Drives
-=======
-    [ITEM_ACRO_BIKE] =
-    {
-        .name = _("ACRO BIKE"),
-        .itemId = ITEM_ACRO_BIKE,
-        .price = 0,
-        .description = sAcroBikeDesc,
-        .importance = 1,
-        .registrability = TRUE,
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Bike,
-        .secondaryId = ACRO_BIKE,
-    },
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
 
     [ITEM_DOUSE_DRIVE] =
     {
         .name = _("Douse Drive"),
         .itemId = ITEM_DOUSE_DRIVE,
         .price = 0,
-<<<<<<< HEAD
         .holdEffect = HOLD_EFFECT_DRIVE,
         .description = sDouseDriveDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = TYPE_WATER,
-=======
-        .description = sPokeblockCaseDesc,
-        .importance = 1,
-        .registrability = TRUE,
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_PBLOCK_CASE,
-        .fieldUseFunc = ItemUseOutOfBattle_PokeblockCase,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
     },
 
     [ITEM_SHOCK_DRIVE] =
@@ -8794,7 +8718,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sBicycleDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -8807,7 +8730,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sMachBikeDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Bike,
@@ -8821,7 +8743,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sAcroBikeDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Bike,
@@ -8835,7 +8756,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sOldRodDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Rod,
@@ -8849,7 +8769,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sGoodRodDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Rod,
@@ -8863,7 +8782,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sSuperRodDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Rod,
@@ -8877,7 +8795,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sDowsingMachineDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Itemfinder,
@@ -8890,7 +8807,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sTownMapDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -8903,7 +8819,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sVsSeekerDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -8916,7 +8831,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sTMCaseDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -8929,7 +8843,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sBerryPouchDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -8965,7 +8878,7 @@ const struct Item gItems[] =
         .price = 0,
         .description = sPowderJarDesc,
         .importance = 1,
-        .unk19 = 1,
+
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_PowderJar,
@@ -9001,7 +8914,7 @@ const struct Item gItems[] =
         .price = 0,
         .description = sPokeblockCaseDesc,
         .importance = 1,
-        .unk19 = 1,
+
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_PBLOCK_CASE,
         .fieldUseFunc = ItemUseOutOfBattle_PokeblockCase,
@@ -9039,7 +8952,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sFameCheckerDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9052,7 +8964,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sTeachyTVDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9092,7 +9003,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sMysticTicketDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9105,7 +9015,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sAuroraTicketDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9118,7 +9027,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sOldSeaMapDesc,
         .importance = 1,
-        .unk19 = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9239,10 +9147,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sKeyToRoom4Desc,
         .importance = 1,
-<<<<<<< HEAD
-=======
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9255,10 +9159,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sKeyToRoom6Desc,
         .importance = 1,
-<<<<<<< HEAD
-=======
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9271,10 +9171,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sMeteoriteDesc,
         .importance = 1,
-<<<<<<< HEAD
-=======
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9300,10 +9196,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sContestPassDesc,
         .importance = 1,
-<<<<<<< HEAD
-=======
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9314,14 +9206,8 @@ const struct Item gItems[] =
         .name = _("Oak's Parcel"),
         .itemId = ITEM_OAKS_PARCEL,
         .price = 0,
-<<<<<<< HEAD
         .description = sOaksParcelDesc,
         .importance = 2,
-=======
-        .description = sBerryPouchDesc,
-        .importance = 1,
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9334,10 +9220,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sSecretKeyDesc,
         .importance = 1,
-<<<<<<< HEAD
-=======
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9350,10 +9232,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sBikeVoucherDesc,
         .importance = 1,
-<<<<<<< HEAD
-=======
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9366,10 +9244,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sGoldTeethDesc,
         .importance = 1,
-<<<<<<< HEAD
-=======
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9382,10 +9256,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sCardKeyDesc,
         .importance = 1,
-<<<<<<< HEAD
-=======
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9398,10 +9268,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sLiftKeyDesc,
         .importance = 1,
-<<<<<<< HEAD
-=======
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9414,10 +9280,6 @@ const struct Item gItems[] =
         .price = 0,
         .description = sSilphScopeDesc,
         .importance = 1,
-<<<<<<< HEAD
-=======
-        .registrability = TRUE,
->>>>>>> 6e201ba038508729127ba6d6d8ded50ef6d64047
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
