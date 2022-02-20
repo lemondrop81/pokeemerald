@@ -494,7 +494,13 @@ static bool8 TryGenerateWildMon(const struct WildPokemonInfo *wildMonInfo, u8 ar
         PartyLevelAdjust /= 5;
     }
 
-    level = ChooseWildMonLevel(&wildMonInfo->wildPokemon[timeOfDay][wildMonIndex]);
+    //Handling values to be always be in the range,
+    // ( minDynamiclevel-levelDifference , maxDynamiclevel+levelDifference )
+    if(dynamicLevel < minDynamicLevel) dynamicLevel = minDynamicLevel;
+    else if(dynamicLevel > maxDynamicLevel) dynamicLevel = maxDynamicLevel;
+
+    level = dynamicLevel + PartyLevelAdjust + (Random() % 5) - 2;
+
     if (flags & WILD_CHECK_REPEL && !IsWildLevelAllowedByRepel(level))
         return FALSE;
     if (gMapHeader.mapLayoutId != LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_WILD_MONS && flags & WILD_CHECK_KEEN_EYE && !IsAbilityAllowingEncounter(level))
