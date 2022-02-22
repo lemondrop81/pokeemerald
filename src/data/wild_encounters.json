@@ -8734,7 +8734,7 @@
                 {
                   "min_level": 25,
                   "max_level": 30,
-                  "species": "SPECIES_SEALO"
+                  "species": "SPECIES_SEALEO"
                 }
               ],
               [
@@ -8860,7 +8860,7 @@
                 {
                   "min_level": 20,
                   "max_level": 25,
-                  "species": "SPECIES_WHISHCASH"
+                  "species": "SPECIES_WISHCASH"
                 },
                 {
                   "min_level": 35,
@@ -8887,7 +8887,7 @@
                 {
                   "min_level": 10,
                   "max_level": 30,
-                  "species": "SPECIES_CRAWDDAUNT"
+                  "species": "SPECIES_CRAWDAUNT"
                 },
                 {
                   "min_level": 10,
