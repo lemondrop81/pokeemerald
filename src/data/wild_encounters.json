@@ -19419,186 +19419,186 @@
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_PHANPY"
-                },
-                {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_ODDISH"
-                },
-                {
-                  "min_level": 29,
-                  "max_level": 29,
-                  "species": "SPECIES_PHANPY"
-                },
-                {
-                  "min_level": 29,
-                  "max_level": 29,
-                  "species": "SPECIES_ODDISH"
-                },
-                {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_NATU"
-                },
-                {
-                  "min_level": 29,
-                  "max_level": 29,
                   "species": "SPECIES_GLOOM"
                 },
                 {
-                  "min_level": 31,
-                  "max_level": 31,
-                  "species": "SPECIES_GLOOM"
+                  "min_level": 27,
+                  "max_level": 27,
+                  "species": "SPECIES_WEEPINBELL"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_NATU"
+                  "species": "SPECIES_DONPHAN"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_XATU"
+                  "species": "SPECIES_MAROWAK_ALOLAN"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
+                  "species": "SPECIES_DONPHAN"
+                },
+                {
+                  "min_level": 29,
+                  "max_level": 29,
                   "species": "SPECIES_HERACROSS"
                 },
                 {
                   "min_level": 31,
                   "max_level": 31,
-                  "species": "SPECIES_XATU"
+                  "species": "SPECIES_KANGASKHAN"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_HERACROSS"
+                  "species": "SPECIES_DUGTRIO_ALOLAN"
+                },
+                {
+                  "min_level": 29,
+                  "max_level": 29,
+                  "species": "SPECIES_KANGASKHAN"
+                },
+                {
+                  "min_level": 27,
+                  "max_level": 27,
+                  "species": "SPECIES_DUGTRIO_ALOLAN"
+                },
+                {
+                  "min_level": 31,
+                  "max_level": 31,
+                  "species": "SPECIES_KANGASKHAN"
+                },
+                {
+                  "min_level": 29,
+                  "max_level": 29,
+                  "species": "SPECIES_DUGTRIO_ALOLAN"
                 }
               ],
               [
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_PHANPY"
-                },
-                {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_ODDISH"
-                },
-                {
-                  "min_level": 29,
-                  "max_level": 29,
-                  "species": "SPECIES_PHANPY"
-                },
-                {
-                  "min_level": 29,
-                  "max_level": 29,
-                  "species": "SPECIES_ODDISH"
-                },
-                {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_NATU"
-                },
-                {
-                  "min_level": 29,
-                  "max_level": 29,
                   "species": "SPECIES_GLOOM"
                 },
                 {
-                  "min_level": 31,
-                  "max_level": 31,
-                  "species": "SPECIES_GLOOM"
+                  "min_level": 27,
+                  "max_level": 27,
+                  "species": "SPECIES_WEEPINBELL"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_NATU"
+                  "species": "SPECIES_DONPHAN"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_XATU"
+                  "species": "SPECIES_MAROWAK_ALOLAN"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
+                  "species": "SPECIES_HITMONLEE"
+                },
+                {
+                  "min_level": 29,
+                  "max_level": 29,
                   "species": "SPECIES_HERACROSS"
                 },
                 {
                   "min_level": 31,
                   "max_level": 31,
-                  "species": "SPECIES_XATU"
+                  "species": "SPECIES_KANGASKHAN"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_HERACROSS"
+                  "species": "SPECIES_DUGTRIO_ALOLAN"
+                },
+                {
+                  "min_level": 29,
+                  "max_level": 29,
+                  "species": "SPECIES_KANGASKHAN"
+                },
+                {
+                  "min_level": 27,
+                  "max_level": 27,
+                  "species": "SPECIES_DUGTRIO_ALOLAN"
+                },
+                {
+                  "min_level": 31,
+                  "max_level": 31,
+                  "species": "SPECIES_KANGASKHAN"
+                },
+                {
+                  "min_level": 29,
+                  "max_level": 29,
+                  "species": "SPECIES_DUGTRIO_ALOLAN"
                 }
               ],
               [
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_PHANPY"
-                },
-                {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_ODDISH"
-                },
-                {
-                  "min_level": 29,
-                  "max_level": 29,
-                  "species": "SPECIES_PHANPY"
-                },
-                {
-                  "min_level": 29,
-                  "max_level": 29,
-                  "species": "SPECIES_ODDISH"
-                },
-                {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_NATU"
-                },
-                {
-                  "min_level": 29,
-                  "max_level": 29,
                   "species": "SPECIES_GLOOM"
                 },
                 {
-                  "min_level": 31,
-                  "max_level": 31,
-                  "species": "SPECIES_GLOOM"
+                  "min_level": 27,
+                  "max_level": 27,
+                  "species": "SPECIES_WEEPINBELL"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_NATU"
+                  "species": "SPECIES_HITMONCHAN"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_XATU"
+                  "species": "SPECIES_MAROWAK_ALOLAN"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
+                  "species": "SPECIES_DONPHAN"
+                },
+                {
+                  "min_level": 29,
+                  "max_level": 29,
                   "species": "SPECIES_HERACROSS"
                 },
                 {
                   "min_level": 31,
                   "max_level": 31,
-                  "species": "SPECIES_XATU"
+                  "species": "SPECIES_KANGASKHAN"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_HERACROSS"
+                  "species": "SPECIES_DUGTRIO_ALOLAN"
+                },
+                {
+                  "min_level": 29,
+                  "max_level": 29,
+                  "species": "SPECIES_KANGASKHAN"
+                },
+                {
+                  "min_level": 27,
+                  "max_level": 27,
+                  "species": "SPECIES_DUGTRIO_ALOLAN"
+                },
+                {
+                  "min_level": 31,
+                  "max_level": 31,
+                  "species": "SPECIES_KANGASKHAN"
+                },
+                {
+                  "min_level": 29,
+                  "max_level": 29,
+                  "species": "SPECIES_DUGTRIO_ALOLAN"
                 }
               ]
             ]
@@ -19610,81 +19610,66 @@
                 {
                   "min_level": 10,
                   "max_level": 15,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 },
                 {
                   "min_level": 5,
                   "max_level": 10,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 },
                 {
                   "min_level": 15,
                   "max_level": 20,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 },
                 {
                   "min_level": 20,
                   "max_level": 25,
-                  "species": "SPECIES_GEODUDE"
-                },
-                {
-                  "min_level": 25,
-                  "max_level": 30,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 }
               ],
               [
                 {
                   "min_level": 10,
                   "max_level": 15,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 },
                 {
                   "min_level": 5,
                   "max_level": 10,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 },
                 {
                   "min_level": 15,
                   "max_level": 20,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 },
                 {
                   "min_level": 20,
                   "max_level": 25,
-                  "species": "SPECIES_GEODUDE"
-                },
-                {
-                  "min_level": 25,
-                  "max_level": 30,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 }
               ],
               [
                 {
                   "min_level": 10,
                   "max_level": 15,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 },
                 {
                   "min_level": 5,
                   "max_level": 10,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 },
                 {
                   "min_level": 15,
                   "max_level": 20,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 },
                 {
                   "min_level": 20,
                   "max_level": 25,
-                  "species": "SPECIES_GEODUDE"
-                },
-                {
-                  "min_level": 25,
-                  "max_level": 30,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_GRAVELER_ALOLAN"
                 }
               ]
             ]
