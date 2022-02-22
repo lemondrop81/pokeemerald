@@ -13163,188 +13163,188 @@
             "mons": [
               [
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_KABUTO"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_OMANYTE"
                 },
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_CRANIDOS"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_SHIELDON"
                 },
                 {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_LILEEP"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ABRA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_ANORITH"
                 },
                 {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_TIRTOUGA"
                 },
                 {
-                  "min_level": 6,
-                  "max_level": 6,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_TYRUNT"
                 },
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_AMAURA"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_ARCHEN"
                 },
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_AERODACTYL"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_BELDUM"
                 }
               ],
               [
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_KABUTO"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_OMANYTE"
                 },
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_CRANIDOS"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_SHIELDON"
                 },
                 {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_LILEEP"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ABRA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_ANORITH"
                 },
                 {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_TIRTOUGA"
                 },
                 {
-                  "min_level": 6,
-                  "max_level": 6,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_TYRUNT"
                 },
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_AMAURA"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_ARCHEN"
                 },
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_AERODACTYL"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_BELDUM"
                 }
               ],
               [
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_KABUTO"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_OMANYTE"
                 },
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_CRANIDOS"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_SHIELDON"
                 },
                 {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_LILEEP"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ABRA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_ANORITH"
                 },
                 {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_TIRTOUGA"
                 },
                 {
-                  "min_level": 6,
-                  "max_level": 6,
-                  "species": "SPECIES_MAKUHITA"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_TYRUNT"
                 },
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_AMAURA"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_ARCHEN"
                 },
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_AERODACTYL"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ARON"
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_BELDUM"
                 }
               ]
             ]
