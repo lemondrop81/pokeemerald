@@ -6461,12 +6461,27 @@
                 {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_ODDISH"
+                  "species": "SPECIES_WOBBUFFET"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_ODDISH"
+                  "species": "SPECIES_PIKACHU"
+                },
+                {
+                  "min_level": 25,
+                  "max_level": 25,
+                  "species": "SPECIES_MEOWTH_ALOLAN"
+                },
+                {
+                  "min_level": 27,
+                  "max_level": 27,
+                  "species": "SPECIES_MEOWTH_ALOLAN"
+                },
+                {
+                  "min_level": 25,
+                  "max_level": 25,
+                  "species": "SPECIES_SMEARGLE"
                 },
                 {
                   "min_level": 25,
@@ -6474,61 +6489,46 @@
                   "species": "SPECIES_GIRAFARIG"
                 },
                 {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_GIRAFARIG"
-                },
-                {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_NATU"
-                },
-                {
-                  "min_level": 25,
-                  "max_level": 25,
-                  "species": "SPECIES_DODUO"
-                },
-                {
-                  "min_level": 25,
-                  "max_level": 25,
-                  "species": "SPECIES_GLOOM"
+                  "species": "SPECIES_PERSIAN_ALOLAN"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_WOBBUFFET"
+                  "species": "SPECIES_RAICHU_ALOLAN"
                 },
                 {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_PIKACHU"
+                  "species": "SPECIES_PERSIAN_ALOLAN"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_WOBBUFFET"
+                  "species": "SPECIES_RAICHU_ALOLAN"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_PIKACHU"
+                  "species": "SPECIES_PERSIAN_ALOLAN"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_WOBBUFFET"
+                  "species": "SPECIES_RAICHU_ALOLAN"
                 }
               ],
               [
                 {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_ODDISH"
+                  "species": "SPECIES_GLOOM"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_ODDISH"
+                  "species": "SPECIES_VENONAT"
                 },
                 {
                   "min_level": 25,
@@ -6538,7 +6538,7 @@
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_GIRAFARIG"
+                  "species": "SPECIES_CLEFAIRY"
                 },
                 {
                   "min_level": 25,
@@ -6553,12 +6553,12 @@
                 {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_GLOOM"
+                  "species": "SPECIES_SKORUPI"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_WOBBUFFET"
+                  "species": "SPECIES_DITTO"
                 },
                 {
                   "min_level": 25,
@@ -6568,79 +6568,79 @@
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_WOBBUFFET"
+                  "species": "SPECIES_PARAS"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_PIKACHU"
+                  "species": "SPECIES_PARAS"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_WOBBUFFET"
+                  "species": "SPECIES_PARAS"
                 }
               ],
               [
                 {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_ODDISH"
+                  "species": "SPECIES_CLEFAIRY"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_ODDISH"
+                  "species": "SPECIES_CLEFAIRY"
                 },
                 {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_GIRAFARIG"
+                  "species": "SPECIES_MEOWTH_ALOLAN"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_GIRAFARIG"
+                  "species": "SPECIES_MEOWTH_ALOLAN"
                 },
                 {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_NATU"
+                  "species": "SPECIES_SMEARGLE"
                 },
                 {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_DODUO"
+                  "species": "SPECIES_SKORUPI"
                 },
                 {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_GLOOM"
+                  "species": "SPECIES_PERSIAN_ALOLAN"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_WOBBUFFET"
+                  "species": "SPECIES_RAICHU_ALOLAN"
                 },
                 {
                   "min_level": 25,
                   "max_level": 25,
-                  "species": "SPECIES_PIKACHU"
+                  "species": "SPECIES_PERSIAN_ALOLAN"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_WOBBUFFET"
+                  "species": "SPECIES_RAICHU_ALOLAN"
                 },
                 {
                   "min_level": 27,
                   "max_level": 27,
-                  "species": "SPECIES_PIKACHU"
+                  "species": "SPECIES_PERSIAN_ALOLAN"
                 },
                 {
                   "min_level": 29,
                   "max_level": 29,
-                  "species": "SPECIES_WOBBUFFET"
+                  "species": "SPECIES_RAICHU_ALOLAN"
                 }
               ]
             ]
