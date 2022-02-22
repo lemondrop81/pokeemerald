@@ -7303,7 +7303,22 @@
                 {
                   "min_level": 15,
                   "max_level": 15,
-                  "species": "SPECIES_NUMEL"
+                  "species": "SPECIES_SLUGMA"
+                },
+                {
+                  "min_level": 15,
+                  "max_level": 15,
+                  "species": "SPECIES_DIGLETT"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_TORKOAL"
+                },
+                {
+                  "min_level": 15,
+                  "max_level": 15,
+                  "species": "SPECIES_GRIMER"
                 },
                 {
                   "min_level": 15,
@@ -7311,9 +7326,56 @@
                   "species": "SPECIES_KOFFING"
                 },
                 {
+                  "min_level": 15,
+                  "max_level": 15,
+                  "species": "SPECIES_MAGBY"
+                },
+                {
                   "min_level": 16,
                   "max_level": 16,
+                  "species": "SPECIES_HEATMOR"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_DURANT"
+                },
+                {
+                  "min_level": 14,
+                  "max_level": 14,
+                  "species": "SPECIES_HEATMOR"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_DURANT"
+                },
+                {
+                  "min_level": 14,
+                  "max_level": 14,
+                  "species": "SPECIES_HEATMOR"
+                },
+                {
+                  "min_level": 14,
+                  "max_level": 14,
+                  "species": "SPECIES_DURANT"
+                }
+              ],
+              [
+                {
+                  "min_level": 15,
+                  "max_level": 15,
                   "species": "SPECIES_NUMEL"
+                },
+                {
+                  "min_level": 15,
+                  "max_level": 15,
+                  "species": "SPECIES_TURTONATOR"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_SALANDIT"
                 },
                 {
                   "min_level": 15,
@@ -7323,7 +7385,7 @@
                 {
                   "min_level": 15,
                   "max_level": 15,
-                  "species": "SPECIES_TORKOAL"
+                  "species": "SPECIES_HOUNDOUR"
                 },
                 {
                   "min_level": 15,
@@ -7333,7 +7395,7 @@
                 {
                   "min_level": 16,
                   "max_level": 16,
-                  "species": "SPECIES_KOFFING"
+                  "species": "SPECIES_GRIMER"
                 },
                 {
                   "min_level": 16,
@@ -7365,99 +7427,37 @@
                 {
                   "min_level": 15,
                   "max_level": 15,
-                  "species": "SPECIES_NUMEL"
+                  "species": "SPECIES_CARKOL"
                 },
                 {
                   "min_level": 15,
                   "max_level": 15,
-                  "species": "SPECIES_KOFFING"
+                  "species": "SPECIES_MAGCARGO"
                 },
                 {
                   "min_level": 16,
                   "max_level": 16,
-                  "species": "SPECIES_NUMEL"
+                  "species": "SPECIES_SIZZLIPEDE"
                 },
                 {
                   "min_level": 15,
                   "max_level": 15,
-                  "species": "SPECIES_MACHOP"
+                  "species": "SPECIES_LARVESTA"
                 },
                 {
                   "min_level": 15,
                   "max_level": 15,
-                  "species": "SPECIES_TORKOAL"
+                  "species": "SPECIES_GROWLITHE"
                 },
                 {
                   "min_level": 15,
                   "max_level": 15,
-                  "species": "SPECIES_SLUGMA"
+                  "species": "SPECIES_LITLEO"
                 },
                 {
                   "min_level": 16,
                   "max_level": 16,
-                  "species": "SPECIES_KOFFING"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_MACHOP"
-                },
-                {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_TORKOAL"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_TORKOAL"
-                },
-                {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_GRIMER"
-                },
-                {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_GRIMER"
-                }
-              ],
-              [
-                {
-                  "min_level": 15,
-                  "max_level": 15,
-                  "species": "SPECIES_NUMEL"
-                },
-                {
-                  "min_level": 15,
-                  "max_level": 15,
-                  "species": "SPECIES_KOFFING"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_NUMEL"
-                },
-                {
-                  "min_level": 15,
-                  "max_level": 15,
-                  "species": "SPECIES_MACHOP"
-                },
-                {
-                  "min_level": 15,
-                  "max_level": 15,
-                  "species": "SPECIES_TORKOAL"
-                },
-                {
-                  "min_level": 15,
-                  "max_level": 15,
-                  "species": "SPECIES_SLUGMA"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_KOFFING"
+                  "species": "SPECIES_LITWICK"
                 },
                 {
                   "min_level": 16,
@@ -7467,17 +7467,17 @@
                 {
                   "min_level": 14,
                   "max_level": 14,
-                  "species": "SPECIES_TORKOAL"
+                  "species": "SPECIES_PONYTA"
                 },
                 {
                   "min_level": 16,
                   "max_level": 16,
-                  "species": "SPECIES_TORKOAL"
+                  "species": "SPECIES_MAROWAK_ALOLAN"
                 },
                 {
                   "min_level": 14,
                   "max_level": 14,
-                  "species": "SPECIES_GRIMER"
+                  "species": "SPECIES_VULPIX"
                 },
                 {
                   "min_level": 14,
