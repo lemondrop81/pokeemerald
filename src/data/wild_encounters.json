@@ -3263,7 +3263,7 @@
                 {
                   "min_level": 15,
                   "max_level": 15,
-                  "species": "SPECIES_SPINDA"
+                  "species": "SPECIES_ROCKRUFF"
                 },
                 {
                   "min_level": 15,
@@ -3273,17 +3273,27 @@
                 {
                   "min_level": 14,
                   "max_level": 14,
-                  "species": "SPECIES_SPINDA"
+                  "species": "SPECIES_SCYTHER"
                 },
                 {
                   "min_level": 14,
                   "max_level": 14,
-                  "species": "SPECIES_SPINDA"
+                  "species": "SPECIES_RHYHORN"
                 },
                 {
                   "min_level": 14,
                   "max_level": 14,
-                  "species": "SPECIES_SLUGMA"
+                  "species": "SPECIES_NOSEPASS"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_MAGBY"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_ROCKRUFF"
                 },
                 {
                   "min_level": 16,
@@ -3293,7 +3303,59 @@
                 {
                   "min_level": 16,
                   "max_level": 16,
-                  "species": "SPECIES_SLUGMA"
+                  "species": "SPECIES_LARVITAR"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_LARVITAR"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_SKARMORY"
+                }
+              ],
+              [
+                {
+                  "min_level": 15,
+                  "max_level": 15,
+                  "species": "SPECIES_SPINDA"
+                },
+                {
+                  "min_level": 15,
+                  "max_level": 15,
+                  "species": "SPECIES_SPINDA"
+                },
+                {
+                  "min_level": 15,
+                  "max_level": 15,
+                  "species": "SPECIES_TALONFLAME"
+                },
+                {
+                  "min_level": 14,
+                  "max_level": 14,
+                  "species": "SPECIES_MIENSHAO"
+                },
+                {
+                  "min_level": 14,
+                  "max_level": 14,
+                  "species": "SPECIES_MIENSHAO"
+                },
+                {
+                  "min_level": 14,
+                  "max_level": 14,
+                  "species": "SPECIES_TALONFLAME"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_MIENSHAO"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_MIENSHAO"
                 },
                 {
                   "min_level": 16,
@@ -3325,42 +3387,27 @@
                 {
                   "min_level": 15,
                   "max_level": 15,
-                  "species": "SPECIES_SPINDA"
+                  "species": "SPECIES_SCRAGGY"
                 },
                 {
                   "min_level": 15,
                   "max_level": 15,
-                  "species": "SPECIES_SLUGMA"
+                  "species": "SPECIES_PAWNIARD"
                 },
                 {
                   "min_level": 14,
                   "max_level": 14,
-                  "species": "SPECIES_SPINDA"
+                  "species": "SPECIES_KLEFKI"
                 },
                 {
                   "min_level": 14,
                   "max_level": 14,
-                  "species": "SPECIES_SPINDA"
+                  "species": "SPECIES_BOUFFALANT"
                 },
                 {
                   "min_level": 14,
                   "max_level": 14,
-                  "species": "SPECIES_SLUGMA"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_SPINDA"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_SLUGMA"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_SPINDA"
+                  "species": "SPECIES_FLETCHINDER"
                 },
                 {
                   "min_level": 16,
@@ -3370,59 +3417,7 @@
                 {
                   "min_level": 16,
                   "max_level": 16,
-                  "species": "SPECIES_SPINDA"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_SKARMORY"
-                }
-              ],
-              [
-                {
-                  "min_level": 15,
-                  "max_level": 15,
-                  "species": "SPECIES_SPINDA"
-                },
-                {
-                  "min_level": 15,
-                  "max_level": 15,
-                  "species": "SPECIES_SPINDA"
-                },
-                {
-                  "min_level": 15,
-                  "max_level": 15,
-                  "species": "SPECIES_SLUGMA"
-                },
-                {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_SPINDA"
-                },
-                {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_SPINDA"
-                },
-                {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_SLUGMA"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_SPINDA"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_SLUGMA"
-                },
-                {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_SPINDA"
+                  "species": "SPECIES_MIENFOO"
                 },
                 {
                   "min_level": 16,
@@ -3432,12 +3427,17 @@
                 {
                   "min_level": 16,
                   "max_level": 16,
-                  "species": "SPECIES_SPINDA"
+                  "species": "SPECIES_MIENFOO"
                 },
                 {
                   "min_level": 16,
                   "max_level": 16,
                   "species": "SPECIES_SKARMORY"
+                },
+                {
+                  "min_level": 16,
+                  "max_level": 16,
+                  "species": "SPECIES_MIENFOO"
                 }
               ]
             ]
