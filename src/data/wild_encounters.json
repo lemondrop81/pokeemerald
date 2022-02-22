@@ -5691,17 +5691,17 @@
                 {
                   "min_level": 7,
                   "max_level": 7,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_MURKROW"
                 },
                 {
                   "min_level": 8,
                   "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "species": "SPECIES_NUZLEAF"
                 },
                 {
                   "min_level": 9,
                   "max_level": 9,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_CACNEA"
                 },
                 {
                   "min_level": 8,
@@ -5711,32 +5711,94 @@
                 {
                   "min_level": 10,
                   "max_level": 10,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_GURDURR"
                 },
                 {
                   "min_level": 6,
                   "max_level": 6,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_GEODUDE"
                 },
                 {
                   "min_level": 7,
                   "max_level": 7,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_RIOLU"
                 },
                 {
                   "min_level": 8,
                   "max_level": 8,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_SCYTHER"
                 },
                 {
                   "min_level": 6,
                   "max_level": 6,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_SCYTHER"
                 },
                 {
                   "min_level": 9,
                   "max_level": 9,
+                  "species": "SPECIES_SCYTHER"
+                }
+              ],
+              [
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_ZUBAT"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
                   "species": "SPECIES_GEODUDE"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_MAKUHITA"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_MAKUHITA"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_ARON"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_ABRA"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_TIMBURR"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_AXEW"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_TIMBURR"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_AXEW"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_TIMBURR"
+                },
+                {
+                  "min_level": 12,
+                  "max_level": 14,
+                  "species": "SPECIES_AXEW"
                 }
               ],
               [
@@ -5748,7 +5810,7 @@
                 {
                   "min_level": 8,
                   "max_level": 8,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_TYROGUE"
                 },
                 {
                   "min_level": 7,
@@ -5758,12 +5820,12 @@
                 {
                   "min_level": 8,
                   "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "species": "SPECIES_RIOLU"
                 },
                 {
                   "min_level": 9,
                   "max_level": 9,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_TYROGUE"
                 },
                 {
                   "min_level": 8,
@@ -5773,94 +5835,32 @@
                 {
                   "min_level": 10,
                   "max_level": 10,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_MACHOP"
                 },
                 {
                   "min_level": 6,
                   "max_level": 6,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_SCRAGGY"
                 },
                 {
                   "min_level": 7,
                   "max_level": 7,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_MEOWTH_ALOLAN"
                 },
                 {
                   "min_level": 8,
                   "max_level": 8,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_MEOWTH_ALOLAN"
                 },
                 {
                   "min_level": 6,
                   "max_level": 6,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_SANDSHREW_ALOLAN"
                 },
                 {
                   "min_level": 9,
                   "max_level": 9,
-                  "species": "SPECIES_GEODUDE"
-                }
-              ],
-              [
-                {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_ZUBAT"
-                },
-                {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_MAKUHITA"
-                },
-                {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_MAKUHITA"
-                },
-                {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
-                },
-                {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_MAKUHITA"
-                },
-                {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ABRA"
-                },
-                {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_MAKUHITA"
-                },
-                {
-                  "min_level": 6,
-                  "max_level": 6,
-                  "species": "SPECIES_MAKUHITA"
-                },
-                {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_GEODUDE"
-                },
-                {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_GEODUDE"
-                },
-                {
-                  "min_level": 6,
-                  "max_level": 6,
-                  "species": "SPECIES_GEODUDE"
-                },
-                {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_GEODUDE"
+                  "species": "SPECIES_SANDSHREW_ALOLAN"
                 }
               ]
             ]
@@ -5874,6 +5874,68 @@
             "mons": [
               [
                 {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_MAWILE"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_SABLEYE"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_ARON"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_ARON"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_ONIX"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_CARBINK"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_CUBONE"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_BRONZOR"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_CUBONE"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_BRONZOR"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_CUBONE"
+                },
+                {
+                  "min_level": 13,
+                  "max_level": 15,
+                  "species": "SPECIES_BRONZOR"
+                }
+              ],
+              [
+                {
                   "min_level": 9,
                   "max_level": 9,
                   "species": "SPECIES_ZUBAT"
@@ -5886,27 +5948,27 @@
                 {
                   "min_level": 9,
                   "max_level": 9,
-                  "species": "SPECIES_ARON"
+                  "species": "SPECIES_RIOLU"
                 },
                 {
                   "min_level": 11,
                   "max_level": 11,
-                  "species": "SPECIES_ARON"
+                  "species": "SPECIES_GLIGAR"
                 },
                 {
                   "min_level": 10,
                   "max_level": 10,
-                  "species": "SPECIES_ZUBAT"
+                  "species": "SPECIES_MEDITITE"
                 },
                 {
                   "min_level": 9,
                   "max_level": 9,
-                  "species": "SPECIES_ABRA"
+                  "species": "SPECIES_TIMBURR"
                 },
                 {
                   "min_level": 10,
                   "max_level": 10,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_GURDURR"
                 },
                 {
                   "min_level": 11,
@@ -5943,99 +6005,37 @@
                 {
                   "min_level": 10,
                   "max_level": 10,
-                  "species": "SPECIES_ARON"
+                  "species": "SPECIES_PAWNIARD"
                 },
                 {
                   "min_level": 9,
                   "max_level": 9,
-                  "species": "SPECIES_ARON"
+                  "species": "SPECIES_BELDUM"
                 },
                 {
                   "min_level": 11,
                   "max_level": 11,
-                  "species": "SPECIES_ARON"
+                  "species": "SPECIES_SANDSHREW_ALOLAN"
                 },
                 {
                   "min_level": 10,
                   "max_level": 10,
-                  "species": "SPECIES_ZUBAT"
+                  "species": "SPECIES_SANDSHREW_ALOLAN"
                 },
                 {
                   "min_level": 9,
                   "max_level": 9,
-                  "species": "SPECIES_ABRA"
+                  "species": "SPECIES_BELDUM"
                 },
                 {
                   "min_level": 10,
                   "max_level": 10,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_GEODUDE_ALOLAN"
                 },
                 {
                   "min_level": 11,
                   "max_level": 11,
-                  "species": "SPECIES_MAKUHITA"
-                },
-                {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_SABLEYE"
-                },
-                {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_SABLEYE"
-                },
-                {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_SABLEYE"
-                },
-                {
-                  "min_level": 11,
-                  "max_level": 11,
-                  "species": "SPECIES_SABLEYE"
-                }
-              ],
-              [
-                {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_ZUBAT"
-                },
-                {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_ARON"
-                },
-                {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_ARON"
-                },
-                {
-                  "min_level": 11,
-                  "max_level": 11,
-                  "species": "SPECIES_ARON"
-                },
-                {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_ZUBAT"
-                },
-                {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_ABRA"
-                },
-                {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_MAKUHITA"
-                },
-                {
-                  "min_level": 11,
-                  "max_level": 11,
-                  "species": "SPECIES_MAKUHITA"
+                  "species": "SPECIES_GEODUDE_ALOLAN"
                 },
                 {
                   "min_level": 10,
