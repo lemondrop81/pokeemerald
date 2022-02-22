@@ -8860,7 +8860,7 @@
                 {
                   "min_level": 20,
                   "max_level": 25,
-                  "species": "SPECIES_WISHCASH"
+                  "species": "SPECIES_WHISCASH"
                 },
                 {
                   "min_level": 35,
@@ -9402,7 +9402,7 @@
                 {
                   "min_level": 10,
                   "max_level": 30,
-                  "species": "SPECIES_POLYWHIRL"
+                  "species": "SPECIES_POLIWHIRL"
                 },
                 {
                   "min_level": 15,
