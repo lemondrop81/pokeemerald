@@ -26018,17 +26018,17 @@
                 {
                   "min_level": 34,
                   "max_level": 34,
-                  "species": "SPECIES_GOLBAT"
+                  "species": "SPECIES_MAWILE"
                 },
                 {
                   "min_level": 35,
                   "max_level": 35,
-                  "species": "SPECIES_GOLBAT"
+                  "species": "SPECIES_BANETTE"
                 },
                 {
                   "min_level": 34,
                   "max_level": 34,
-                  "species": "SPECIES_SABLEYE"
+                  "species": "SPECIES_DUSCLOPS"
                 },
                 {
                   "min_level": 36,
@@ -26038,37 +26038,37 @@
                 {
                   "min_level": 37,
                   "max_level": 37,
-                  "species": "SPECIES_BANETTE"
+                  "species": "SPECIES_GOLURK"
                 },
                 {
                   "min_level": 38,
                   "max_level": 38,
-                  "species": "SPECIES_BANETTE"
+                  "species": "SPECIES_ALTARIA"
                 },
                 {
                   "min_level": 36,
                   "max_level": 36,
+                  "species": "SPECIES_ALTARIA"
+                },
+                {
+                  "min_level": 37,
+                  "max_level": 37,
+                  "species": "SPECIES_GOLURK"
+                },
+                {
+                  "min_level": 38,
+                  "max_level": 38,
                   "species": "SPECIES_CLAYDOL"
                 },
                 {
                   "min_level": 37,
                   "max_level": 37,
-                  "species": "SPECIES_CLAYDOL"
+                  "species": "SPECIES_GOLURK"
                 },
                 {
                   "min_level": 38,
                   "max_level": 38,
-                  "species": "SPECIES_ALTARIA"
-                },
-                {
-                  "min_level": 39,
-                  "max_level": 39,
-                  "species": "SPECIES_ALTARIA"
-                },
-                {
-                  "min_level": 39,
-                  "max_level": 39,
-                  "species": "SPECIES_ALTARIA"
+                  "species": "SPECIES_CLAYDOL"
                 }
               ],
               [
@@ -26080,17 +26080,17 @@
                 {
                   "min_level": 34,
                   "max_level": 34,
-                  "species": "SPECIES_GOLBAT"
+                  "species": "SPECIES_MAWILE"
                 },
                 {
                   "min_level": 35,
                   "max_level": 35,
-                  "species": "SPECIES_GOLBAT"
+                  "species": "SPECIES_BANETTE"
                 },
                 {
                   "min_level": 34,
                   "max_level": 34,
-                  "species": "SPECIES_SABLEYE"
+                  "species": "SPECIES_DUSCLOPS"
                 },
                 {
                   "min_level": 36,
@@ -26100,37 +26100,37 @@
                 {
                   "min_level": 37,
                   "max_level": 37,
-                  "species": "SPECIES_BANETTE"
+                  "species": "SPECIES_GOLURK"
                 },
                 {
                   "min_level": 38,
                   "max_level": 38,
-                  "species": "SPECIES_BANETTE"
+                  "species": "SPECIES_ALTARIA"
                 },
                 {
                   "min_level": 36,
                   "max_level": 36,
+                  "species": "SPECIES_ALTARIA"
+                },
+                {
+                  "min_level": 37,
+                  "max_level": 37,
+                  "species": "SPECIES_GOLURK"
+                },
+                {
+                  "min_level": 38,
+                  "max_level": 38,
                   "species": "SPECIES_CLAYDOL"
                 },
                 {
                   "min_level": 37,
                   "max_level": 37,
-                  "species": "SPECIES_CLAYDOL"
+                  "species": "SPECIES_SALAMANCE"
                 },
                 {
                   "min_level": 38,
                   "max_level": 38,
-                  "species": "SPECIES_ALTARIA"
-                },
-                {
-                  "min_level": 39,
-                  "max_level": 39,
-                  "species": "SPECIES_ALTARIA"
-                },
-                {
-                  "min_level": 39,
-                  "max_level": 39,
-                  "species": "SPECIES_ALTARIA"
+                  "species": "SPECIES_DRAGONITE"
                 }
               ],
               [
@@ -26142,17 +26142,17 @@
                 {
                   "min_level": 34,
                   "max_level": 34,
-                  "species": "SPECIES_GOLBAT"
+                  "species": "SPECIES_MAWILE"
                 },
                 {
                   "min_level": 35,
                   "max_level": 35,
-                  "species": "SPECIES_GOLBAT"
+                  "species": "SPECIES_BANETTE"
                 },
                 {
                   "min_level": 34,
                   "max_level": 34,
-                  "species": "SPECIES_SABLEYE"
+                  "species": "SPECIES_DUSCLOPS"
                 },
                 {
                   "min_level": 36,
@@ -26162,36 +26162,36 @@
                 {
                   "min_level": 37,
                   "max_level": 37,
-                  "species": "SPECIES_BANETTE"
+                  "species": "SPECIES_GOLURK"
                 },
                 {
                   "min_level": 38,
                   "max_level": 38,
-                  "species": "SPECIES_BANETTE"
+                  "species": "SPECIES_ALTARIA"
                 },
                 {
                   "min_level": 36,
                   "max_level": 36,
+                  "species": "SPECIES_ALTARIA"
+                },
+                {
+                  "min_level": 37,
+                  "max_level": 37,
+                  "species": "SPECIES_GOLURK"
+                },
+                {
+                  "min_level": 38,
+                  "max_level": 38,
                   "species": "SPECIES_CLAYDOL"
                 },
                 {
                   "min_level": 37,
                   "max_level": 37,
-                  "species": "SPECIES_CLAYDOL"
+                  "species": "SPECIES_ALTARIA"
                 },
                 {
                   "min_level": 38,
                   "max_level": 38,
-                  "species": "SPECIES_ALTARIA"
-                },
-                {
-                  "min_level": 39,
-                  "max_level": 39,
-                  "species": "SPECIES_ALTARIA"
-                },
-                {
-                  "min_level": 39,
-                  "max_level": 39,
                   "species": "SPECIES_ALTARIA"
                 }
               ]
