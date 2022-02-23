@@ -26125,7 +26125,7 @@
                 {
                   "min_level": 37,
                   "max_level": 37,
-                  "species": "SPECIES_SALAMANCE"
+                  "species": "SPECIES_SALAMENCE"
                 },
                 {
                   "min_level": 38,
@@ -26228,12 +26228,12 @@
                 {
                   "min_level": 34,
                   "max_level": 34,
-                  "species": "SPECIES_LICKINGTUNG"
+                  "species": "SPECIES_LICKITUNG"
                 },
                 {
                   "min_level": 33,
                   "max_level": 33,
-                  "species": "SPECIES_POLYGON"
+                  "species": "SPECIES_PORYGON"
                 },
                 {
                   "min_level": 35,
