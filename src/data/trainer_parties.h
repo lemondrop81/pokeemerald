@@ -6958,17 +6958,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Mudkip[] = {
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_SWANNA,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_CHANDELURE,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_HITMONCHAN,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_ELECTABUZZ,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_SKUNTANK,
     },
     {
     .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_LOMBRE,
-    },
-    {
-    .iv = 150,
-    .lvl = 31,
-    .species = SPECIES_GROVYLE,
+    .lvl = 20,
+    .species = SPECIES_SCEPTILE,
     }
 };
 
@@ -7017,17 +7032,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Treecko[] = {
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_PELIPPER,
+    .species = SPECIES_RUFFLET,
     },
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_LOMBRE,
+    .species = SPECIES_TREVENANT,
     },
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_COMBUSKEN,
+    .species = SPECIES_MALAMAR,
+    },
+    {
+    .iv = 100,
+    .lvl = 29,
+    .species = SPECIES_FLYGON,
+    },
+    {
+    .iv = 100,
+    .lvl = 29,
+    .species = SPECIES_MACHAMP,
+    },
+    {
+    .iv = 150,
+    .lvl = 31,
+    .species = SPECIES_BLAZIKEN,
     }
 };
 
@@ -7076,17 +7106,32 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Torchic[] = {
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_LOMBRE,
+    .species = SPECIES_BRELOOM,
     },
     {
     .iv = 100,
     .lvl = 29,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_ALAKAZAM,
     },
     {
     .iv = 150,
     .lvl = 31,
-    .species = SPECIES_MARSHTOMP,
+    .species = SPECIES_MAGMAR,
+    },
+    {
+    .iv = 100,
+    .lvl = 29,
+    .species = SPECIES_GENGAR,
+    },
+    {
+    .iv = 100,
+    .lvl = 29,
+    .species = SPECIES_WEAVILE,
+    },
+    {
+    .iv = 150,
+    .lvl = 31,
+    .species = SPECIES_SWAMPERT,
     }
 };
 
