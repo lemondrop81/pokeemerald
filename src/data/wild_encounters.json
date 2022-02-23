@@ -25572,12 +25572,12 @@
                 {
                   "min_level": 10,
                   "max_level": 30,
-                  "species": "SPECIES_MAGIKARP"
+                  "species": "SPECIES_JELLICENT"
                 },
                 {
                   "min_level": 15,
                   "max_level": 25,
-                  "species": "SPECIES_MAGIKARP"
+                  "species": "SPECIES_JELLICENT"
                 },
                 {
                   "min_level": 25,
@@ -25599,7 +25599,7 @@
                 {
                   "min_level": 10,
                   "max_level": 30,
-                  "species": "SPECIES_MAGIKARP"
+                  "species": "SPECIES_DHELMISE"
                 },
                 {
                   "min_level": 15,
