@@ -30019,64 +30019,64 @@
             "mons": [
               [
                 {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_MAREEP"
-                },
-                {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_MAREEP"
-                },
-                {
-                  "min_level": 5,
-                  "max_level": 5,
-                  "species": "SPECIES_MAREEP"
-                },
-                {
-                  "min_level": 11,
-                  "max_level": 11,
-                  "species": "SPECIES_MAREEP"
-                },
-                {
-                  "min_level": 7,
-                  "max_level": 7,
-                  "species": "SPECIES_MAREEP"
-                },
-                {
-                  "min_level": 9,
-                  "max_level": 9,
-                  "species": "SPECIES_MAREEP"
-                },
-                {
-                  "min_level": 13,
-                  "max_level": 13,
-                  "species": "SPECIES_MAREEP"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_NOIVERN"
                 },
                 {
                   "min_level": 3,
                   "max_level": 3,
-                  "species": "SPECIES_MAREEP"
+                  "species": "SPECIES_SWOOBAT"
                 },
                 {
-                  "min_level": 5,
-                  "max_level": 5,
-                  "species": "SPECIES_MAREEP"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_DRUDDIGON"
                 },
                 {
-                  "min_level": 11,
-                  "max_level": 11,
-                  "species": "SPECIES_MAREEP"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_LUCARIO"
                 },
                 {
-                  "min_level": 5,
-                  "max_level": 5,
-                  "species": "SPECIES_MAREEP"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_SHIINOTIC"
                 },
                 {
-                  "min_level": 11,
-                  "max_level": 11,
-                  "species": "SPECIES_MAREEP"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_WOBBUFFET"
+                },
+                {
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_GIGALITH"
+                },
+                {
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_GIGALITH"
+                },
+                {
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_DUGTRIO"
+                },
+                {
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_DUGTRIO"
+                },
+                {
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_DUGTRIO"
+                },
+                {
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_DUGTRIO"
                 }
               ],
               [
