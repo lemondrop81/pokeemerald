@@ -29824,188 +29824,188 @@
             "mons": [
               [
                 {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_RHYDON"
                 },
                 {
-                  "min_level": 12,
-                  "max_level": 12,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_SWOOBAT"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_DRUDDIGON"
                 },
                 {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_LUCARIO"
                 },
                 {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_PARASECT"
                 },
                 {
-                  "min_level": 12,
-                  "max_level": 12,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_WOBBUFFET"
                 },
                 {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_GIGALITH"
                 },
                 {
-                  "min_level": 6,
-                  "max_level": 6,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_GIGALITH"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_STEELIX"
                 }
               ],
               [
                 {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_RHYDON"
                 },
                 {
-                  "min_level": 12,
-                  "max_level": 12,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_SWOOBAT"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_DRUDDIGON"
                 },
                 {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_LUCARIO"
                 },
                 {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_PARASECT"
                 },
                 {
-                  "min_level": 12,
-                  "max_level": 12,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_WOBBUFFET"
                 },
                 {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_GIGALITH"
                 },
                 {
-                  "min_level": 6,
-                  "max_level": 6,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_GIGALITH"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_STEELIX"
                 }
               ],
               [
                 {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_RHYDON"
                 },
                 {
-                  "min_level": 12,
-                  "max_level": 12,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_SWOOBAT"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_DRUDDIGON"
                 },
                 {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_LUCARIO"
                 },
                 {
-                  "min_level": 10,
-                  "max_level": 10,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_PARASECT"
                 },
                 {
-                  "min_level": 12,
-                  "max_level": 12,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_WOBBUFFET"
                 },
                 {
-                  "min_level": 16,
-                  "max_level": 16,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_GIGALITH"
                 },
                 {
-                  "min_level": 6,
-                  "max_level": 6,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_GIGALITH"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 8,
-                  "max_level": 8,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 14,
-                  "max_level": 14,
-                  "species": "SPECIES_ZUBAT"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_STEELIX"
                 }
               ]
             ]
