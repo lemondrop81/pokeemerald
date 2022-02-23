@@ -24296,7 +24296,7 @@
                 {
                   "min_level": 5,
                   "max_level": 35,
-                  "species": "SPECIES_GASTODON"
+                  "species": "SPECIES_GOLISOPOD"
                 },
                 {
                   "min_level": 10,
@@ -24569,7 +24569,7 @@
                 {
                   "min_level": 25,
                   "max_level": 30,
-                  "species": "SPECIES_INTERLEON"
+                  "species": "SPECIES_INTELEON"
                 }
               ]
             ]
