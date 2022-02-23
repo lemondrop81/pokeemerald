@@ -30214,188 +30214,188 @@
             "mons": [
               [
                 {
-                  "min_level": 23,
-                  "max_level": 23,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_RHYDON"
                 },
                 {
-                  "min_level": 25,
-                  "max_level": 25,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_SWOOBAT"
                 },
                 {
-                  "min_level": 22,
-                  "max_level": 22,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_DRUDDIGON"
                 },
                 {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_LUCARIO"
                 },
                 {
-                  "min_level": 23,
-                  "max_level": 23,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_PARASECT"
                 },
                 {
-                  "min_level": 25,
-                  "max_level": 25,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_WOBBUFFET"
                 },
                 {
-                  "min_level": 29,
-                  "max_level": 29,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_SOLROCK"
                 },
                 {
-                  "min_level": 19,
-                  "max_level": 19,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_GASTRODON"
                 },
                 {
-                  "min_level": 21,
-                  "max_level": 21,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 21,
-                  "max_level": 21,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_EELEKTROSS"
                 }
               ],
               [
                 {
-                  "min_level": 23,
-                  "max_level": 23,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_RHYDON"
                 },
                 {
-                  "min_level": 25,
-                  "max_level": 25,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_SWOOBAT"
                 },
                 {
-                  "min_level": 22,
-                  "max_level": 22,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_DRUDDIGON"
                 },
                 {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_LUCARIO"
                 },
                 {
-                  "min_level": 23,
-                  "max_level": 23,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_PARASECT"
                 },
                 {
-                  "min_level": 25,
-                  "max_level": 25,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_WOBBUFFET"
                 },
                 {
-                  "min_level": 29,
-                  "max_level": 29,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_SOLROCK"
                 },
                 {
-                  "min_level": 19,
-                  "max_level": 19,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_GASTRODON"
                 },
                 {
-                  "min_level": 21,
-                  "max_level": 21,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 21,
-                  "max_level": 21,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_EELEKTROSS"
                 }
               ],
               [
                 {
-                  "min_level": 23,
-                  "max_level": 23,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_RHYDON"
                 },
                 {
-                  "min_level": 25,
-                  "max_level": 25,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_SWOOBAT"
                 },
                 {
-                  "min_level": 22,
-                  "max_level": 22,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_DRUDDIGON"
                 },
                 {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_LUCARIO"
                 },
                 {
-                  "min_level": 23,
-                  "max_level": 23,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_PARASECT"
                 },
                 {
-                  "min_level": 25,
-                  "max_level": 25,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_WOBBUFFET"
                 },
                 {
-                  "min_level": 29,
-                  "max_level": 29,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_SOLROCK"
                 },
                 {
-                  "min_level": 19,
-                  "max_level": 19,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_GASTRODON"
                 },
                 {
-                  "min_level": 21,
-                  "max_level": 21,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 3,
+                  "max_level": 3,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 21,
-                  "max_level": 21,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 2,
+                  "max_level": 2,
+                  "species": "SPECIES_EELEKTROSS"
                 },
                 {
-                  "min_level": 27,
-                  "max_level": 27,
-                  "species": "SPECIES_PINECO"
+                  "min_level": 4,
+                  "max_level": 4,
+                  "species": "SPECIES_EELEKTROSS"
                 }
               ]
             ]
