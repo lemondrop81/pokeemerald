@@ -6925,12 +6925,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Mudkip[] = {
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_WINGULL,
+    .species = SPECIES_DUCKLETT,
     },
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_LAMPENT,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_HITMONCHAN,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_ELEKID,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_STUNKY,
     },
     {
     .iv = 100,
@@ -6969,12 +6984,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Treecko[] = {
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_WINGULL,
+    .species = SPECIES_RUFFLET,
     },
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_LOMBRE,
+    .species = SPECIES_PHANTUMP,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_INKAY,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_VIBRAVA,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_MACHOP,
     },
     {
     .iv = 100,
@@ -7013,12 +7043,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Torchic[] = {
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_LOMBRE,
+    .species = SPECIES_SHROOMISH,
     },
     {
     .iv = 50,
     .lvl = 18,
-    .species = SPECIES_SLUGMA,
+    .species = SPECIES_ABRA,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_MAGBY,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_GASTLY,
+    },
+    {
+    .iv = 50,
+    .lvl = 18,
+    .species = SPECIES_SNEASEL,
     },
     {
     .iv = 100,
