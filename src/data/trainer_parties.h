@@ -3367,21 +3367,28 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
 static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
-    .lvl = 12,
-    .species = SPECIES_TYRUNT,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_ICE_FANG, MOVE_MAGNITUDE, MOVE_DRAGON_CLAW, MOVE_ROCK_TOMB}
+    .lvl = 1,
+    .species = SPECIES_TYRANTRUM,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_HEAD_SMASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
     },
     {
     .iv = 100,
-    .lvl = 12,
-    .species = SPECIES_CORSOLA,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SCALD, MOVE_ICE_BEAM, MOVE_PSYCHIC, MOVE_ROCK_TOMB}
+    .lvl = 1,
+    .species = SPECIES_BASTIODON,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_RAIN_DANCE, MOVE_SUNNY_DAY, MOVE_TOXIC, MOVE_ROAR}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_OMASTAR,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_SCALD}
     },
     {
     .iv = 200,
-    .lvl = 15,
+    .lvl = 1,
     .species = SPECIES_GOLEM_ALOLAN,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_BRICK_BREAK, MOVE_ROCK_TOMB}
@@ -3399,9 +3406,16 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .species = SPECIES_TOXICROAK,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_SUBSTITUTE, MOVE_BULK_UP, MOVE_DRAIN_PUNCH MOVE_GUNK_SHOT}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
     .species = SPECIES_CONKELDURR,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_MACH_PUNCH, MOVE_FACADE, MOVE_DRAIN_PUNCH, MOVE_FIRE_PUNCH}
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_POWER_UP_PUNCH, MOVE_MOVE_SUPERPOWER, MOVE_ICE_PUNCH MOVE_STONE_EDGE}
     },
     {
     .iv = 200,
