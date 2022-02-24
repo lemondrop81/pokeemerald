@@ -3416,7 +3416,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     {
     .iv = 200,
     .lvl = 1,
-    .species = MOVE_RETURN,
+    .species = SPECIES_GOLEM_ALOLAN,
     .heldItem = ITEM_FOCUS_SASH,
     .moves = {MOVE_ROLLOUT, MOVE_STEALTH_ROCK, MOVE_STONE_EDGE, MOVE_EXPLOSION}
     },
@@ -3508,39 +3508,32 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
 static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
     {
     .iv = 210,
-    .lvl = 29,
-    .species = SPECIES_SWABLU,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PERISH_SONG, MOVE_MIRROR_MOVE, MOVE_SAFEGUARD, MOVE_AERIAL_ACE}
+    .lvl = 1,
+    .species = SPECIES_SKARMORY,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_WHIRLWIND}
     },
     {
     .iv = 210,
-    .lvl = 29,
-    .species = SPECIES_TROPIUS,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_SYNTHESIS}
+    .lvl = 1,
+    .species = SPECIES_GLISCOR,
+    .heldItem = ITEM_TOXIC_ORB,
+    .moves = {MOVE_EARTHQUAKE, MOVE_TOXIC, MOVE_SWORDS_DANCE, MOVE_SUBSTITUTE}
     },
     {
     .iv = 210,
-    .lvl = 30,
-    .species = SPECIES_PELIPPER,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_WATER_GUN, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
+    .lvl = 1,
+    .species = SPECIES_NOIVERN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_DRACO_METEOR, MOVE_TAILWIND, MOVE_SUPER_FANG, MOVE_U_TURN}
     },
     {
     .iv = 220,
-    .lvl = 31,
-    .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SAND_ATTACK, MOVE_FURY_ATTACK, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
+    .lvl = 1,
+    .species = SPECIES_MANDIBUZZ,
+    .heldItem = ITEM_KINGS_ROCK,
+    .moves = {MOVE_FOUL_PLAY, MOVE_ROOST, MOVE_TAUNT, MOVE_DEFOG}
     },
-    {
-    .iv = 255,
-    .lvl = 33,
-    .species = SPECIES_ALTARIA,
-    .heldItem = ITEM_ORAN_BERRY,
-    .moves = {MOVE_EARTHQUAKE, MOVE_DRAGON_BREATH, MOVE_DRAGON_DANCE, MOVE_AERIAL_ACE}
-    }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
@@ -11275,40 +11268,40 @@ static const struct TrainerMonItemCustomMoves sParty_Norman5[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
     {
-    .iv = 255,
-    .lvl = 40,
-    .species = SPECIES_DRATINI,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_ICE_BEAM}
-    },
-    {
-    .iv = 255,
-    .lvl = 38,
-    .species = SPECIES_TROPIUS,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
-    },
-    {
-    .iv = 255,
-    .lvl = 41,
-    .species = SPECIES_PELIPPER,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
-    },
-    {
-    .iv = 255,
-    .lvl = 43,
+    .iv = 210,
+    .lvl = 1,
     .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
+    .heldItem = ITEM_ROCKY_HELMET,
+    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_WHIRLWIND}
     },
     {
-    .iv = 255,
-    .lvl = 45,
-    .species = SPECIES_ALTARIA,
-    .heldItem = ITEM_CHESTO_BERRY,
-    .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
-    }
+    .iv = 210,
+    .lvl = 1,
+    .species = SPECIES_GLISCOR,
+    .heldItem = ITEM_TOXIC_ORB,
+    .moves = {MOVE_EARTHQUAKE, MOVE_TOXIC, MOVE_SWORDS_DANCE, MOVE_SUBSTITUTE}
+    },
+    {
+    .iv = 210,
+    .lvl = 1,
+    .species = SPECIES_TALONFLAME,
+    .heldItem = ITEM_SHARP_BEAK,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_ROOST, MOVE_U_TURN}
+    },
+    {
+    .iv = 210,
+    .lvl = 1,
+    .species = SPECIES_NOIVERN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_DRACO_METEOR, MOVE_TAILWIND, MOVE_SUPER_FANG, MOVE_U_TURN}
+    },
+    {
+    .iv = 220,
+    .lvl = 1,
+    .species = SPECIES_MANDIBUZZ,
+    .heldItem = ITEM_KINGS_ROCK,
+    .moves = {MOVE_FOUL_PLAY, MOVE_ROOST, MOVE_TAUNT, MOVE_DEFOG}
+    },
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Winona3[] = {
