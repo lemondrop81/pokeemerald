@@ -3445,33 +3445,33 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
     {
-    .iv = 200,
-    .lvl = 24,
-    .species = SPECIES_NUMEL,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_OVERHEAT, MOVE_TAKE_DOWN, MOVE_MAGNITUDE, MOVE_SUNNY_DAY}
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_MAROWAK_ALOLAN,
+    .heldItem = ITEM_THICK_CLUB,
+    .moves = {MOVE_FLAMETHROWER, MOVE_STEALTH_ROCK, MOVE_SUNNY_DAY, MOVE_ICE_BEAM}
     },
     {
     .iv = 200,
-    .lvl = 24,
-    .species = SPECIES_SLUGMA,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_OVERHEAT, MOVE_SMOG, MOVE_LIGHT_SCREEN, MOVE_SUNNY_DAY}
+    .lvl = 1,
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_ENERGY_BALL, MOVE_SUNNY_DAY}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_MAGMORTAR,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_LAVA_PLUME, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_THUNDERBOLT}
     },
     {
     .iv = 250,
-    .lvl = 26,
-    .species = SPECIES_CAMERUPT,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_OVERHEAT, MOVE_TACKLE, MOVE_SUNNY_DAY, MOVE_ATTRACT}
+    .lvl = 1,
+    .species = SPECIES_SALAZZLE,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .moves = {MOVE_FLAMETHROWER, MOVE_DRAGON_PULSE, MOVE_NASTY_PLOT, MOVE_SLUDGE_WAVE}
     },
-    {
-    .iv = 250,
-    .lvl = 29,
-    .species = SPECIES_TORKOAL,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_BODY_SLAM, MOVE_ATTRACT}
-    }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
@@ -10817,7 +10817,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson2[] = {
     .species = SPECIES_MAGNEZONE,
     .heldItem = ITEM_AIR_BALLOON,
     .moves = {MOVE_FLASH_CANNON, MOVE_VOLT_SWITCH, MOVE_THUNDERBOLT, MOVE_SUBSTITUTE}
-    }
+    },
     {
     .iv = 255,
     .lvl = 1,
@@ -10950,32 +10950,39 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson5[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Flannery2[] = {
     {
-    .iv = 255,
-    .lvl = 38,
-    .species = SPECIES_MAGCARGO,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_ATTRACT, MOVE_LIGHT_SCREEN, MOVE_ROCK_SLIDE}
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_MAROWAK_ALOLAN,
+    .heldItem = ITEM_THICK_CLUB,
+    .moves = {MOVE_FLAMETHROWER, MOVE_STEALTH_ROCK, MOVE_SUNNY_DAY, MOVE_ICE_BEAM}
     },
     {
-    .iv = 255,
-    .lvl = 36,
-    .species = SPECIES_PONYTA,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_SOLAR_BEAM, MOVE_BOUNCE}
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_ENERGY_BALL, MOVE_SUNNY_DAY}
     },
     {
-    .iv = 255,
-    .lvl = 38,
-    .species = SPECIES_CAMERUPT,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EARTHQUAKE, MOVE_ATTRACT}
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_MAGMORTAR,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_LAVA_PLUME, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_THUNDERBOLT}
     },
     {
-    .iv = 255,
-    .lvl = 40,
-    .species = SPECIES_TORKOAL,
-    .heldItem = ITEM_WHITE_HERB,
-    .moves = {MOVE_OVERHEAT, MOVE_SUNNY_DAY, MOVE_EXPLOSION, MOVE_ATTRACT}
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_SALAZZLE,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .moves = {MOVE_FLAMETHROWER, MOVE_DRAGON_PULSE, MOVE_NASTY_PLOT, MOVE_SLUDGE_WAVE}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_INCINEROAR,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_EARTHQUAKE, MOVE_FLAMETHROWER, MOVE_DARKEST_LARIAT}
     }
 };
 
