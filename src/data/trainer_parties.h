@@ -3415,31 +3415,31 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
 static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     {
     .iv = 200,
-    .lvl = 20,
-    .species = SPECIES_VOLTORB,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_ROLLOUT, MOVE_SPARK, MOVE_SELF_DESTRUCT, MOVE_SHOCK_WAVE}
+    .lvl = 1,
+    .species = MOVE_RETURN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_ROLLOUT, MOVE_STEALTH_ROCK, MOVE_STONE_EDGE, MOVE_EXPLOSION}
     },
     {
     .iv = 200,
-    .lvl = 20,
-    .species = SPECIES_ELECTRIKE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SHOCK_WAVE, MOVE_LEER, MOVE_QUICK_ATTACK, MOVE_HOWL}
+    .lvl = 1,
+    .species = SPECIES_ROTOM_WASH,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_VOLT_SWITCH, MOVE_WILL_O_WISP, MOVE_PAIN_SPLIT}
     },
     {
     .iv = 220,
-    .lvl = 22,
-    .species = SPECIES_MAGNETON,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SUPERSONIC, MOVE_SHOCK_WAVE, MOVE_THUNDER_WAVE, MOVE_SONIC_BOOM}
+    .lvl = 1,
+    .species = SPECIES_RAICHU_ALOLAN,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_SURF}
     },
     {
     .iv = 250,
-    .lvl = 24,
-    .species = SPECIES_MANECTRIC,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_QUICK_ATTACK, MOVE_THUNDER_WAVE, MOVE_SHOCK_WAVE, MOVE_HOWL}
+    .lvl = 1,
+    .species = SPECIES_MAGNEZONE,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_FLASH_CANNON, MOVE_VOLT_SWITCH, MOVE_THUNDERBOLT, MOVE_SUBSTITUTE}
     }
 };
 
@@ -10791,32 +10791,39 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly5[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Wattson2[] = {
     {
-    .iv = 255,
-    .lvl = 36,
-    .species = SPECIES_MAREEP,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_THUNDER, MOVE_PROTECT, MOVE_THUNDER_WAVE, MOVE_LIGHT_SCREEN}
+    .iv = 200,
+    .lvl = 1,
+    .species = MOVE_RETURN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_ROLLOUT, MOVE_STEALTH_ROCK, MOVE_STONE_EDGE, MOVE_EXPLOSION}
     },
     {
-    .iv = 255,
-    .lvl = 36,
-    .species = SPECIES_ELECTRODE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_ROLLOUT, MOVE_THUNDER, MOVE_EXPLOSION, MOVE_RAIN_DANCE}
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_ROTOM_WASH,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_VOLT_SWITCH, MOVE_WILL_O_WISP, MOVE_PAIN_SPLIT}
     },
     {
-    .iv = 255,
-    .lvl = 38,
-    .species = SPECIES_MAGNETON,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_THUNDER, MOVE_RAIN_DANCE}
+    .iv = 220,
+    .lvl = 1,
+    .species = SPECIES_RAICHU_ALOLAN,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_SURF}
     },
     {
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_MAGNEZONE,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_FLASH_CANNON, MOVE_VOLT_SWITCH, MOVE_THUNDERBOLT, MOVE_SUBSTITUTE}
+    }
+    {
     .iv = 255,
-    .lvl = 40,
-    .species = SPECIES_MANECTRIC,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_BITE, MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_PROTECT}
+    .lvl = 1,
+    .species = SPECIES_JOLTEON,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_SHADOW_BALL, MOVE_HYPER_BEAM, MOVE_THUNDERBOLT, MOVE_VOLT_SWITCH}
     }
 };
 
