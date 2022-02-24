@@ -3501,7 +3501,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     .lvl = 1,
     .species = SPECIES_SLAKING,
     .heldItem = ITEM_CHOICE_BAND,
-    .moves = {MOVE_SUCKER_PUNCH, MOVE_GIGA_IMPACT, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_GIGA_IMPACT, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}
     }
 };
 
@@ -11141,14 +11141,14 @@ static const struct TrainerMonItemCustomMoves sParty_Norman2[] = {
     .lvl = 1,
     .species = SPECIES_SLAKING,
     .heldItem = ITEM_CHOICE_BAND,
-    .moves = {MOVE_SUCKER_PUNCH, MOVE_GIGA_IMPACT, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_GIGA_IMPACT, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}
     },
     {
     .iv = 250,
     .lvl = 1,
     .species = SPECIES_SILVALLY,
     .heldItem = ITEM_LIFE_ORB,
-    .moves = {MOVE_X_SCISSOR, MOVE_RETURN, MOVE_FLAME_CHARGE, MOVE_IRON_HEAD
+    .moves = {MOVE_X_SCISSOR, MOVE_RETURN, MOVE_FLAME_CHARGE, MOVE_IRON_HEAD}
     }
 };
 
