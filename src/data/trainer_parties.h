@@ -3408,14 +3408,14 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
     .lvl = 1,
     .species = SPECIES_TOXICROAK,
     .heldItem = ITEM_BLACK_SLUDGE,
-    .moves = {MOVE_SUBSTITUTE, MOVE_BULK_UP, MOVE_DRAIN_PUNCH MOVE_GUNK_SHOT}
+    .moves = {MOVE_SUBSTITUTE, MOVE_BULK_UP, MOVE_DRAIN_PUNCH, MOVE_GUNK_SHOT}
     },
     {
     .iv = 100,
     .lvl = 1,
     .species = SPECIES_CONKELDURR,
     .heldItem = ITEM_ASSAULT_VEST,
-    .moves = {MOVE_POWER_UP_PUNCH, MOVE_MOVE_SUPERPOWER, MOVE_ICE_PUNCH MOVE_STONE_EDGE}
+    .moves = {MOVE_POWER_UP_PUNCH, MOVE_SUPERPOWER, MOVE_ICE_PUNCH, MOVE_STONE_EDGE}
     },
     {
     .iv = 200,
