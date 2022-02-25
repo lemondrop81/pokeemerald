@@ -97,6 +97,8 @@ static void BuyMenuPrintPriceInList(u8 windowId, u32 itemId, u8 y);
 //mart badges
 static const u16 sShopInventory_ZeroBadges[] = {
     ITEM_POKE_BALL,
+    ITEM_GREAT_BALL,
+    ITEM_ULTRA_BALL,
     ITEM_POTION,
     ITEM_ANTIDOTE,
     ITEM_BURN_HEAL,
@@ -110,6 +112,7 @@ static const u16 sShopInventory_ZeroBadges[] = {
 static const u16 sShopInventory_OneBadge[] = {
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
+    ITEM_ULTRA_BALL,
     ITEM_POTION,
     ITEM_SUPER_POTION,
     ITEM_ANTIDOTE,
@@ -124,6 +127,7 @@ static const u16 sShopInventory_OneBadge[] = {
 static const u16 sShopInventory_TwoBadges[] = {
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
+    ITEM_ULTRA_BALL,
     ITEM_POTION,
     ITEM_SUPER_POTION,
     ITEM_ANTIDOTE,
@@ -139,6 +143,7 @@ static const u16 sShopInventory_TwoBadges[] = {
 static const u16 sShopInventory_ThreeBadges[] = {
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
+    ITEM_ULTRA_BALL,
     ITEM_POTION,
     ITEM_SUPER_POTION,
     ITEM_ANTIDOTE,
@@ -155,6 +160,7 @@ static const u16 sShopInventory_ThreeBadges[] = {
 static const u16 sShopInventory_FourBadges[] = {
     ITEM_POKE_BALL,
     ITEM_GREAT_BALL,
+    ITEM_ULTRA_BALL,
     ITEM_POTION,
     ITEM_SUPER_POTION,
     ITEM_HYPER_POTION,
@@ -507,12 +513,12 @@ static void SetShopItemsForSale(const u16 *items)
     u8 badgeCount = GetNumberOfBadges();
 
     if (items == NULL)
-        gMartInfo.itemList = sShopInventories[badgeCount];
+        sMartInfo.itemList = sShopInventories[badgeCount];
     else
-        gMartInfo.itemList = items;
+        sMartInfo.itemList = items;
 
-    gMartInfo.itemCount = 0;
-    while (gMartInfo.itemList[i])
+    sMartInfo.itemCount = 0;
+    while (sMartInfo.itemList[i])
     {
         sMartInfo.itemCount++;
         i++;
