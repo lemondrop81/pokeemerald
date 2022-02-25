@@ -7,7 +7,7 @@ VerdanturfTown_Mart_EventScript_Clerk::
 	message gText_HowMayIServeYou
 	waitmessage
 	pokemart 0
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULTULT
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
