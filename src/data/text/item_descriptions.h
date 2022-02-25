@@ -3007,8 +3007,9 @@ static const u8 sTM52Desc[] = _(
 	"Attacks at full power.\n"
 	"May lower Sp. Def.");
 
-static const u8 sTM53Desc[] = _( // Todo
-    "?????");
+static const u8 sTM53Desc[] = _(
+	"Draws power from nature to\n"
+	"attack. May lower Sp. Def.");
 
 static const u8 sTM54Desc[] = _( // Todo
     "?????");
