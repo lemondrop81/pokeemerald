@@ -2999,20 +2999,29 @@ static const u8 sTM50Desc[] = _(
     "attack, but sharply\n"
     "lowers Sp. Atk.");
 
-static const u8 sTM51Desc[] = _( // Todo
-    "?????");
+static const u8 sTM51Desc[] = _(
+    "User lands and quickly\n"
+    "nests to recover health.\n");
 
-static const u8 sTM52Desc[] = _( // Todo
-    "?????");
+static const u8 sTM52Desc[] = _(
+	"Attacks at full \n"
+	"Power may lower \n"
+    "Sp. Def.");
 
-static const u8 sTM53Desc[] = _( // Todo
-    "?????");
+static const u8 sTM53Desc[] = _(
+	"Draws power from \n"
+	"nature to attack. May \n"
+    "lower Sp. Def.");
 
-static const u8 sTM54Desc[] = _( // Todo
-    "?????");
+static const u8 sTM54Desc[] = _(
+    "An attack that leaves \n"
+    "the foe with at least \n"
+    " 1 HP.");
 
-static const u8 sTM55Desc[] = _( // Todo
-    "?????");
+static const u8 sTM55Desc[] = _(
+	"Shoots boiling water \n"
+	"at the foe. May inflict \n"
+    " a burn.");
 
 static const u8 sTM56Desc[] = _( // Todo
     "?????");
