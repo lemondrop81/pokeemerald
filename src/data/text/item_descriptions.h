@@ -3000,10 +3000,8 @@ static const u8 sTM50Desc[] = _(
     "lowers Sp. Atk.");
 
 static const u8 sTM51Desc[] = _(
-    "The user lands and rests\n"
-    "its body. It restores the \n"
-    "user's HP by up to half \n"
-    "of its max HP");
+    "User lands and quickly\n"
+    "nests to recover health.\n");
 
 static const u8 sTM52Desc[] = _( // Todo
     "?????");
