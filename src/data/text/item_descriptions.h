@@ -3003,8 +3003,9 @@ static const u8 sTM51Desc[] = _(
     "User lands and quickly\n"
     "nests to recover health.\n");
 
-static const u8 sTM52Desc[] = _( // Todo
-    "?????");
+static const u8 sTM52Desc[] = _(
+	"Attacks at full power.\n"
+	"May lower Sp. Def.");
 
 static const u8 sTM53Desc[] = _( // Todo
     "?????");
