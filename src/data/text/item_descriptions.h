@@ -3004,20 +3004,24 @@ static const u8 sTM51Desc[] = _(
     "nests to recover health.\n");
 
 static const u8 sTM52Desc[] = _(
-	"Attacks at full power.\n"
-	"May lower Sp. Def.");
+	"Attacks at full \n"
+	"Power may lower \n"
+    "Sp. Def.");
 
 static const u8 sTM53Desc[] = _(
-	"Draws power from nature to\n"
-	"attack. May lower Sp. Def.");
+	"Draws power from \n"
+	"nature to attack. May \n"
+    "lower Sp. Def.");
 
 static const u8 sTM54Desc[] = _(
-    "An attack that leaves the\n"
-    "foe with at least 1 HP.");
+    "An attack that leaves \n"
+    "the foe with at least \n"
+    " 1 HP.");
 
 static const u8 sTM55Desc[] = _(
-	"Shoots boiling water at the\n"
-	"foe. May inflict a burn.");
+	"Shoots boiling water \n"
+	"at the foe. May inflict \n"
+    " a burn.");
 
 static const u8 sTM56Desc[] = _( // Todo
     "?????");
