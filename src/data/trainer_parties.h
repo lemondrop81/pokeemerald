@@ -3367,28 +3367,28 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
 static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
-    .lvl = 1,
+    .lvl = 10,
     .species = SPECIES_TYRANTRUM,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_DRAGON_DANCE, MOVE_HEAD_SMASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
     },
     {
     .iv = 100,
-    .lvl = 1,
+    .lvl = 10,
     .species = SPECIES_BASTIODON,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_RAIN_DANCE, MOVE_SUNNY_DAY, MOVE_TOXIC, MOVE_ROAR}
     },
     {
     .iv = 100,
-    .lvl = 1,
+    .lvl = 10,
     .species = SPECIES_OMASTAR,
     .heldItem = ITEM_CHOICE_SPECS,
     .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_SCALD}
     },
     {
     .iv = 200,
-    .lvl = 1,
+    .lvl = 10,
     .species = SPECIES_GOLEM_ALOLAN,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_BRICK_BREAK, MOVE_ROCK_TOMB}
@@ -3491,28 +3491,28 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
 static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
     .iv = 200,
-    .lvl = 1,
+    .lvl = 10,
     .species = SPECIES_OBSTAGOON,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_NIGHT_SLASH, MOVE_BRICK_BREAK, MOVE_CROSS_POISON, MOVE_GIGA_IMPACT}
     },
     {
     .iv = 200,
-    .lvl = 1,
+    .lvl = 10,
     .species = SPECIES_BLISSEY,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_LIFE_DEW, MOVE_HEAL_PULSE, MOVE_SOFT_BOILED, MOVE_SUBSTITUTE}
     },
     {
     .iv = 200,
-    .lvl = 1,
+    .lvl = 10,
     .species = SPECIES_PORYGON_Z,
     .heldItem = ITEM_FOCUS_SASH,
     .moves = {MOVE_AGILITY, MOVE_NASTY_PLOT, MOVE_TRI_ATTACK, MOVE_ICE_BEAM}
     },
     {
     .iv = 250,
-    .lvl = 1,
+    .lvl = 10,
     .species = SPECIES_SLAKING,
     .heldItem = ITEM_CHOICE_BAND,
     .moves = {MOVE_SUCKER_PUNCH, MOVE_GIGA_IMPACT, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}

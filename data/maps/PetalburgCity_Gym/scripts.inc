@@ -92,7 +92,7 @@ PetalburgCity_Gym_EventScript_Norman::
 	closemessage
 	switch VAR_FACING
 	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
-	setvar VAR_PETALBURG_GYM_STATE, 2
+	setvar VAR_PETALBURG_GYM_STATE, 6
 	end
 
 
