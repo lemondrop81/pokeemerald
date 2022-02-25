@@ -106,6 +106,7 @@ static const u16 sShopInventory_ZeroBadges[] = {
     ITEM_AWAKENING,
     ITEM_PARALYZE_HEAL,
     ITEM_REVIVE,
+    ITEM_HARBOR_MAIL,
     ITEM_NONE
 };
 
@@ -121,6 +122,7 @@ static const u16 sShopInventory_OneBadge[] = {
     ITEM_AWAKENING,
     ITEM_PARALYZE_HEAL,
     ITEM_REVIVE,
+    ITEM_HARBOR_MAIL,
     ITEM_NONE
 };
 
@@ -137,6 +139,7 @@ static const u16 sShopInventory_TwoBadges[] = {
     ITEM_PARALYZE_HEAL,
     ITEM_REVIVE,
     ITEM_POKE_DOLL,
+    ITEM_HARBOR_MAIL,
     ITEM_NONE
 };
 
@@ -154,6 +157,7 @@ static const u16 sShopInventory_ThreeBadges[] = {
     ITEM_REVIVE,
     ITEM_REPEL,
     ITEM_POKE_DOLL,
+    ITEM_HARBOR_MAIL,
     ITEM_NONE
 };
 
