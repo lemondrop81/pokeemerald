@@ -157,7 +157,7 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	..string "A boulder is in your way.\nWould you like to shove it?$"
+	.string "A boulder is in your way.\nWould you like to shove it?$"
 
 Text_MonUsedStrength:
 	.string "{PLAYER} used Spinach!\p"
