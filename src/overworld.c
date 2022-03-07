@@ -102,22 +102,12 @@ static void CB2_ReturnToFieldLink(void);
 static void CB2_LoadMapOnReturnToFieldCableClub(void);
 static void CB2_LoadMap2(void);
 static void VBlankCB_Field(void);
-<<<<<<< HEAD
-static void SpriteCB_LinkPlayer(struct Sprite *);
-static void ChooseAmbientCrySpecies(void);
-static void DoMapLoadLoop(u8 *);
-static bool32 LoadMapInStepsLocal(u8 *, bool32);
-static bool32 LoadMapInStepsLink(u8 *);
-static bool32 ReturnToFieldLocal(u8 *);
-static bool32 ReturnToFieldLink(u8 *);
-=======
 static void SpriteCB_LinkPlayer(struct Sprite *sprite);
 static void DoMapLoadLoop(u8 *state);
 static bool32 LoadMapInStepsLocal(u8 *state, bool32);
 static bool32 LoadMapInStepsLink(u8 *state);
 static bool32 ReturnToFieldLocal(u8 *state);
 static bool32 ReturnToFieldLink(u8 *state);
->>>>>>> 1c1fa2f3d31323c9030fab1819c1a8ec030776ed
 static void InitObjectEventsLink(void);
 static void InitObjectEventsLocal(void);
 static void InitOverworldGraphicsRegisters(void);

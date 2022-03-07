@@ -85,38 +85,23 @@ static const u8 sRoundedDownGrayscaleMap[] = {
 void LoadCompressedPalette(const u32 *src, u16 offset, u16 size)
 {
     LZDecompressWram(src, gPaletteDecompressionBuffer);
-<<<<<<< HEAD
-    CpuCopy16(gPaletteDecompressionBuffer, &gPlttBufferUnfaded[offset], size);
-    CpuCopy16(gPaletteDecompressionBuffer, &gPlttBufferFaded[offset], size);
-=======
     CpuFill16(RGB_BLACK, gPlttBufferPreDN + offset, size);
     CpuCopy16(gPaletteDecompressionBuffer, gPlttBufferUnfaded + offset, size);
     CpuCopy16(gPaletteDecompressionBuffer, gPlttBufferFaded + offset, size);
->>>>>>> 1c1fa2f3d31323c9030fab1819c1a8ec030776ed
 }
 
 void LoadPalette(const void *src, u16 offset, u16 size)
 {
-<<<<<<< HEAD
-    CpuCopy16(src, &gPlttBufferUnfaded[offset], size);
-    CpuCopy16(src, &gPlttBufferFaded[offset], size);
-=======
     CpuFill16(RGB_BLACK, gPlttBufferPreDN + offset, size);
     CpuCopy16(src, gPlttBufferUnfaded + offset, size);
     CpuCopy16(src, gPlttBufferFaded + offset, size);
->>>>>>> 1c1fa2f3d31323c9030fab1819c1a8ec030776ed
 }
 
 void FillPalette(u16 value, u16 offset, u16 size)
 {
-<<<<<<< HEAD
-    CpuFill16(value, &gPlttBufferUnfaded[offset], size);
-    CpuFill16(value, &gPlttBufferFaded[offset], size);
-=======
     CpuFill16(RGB_BLACK, gPlttBufferPreDN + offset, size);
     CpuFill16(value, gPlttBufferUnfaded + offset, size);
     CpuFill16(value, gPlttBufferFaded + offset, size);
->>>>>>> 1c1fa2f3d31323c9030fab1819c1a8ec030776ed
 }
 
 void TransferPlttBuffer(void)
@@ -268,14 +253,9 @@ static void PaletteStruct_Copy(struct PaletteStruct *a1, u32 *unkFlags)
     {
         while (i < a1->template->size)
         {
-<<<<<<< HEAD
+            gPlttBufferPreDN[a1->destOffset] = RGB_BLACK;
             gPlttBufferUnfaded[a1->destOffset] = a1->template->src[srcOffset];
             gPlttBufferFaded[a1->destOffset] = a1->template->src[srcOffset];
-=======
-            gPlttBufferPreDN[a1->destOffset] = RGB_BLACK;
-            gPlttBufferUnfaded[a1->destOffset] = a1->base->src[srcOffset];
-            gPlttBufferFaded[a1->destOffset] = a1->base->src[srcOffset];
->>>>>>> 1c1fa2f3d31323c9030fab1819c1a8ec030776ed
             i++;
             a1->destOffset++;
             srcOffset++;

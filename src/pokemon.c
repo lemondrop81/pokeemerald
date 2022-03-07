@@ -41,11 +41,7 @@
 #include "constants/abilities.h"
 #include "constants/battle_frontier.h"
 #include "constants/battle_move_effects.h"
-<<<<<<< HEAD
-#include "constants/battle_script_commands.h"
-=======
 #include "constants/day_night.h"
->>>>>>> 1c1fa2f3d31323c9030fab1819c1a8ec030776ed
 #include "constants/hold_effects.h"
 #include "constants/item_effects.h"
 #include "constants/items.h"

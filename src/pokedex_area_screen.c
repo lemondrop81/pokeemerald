@@ -17,11 +17,8 @@
 #include "trig.h"
 #include "pokedex_area_region_map.h"
 #include "wild_encounter.h"
-<<<<<<< HEAD
-=======
 #include "constants/day_night.h"
 #include "constants/maps.h"
->>>>>>> 1c1fa2f3d31323c9030fab1819c1a8ec030776ed
 #include "constants/region_map_sections.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"

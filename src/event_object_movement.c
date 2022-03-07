@@ -1983,6 +1983,14 @@ static void LoadObjectEventPalette(u16 paletteTag)
         LoadSpritePaletteIfTagExists(&sObjectEventSpritePalettes[i]);
 }
 
+static u8 LoadSpritePaletteIfTagExists(const struct SpritePalette *spritePalette)
+{
+    if (IndexOfSpritePaletteTag(spritePalette->tag) != 0xFF)
+        return 0xFF;
+
+    return LoadSpritePalette(spritePalette);
+}
+
 // Unused
 static void LoadObjectEventPaletteSet(u16 *paletteTags)
 {
@@ -1992,12 +2000,8 @@ static void LoadObjectEventPaletteSet(u16 *paletteTags)
         LoadObjectEventPalette(paletteTags[i]);
 }
 
-<<<<<<< HEAD
-static u8 LoadSpritePaletteIfTagExists(const struct SpritePalette *spritePalette)
-=======
 // NOTE: Does not use LoadSpritePaletteDayNight because of naming screen
 static u8 sub_808E8F4(const struct SpritePalette *spritePalette)
->>>>>>> 1c1fa2f3d31323c9030fab1819c1a8ec030776ed
 {
     if (IndexOfSpritePaletteTag(spritePalette->tag) != 0xFF)
         return 0xFF;

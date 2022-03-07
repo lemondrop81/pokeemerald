@@ -192,12 +192,9 @@ void ForceTimeBasedEvents(void)
 }
 
 #undef tState
-<<<<<<< HEAD
-=======
 #undef tAmbientCryState
 #undef tAmbientCryDelay
 #undef tForceTimeUpdate
->>>>>>> 1c1fa2f3d31323c9030fab1819c1a8ec030776ed
 
 void SetUpFieldTasks(void)
 {
@@ -245,13 +242,11 @@ void ResetFieldTasksArgs(void)
     if (taskId != TASK_NONE)
     {
         data = gTasks[taskId].data;
-        tAmbientCryState = 0;
-        tAmbientCryDelay = 0;
+        data[1] = 0;
+        data[2] = 0;
     }
 }
 
-#undef tAmbientCryState
-#undef tAmbientCryDelay
 
 static void DummyPerStepCallback(u8 taskId)
 {
