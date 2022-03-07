@@ -989,6 +989,6 @@
 // Check if the item is one that can be used on a Pokemon.
 #define ITEM_HAS_EFFECT(item) ((item) >= ITEM_POTION && (item) <= LAST_BERRY_INDEX)
 
-define ITEM_MEGA_BRACELET    (LAST_TMHM_INDEX + 3)
+#define ITEM_MEGA_BRACELET    (LAST_TMHM_INDEX + 3)
 
 #endif  // GUARD_CONSTANTS_ITEMS_H
