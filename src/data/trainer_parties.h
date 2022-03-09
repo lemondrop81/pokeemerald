@@ -3368,21 +3368,21 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_TYRANTRUM,
+    .species = SPECIES_TYRUNT,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_DRAGON_DANCE, MOVE_HEAD_SMASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
     },
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_BASTIODON,
+    .species = SPECIES_SHIELDON,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_RAIN_DANCE, MOVE_SUNNY_DAY, MOVE_TOXIC, MOVE_ROAR}
     },
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_OMASTAR,
+    .species = SPECIES_OMANYTE,
     .heldItem = ITEM_CHOICE_SPECS,
     .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_SCALD}
     },
@@ -3391,7 +3391,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     .lvl = 1,
     .species = SPECIES_GOLEM_ALOLAN,
     .heldItem = ITEM_ORAN_BERRY,
-    .moves = {MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_BRICK_BREAK, MOVE_ROCK_TOMB}
+    .moves = {MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}
     }
 };
 
