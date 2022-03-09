@@ -16113,6 +16113,7 @@ static const struct LevelUpMove sTapuFiniLevelUpLearnset[] = {
 
 static const struct LevelUpMove sCosmogLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SPLASH),
+    LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE(23, MOVE_TELEPORT),
     LEVEL_UP_END
 };
