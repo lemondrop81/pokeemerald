@@ -8179,12 +8179,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMtChimney[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Tiana[] = {
     {
     .iv = 0,
-    .lvl = 4,
+    .lvl = 1,
     .species = SPECIES_EKANS,
     },
     {
     .iv = 0,
-    .lvl = 4,
+    .lvl = 1,
+    .species = SPECIES_DEWPIDER,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_DUCKLETT,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
     .species = SPECIES_ODDISH,
     }
 };
