@@ -8331,12 +8331,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rick[] = {
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_BEAUTIFLY,
+    .species = SPECIES_SILCOON,
     },
     {
     .iv = 0,
     .lvl = 4,
-    .species = SPECIES_DUSTOX,
+    .species = SPECIES_WEEDLE,
+    },
+    {
+    .iv = 0,
+    .lvl = 4,
+    .species = SPECIES_CATERPIE,
+    },
+    {
+    .iv = 0,
+    .lvl = 4,
+    .species = SPECIES_CASCOON,
     }
 };
 
