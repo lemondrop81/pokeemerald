@@ -8270,13 +8270,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tiana[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Haley1[] = {
     {
     .iv = 0,
-    .lvl = 6,
-    .species = SPECIES_LOTAD,
+    .lvl = 1,
+    .species = SPECIES_SLAKOTH,
     },
     {
     .iv = 0,
-    .lvl = 6,
-    .species = SPECIES_SHROOMISH,
+    .lvl = 1,
+    .species = SPECIES_PIDOVE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_TEDDIURSA,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH,
     }
 };
 
@@ -8308,58 +8318,133 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Vivi[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Haley2[] = {
     {
-    .iv = 10,
-    .lvl = 26,
-    .species = SPECIES_LOMBRE,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SLAKOTH,
     },
     {
-    .iv = 10,
-    .lvl = 26,
-    .species = SPECIES_SHROOMISH,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PIDOVE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_TEDDIURSA,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PHANTUMP,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SNOVER,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Haley3[] = {
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_LOMBRE,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SLAKOTH,
     },
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_BRELOOM,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PIDOVE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_TEDDIURSA,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PHANTUMP,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SNOVER,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_TYNAMO,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Haley4[] = {
     {
-    .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_LOMBRE,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SLAKOTH,
     },
     {
-    .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_BRELOOM,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PIDOVE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_TEDDIURSA,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PHANTUMP,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SNOVER,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_TYNAMO,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Haley5[] = {
     {
-    .iv = 40,
-    .lvl = 34,
-    .species = SPECIES_SWELLOW,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SLAKOTH,
     },
     {
-    .iv = 40,
-    .lvl = 34,
-    .species = SPECIES_LOMBRE,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PIDOVE,
     },
     {
-    .iv = 40,
-    .lvl = 34,
-    .species = SPECIES_BRELOOM,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_TEDDIURSA,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PHANTUMP,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SNOVER,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_TYNAMO,
     }
 };
 
