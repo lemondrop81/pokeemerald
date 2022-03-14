@@ -907,6 +907,8 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	setflag FLAG_DRILL
 	setflag FLAG_SPINACH
 	setflag FLAG_AXE
+	giveitem ITEM_GO_GOGGLES
+	setflag FLAG_RECEIVED_GO_GOGGLES
 	msgbox LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT
 	msgbox LittlerootTown_Text_ExplainSurfBoard, MSGBOX_DEFAULT
 	msgbox LittlerootTown_Text_ExplainDrill, MSGBOX_DEFAULT
