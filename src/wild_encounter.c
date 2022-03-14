@@ -110,6 +110,8 @@ static u16 GetFeebasFishingSpotId(s16 targetX, s16 targetY, u8 section)
     return spotId + 1;
 }
 
+// Feebas now works like it does in ORAS; it can always be found fishing
+// under the bridge on Route 119.
 static bool8 CheckFeebas(void)
 {
     s16 x;

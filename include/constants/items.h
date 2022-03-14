@@ -980,7 +980,12 @@
 #define ITEM_RUBY 758
 #define ITEM_SAPPHIRE 759
 
-#define ITEMS_COUNT 760
+#define ITEM_UP_GRADE 760
+#define ITEM_X_DEFEND 761
+#define ITEM_X_SPECIAL 762
+#define ITEM_STICK 763
+#define ITEMS_COUNT 764
+
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // Range of berries given out by various NPCS

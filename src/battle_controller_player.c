@@ -515,7 +515,6 @@ static void HandleInputChooseTarget(void)
                     i++;
                     break;
                 }
-
                 MoveSelectionDisplayMoveTypeDoubles(GetBattlerPosition(gMultiUsePlayerCursor));
                 if (gAbsentBattlerFlags & gBitTable[gMultiUsePlayerCursor])
                     i = 0;
@@ -1708,7 +1707,6 @@ static void MulModifier(u16 *modifier, u16 val)
 u8 TypeEffectiveness(struct ChooseMoveStruct *moveInfo, u8 targetId)
 {
 	bool8 isInverse = (B_FLAG_INVERSE_BATTLE != 0 && FlagGet(B_FLAG_INVERSE_BATTLE)) ? TRUE : FALSE;
-
 	if (gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].power == 0)
 		return 10;
 	else

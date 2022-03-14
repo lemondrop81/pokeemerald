@@ -915,6 +915,10 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	msgbox LittlerootTown_Text_ExplainSpinach, MSGBOX_DEFAULT
 	msgbox LittlerootTown_Text_ExplainAxe, MSGBOX_DEFAULT
 	msgbox LittlerootTown_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_ExplainSurfBoard, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_ExplainDrill, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_ExplainSpinach, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_ExplainAxe, MSGBOX_DEFAULT
 	closemessage
 	delay 30
 	return

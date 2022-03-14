@@ -502,19 +502,18 @@ static u8 GetNumberOfBadges(void)
 {
     u16 badgeFlag;
     u8 count = 0;
-
     for (badgeFlag = FLAG_BADGE01_GET; badgeFlag < FLAG_BADGE01_GET + NUM_BADGES; badgeFlag++)
     {
         if (FlagGet(badgeFlag))
             count++;
     }
-
     return count;
 }
 
 static void SetShopItemsForSale(const u16 *items)
 {
     u16 i = 0;
+    u8 badgeCount = GetNumberOfBadges();
 
     u8 badgeCount = GetNumberOfBadges();
 
@@ -1434,3 +1433,5 @@ void CreateDecorationShop2Menu(const u16 *itemsForSale)
     SetShopItemsForSale(itemsForSale);
     SetShopMenuCallback(EnableBothScriptContexts);
 }
+
+

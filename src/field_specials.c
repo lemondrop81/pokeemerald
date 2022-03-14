@@ -2333,6 +2333,16 @@ void ShowScrollableMultichoice(void)
             task->tKeepOpenAfterSelect = FALSE;
             task->tTaskId = taskId;
             break;
+        case SCROLL_MULTI_REGION_NAMES:
+            task->tMaxItemsOnScreen = MAX_SCROLL_MULTI_ON_SCREEN;
+            task->tNumItems = 9;
+            task->tLeft = 22;
+            task->tTop = 1;
+            task->tWidth = 12;
+            task->tHeight = 12;
+            task->tKeepOpenAfterSelect = FALSE;
+            task->tTaskId = taskId;
+            break;
         case SCROLL_MULTI_POKEMON_FAN_CLUB_RATER:
             task->tMaxItemsOnScreen = MAX_SCROLL_MULTI_ON_SCREEN;
             task->tNumItems = 12;
@@ -2594,7 +2604,19 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
         gText_Underpowered,
         gText_WhenInDanger,
         gText_Exit
-    }
+    },
+    [SCROLL_MULTI_REGION_NAMES] = 
+    {
+        gText_Kanto,
+        gText_Johto,
+        gText_Hoenn,
+        gText_Sinnoh,
+        gText_Unova,
+        gText_Kalos,
+        gText_Alola,
+        gText_Galar,
+        gText_Mysterious,
+    },
 };
 
 static void Task_ShowScrollableMultichoice(u8 taskId)

@@ -247,7 +247,6 @@ void ResetFieldTasksArgs(void)
     }
 }
 
-
 static void DummyPerStepCallback(u8 taskId)
 {
 
