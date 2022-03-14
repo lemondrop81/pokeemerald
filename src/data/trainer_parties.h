@@ -8496,75 +8496,135 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kent[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_James1[] = {
     {
     .iv = 0,
-    .lvl = 6,
-    .species = SPECIES_NINCADA,
+    .lvl = 1,
+    .species = SPECIES_VENONAT,
     },
     {
     .iv = 0,
-    .lvl = 6,
-    .species = SPECIES_NINCADA,
+    .lvl = 1,
+    .species = SPECIES_SIZZLIPEDE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SPINARAK,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_James2[] = {
     {
-    .iv = 10,
-    .lvl = 27,
-    .species = SPECIES_NINJASK,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_VENONAT,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SIZZLIPEDE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SPINARAK,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_James3[] = {
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_DUSTOX,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_VENONAT,
     },
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_NINJASK,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SIZZLIPEDE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SPINARAK,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_James4[] = {
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_SURSKIT,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_VENONAT,
     },
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_DUSTOX,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SIZZLIPEDE,
     },
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_NINJASK,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SPINARAK,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_James5[] = {
     {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_SURSKIT,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_VENONAT,
     },
     {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_NINJASK,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SIZZLIPEDE,
     },
     {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_DUSTOX,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
     },
     {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_NINJASK,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_HERACROSS,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SPINARAK,
     }
 };
 
