@@ -1758,7 +1758,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Winston1[] = {
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_PORYGON,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -1788,8 +1788,26 @@ static const struct TrainerMonItemDefaultMoves sParty_Garret[] = {
 static const struct TrainerMonItemDefaultMoves sParty_Winston2[] = {
     {
     .iv = 0,
-    .lvl = 27,
-    .species = SPECIES_LINOONE,
+    .lvl = 1,
+    .species = SPECIES_PORYGON2,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_LAPRAS,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SUDOWOODO,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SKARMORY,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -1797,8 +1815,26 @@ static const struct TrainerMonItemDefaultMoves sParty_Winston2[] = {
 static const struct TrainerMonItemDefaultMoves sParty_Winston3[] = {
     {
     .iv = 0,
-    .lvl = 30,
-    .species = SPECIES_LINOONE,
+    .lvl = 1,
+    .species = SPECIES_PORYGON2,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_LAPRAS,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SUDOWOODO,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SKARMORY,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -1806,8 +1842,26 @@ static const struct TrainerMonItemDefaultMoves sParty_Winston3[] = {
 static const struct TrainerMonItemDefaultMoves sParty_Winston4[] = {
     {
     .iv = 0,
-    .lvl = 33,
-    .species = SPECIES_LINOONE,
+    .lvl = 1,
+    .species = SPECIES_PORYGON2,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_LAPRAS,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_ALAKAZAM,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_DRATINI,
     .heldItem = ITEM_NUGGET
     }
 };
