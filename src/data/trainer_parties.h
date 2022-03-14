@@ -10041,6 +10041,16 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isabelle[] = {
     .iv = 0,
     .lvl = 1,
     .species = SPECIES_MARILL,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_KRABBY,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_INKAY,
     }
 };
 
