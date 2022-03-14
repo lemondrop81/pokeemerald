@@ -103,8 +103,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle1[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_POOCHYENA,
+    .lvl = 1,
+    .species = SPECIES_KOFFING,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_BELLSPROUT,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_CARVANHA,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_EKANS,
     }
 };
 
