@@ -1451,9 +1451,21 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie5[] = {
 static const struct TrainerMonItemDefaultMoves sParty_Cindy1[] = {
     {
     .iv = 0,
-    .lvl = 7,
-    .species = SPECIES_ZIGZAGOON,
-    .heldItem = ITEM_NUGGET
+    .lvl = 1,
+    .species = SPECIES_SHELLDER,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_FARFETCHD,
+    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
@@ -1496,9 +1508,30 @@ static const struct TrainerMonItemCustomMoves sParty_Cindy2[] = {
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_ZIGZAGOON,
-    .heldItem = ITEM_NUGGET,
-    .moves = {MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_NONE, MOVE_NONE}
+    .species = SPECIES_LAPRAS,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_BODY_SLAM, MOVE_SCALD}
+    },
+    {
+    .iv = 0,
+    .lvl = 11,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_MEGA_PUNCH, MOVE_THUNDERBOLT}
+    },
+    {
+    .iv = 0,
+    .lvl = 11,
+    .species = SPECIES_SCYTHER,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_X_SCISSOR, MOVE_SWORDS_DANCE, MOVE_DOUBLE_TEAM, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 0,
+    .lvl = 11,
+    .species = SPECIES_TAUROS,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_EARTHQUAKE, MOVE_MEGAHORN, MOVE_GIGA_IMPACT, MOVE_NONE}
     }
 };
 
