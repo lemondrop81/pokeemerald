@@ -6500,27 +6500,37 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_AmyAndLiv1[] = {
     {
     .iv = 0,
-    .lvl = 15,
+    .lvl = 1,
     .species = SPECIES_PLUSLE,
     },
     {
     .iv = 0,
-    .lvl = 15,
+    .lvl = 1,
     .species = SPECIES_MINUN,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_AmyAndLiv2[] = {
     {
-    .iv = 10,
-    .lvl = 27,
+    .iv = 0,
+    .lvl = 1,
     .species = SPECIES_PLUSLE,
     },
     {
-    .iv = 10,
-    .lvl = 27,
+    .iv = 0,
+    .lvl = 1,
     .species = SPECIES_MINUN,
-    }
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_ZANGOOSE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SEVIPER,
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_GinaAndMia1[] = {
@@ -6552,14 +6562,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MiuAndYuki[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_AmyAndLiv3[] = {
     {
     .iv = 0,
-    .lvl = 9,
+    .lvl = 1,
     .species = SPECIES_PLUSLE,
     },
     {
     .iv = 0,
-    .lvl = 9,
+    .lvl = 1,
     .species = SPECIES_MINUN,
-    }
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_ZANGOOSE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SEVIPER,
+    },
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_GinaAndMia2[] = {
@@ -6579,44 +6599,102 @@ static const struct TrainerMonNoItemCustomMoves sParty_GinaAndMia2[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_AmyAndLiv4[] = {
     {
-    .iv = 20,
-    .lvl = 30,
+    .iv = 0,
+    .lvl = 1,
     .species = SPECIES_PLUSLE,
     },
     {
-    .iv = 20,
-    .lvl = 30,
+    .iv = 0,
+    .lvl = 1,
     .species = SPECIES_MINUN,
-    }
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_ZANGOOSE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SEVIPER,
+    },
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_AmyAndLiv5[] = {
     {
     .iv = 30,
-    .lvl = 33,
+    .lvl = 1,
     .species = SPECIES_PLUSLE,
-    .moves = {MOVE_SPARK, MOVE_CHARGE, MOVE_FAKE_TEARS, MOVE_HELPING_HAND}
+    .moves = {TM18_RAIN_DANCE, MOVE_THUNDER, MOVE_VOLT_SWITCH, MOVE_DAZZLING_GLEAM}
     },
     {
     .iv = 30,
-    .lvl = 33,
+    .lvl = 1,
     .species = SPECIES_MINUN,
-    .moves = {MOVE_SPARK, MOVE_CHARGE, MOVE_CHARM, MOVE_HELPING_HAND}
+    .moves = {MOVE_THUNDERBOLT, MOVE_LIGHT_SCREEN, MOVE_DOUBLE_TEAM, MOVE_FACADE}
+    },
+    {
+    .iv = 30,
+    .lvl = 1,
+    .species = SPECIES_ZANGOOSE,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_SLASH, MOVE_BRICK_BREAK, MOVE_ICE_BEAM}
+    },
+    {
+    .iv = 30,
+    .lvl = 1,
+    .species = SPECIES_SEVIPER,
+    .moves = {MOVE_POISON_JAB, MOVE_CRUNCH, MOVE_DRAGON_TAIL, MOVE_FLAMETHROWER
+    },
+    {
+    .iv = 30,
+    .lvl = 1,
+    .species = SPECIES_NIDOKING,
+    .moves = {MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 30,
+    .lvl = 1,
+    .species = SPECIES_NIDOQUEEN,
+    .moves = {MOVE_SUPERPOWER, MOVE_ROCK_SLIDE, MOVE_IRON_TAIL, MOVE_HYPER_BEAM}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_AmyAndLiv6[] = {
     {
-    .iv = 40,
-    .lvl = 36,
+    .iv = 30,
+    .lvl = 1,
     .species = SPECIES_PLUSLE,
-    .moves = {MOVE_THUNDER, MOVE_CHARGE, MOVE_FAKE_TEARS, MOVE_HELPING_HAND}
+    .moves = {TM18_RAIN_DANCE, MOVE_THUNDER, MOVE_VOLT_SWITCH, MOVE_DAZZLING_GLEAM}
     },
     {
-    .iv = 40,
-    .lvl = 36,
+    .iv = 30,
+    .lvl = 1,
     .species = SPECIES_MINUN,
-    .moves = {MOVE_THUNDER, MOVE_CHARGE, MOVE_CHARM, MOVE_HELPING_HAND}
+    .moves = {MOVE_THUNDERBOLT, MOVE_LIGHT_SCREEN, MOVE_DOUBLE_TEAM, MOVE_FACADE}
+    },
+    {
+    .iv = 30,
+    .lvl = 1,
+    .species = SPECIES_ZANGOOSE,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_SLASH, MOVE_BRICK_BREAK, MOVE_ICE_BEAM}
+    },
+    {
+    .iv = 30,
+    .lvl = 1,
+    .species = SPECIES_SEVIPER,
+    .moves = {MOVE_POISON_JAB, MOVE_CRUNCH, MOVE_DRAGON_TAIL, MOVE_FLAMETHROWER
+    },
+    {
+    .iv = 30,
+    .lvl = 1,
+    .species = SPECIES_NIDOKING,
+    .moves = {MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 30,
+    .lvl = 1,
+    .species = SPECIES_NIDOQUEEN,
+    .moves = {MOVE_SUPERPOWER, MOVE_ROCK_SLIDE, MOVE_IRON_TAIL, MOVE_HYPER_BEAM}
     }
 };
 
