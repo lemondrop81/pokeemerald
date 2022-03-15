@@ -4052,7 +4052,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Miguel1[] = {
     {
     .iv = 0,
     .lvl = 15,
-    .species = SPECIES_SKITTY,
+    .species = SPECIES_JIGGLYPUFF,
     .heldItem = ITEM_ORAN_BERRY
     }
 };
@@ -4105,35 +4105,95 @@ static const struct TrainerMonItemCustomMoves sParty_Colton[] = {
 static const struct TrainerMonItemDefaultMoves sParty_Miguel2[] = {
     {
     .iv = 0,
-    .lvl = 29,
-    .species = SPECIES_SKITTY,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_JIGGLYPUFF,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MINCCINO,
+    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
 static const struct TrainerMonItemDefaultMoves sParty_Miguel3[] = {
     {
     .iv = 0,
-    .lvl = 32,
-    .species = SPECIES_SKITTY,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_JIGGLYPUFF,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_AIPOM,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MINCCINO,
+    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
 static const struct TrainerMonItemDefaultMoves sParty_Miguel4[] = {
     {
     .iv = 0,
-    .lvl = 35,
-    .species = SPECIES_DELCATTY,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_JIGGLYPUFF,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_AIPOM,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_ZANGOOSE,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MINCCINO,
+    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
 static const struct TrainerMonItemDefaultMoves sParty_Miguel5[] = {
     {
     .iv = 0,
-    .lvl = 38,
-    .species = SPECIES_DELCATTY,
+    .lvl = 1,
+    .species = SPECIES_JIGGLYPUFF,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_AIPOM,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_ZANGOOSE,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_BOUFFALANT,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MINCCINO,
     .heldItem = ITEM_SITRUS_BERRY
     }
 };
