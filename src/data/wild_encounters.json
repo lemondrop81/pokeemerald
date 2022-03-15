@@ -5195,7 +5195,7 @@
                 {
                   "min_level": 8,
                   "max_level": 10,
-                  "species": "SPECIES_WHISMUR"
+                  "species": "SPECIES_MANKEY"
                 },
                 {
                   "min_level": 8,
@@ -5262,7 +5262,7 @@
                 {
                   "min_level": 7,
                   "max_level": 7,
-                  "species": "SPECIES_WHISMUR"
+                  "species": "SPECIES_TIMBURR"
                 },
                 {
                   "min_level": 6,
@@ -5319,7 +5319,7 @@
                 {
                   "min_level": 6,
                   "max_level": 6,
-                  "species": "SPECIES_WHISMUR"
+                  "species": "SPECIES_MACHOP"
                 },
                 {
                   "min_level": 7,
