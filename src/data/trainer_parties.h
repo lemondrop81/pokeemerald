@@ -3898,7 +3898,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Karen4[] = {
     .lvl = 1,
     .species = SPECIES_SNUBBULL,
     },
-    },
     {
     .iv = 10,
     .lvl = 1,
