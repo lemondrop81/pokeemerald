@@ -6625,7 +6625,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AmyAndLiv5[] = {
     .iv = 30,
     .lvl = 1,
     .species = SPECIES_PLUSLE,
-    .moves = {TM18_RAIN_DANCE, MOVE_THUNDER, MOVE_VOLT_SWITCH, MOVE_DAZZLING_GLEAM}
+    .moves = {MOVE_RAIN_DANCE, MOVE_THUNDER, MOVE_VOLT_SWITCH, MOVE_DAZZLING_GLEAM}
     },
     {
     .iv = 30,
@@ -6643,7 +6643,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AmyAndLiv5[] = {
     .iv = 30,
     .lvl = 1,
     .species = SPECIES_SEVIPER,
-    .moves = {MOVE_POISON_JAB, MOVE_CRUNCH, MOVE_DRAGON_TAIL, MOVE_FLAMETHROWER
+    .moves = {MOVE_POISON_JAB, MOVE_CRUNCH, MOVE_DRAGON_TAIL, MOVE_FLAMETHROWER}
     },
     {
     .iv = 30,
@@ -6664,7 +6664,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AmyAndLiv6[] = {
     .iv = 30,
     .lvl = 1,
     .species = SPECIES_PLUSLE,
-    .moves = {TM18_RAIN_DANCE, MOVE_THUNDER, MOVE_VOLT_SWITCH, MOVE_DAZZLING_GLEAM}
+    .moves = {MOVE_RAIN_DANCE, MOVE_THUNDER, MOVE_VOLT_SWITCH, MOVE_DAZZLING_GLEAM}
     },
     {
     .iv = 30,
@@ -6682,7 +6682,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_AmyAndLiv6[] = {
     .iv = 30,
     .lvl = 1,
     .species = SPECIES_SEVIPER,
-    .moves = {MOVE_POISON_JAB, MOVE_CRUNCH, MOVE_DRAGON_TAIL, MOVE_FLAMETHROWER
+    .moves = {MOVE_POISON_JAB, MOVE_CRUNCH, MOVE_DRAGON_TAIL, MOVE_FLAMETHROWER}
     },
     {
     .iv = 30,
