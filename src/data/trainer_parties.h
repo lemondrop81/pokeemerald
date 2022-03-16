@@ -11389,7 +11389,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson2[] = {
     .species = SPECIES_RAICHU_ALOLAN,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_SURF}
-    }
+    },
     {
     .iv = 255,
     .lvl = 1,
