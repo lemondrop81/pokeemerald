@@ -3602,7 +3602,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
     .lvl = 1,
     .ability = 2, // Mold breaker
     .species = SPECIES_HAWLUCHA,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_FLYING_PRESS, MOVE_DRAIN_PUNCH, MOVE_SKY_ATTACK, MOVE_SWORDS_DANCE}
     },
     {
