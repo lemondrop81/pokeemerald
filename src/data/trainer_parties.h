@@ -2086,19 +2086,19 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Douglas[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Darrin[] = {
     {
-    .iv = 10,
-    .lvl = 24,
-    .species = SPECIES_TENTACOOL,
+    .iv = 50,
+    .lvl = 1,
+    .species = SPECIES_OMANYTE,
     },
     {
-    .iv = 10,
-    .lvl = 24,
-    .species = SPECIES_WINGULL,
+    .iv = 50,
+    .lvl = 1,
+    .species = SPECIES_KABUTO,
     },
     {
-    .iv = 10,
-    .lvl = 24,
-    .species = SPECIES_TENTACOOL,
+    .iv = 50,
+    .lvl = 1,
+    .species = SPECIES_TIRTOUGA,
     }
 };
 
