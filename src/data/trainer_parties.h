@@ -6222,9 +6222,34 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Imani[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Kyla[] = {
     {
     .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_WAILMER,
-    }
+    .lvl = 1,
+    .species = SPECIES_MUDKIP,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_OSHAWOTT,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PIPLUP,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SOBBLE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_POPPLIO,
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Denise[] = {
