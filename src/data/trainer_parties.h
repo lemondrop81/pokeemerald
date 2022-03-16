@@ -401,13 +401,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Leah[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Daisy[] = {
     {
     .iv = 0,
-    .lvl = 14,
-    .species = SPECIES_SHROOMISH,
+    .lvl = 1,
+    .species = SPECIES_BELLSPROUT,
     },
     {
     .iv = 0,
-    .lvl = 14,
-    .species = SPECIES_ROSELIA,
+    .lvl = 1,
+    .species = SPECIES_ODDISH,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_GOSSIFLEUR,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_CHERUBI,
     }
 };
 
