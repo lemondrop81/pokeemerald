@@ -3645,13 +3645,15 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
     {
     .iv = 210,
     .lvl = 1,
+    .ability = 2, // Weak armor
     .species = SPECIES_SKARMORY,
     .heldItem = ITEM_ROCKY_HELMET,
-    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_WHIRLWIND}
+    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_AIR_SLASH}
     },
     {
     .iv = 210,
     .lvl = 1,
+    .ability = 2, // Poison Heal
     .species = SPECIES_GLISCOR,
     .heldItem = ITEM_TOXIC_ORB,
     .moves = {MOVE_EARTHQUAKE, MOVE_TOXIC, MOVE_SWORDS_DANCE, MOVE_SUBSTITUTE}
@@ -3659,16 +3661,18 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
     {
     .iv = 210,
     .lvl = 1,
+    .ability = 1, // INFILTRATOR
     .species = SPECIES_NOIVERN,
     .heldItem = ITEM_FOCUS_SASH,
-    .moves = {MOVE_DRACO_METEOR, MOVE_TAILWIND, MOVE_SUPER_FANG, MOVE_U_TURN}
+    .moves = {MOVE_DRAGON_PULSE, MOVE_TAILWIND, MOVE_SUPER_FANG, MOVE_U_TURN}
     },
     {
     .iv = 220,
     .lvl = 1,
-    .species = SPECIES_MANDIBUZZ,
+    .ability = 2, // Weak armor
+    .species = SPECIES_VULLABY,
     .heldItem = ITEM_KINGS_ROCK,
-    .moves = {MOVE_FOUL_PLAY, MOVE_ROOST, MOVE_TAUNT, MOVE_DEFOG}
+    .moves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_TAUNT, MOVE_DEFOG}
     },
 };
 
@@ -11868,20 +11872,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
     {
     .iv = 210,
     .lvl = 1,
-    .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_ROCKY_HELMET,
-    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_WHIRLWIND}
-    },
-    {
-    .iv = 210,
-    .lvl = 1,
-    .species = SPECIES_GLISCOR,
-    .heldItem = ITEM_TOXIC_ORB,
-    .moves = {MOVE_EARTHQUAKE, MOVE_TOXIC, MOVE_SWORDS_DANCE, MOVE_SUBSTITUTE}
-    },
-    {
-    .iv = 210,
-    .lvl = 1,
+    .ability = 2, // Gale winds
     .species = SPECIES_TALONFLAME,
     .heldItem = ITEM_SHARP_BEAK,
     .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_ROOST, MOVE_U_TURN}
@@ -11889,16 +11880,34 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
     {
     .iv = 210,
     .lvl = 1,
+    .ability = 2, // Weak armor
+    .species = SPECIES_SKARMORY,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_AIR_SLASH}
+    },
+    {
+    .iv = 210,
+    .lvl = 1,
+    .ability = 2, // Poison Heal
+    .species = SPECIES_GLISCOR,
+    .heldItem = ITEM_TOXIC_ORB,
+    .moves = {MOVE_EARTHQUAKE, MOVE_TOXIC, MOVE_SWORDS_DANCE, MOVE_SUBSTITUTE}
+    },
+    {
+    .iv = 210,
+    .lvl = 1,
+    .ability = 1, // INFILTRATOR
     .species = SPECIES_NOIVERN,
     .heldItem = ITEM_FOCUS_SASH,
-    .moves = {MOVE_DRACO_METEOR, MOVE_TAILWIND, MOVE_SUPER_FANG, MOVE_U_TURN}
+    .moves = {MOVE_DRAGON_PULSE, MOVE_TAILWIND, MOVE_SUPER_FANG, MOVE_U_TURN}
     },
     {
     .iv = 220,
     .lvl = 1,
-    .species = SPECIES_MANDIBUZZ,
+    .ability = 2, // Weak armor
+    .species = SPECIES_VULLABY,
     .heldItem = ITEM_KINGS_ROCK,
-    .moves = {MOVE_FOUL_PLAY, MOVE_ROOST, MOVE_TAUNT, MOVE_DEFOG}
+    .moves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_TAUNT, MOVE_DEFOG}
     },
 };
 
