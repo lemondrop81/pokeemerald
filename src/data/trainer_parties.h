@@ -1981,9 +1981,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Luis[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Dominik[] = {
     {
     .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_TENTACOOL,
-    }
+    .lvl = 1,
+    .species = SPECIES_WAILMER,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PANPOUR,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MAREANIE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SPHEAL,
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Douglas[] = {
