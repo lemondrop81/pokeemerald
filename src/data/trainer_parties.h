@@ -2003,8 +2003,28 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Steve5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Luis[] = {
     {
     .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_CARVANHA,
+    .lvl = 1,
+    .species = SPECIES_CLAMPERL,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MAGIKARP,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_TYMPOLE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_CRABRAWLER,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MAREANIE,
     }
 };
 
