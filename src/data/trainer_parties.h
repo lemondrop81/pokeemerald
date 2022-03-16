@@ -3610,6 +3610,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // DEFIANT
     .species = SPECIES_OBSTAGOON,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_NIGHT_SLASH, MOVE_BRICK_BREAK, MOVE_CROSS_POISON, MOVE_GIGA_IMPACT}
@@ -3617,6 +3618,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 1, // SERENE GRACE
     .species = SPECIES_BLISSEY,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_LIFE_DEW, MOVE_HEAL_PULSE, MOVE_SOFT_BOILED, MOVE_SUBSTITUTE}
@@ -3624,6 +3626,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // ANALYTIC
     .species = SPECIES_PORYGON_Z,
     .heldItem = ITEM_FOCUS_SASH,
     .moves = {MOVE_AGILITY, MOVE_NASTY_PLOT, MOVE_TRI_ATTACK, MOVE_ICE_BEAM}
@@ -3631,6 +3634,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
     .iv = 250,
     .lvl = 1,
+    .ability = 2, // Thick Fat
     .species = SPECIES_SLAKING,
     .heldItem = ITEM_CHOICE_BAND,
     .moves = {MOVE_SUCKER_PUNCH, MOVE_GIGA_IMPACT, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}
@@ -11700,6 +11704,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman2[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // DEFIANT
     .species = SPECIES_OBSTAGOON,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_NIGHT_SLASH, MOVE_BRICK_BREAK, MOVE_CROSS_POISON, MOVE_GIGA_IMPACT}
@@ -11707,6 +11712,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman2[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 1, // SERENE GRACE
     .species = SPECIES_BLISSEY,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_LIFE_DEW, MOVE_HEAL_PULSE, MOVE_SOFT_BOILED, MOVE_SUBSTITUTE}
@@ -11714,6 +11720,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman2[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // ANALYTIC
     .species = SPECIES_PORYGON_Z,
     .heldItem = ITEM_FOCUS_SASH,
     .moves = {MOVE_AGILITY, MOVE_NASTY_PLOT, MOVE_TRI_ATTACK, MOVE_ICE_BEAM}
@@ -11721,6 +11728,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman2[] = {
     {
     .iv = 250,
     .lvl = 1,
+    .ability = 2, // Thick Fat
     .species = SPECIES_SLAKING,
     .heldItem = ITEM_CHOICE_BAND,
     .moves = {MOVE_SUCKER_PUNCH, MOVE_GIGA_IMPACT, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}
@@ -11728,6 +11736,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman2[] = {
     {
     .iv = 250,
     .lvl = 1,
+    .ability = 0, //RKS_SYSTEM
     .species = SPECIES_SILVALLY,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_X_SCISSOR, MOVE_RETURN, MOVE_FLAME_CHARGE, MOVE_IRON_HEAD}
