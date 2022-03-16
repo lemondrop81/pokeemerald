@@ -567,15 +567,45 @@ static const struct TrainerMonNoItemCustomMoves sParty_Chip[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Foster[] = {
     {
     .iv = 100,
-    .lvl = 25,
-    .species = SPECIES_SANDSHREW,
-    .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
+    .lvl = 1,
+    .ability = 0, // Sand stream
+    .species = SPECIES_HIPPOPOTAS,
+    .moves = {MOVE_CRUNCH, MOVE_DOUBLE_EDGE, MOVE_REST, MOVE_EARTHQUAKE}
     },
     {
     .iv = 100,
-    .lvl = 25,
-    .species = SPECIES_SANDSLASH,
-    .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
+    .lvl = 1,
+    .ability = 2, // Sand veil
+    .species = SPECIES_SANDYGAST,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_SHADOW_BALL, MOVE_IRON_DEFENSE, MOVE_BULLDOZE}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, // Anger point
+    .species = SPECIES_SANDILE,
+    .moves = {MOVE_FOUL_PLAY, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_OUTRAGE}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 1, // Sand force
+    .species = SPECIES_DRILBUR,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_POISON_STING}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 1, // Stamina
+    .species = SPECIES_MUDBRAY,
+    .moves = {MOVE_HIGH_HORSEPOWER, MOVE_SUPERPOWER, MOVE_COUNTER, MOVE_ROCK_SLIDE}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, // Rough skin
+    .species = SPECIES_GIBLE,
+    .moves = {MOVE_FIRE_FANG, MOVE_DRAGON_CLAW, MOVE_SUBSTITUTE, MOVE_AERIAL_ACE}
     }
 };
 
