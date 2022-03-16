@@ -11228,7 +11228,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly2[] = {
     .species = SPECIES_JANGMO_O,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_DRAGON_DANCE, MOVE_CLANGING_SCALES, MOVE_DRAIN_PUNCH, MOVE_OUTRAGE}
-    }
+    },
     {
     .iv = 255,
     .lvl = 1,
