@@ -6041,7 +6041,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jocelyn[] = {
     {
     .iv = 127,
     .lvl = 1,
-    .species = SPECIES_PASSIMIAM,
+    .species = SPECIES_PASSIMIAN,
     },
     {
     .iv = 127,
