@@ -6362,9 +6362,9 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Denise[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Beth[] = {
     {
-    .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_GOLDEEN,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_CRAMORANT,
     }
 };
 
