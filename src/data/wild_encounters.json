@@ -816,11 +816,6 @@
                 {
                   "min_level": 3,
                   "max_level": 3,
-                  "species": "SPECIES_WURMPLE"
-                },
-                {
-                  "min_level": 3,
-                  "max_level": 3,
                   "species": "SPECIES_TORCHIC"
                 },
                 {
@@ -920,11 +915,6 @@
                 {
                   "min_level": 1,
                   "max_level": 1,
-                  "species": "SPECIES_PELIPPER"
-                },
-                {
-                  "min_level": 1,
-                  "max_level": 1,
                   "species": "SPECIES_CYNDAQUIL"
                 }
               ],
@@ -943,11 +933,6 @@
                   "min_level": 15,
                   "max_level": 25,
                   "species": "SPECIES_SQUIRTLE"
-                },
-                {
-                  "min_level": 25,
-                  "max_level": 30,
-                  "species": "SPECIES_PELIPPER"
                 }
               ]
             ]
