@@ -3470,6 +3470,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 2, //Sturdy or ROCk head
     .species = SPECIES_TYRUNT,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_DRAGON_DANCE, MOVE_HEAD_SMASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
@@ -3477,23 +3478,26 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // Sturdy
     .species = SPECIES_SHIELDON,
     .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_RAIN_DANCE, MOVE_SUNNY_DAY, MOVE_TOXIC, MOVE_ROAR}
+    .moves = {MOVE_ANCIENT_POWER, MOVE_ICE_BEAM, MOVE_TOXIC, MOVE_IRON_HEAD}
     },
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 2, //Weak armour
     .species = SPECIES_OMANYTE,
     .heldItem = ITEM_CHOICE_SPECS,
-    .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_SCALD}
+    .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_ROCK_BLAST, MOVE_SCALD}
     },
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // GALVANIZE
     .species = SPECIES_GOLEM_ALOLAN,
-    .heldItem = ITEM_ORAN_BERRY,
-    .moves = {MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}
     }
 };
 
@@ -11021,70 +11025,87 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroTorchic[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Roxanne2[] = {
     {
-    .iv = 255,
-    .lvl = 32,
-    .species = SPECIES_GOLEM,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_EXPLOSION}
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, //Sturdy or ROCk head
+    .species = SPECIES_TYRUNT,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_HEAD_SMASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
     },
     {
-    .iv = 255,
-    .lvl = 35,
-    .species = SPECIES_KABUTO,
+    .iv = 100,
+    .lvl = 1,
+    .ability = 0, // Sturdy
+    .species = SPECIES_SHIELDON,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_ANCIENT_POWER, MOVE_ICE_BEAM, MOVE_TOXIC, MOVE_IRON_HEAD}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, //Weak armour
+    .species = SPECIES_OMANYTE,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_ROCK_BLAST, MOVE_SCALD}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, //Sheer force
+    .species = SPECIES_STEELIX,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
+    .moves = {MOVE_IRON_HEAD, MOVE_CRUNCH, MOVE_ROCK_SLIDE, MOVE_ICE_FANG}
     },
     {
-    .iv = 255,
-    .lvl = 35,
-    .species = SPECIES_ONIX,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
-    },
-    {
-    .iv = 255,
-    .lvl = 37,
-    .species = SPECIES_NOSEPASS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // GALVANIZE
+    .species = SPECIES_GOLEM_ALOLAN,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Roxanne3[] = {
     {
-    .iv = 255,
-    .lvl = 37,
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, //Sturdy or ROCk head
+    .species = SPECIES_TYRUNT,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_HEAD_SMASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 0, // Sturdy
+    .species = SPECIES_SHIELDON,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_ANCIENT_POWER, MOVE_ICE_BEAM, MOVE_TOXIC, MOVE_IRON_HEAD}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, //Weak armour
     .species = SPECIES_OMANYTE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PROTECT, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_SURF}
+    .heldItem = ITEM_CHOICE_SPECS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_ROCK_BLAST, MOVE_SCALD}
     },
     {
-    .iv = 255,
-    .lvl = 37,
-    .species = SPECIES_GOLEM,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PROTECT, MOVE_ROLLOUT, MOVE_MAGNITUDE, MOVE_EXPLOSION}
-    },
-    {
-    .iv = 255,
-    .lvl = 40,
-    .species = SPECIES_KABUTOPS,
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, //Sheer force
+    .species = SPECIES_STEELIX,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SWORDS_DANCE, MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE}
+    .moves = {MOVE_IRON_HEAD, MOVE_CRUNCH, MOVE_ROCK_SLIDE, MOVE_ICE_FANG}
     },
     {
-    .iv = 255,
-    .lvl = 40,
-    .species = SPECIES_ONIX,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_IRON_TAIL, MOVE_EXPLOSION, MOVE_ROAR, MOVE_ROCK_SLIDE}
-    },
-    {
-    .iv = 255,
-    .lvl = 42,
-    .species = SPECIES_NOSEPASS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_DOUBLE_TEAM, MOVE_EXPLOSION, MOVE_PROTECT, MOVE_ROCK_SLIDE}
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // GALVANIZE
+    .species = SPECIES_GOLEM_ALOLAN,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}
     }
 };
 
