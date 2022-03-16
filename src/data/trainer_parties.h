@@ -8431,9 +8431,19 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brenden[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Lilith[] = {
     {
     .iv = 150,
-    .lvl = 13,
-    .species = SPECIES_MEDITITE,
-    }
+    .lvl = 1,
+    .species = SPECIES_HITMONCHAN,
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_HITMONLEE,
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_HITMONTOP,
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Cristian[] = {
