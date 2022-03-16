@@ -4921,18 +4921,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Claude[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Elliot1[] = {
     {
     .iv = 0,
-    .lvl = 10,
-    .species = SPECIES_MAGIKARP,
+    .lvl = 1,
+    .species = SPECIES_CHETLE,
     },
     {
     .iv = 0,
-    .lvl = 7,
-    .species = SPECIES_TENTACOOL,
+    .lvl = 1,
+    .species = SPECIES_ARROKUDA,
     },
     {
     .iv = 0,
-    .lvl = 10,
-    .species = SPECIES_MAGIKARP,
+    .lvl = 1,
+    .species = SPECIES_SHELLDER,
     }
 };
 
@@ -5026,88 +5026,103 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Carter[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Elliot2[] = {
     {
-    .iv = 10,
-    .lvl = 24,
-    .species = SPECIES_TENTACOOL,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_CHETLE,
     },
     {
-    .iv = 10,
-    .lvl = 27,
-    .species = SPECIES_GYARADOS,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_ARROKUDA,
     },
     {
-    .iv = 10,
-    .lvl = 27,
-    .species = SPECIES_GYARADOS,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SHELLDER,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Elliot3[] = {
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_GYARADOS,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_CHETLE,
     },
     {
-    .iv = 20,
-    .lvl = 26,
-    .species = SPECIES_CARVANHA,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_ARROKUDA,
     },
     {
-    .iv = 20,
-    .lvl = 26,
-    .species = SPECIES_TENTACOOL,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MANTYKE,
     },
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_GYARADOS,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_REMORAID,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SHELLDER,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Elliot4[] = {
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_GYARADOS,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_CHETLE,
     },
     {
-    .iv = 30,
-    .lvl = 30,
-    .species = SPECIES_CARVANHA,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_ARROKUDA,
     },
     {
-    .iv = 30,
-    .lvl = 30,
-    .species = SPECIES_TENTACRUEL,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MANTYKE,
     },
     {
-    .iv = 31,
-    .lvl = 31,
-    .species = SPECIES_GYARADOS,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_REMORAID,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SHELLDER,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Elliot5[] = {
     {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_GYARADOS,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_CHETLE,
     },
     {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_SHARPEDO,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_ARROKUDA,
     },
     {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_GYARADOS,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_MANTYKE,
     },
     {
-    .iv = 40,
-    .lvl = 35,
-    .species = SPECIES_TENTACRUEL,
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_REMORAID,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SHELLDER,
     }
 };
 
