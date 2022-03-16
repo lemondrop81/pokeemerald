@@ -2055,7 +2055,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Douglas[] = {
     {
     .iv = 10,
     .lvl = 1,
-    .species = SPECIES_SKELP,
+    .species = SPECIES_SKRELP,
     },
     {
     .iv = 10,
