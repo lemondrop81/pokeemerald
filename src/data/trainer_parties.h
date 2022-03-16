@@ -3680,16 +3680,18 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
     {
     .iv = 250,
     .lvl = 1,
+    .ability = 1, // heat proof
     .species = SPECIES_BRONZONG,
     .heldItem = ITEM_MENTAL_HERB,
     .moves = {MOVE_STEALTH_ROCK, MOVE_GYRO_BALL, MOVE_TOXIC, MOVE_TRICK_ROOM}
     },
     {
     .iv = 250,
-    .lvl = 41,
-    .species = SPECIES_SLOWKING,
+    .lvl = 1,
+    .ability = 1, //REGENERATOR
+    .species = SPECIES_SLOPOKE,
     .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_CALM_MIND, MOVE_PSYSHOCK, MOVE_SCALD, MOVE_SLACK_OFF}
+    .moves = {MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_SCALD, MOVE_SLACK_OFF}
     },
     {
     .iv = 250,
@@ -12050,16 +12052,18 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza2[] = {
     {
     .iv = 250,
     .lvl = 1,
+    .ability = 1, // heat proof
     .species = SPECIES_BRONZONG,
     .heldItem = ITEM_MENTAL_HERB,
     .moves = {MOVE_STEALTH_ROCK, MOVE_GYRO_BALL, MOVE_TOXIC, MOVE_TRICK_ROOM}
     },
     {
     .iv = 250,
-    .lvl = 41,
-    .species = SPECIES_SLOWKING,
+    .lvl = 1,
+    .ability = 1, //REGENERATOR
+    .species = SPECIES_SLOPOKE,
     .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_CALM_MIND, MOVE_PSYSHOCK, MOVE_SCALD, MOVE_SLACK_OFF}
+    .moves = {MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_SCALD, MOVE_SLACK_OFF}
     },
     {
     .iv = 250,
@@ -12067,13 +12071,6 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza2[] = {
     .species = SPECIES_REUNICLUS,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_ENERGY_BALL, MOVE_RECOVER}
-    },
-    {
-    .iv = 250,
-    .lvl = 1,
-    .species = SPECIES_MEDICHAM,
-    .heldItem = ITEM_LIFE_ORB,
-    .moves = {MOVE_FAKE_OUT, MOVE_ICE_PUNCH, MOVE_ZEN_HEADBUTT, MOVE_HIGH_JUMP_KICK}
     },
     {
     .iv = 250,
