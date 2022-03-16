@@ -4280,74 +4280,80 @@ static const struct TrainerMonItemDefaultMoves sParty_Bethany[] = {
 static const struct TrainerMonItemDefaultMoves sParty_Isabel1[] = {
     {
     .iv = 0,
-    .lvl = 14,
-    .species = SPECIES_PLUSLE,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_ELEKID,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 0,
-    .lvl = 14,
-    .species = SPECIES_MINUN,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_MAGBY,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SMOOCHUM,
+    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
 static const struct TrainerMonItemDefaultMoves sParty_Isabel2[] = {
     {
     .iv = 10,
-    .lvl = 26,
-    .species = SPECIES_PLUSLE,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_BLITZLE,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 10,
-    .lvl = 26,
-    .species = SPECIES_MINUN,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_JOLTIK,
+    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
 static const struct TrainerMonItemDefaultMoves sParty_Isabel3[] = {
     {
     .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_PLUSLE,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_HOUNDOUR,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_MINUN,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_SUDOWOODO,
+    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
 static const struct TrainerMonItemDefaultMoves sParty_Isabel4[] = {
     {
     .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_PLUSLE,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_PONYTA,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_MINUN,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_VANILLISH,
+    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
 static const struct TrainerMonItemDefaultMoves sParty_Isabel5[] = {
     {
     .iv = 40,
-    .lvl = 35,
-    .species = SPECIES_PLUSLE,
+    .lvl = 1,
+    .species = SPECIES_ALTARIA,
     .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 40,
-    .lvl = 35,
-    .species = SPECIES_MINUN,
+    .lvl = 1,
+    .species = SPECIES_DUSKNOIR,
     .heldItem = ITEM_SITRUS_BERRY
     }
 };
