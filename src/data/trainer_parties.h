@@ -3689,7 +3689,7 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
     .iv = 250,
     .lvl = 1,
     .ability = 1, //REGENERATOR
-    .species = SPECIES_SLOPOKE,
+    .species = SPECIES_SLOWPOKE,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_SCALD, MOVE_SLACK_OFF}
     },
@@ -3713,13 +3713,23 @@ static const struct TrainerMonItemCustomMoves sParty_Juan1[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // Drizzle
     .species = SPECIES_POLITOED,
     .heldItem = ITEM_DAMP_ROCK,
-    .moves = {MOVE_SCALD, MOVE_ENCORE, MOVE_ICE_BEAM, MOVE_RAIN_DANCE}
+    .moves = {MOVE_SCALD, MOVE_ENCORE, MOVE_ICE_BEAM, MOVE_PSYCHIC}
     },
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 1, // Liquid ooze
+    .species = SPECIES_TENTACOOL,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_RAPID_SPIN, MOVE_TOXIC_SPIKES, MOVE_SCALD, MOVE_TOXIC}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Rain dish
     .species = SPECIES_LUDICOLO,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_LEECH_SEED, MOVE_SUBSTITUTE, MOVE_GIGA_DRAIN, MOVE_SCALD}
@@ -3727,13 +3737,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan1[] = {
     {
     .iv = 200,
     .lvl = 1,
-    .species = SPECIES_TENTACRUEL,
-    .heldItem = ITEM_BLACK_SLUDGE,
-    .moves = {MOVE_RAPID_SPIN, MOVE_TOXIC_SPIKES, MOVE_SCALD, MOVE_TOXIC}
-    },
-    {
-    .iv = 200,
-    .lvl = 43,
+    .ability = 2, // Moxie
     .species = SPECIES_GYARADOS,
     .heldItem = ITEM_WACAN_BERRY,
     .moves = {MOVE_DRAGON_DANCE, MOVE_WATERFALL, MOVE_BOUNCE, MOVE_SUBSTITUTE}
@@ -12061,7 +12065,7 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza2[] = {
     .iv = 250,
     .lvl = 1,
     .ability = 1, //REGENERATOR
-    .species = SPECIES_SLOPOKE,
+    .species = SPECIES_SLOWPOKE,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_SCALD, MOVE_SLACK_OFF}
     },
@@ -12220,13 +12224,23 @@ static const struct TrainerMonItemCustomMoves sParty_Juan2[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // Drizzle
     .species = SPECIES_POLITOED,
     .heldItem = ITEM_DAMP_ROCK,
-    .moves = {MOVE_SCALD, MOVE_ENCORE, MOVE_ICE_BEAM, MOVE_RAIN_DANCE}
+    .moves = {MOVE_SCALD, MOVE_ENCORE, MOVE_ICE_BEAM, MOVE_PSYCHIC}
     },
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 1, // Liquid ooze
+    .species = SPECIES_TENTACOOL,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_RAPID_SPIN, MOVE_TOXIC_SPIKES, MOVE_SCALD, MOVE_TOXIC}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Rain dish
     .species = SPECIES_LUDICOLO,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_LEECH_SEED, MOVE_SUBSTITUTE, MOVE_GIGA_DRAIN, MOVE_SCALD}
@@ -12234,24 +12248,19 @@ static const struct TrainerMonItemCustomMoves sParty_Juan2[] = {
     {
     .iv = 200,
     .lvl = 1,
-    .species = SPECIES_TENTACRUEL,
-    .heldItem = ITEM_BLACK_SLUDGE,
-    .moves = {MOVE_RAPID_SPIN, MOVE_TOXIC_SPIKES, MOVE_SCALD, MOVE_TOXIC}
-    },
-    {
-    .iv = 200,
-    .lvl = 1,
-    .species = SPECIES_STARMIE,
-    .heldItem = ITEM_LIFE_ORB,
-    .moves = {MOVE_SCALD, MOVE_THUNDERBOLT, MOVE_RECOVER, MOVE_PSYCHIC}
-    },
-    {
-    .iv = 200,
-    .lvl = 43,
+    .ability = 2, // Moxie
     .species = SPECIES_GYARADOS,
     .heldItem = ITEM_WACAN_BERRY,
     .moves = {MOVE_DRAGON_DANCE, MOVE_WATERFALL, MOVE_BOUNCE, MOVE_SUBSTITUTE}
     }
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Natural cure
+    .species = SPECIES_STARMIE,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_SCALD, MOVE_THUNDERBOLT, MOVE_RECOVER, MOVE_PSYCHIC}
+    },
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Juan3[] = {
