@@ -4939,9 +4939,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot1[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Ned[] = {
     {
     .iv = 10,
-    .lvl = 11,
+    .lvl = 1,
     .species = SPECIES_TENTACOOL,
-    }
+    },
+    {
+    .iv = 10,
+    .lvl = 1,
+    .species = SPECIES_SLOWPOKE,
+    },
+    {
+    .iv = 10,
+    .lvl = 1,
+    .species = SPECIES_BINACLE,
+    },
+    {
+    .iv = 10,
+    .lvl = 1,
+    .species = SPECIES_SHELLDER,
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dale[] = {
