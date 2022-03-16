@@ -10244,8 +10244,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marcos[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Rhett[] = {
     {
     .iv = 100,
-    .lvl = 15,
-    .species = SPECIES_MAKUHITA,
+    .lvl = 1,
+    .species = SPECIES_TYROGUE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_STUFFUL,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_SCRAGGY,
     }
 };
 
