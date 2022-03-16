@@ -10206,15 +10206,21 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Chandler[] = {
 static const struct TrainerMonItemDefaultMoves sParty_Kaleb[] = {
     {
     .iv = 0,
-    .lvl = 14,
-    .species = SPECIES_MINUN,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_DOTTLER,
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 0,
-    .lvl = 14,
-    .species = SPECIES_PLUSLE,
-    .heldItem = ITEM_ORAN_BERRY
+    .lvl = 1,
+    .species = SPECIES_FALINKS,
+    .heldItem = ITEM_SITRUS_BERRY
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_SKORUPI,
+    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
