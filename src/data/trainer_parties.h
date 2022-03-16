@@ -3538,32 +3538,36 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     {
-    .iv = 200,
+    .iv = 250,
     .lvl = 1,
-    .species = SPECIES_GOLEM_ALOLAN,
-    .heldItem = ITEM_FOCUS_SASH,
-    .moves = {MOVE_ROLLOUT, MOVE_STEALTH_ROCK, MOVE_STONE_EDGE, MOVE_EXPLOSION}
+    .ability = 2, // ANALYTIC
+    .species = SPECIES_MAGNEZONE,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_FLASH_CANNON, MOVE_ELECTRIC_TERRAIN, MOVE_THUNDERBOLT, MOVE_SUBSTITUTE}
     },
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // GALVANIZE
+    .species = SPECIES_GOLEM_ALOLAN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_EARTHQUAKE, MOVE_STEALTH_ROCK, MOVE_STONE_EDGE, MOVE_EXPLOSION}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 0, // LEVITATE
     .species = SPECIES_ROTOM_WASH,
     .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_HYDRO_PUMP, MOVE_VOLT_SWITCH, MOVE_WILL_O_WISP, MOVE_PAIN_SPLIT}
+    .moves = {MOVE_HYDRO_PUMP, MOVE_VOLT_SWITCH, MOVE_WILL_O_WISP, MOVE_THUNDERBOLT}
     },
     {
     .iv = 220,
     .lvl = 1,
+    .ability = 0, // Surge surfer
     .species = SPECIES_RAICHU_ALOLAN,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_SURF}
-    },
-    {
-    .iv = 250,
-    .lvl = 1,
-    .species = SPECIES_MAGNEZONE,
-    .heldItem = ITEM_AIR_BALLOON,
-    .moves = {MOVE_FLASH_CANNON, MOVE_VOLT_SWITCH, MOVE_THUNDERBOLT, MOVE_SUBSTITUTE}
     }
 };
 
@@ -11355,36 +11359,41 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly5[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Wattson2[] = {
     {
-    .iv = 200,
+    .iv = 250,
     .lvl = 1,
-    .species = MOVE_RETURN,
-    .heldItem = ITEM_FOCUS_SASH,
-    .moves = {MOVE_ROLLOUT, MOVE_STEALTH_ROCK, MOVE_STONE_EDGE, MOVE_EXPLOSION}
+    .ability = 2, // ANALYTIC
+    .species = SPECIES_MAGNEZONE,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_FLASH_CANNON, MOVE_ELECTRIC_TERRAIN, MOVE_THUNDERBOLT, MOVE_SUBSTITUTE}
     },
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // GALVANIZE
+    .species = SPECIES_GOLEM_ALOLAN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_EARTHQUAKE, MOVE_STEALTH_ROCK, MOVE_STONE_EDGE, MOVE_EXPLOSION}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 0, // LEVITATE
     .species = SPECIES_ROTOM_WASH,
     .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_HYDRO_PUMP, MOVE_VOLT_SWITCH, MOVE_WILL_O_WISP, MOVE_PAIN_SPLIT}
+    .moves = {MOVE_HYDRO_PUMP, MOVE_VOLT_SWITCH, MOVE_WILL_O_WISP, MOVE_THUNDERBOLT}
     },
     {
     .iv = 220,
     .lvl = 1,
+    .ability = 0, // Surge surfer
     .species = SPECIES_RAICHU_ALOLAN,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_SURF}
-    },
-    {
-    .iv = 250,
-    .lvl = 1,
-    .species = SPECIES_MAGNEZONE,
-    .heldItem = ITEM_AIR_BALLOON,
-    .moves = {MOVE_FLASH_CANNON, MOVE_VOLT_SWITCH, MOVE_THUNDERBOLT, MOVE_SUBSTITUTE}
-    },
+    }
     {
     .iv = 255,
     .lvl = 1,
+    .ability = 2, //Quick feet
     .species = SPECIES_JOLTEON,
     .heldItem = ITEM_AIR_BALLOON,
     .moves = {MOVE_SHADOW_BALL, MOVE_HYPER_BEAM, MOVE_THUNDERBOLT, MOVE_VOLT_SWITCH}
