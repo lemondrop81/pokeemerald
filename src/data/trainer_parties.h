@@ -6030,9 +6030,24 @@ static const struct TrainerMonItemCustomMoves sParty_Lao5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Jocelyn[] = {
     {
     .iv = 127,
-    .lvl = 13,
-    .species = SPECIES_MEDITITE,
-    }
+    .lvl = 1,
+    .species = SPECIES_SHROOMISH,
+    },
+    {
+    .iv = 127,
+    .lvl = 1,
+    .species = SPECIES_HERACROSS,
+    },
+    {
+    .iv = 127,
+    .lvl = 1,
+    .species = SPECIES_PASSIMIAM,
+    },
+    {
+    .iv = 127,
+    .lvl = 1,
+    .species = SPECIES_SIRFETCHD,
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Laura[] = {
