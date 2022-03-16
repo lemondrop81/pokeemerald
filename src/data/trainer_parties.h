@@ -3505,6 +3505,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 2, // Mold breaker
     .species = SPECIES_HAWLUCHA,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FLYING_PRESS, MOVE_DRAIN_PUNCH, MOVE_SKY_ATTACK, MOVE_SWORDS_DANCE}
@@ -3512,23 +3513,26 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_TOXICROAK,
+    .ability = 2, // Poison touch
+    .species = SPECIES_CROAGUNK,
     .heldItem = ITEM_BLACK_SLUDGE,
-    .moves = {MOVE_SUBSTITUTE, MOVE_BULK_UP, MOVE_DRAIN_PUNCH, MOVE_GUNK_SHOT}
+    .moves = {MOVE_SUBSTITUTE, MOVE_BULK_UP, MOVE_DRAIN_PUNCH, MOVE_POISON_JAB}
     },
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_CONKELDURR,
+    .ability = 2, // Iron fist
+    .species = SPECIES_TIMBURR,
     .heldItem = ITEM_ASSAULT_VEST,
-    .moves = {MOVE_POWER_UP_PUNCH, MOVE_SUPERPOWER, MOVE_ICE_PUNCH, MOVE_STONE_EDGE}
+    .moves = {MOVE_POWER_UP_PUNCH, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
     },
     {
     .iv = 200,
     .lvl = 1,
-    .species = SPECIES_KOMMO_O,
+    .ability = 2, // Overcoat
+    .species = SPECIES_JANGMO_O,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_THUNDER_PUNCH, MOVE_CLANGING_SCALES, MOVE_DRAIN_PUNCH, MOVE_BRICK_BREAK}
+    .moves = {MOVE_DRAGON_DANCE, MOVE_CLANGING_SCALES, MOVE_DRAIN_PUNCH, MOVE_OUTRAGE}
     }
 };
 
@@ -11194,47 +11198,45 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne5[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Brawly2[] = {
     {
-    .iv = 255,
+    .iv = 100,
     .lvl = 1,
+    .ability = 2, // Mold breaker
     .species = SPECIES_HAWLUCHA,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FLYING_PRESS, MOVE_DRAIN_PUNCH, MOVE_SKY_ATTACK, MOVE_SWORDS_DANCE}
     },
     {
-    .iv = 255,
+    .iv = 100,
     .lvl = 1,
-    .species = SPECIES_CONKELDURR,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_MACH_PUNCH, MOVE_FACADE, MOVE_DRAIN_PUNCH, MOVE_FIRE_PUNCH}
+    .ability = 2, // Poison touch
+    .species = SPECIES_CROAGUNK,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_SUBSTITUTE, MOVE_BULK_UP, MOVE_DRAIN_PUNCH, MOVE_POISON_JAB}
     },
     {
-    .iv = 255,
+    .iv = 100,
     .lvl = 1,
-    .species = SPECIES_KOMMO_O,
+    .ability = 2, // Iron fist
+    .species = SPECIES_TIMBURR,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_POWER_UP_PUNCH, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Overcoat
+    .species = SPECIES_JANGMO_O,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_THUNDER_PUNCH, MOVE_CLANGING_SCALES, MOVE_DRAIN_PUNCH, MOVE_BRICK_BREAK}
-    },
+    .moves = {MOVE_DRAGON_DANCE, MOVE_CLANGING_SCALES, MOVE_DRAIN_PUNCH, MOVE_OUTRAGE}
+    }
     {
     .iv = 255,
     .lvl = 1,
+    .ability = 2, // Justified
     .species = SPECIES_GALLADE,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_REFLECT, MOVE_CLOSE_COMBAT}
+    .moves = {MOVE_PSYCHO_CUT, MOVE_SWORDS_DANCE, MOVE_REFLECT, MOVE_CLOSE_COMBAT}
     },
-    {
-    .iv = 255,
-    .lvl = 1,
-    .species = SPECIES_HITMONTOP,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_PURSUIT, MOVE_COUNTER, MOVE_PROTECT, MOVE_TRIPLE_KICK}
-    },
-    {
-    .iv = 255,
-    .lvl = 1,
-    .species = SPECIES_HARIYAMA,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
-    }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Brawly3[] = {
