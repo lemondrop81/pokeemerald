@@ -4922,7 +4922,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot1[] = {
     {
     .iv = 0,
     .lvl = 1,
-    .species = SPECIES_CHETLE,
+    .species = SPECIES_CHEWTLE,
     },
     {
     .iv = 0,
@@ -5028,7 +5028,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot2[] = {
     {
     .iv = 0,
     .lvl = 1,
-    .species = SPECIES_CHETLE,
+    .species = SPECIES_CHEWTLE,
     },
     {
     .iv = 0,
@@ -5046,7 +5046,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot3[] = {
     {
     .iv = 0,
     .lvl = 1,
-    .species = SPECIES_CHETLE,
+    .species = SPECIES_CHEWTLE,
     },
     {
     .iv = 0,
@@ -5074,7 +5074,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot4[] = {
     {
     .iv = 0,
     .lvl = 1,
-    .species = SPECIES_CHETLE,
+    .species = SPECIES_CHEWTLE,
     },
     {
     .iv = 0,
@@ -5102,7 +5102,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot5[] = {
     {
     .iv = 0,
     .lvl = 1,
-    .species = SPECIES_CHETLE,
+    .species = SPECIES_CHEWTLE,
     },
     {
     .iv = 0,
@@ -8459,9 +8459,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lilith[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Cristian[] = {
     {
     .iv = 200,
-    .lvl = 13,
-    .species = SPECIES_MAKUHITA,
-    }
+    .lvl = 1,
+    .species = SPECIES_COMBUSKEN,
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_MONFERNO,
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_PIGNITE,
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_JANGMO_O,
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Sylvia[] = {
