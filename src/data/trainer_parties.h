@@ -3573,22 +3573,25 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
     {
-    .iv = 250,
-    .lvl = 1,
-    .species = SPECIES_MAROWAK_ALOLAN,
-    .heldItem = ITEM_THICK_CLUB,
-    .moves = {MOVE_FLAMETHROWER, MOVE_STEALTH_ROCK, MOVE_SUNNY_DAY, MOVE_ICE_BEAM}
-    },
-    {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // Drought
     .species = SPECIES_NINETALES,
     .heldItem = ITEM_CHOICE_BAND,
-    .moves = {MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_ENERGY_BALL, MOVE_SUNNY_DAY}
+    .moves = {MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_SOLAR_BEAM, MOVE_SUBSTITUTE}
+    },
+    {
+    .iv = 250,
+    .lvl = 1,
+    .ability = 0, // Cursed body
+    .species = SPECIES_MAROWAK_ALOLAN,
+    .heldItem = ITEM_THICK_CLUB,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_SWORDS_DANCE, MOVE_BONE_RUSH, MOVE_GIGA_IMPACT}
     },
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 0, // Flame body
     .species = SPECIES_MAGMORTAR,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_LAVA_PLUME, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_THUNDERBOLT}
@@ -3596,7 +3599,8 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
     {
     .iv = 250,
     .lvl = 1,
-    .species = SPECIES_SALAZZLE,
+    .ability = 0, // Corrosion
+    .species = SPECIES_SALANDIT,
     .heldItem = ITEM_CHOICE_SCARF,
     .moves = {MOVE_FLAMETHROWER, MOVE_DRAGON_PULSE, MOVE_NASTY_PLOT, MOVE_SLUDGE_WAVE}
     },
@@ -11523,22 +11527,25 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson5[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Flannery2[] = {
     {
-    .iv = 250,
-    .lvl = 1,
-    .species = SPECIES_MAROWAK_ALOLAN,
-    .heldItem = ITEM_THICK_CLUB,
-    .moves = {MOVE_FLAMETHROWER, MOVE_STEALTH_ROCK, MOVE_SUNNY_DAY, MOVE_ICE_BEAM}
-    },
-    {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // Drought
     .species = SPECIES_NINETALES,
     .heldItem = ITEM_CHOICE_BAND,
-    .moves = {MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_ENERGY_BALL, MOVE_SUNNY_DAY}
+    .moves = {MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_SOLAR_BEAM, MOVE_SUBSTITUTE}
+    },
+    {
+    .iv = 250,
+    .lvl = 1,
+    .ability = 0, // Cursed body
+    .species = SPECIES_MAROWAK_ALOLAN,
+    .heldItem = ITEM_THICK_CLUB,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_SWORDS_DANCE, MOVE_BONE_RUSH, MOVE_GIGA_IMPACT}
     },
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 0, // Flame body
     .species = SPECIES_MAGMORTAR,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_LAVA_PLUME, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_THUNDERBOLT}
@@ -11546,13 +11553,15 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery2[] = {
     {
     .iv = 250,
     .lvl = 1,
-    .species = SPECIES_SALAZZLE,
+    .ability = 0, // Corrosion
+    .species = SPECIES_SALANDIT,
     .heldItem = ITEM_CHOICE_SCARF,
     .moves = {MOVE_FLAMETHROWER, MOVE_DRAGON_PULSE, MOVE_NASTY_PLOT, MOVE_SLUDGE_WAVE}
     },
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // INTIMIDATE
     .species = SPECIES_INCINEROAR,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_SWORDS_DANCE, MOVE_EARTHQUAKE, MOVE_FLAMETHROWER, MOVE_DARKEST_LARIAT}
