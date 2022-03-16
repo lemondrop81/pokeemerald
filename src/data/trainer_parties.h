@@ -8423,8 +8423,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marc[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Brenden[] = {
     {
     .iv = 100,
-    .lvl = 13,
+    .lvl = 1,
     .species = SPECIES_MACHOP,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_TIMBURR,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_STUFFUL,
     }
 };
 
