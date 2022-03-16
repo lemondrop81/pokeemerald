@@ -6315,13 +6315,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kyla[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Denise[] = {
     {
     .iv = 0,
-    .lvl = 25,
-    .species = SPECIES_WINGULL,
+    .lvl = 1,
+    .species = SPECIES_STARYU,
     },
     {
     .iv = 0,
-    .lvl = 25,
-    .species = SPECIES_GOLDEEN,
+    .lvl = 1,
+    .species = SPECIES_SQUIRTLE,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_PALPITOAD,
+    },
+    {
+    .iv = 0,
+    .lvl = 1,
+    .species = SPECIES_BIDOOF,
     }
 };
 
