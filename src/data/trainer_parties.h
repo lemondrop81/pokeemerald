@@ -9675,65 +9675,115 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LeaAndJed[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan1[] = {
     {
     .iv =100,
-    .lvl = 25,
-    .species = SPECIES_VOLBEAT,
+    .lvl = 1,
+    .species = SPECIES_FENNEKIN,
     },
     {
     .iv =100,
-    .lvl = 25,
-    .species = SPECIES_ILLUMISE,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan2[] = {
     {
-    .iv = 10,
-    .lvl = 30,
-    .species = SPECIES_VOLBEAT,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_FENNEKIN,
     },
     {
-    .iv = 10,
-    .lvl = 30,
-    .species = SPECIES_ILLUMISE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TOXEL,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan3[] = {
     {
-    .iv = 20,
-    .lvl = 33,
-    .species = SPECIES_VOLBEAT,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_FENNEKIN,
     },
     {
-    .iv = 20,
-    .lvl = 33,
-    .species = SPECIES_ILLUMISE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TOXEL,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_BULBASAUR,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan4[] = {
     {
-    .iv = 30,
-    .lvl = 36,
-    .species = SPECIES_VOLBEAT,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_FENNEKIN,
     },
     {
-    .iv = 30,
-    .lvl = 36,
-    .species = SPECIES_ILLUMISE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TOXEL,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_BULBASAUR,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GRIMER,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_KiraAndDan5[] = {
     {
-    .iv = 40,
-    .lvl = 39,
-    .species = SPECIES_VOLBEAT,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_FENNEKIN,
     },
     {
-    .iv = 40,
-    .lvl = 39,
-    .species = SPECIES_ILLUMISE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TOXEL,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_BULBASAUR,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GRIMER,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PINECO,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
     }
 };
 
