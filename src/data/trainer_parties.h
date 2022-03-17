@@ -13176,7 +13176,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cory4[] = {
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_GHASTLY,
+    .species = SPECIES_GASTLY,
     },
     {
     .iv =100,
@@ -13204,7 +13204,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cory5[] = {
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_GHASTLY,
+    .species = SPECIES_GASTLY,
     },
     {
     .iv =100,
