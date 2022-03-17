@@ -6430,14 +6430,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Beth[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Tara[] = {
     {
-    .iv =100,
-    .lvl = 25,
-    .species = SPECIES_HORSEA,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SEAKING,
     },
     {
-    .iv =100,
-    .lvl = 25,
-    .species = SPECIES_MARILL,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_DEWGONG,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_PRIMARINA,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_MILOTIC,
     }
 };
 
