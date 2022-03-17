@@ -7124,14 +7124,19 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Leonard[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Duncan[] = {
     {
-    .iv = 0,
-    .lvl = 25,
-    .species = SPECIES_SPHEAL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_INKAY,
     },
     {
-    .iv = 0,
-    .lvl = 25,
-    .species = SPECIES_MACHOKE,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_UMBREON,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MACHAMP,
     }
 };
 
