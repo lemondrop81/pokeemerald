@@ -5957,7 +5957,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jani[] = {
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_PIPLIP,
+    .species = SPECIES_PIPLUP,
     },
     {
     .iv = 100,
