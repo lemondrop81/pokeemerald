@@ -5418,14 +5418,29 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Camden[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Demetrius[] = {
     {
-    .iv = 0,
-    .lvl = 25,
-    .species = SPECIES_ZIGZAGOON,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH,
     },
     {
-    .iv = 0,
-    .lvl = 25,
-    .species = SPECIES_ELECTRIKE,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_SKWOVET,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_WOOLOO,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_TOGEKISS,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_LICKITUNG,
     }
 };
 
