@@ -13689,7 +13689,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia5[] = {
     .iv = 170,
     .lvl = 1,
     .species = SPECIES_LEAFEON,
-    }
+    },
     {
     .iv = 190,
     .lvl = 1,
