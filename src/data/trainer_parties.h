@@ -2122,12 +2122,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Matthew[] = {
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_FEEBAS,
+    .species = SPECIES_MILOTIC,
     },
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_KUBFU,
+    .species = SPECIES_URSHIFU,
     },
     {
     .iv = 100,
