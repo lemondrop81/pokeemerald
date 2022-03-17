@@ -10397,16 +10397,28 @@ static const struct TrainerMonNoItemCustomMoves sParty_TyraAndIvy[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_MelAndPaul[] = {
     {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_DUSTOX,
-    .moves = {MOVE_GUST, MOVE_PSYBEAM, MOVE_TOXIC, MOVE_PROTECT}
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_BEEDRILL,
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_POISON_JAB, MOVE_BRICK_BREAK, MOVE_AERIAL_ACE}
     },
     {
-    .iv =100,
-    .lvl = 27,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_DUSTOX,
+    .moves = {MOVE_BUG_BUZZ, MOVE_QUIVER_DANCE, MOVE_TOXIC, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
     .species = SPECIES_BEAUTIFLY,
-    .moves = {MOVE_GUST, MOVE_MEGA_DRAIN, MOVE_ATTRACT, MOVE_STUN_SPORE}
+    .moves = {MOVE_AERIAL_ACE, MOVE_GIGA_DRAIN, MOVE_VENOSHOCK, MOVE_WHIRLWIND}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_BUTTERFREE,
+    .moves = {MOVE_AIR_SLASH, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_PSYCHIC}
     }
 };
 
