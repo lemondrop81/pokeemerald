@@ -5084,13 +5084,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wade[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Carter[] = {
     {
     .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_WAILMER,
+    .lvl = 1,
+    .species = SPECIES_CORSOLA,
     },
     {
     .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_TENTACRUEL,
+    .lvl = 1,
+    .species = SPECIES_WHISCASH,
     }
 };
 
