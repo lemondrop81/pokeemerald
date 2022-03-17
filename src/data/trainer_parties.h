@@ -2120,10 +2120,20 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jerome[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Matthew[] = {
     {
-    .iv = 0,
-    .lvl = 26,
-    .species = SPECIES_CARVANHA,
-    }
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_FEEBAS,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_KUBFU,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_David[] = {
