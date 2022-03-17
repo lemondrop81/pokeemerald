@@ -11169,12 +11169,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Carolina[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Elijah[] = {
     {
     .iv =100,
-    .lvl = 25,
-    .species = SPECIES_SKARMORY,
+    .lvl = 1,
+    .species = SPECIES_DRIFLOON,
     },
     {
     .iv =100,
-    .lvl = 25,
+    .lvl = 1,
+    .species = SPECIES_ORICORIO_PAU,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
     .species = SPECIES_SKARMORY,
     }
 };
