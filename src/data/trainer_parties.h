@@ -2568,73 +2568,125 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Koichi[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Nob1[] = {
     {
     .iv = 100,
-    .lvl = 19,
+    .lvl = 1,
     .species = SPECIES_MACHOP,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_CRABRAWLER,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MIENFOO,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Nob2[] = {
     {
-    .iv = 110,
-    .lvl = 27,
-    .species = SPECIES_MACHOKE,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MACHOP,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_CRABOMINABLE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MIENFOO,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Nob3[] = {
     {
-    .iv = 120,
-    .lvl = 29,
-    .species = SPECIES_MACHOP,
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_MACHAMP,
     },
     {
-    .iv = 120,
-    .lvl = 29,
-    .species = SPECIES_MACHOKE,
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_CRABOMINABLE,
+    },
+    {
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_CONKELDURR,
+    },
+    {
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_MIENFOO,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Nob4[] = {
     {
     .iv = 130,
-    .lvl = 31,
-    .species = SPECIES_MACHOP,
+    .lvl = 1,
+    .species = SPECIES_MACHAMP,
     },
     {
     .iv = 130,
-    .lvl = 31,
-    .species = SPECIES_MACHOKE,
+    .lvl = 1,
+    .species = SPECIES_KROOKODILE,
     },
     {
     .iv = 130,
-    .lvl = 31,
-    .species = SPECIES_MACHOKE,
+    .lvl = 1,
+    .species = SPECIES_TORCHIC,
+    },
+    {
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_CONKELDURR,
+    },
+    {
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_MIENFOO,
     }
 };
 
 static const struct TrainerMonItemDefaultMoves sParty_Nob5[] = {
     {
-    .iv = 140,
-    .lvl = 33,
-    .species = SPECIES_MACHOP,
-    .heldItem = ITEM_NONE
-    },
-    {
-    .iv = 140,
-    .lvl = 33,
-    .species = SPECIES_MACHOKE,
-    .heldItem = ITEM_NONE
-    },
-    {
-    .iv = 140,
-    .lvl = 33,
-    .species = SPECIES_MACHOKE,
-    .heldItem = ITEM_NONE
-    },
-    {
-    .iv = 140,
-    .lvl = 33,
+    .iv = 130,
+    .lvl = 1,
     .species = SPECIES_MACHAMP,
+    .heldItem = ITEM_ROCKY_HELMET
+    },
+    {
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_KROOKODILE,
+    .heldItem = ITEM_BLACK_BELT
+    },
+    {
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_TORCHIC,
+    .heldItem = ITEM_BLACK_BELT
+    },
+    {
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_CONKELDURR,
+    .heldItem = ITEM_BLACK_BELT
+    },
+    {
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_MIENFOO,
+    .heldItem = ITEM_BLACK_BELT
+    },
+    {
+    .iv = 130,
+    .lvl = 1,
+    .species = SPECIES_JANGMO_O,
     .heldItem = ITEM_BLACK_BELT
     }
 };
