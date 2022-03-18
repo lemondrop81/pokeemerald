@@ -819,9 +819,9 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lola5[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Ricky1[] = {
     {
     .iv = 10,
-    .lvl = 13,
-    .species = SPECIES_ZIGZAGOON,
-    .moves = {MOVE_SAND_ATTACK, MOVE_HEADBUTT, MOVE_TAIL_WHIP, MOVE_SURF}
+    .lvl = 1,
+    .species = SPECIES_ZIGZAGOON_GALARIAN,
+    .moves = {MOVE_HEADBUTT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_SUCKER_PUNCH}
     }
 };
 
@@ -863,37 +863,91 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Charlie[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_Ricky2[] = {
     {
-    .iv = 10,
-    .lvl = 27,
-    .species = SPECIES_LINOONE,
-    .moves = {MOVE_SAND_ATTACK, MOVE_PIN_MISSILE, MOVE_TAIL_WHIP, MOVE_SURF}
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_ZIGZAGOON_GALARIAN,
+    .moves = {MOVE_HEADBUTT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_SUCKER_PUNCH}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Ricky3[] = {
     {
-    .iv = 20,
-    .lvl = 30,
-    .species = SPECIES_LINOONE,
-    .moves = {MOVE_SAND_ATTACK, MOVE_PIN_MISSILE, MOVE_TAIL_WHIP, MOVE_SURF}
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_ZIGZAGOON_GALARIAN,
+    .moves = {MOVE_HEADBUTT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_SUCKER_PUNCH}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_IMPIDIMP,
+    .moves = {MOVE_FOUL_PLAY, MOVE_SWAGGER, MOVE_NASTY_PLOT, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_COSMOG,
+    .moves = {MOVE_CONFUSION, MOVE_TELEPORT, MOVE_SPLASH, MOVE_CONFUSION}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MR_MIME_GALARIAN,
+    .moves = {MOVE_MISTY_TERRAIN, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_AVALANCHE}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Ricky4[] = {
     {
-    .iv = 30,
-    .lvl = 33,
-    .species = SPECIES_LINOONE,
-    .moves = {MOVE_SAND_ATTACK, MOVE_PIN_MISSILE, MOVE_TAIL_WHIP, MOVE_SURF}
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_ZIGZAGOON_GALARIAN,
+    .moves = {MOVE_HEADBUTT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_SUCKER_PUNCH}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_IMPIDIMP,
+    .moves = {MOVE_FOUL_PLAY, MOVE_SWAGGER, MOVE_NASTY_PLOT, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_COSMOG,
+    .moves = {MOVE_CONFUSION, MOVE_TELEPORT, MOVE_SPLASH, MOVE_CONFUSION}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MR_MIME_GALARIAN,
+    .moves = {MOVE_MISTY_TERRAIN, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_AVALANCHE}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Ricky5[] = {
     {
-    .iv = 40,
-    .lvl = 36,
-    .species = SPECIES_LINOONE,
-    .moves = {MOVE_SAND_ATTACK, MOVE_PIN_MISSILE, MOVE_TAIL_WHIP, MOVE_SURF}
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_ZIGZAGOON_GALARIAN,
+    .moves = {MOVE_HEADBUTT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_SUCKER_PUNCH}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_IMPIDIMP,
+    .moves = {MOVE_FOUL_PLAY, MOVE_SWAGGER, MOVE_NASTY_PLOT, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_COSMOG,
+    .moves = {MOVE_CONFUSION, MOVE_TELEPORT, MOVE_SPLASH, MOVE_CONFUSION}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MR_MIME_GALARIAN,
+    .moves = {MOVE_MISTY_TERRAIN, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_AVALANCHE}
     }
 };
 
