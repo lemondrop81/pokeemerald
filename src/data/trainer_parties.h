@@ -10600,7 +10600,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay1[] = {
     .lvl = 1,
     .ability = 2, // ROugh skin
     .species = SPECIES_GIBLE,
-    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE
+    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE}
     },
     {
     .iv = 200,
@@ -10631,7 +10631,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay2[] = {
     .lvl = 1,
     .ability = 2, // ROugh skin
     .species = SPECIES_GIBLE,
-    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE
+    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE}
     },
     {
     .iv = 200,
@@ -10662,7 +10662,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay3[] = {
     .lvl = 1,
     .ability = 2, // ROugh skin
     .species = SPECIES_GIBLE,
-    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE
+    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE}
     },
     {
     .iv = 200,
@@ -10700,7 +10700,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay4[] = {
     .lvl = 1,
     .ability = 2, // ROugh skin
     .species = SPECIES_GIBLE,
-    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE
+    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE}
     },
     {
     .iv = 200,
@@ -10738,7 +10738,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay5[] = {
     .lvl = 1,
     .ability = 2, // ROugh skin
     .species = SPECIES_GIBLE,
-    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE
+    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE}
     },
     {
     .iv = 200,
