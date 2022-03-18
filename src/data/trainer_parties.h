@@ -10540,75 +10540,169 @@ static const struct TrainerMonNoItemCustomMoves sParty_MelAndPaul[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay1[] = {
     {
     .iv = 200,
-    .lvl = 39,
+    .lvl = 1,
+    .ability = 0, // Pure power
     .species = SPECIES_MEDICHAM,
     .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
     },
     {
     .iv = 200,
-    .lvl = 39,
+    .lvl = 1,
+    .ability = 2, // Sheer force
     .species = SPECIES_HARIYAMA,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROCK_TOMB, MOVE_REST, MOVE_BELLY_DRUM}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // ROugh skin
+    .species = SPECIES_GIBLE,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Justified
+    .species = SPECIES_LUCARIO,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_POWER_UP_PUNCH, MOVE_CLOSE_COMBAT, MOVE_DRAIN_PUNCH}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay2[] = {
     {
-    .iv = 210,
-    .lvl = 43,
+    .iv = 200,
+    .lvl = 1,
+    .ability = 0, // Pure power
     .species = SPECIES_MEDICHAM,
     .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
     },
     {
-    .iv = 210,
-    .lvl = 43,
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Sheer force
     .species = SPECIES_HARIYAMA,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROCK_TOMB, MOVE_REST, MOVE_BELLY_DRUM}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // ROugh skin
+    .species = SPECIES_GIBLE,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Justified
+    .species = SPECIES_LUCARIO,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_POWER_UP_PUNCH, MOVE_CLOSE_COMBAT, MOVE_DRAIN_PUNCH}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay3[] = {
     {
-    .iv = 220,
-    .lvl = 46,
-    .species = SPECIES_MEDICHAM,
-    .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Sand stream
+    .species = SPECIES_GIGALITH,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_IRON_DEFENSE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE}
     },
     {
-    .iv = 220,
-    .lvl = 46,
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Sheer force
     .species = SPECIES_HARIYAMA,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROCK_TOMB, MOVE_REST, MOVE_BELLY_DRUM}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // ROugh skin
+    .species = SPECIES_GIBLE,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Justified
+    .species = SPECIES_LUCARIO,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_POWER_UP_PUNCH, MOVE_CLOSE_COMBAT, MOVE_DRAIN_PUNCH}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay4[] = {
     {
-    .iv = 230,
-    .lvl = 49,
-    .species = SPECIES_MEDICHAM,
-    .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Sand stream
+    .species = SPECIES_GIGALITH,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_IRON_DEFENSE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE}
     },
     {
-    .iv = 230,
-    .lvl = 49,
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Sheer force
     .species = SPECIES_HARIYAMA,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROCK_TOMB, MOVE_REST, MOVE_BELLY_DRUM}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 0, // Levitate
+    .species = SPECIES_VIKAVOLT,
+    .moves = {MOVE_THUNDERBOLT, MOVE_GUILLOTINE, MOVE_BUG_BUZZ, MOVE_POISON_JAB}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // ROugh skin
+    .species = SPECIES_GIBLE,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Justified
+    .species = SPECIES_LUCARIO,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_POWER_UP_PUNCH, MOVE_CLOSE_COMBAT, MOVE_DRAIN_PUNCH}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay5[] = {
     {
-    .iv = 240,
-    .lvl = 52,
-    .species = SPECIES_MEDICHAM,
-    .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Sand stream
+    .species = SPECIES_GIGALITH,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_IRON_DEFENSE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE}
     },
     {
-    .iv = 240,
-    .lvl = 52,
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Sheer force
     .species = SPECIES_HARIYAMA,
     .moves = {MOVE_FOCUS_PUNCH, MOVE_ROCK_TOMB, MOVE_REST, MOVE_BELLY_DRUM}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 0, // Levitate
+    .species = SPECIES_VIKAVOLT,
+    .moves = {MOVE_THUNDERBOLT, MOVE_GUILLOTINE, MOVE_BUG_BUZZ, MOVE_POISON_JAB}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // ROugh skin
+    .species = SPECIES_GIBLE,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_SLASH, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Justified
+    .species = SPECIES_LUCARIO,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_POWER_UP_PUNCH, MOVE_CLOSE_COMBAT, MOVE_DRAIN_PUNCH}
     }
 };
 
