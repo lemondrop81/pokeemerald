@@ -7111,14 +7111,14 @@ static const struct TrainerMonNoItemCustomMoves sParty_AmyAndLiv6[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Huey[] = {
     {
-    .iv = 10,
-    .lvl = 12,
-    .species = SPECIES_WINGULL,
+    .iv = 80,
+    .lvl = 1,
+    .species = SPECIES_ROGGENROLA,
     },
     {
-    .iv = 10,
-    .lvl = 12,
-    .species = SPECIES_MACHOP,
+    .iv = 80,
+    .lvl = 1,
+    .species = SPECIES_TIMBURR,
     }
 };
 
