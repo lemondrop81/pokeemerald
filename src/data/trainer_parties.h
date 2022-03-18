@@ -727,14 +727,19 @@ static const struct TrainerMonNoItemCustomMoves sParty_GabbyAndTy6[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Lola1[] = {
     {
-    .iv = 10,
-    .lvl = 12,
-    .species = SPECIES_AZURILL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MAREEP,
     },
     {
-    .iv = 10,
-    .lvl = 12,
-    .species = SPECIES_AZURILL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_PILOSWINE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_HOPPIP,
     }
 };
 
@@ -766,53 +771,73 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gwen[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Lola2[] = {
     {
-    .iv = 10,
-    .lvl = 26,
-    .species = SPECIES_MARILL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MAREEP,
     },
     {
-    .iv = 10,
-    .lvl = 26,
-    .species = SPECIES_MARILL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_PILOSWINE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_HOPPIP,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Lola3[] = {
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_MARILL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MAREEP,
     },
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_MARILL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_PILOSWINE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_HOPPIP,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Lola4[] = {
     {
-    .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_MARILL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MAREEP,
     },
     {
-    .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_MARILL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_PILOSWINE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_HOPPIP,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Lola5[] = {
     {
-    .iv = 40,
-    .lvl = 35,
-    .species = SPECIES_AZUMARILL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_MAREEP,
     },
     {
-    .iv = 40,
-    .lvl = 35,
-    .species = SPECIES_AZUMARILL,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_PILOSWINE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_HOPPIP,
     }
 };
 
