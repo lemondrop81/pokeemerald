@@ -5740,78 +5740,121 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas1[] = {
     {
     .iv = 100,
-    .lvl = 37,
-    .species = SPECIES_ALTARIA,
+    .lvl = 1,
+    .species = SPECIES_JANGMO_O,
     },
     {
     .iv = 100,
-    .lvl = 37,
-    .species = SPECIES_ALTARIA,
+    .lvl = 1,
+    .species = SPECIES_SWABLU,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas2[] = {
     {
-    .iv = 110,
-    .lvl = 41,
-    .species = SPECIES_ALTARIA,
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_JANGMO_O,
     },
     {
-    .iv = 110,
-    .lvl = 41,
-    .species = SPECIES_ALTARIA,
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_BAGON,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_SWABLU,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas3[] = {
     {
     .iv = 120,
-    .lvl = 44,
-    .species = SPECIES_ALTARIA,
+    .lvl = 1,
+    .species = SPECIES_JANGMO_O,
     },
     {
     .iv = 120,
-    .lvl = 44,
-    .species = SPECIES_ALTARIA,
+    .lvl = 1,
+    .species = SPECIES_BAGON,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_DRATINI,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_SWABLU,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas4[] = {
     {
-    .iv = 130,
-    .lvl = 46,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_SWABLU,
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_JANGMO_O,
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
     .species = SPECIES_BAGON,
     },
     {
-    .iv = 130,
-    .lvl = 46,
-    .species = SPECIES_ALTARIA,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_DREEPY,
     },
     {
-    .iv = 130,
-    .lvl = 46,
-    .species = SPECIES_ALTARIA,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_DRATINI,
     }
 };
 
 static const struct TrainerMonItemDefaultMoves sParty_Nicolas5[] = {
     {
-    .iv = 140,
-    .lvl = 49,
-    .species = SPECIES_ALTARIA,
-    .heldItem = ITEM_NONE
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_SWABLU,
+    .heldItem = ITEM_LIFE_ORB,
     },
     {
-    .iv = 140,
-    .lvl = 49,
-    .species = SPECIES_ALTARIA,
-    .heldItem = ITEM_NONE
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_JANGMO_O,
+    .heldItem = ITEM_ASSAULT_VEST,
     },
     {
-    .iv = 140,
-    .lvl = 49,
-    .species = SPECIES_SHELGON,
-    .heldItem = ITEM_DRAGON_FANG
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_BAGON,
+    .heldItem = ITEM_LIFE_ORB,
+    },
+    {
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_DREEPY,
+    .heldItem = ITEM_LEFTOVERS,
+    },
+    {
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_DRATINI,
+    .heldItem = ITEM_DRAGON_FANG,
+    },
+    {
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_COSMOG,
+    .heldItem = ITEM_LIFE_ORB,
     }
 };
 
