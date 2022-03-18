@@ -4769,7 +4769,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Billy[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Josh[] = {
     {
     .iv = 100,
-    .lvl = 10,
+    .lvl = 1,
+    .species = SPECIES_LILEEP,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_ANCIENT_POWER, MOVE_CONFUSE_RAY}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
     .species = SPECIES_STEELIX,
     .moves = {MOVE_CRUNCH, MOVE_FIRE_FANG, MOVE_IRON_TAIL, MOVE_STONE_EDGE}
     }
