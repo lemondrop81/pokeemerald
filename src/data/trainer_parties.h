@@ -6324,13 +6324,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Laura[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy1[] = {
     {
     .iv = 100,
-    .lvl = 18,
-    .species = SPECIES_MEDITITE,
+    .lvl = 1,
+    .species = SPECIES_PAWNIARD,
     },
     {
     .iv = 100,
-    .lvl = 18,
-    .species = SPECIES_MAKUHITA,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_HONEDGE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_LITTEN,
     }
 };
 
@@ -6352,53 +6362,103 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Paula[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy2[] = {
     {
-    .iv = 110,
-    .lvl = 26,
-    .species = SPECIES_MEDITITE,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_PAWNIARD,
     },
     {
-    .iv = 110,
-    .lvl = 26,
-    .species = SPECIES_MAKUHITA,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_HONEDGE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_LITTEN,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy3[] = {
     {
-    .iv = 120,
-    .lvl = 29,
-    .species = SPECIES_MEDITITE,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_PAWNIARD,
     },
     {
-    .iv = 120,
-    .lvl = 29,
-    .species = SPECIES_MAKUHITA,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_HONEDGE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_LITTEN,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy4[] = {
     {
-    .iv = 130,
-    .lvl = 32,
-    .species = SPECIES_MEDICHAM,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_PAWNIARD,
     },
     {
-    .iv = 130,
-    .lvl = 32,
-    .species = SPECIES_HARIYAMA,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_HONEDGE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_LITTEN,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy5[] = {
     {
-    .iv = 140,
-    .lvl = 35,
-    .species = SPECIES_MEDICHAM,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_PAWNIARD,
     },
     {
-    .iv = 140,
-    .lvl = 35,
-    .species = SPECIES_HARIYAMA,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_PAWNIARD,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_KOMMO_O,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_AEGISLASH,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_LITTEN,
     }
 };
 
