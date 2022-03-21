@@ -11305,14 +11305,19 @@ static const struct TrainerMonItemDefaultMoves sParty_Kaleb[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Joseph[] = {
     {
-    .iv =100,
-    .lvl = 14,
-    .species = SPECIES_ELECTRIKE,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_DRACOZOLT,
     },
     {
-    .iv =100,
-    .lvl = 14,
-    .species = SPECIES_VOLTORB,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ROTOM_WASH,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_MAGNEZONE,
     }
 };
 
