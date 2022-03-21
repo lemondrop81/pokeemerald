@@ -8840,7 +8840,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia1[] = {
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_MILKTANK,
+    .species = SPECIES_MILTANK,
     }
 };
 
@@ -8904,7 +8904,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia2[] = {
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_MILKTANK,
+    .species = SPECIES_MILTANK,
     }
 };
 
@@ -8937,7 +8937,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia3[] = {
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_MILKTANK,
+    .species = SPECIES_MILTANK,
     }
 };
 
@@ -8970,7 +8970,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia4[] = {
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_MILKTANK,
+    .species = SPECIES_MILTANK,
     }
 };
 
@@ -9003,7 +9003,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lydia5[] = {
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_MILKTANK,
+    .species = SPECIES_MILTANK,
     }
 };
 
