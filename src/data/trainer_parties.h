@@ -12222,8 +12222,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Melina[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Brandi[] = {
     {
     .iv =100,
-    .lvl = 17,
-    .species = SPECIES_RALTS,
+    .lvl = 1,
+    .species = SPECIES_DARMANITAN_GALARIAN,
     }
 };
 
