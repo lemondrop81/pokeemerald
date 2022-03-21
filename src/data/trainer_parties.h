@@ -11019,15 +11019,22 @@ static const struct TrainerMonItemDefaultMoves sParty_Sarah[] = {
     {
     .iv =100,
     .lvl = 8,
-    .species = SPECIES_LOTAD,
-    .heldItem = ITEM_NONE
+    .species = SPECIES_ROSELIA,
+    .heldItem = ITEM_SHINY_STONE
     },
     {
     .iv =100,
     .lvl = 8,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_LEAFEON,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv =100,
+    .lvl = 8,
+    .species = SPECIES_CHIKORITA,
     .heldItem = ITEM_NUGGET
     }
+
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Darian[] = {
