@@ -181,8 +181,28 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Declan[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntRusturfTunnel[] = {
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_POOCHYENA,
+    .lvl = 1,
+    .species = SPECIES_GRIMER_ALOLAN,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_STUNKY,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_IMPIDIMP,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SKORUPI,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VENIPEDE,
     }
 };
 
