@@ -12230,8 +12230,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brandi[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Aisha[] = {
     {
     .iv =100,
-    .lvl = 17,
-    .species = SPECIES_MEDITITE,
+    .lvl = 1,
+    .species = SPECIES_URSHIFU_RAPID_STRIKE_STYLE,
     }
 };
 
