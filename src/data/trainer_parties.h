@@ -5315,7 +5315,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dale[] = {
     {
     .iv =200,
     .lvl = 1,
-    .species = SPECIES_ARROLUDA,
+    .species = SPECIES_ARROKUDA,
     },
     {
     .iv =200,
