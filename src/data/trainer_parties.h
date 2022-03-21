@@ -3268,7 +3268,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Derek[] = {
     {
     .iv = 150,
     .lvl = 1,
-    .species = SPECIES_GOLISPOD,
+    .species = SPECIES_GOLISOPOD,
     }
 };
 
