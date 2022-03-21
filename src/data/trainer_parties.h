@@ -5819,41 +5819,91 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dylan5[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Maria1[] = {
     {
-    .iv =100,
-    .lvl = 17,
-    .species = SPECIES_DODUO,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_NINJASK,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ELECTRODE,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Maria2[] = {
     {
-    .iv = 10,
-    .lvl = 28,
-    .species = SPECIES_DODUO,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_NINJASK,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ELECTRODE,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Maria3[] = {
     {
-    .iv = 20,
-    .lvl = 31,
-    .species = SPECIES_DODUO,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_NINJASK,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ELECTRODE,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Maria4[] = {
     {
-    .iv = 30,
-    .lvl = 34,
-    .species = SPECIES_DODRIO,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_NINJASK,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ELECTRODE,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Maria5[] = {
     {
-    .iv = 40,
-    .lvl = 37,
-    .species = SPECIES_DODRIO,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_NINJASK,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ELECTRODE,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
     }
 };
 
