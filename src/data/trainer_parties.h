@@ -8556,13 +8556,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Torchic[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Isaac1[] = {
     {
     .iv =100,
-    .lvl = 11,
+    .lvl = 1,
     .species = SPECIES_WHISMUR,
     },
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_ZIGZAGOON,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH_ALOLAN,
     },
     {
     .iv =100,
@@ -8571,18 +8571,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac1[] = {
     },
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_POOCHYENA,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH_GALARIAN,
     },
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_TAILLOW,
+    .lvl = 1,
+    .species = SPECIES_PIDGEY,
     },
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_MAKUHITA,
+    .lvl = 1,
+    .species = SPECIES_LARVITAR,
     }
 };
 
@@ -8611,133 +8611,133 @@ static const struct TrainerMonNoItemCustomMoves sParty_Mitchell[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Isaac2[] = {
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_LOUDRED,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_WHISMUR,
     },
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_LINOONE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH_ALOLAN,
     },
     {
-    .iv = 10,
-    .lvl = 22,
+    .iv =100,
+    .lvl = 11,
     .species = SPECIES_ARON,
     },
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_MIGHTYENA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH_GALARIAN,
     },
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_SWELLOW,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PIDGEY,
     },
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_MAKUHITA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LARVITAR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Isaac3[] = {
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_LOUDRED,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_WHISMUR,
     },
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_LINOONE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH_ALOLAN,
     },
     {
-    .iv = 20,
-    .lvl = 25,
+    .iv =100,
+    .lvl = 11,
     .species = SPECIES_ARON,
     },
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_MIGHTYENA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH_GALARIAN,
     },
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_SWELLOW,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PIDGEY,
     },
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_HARIYAMA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LARVITAR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Isaac4[] = {
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_LOUDRED,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_WHISMUR,
     },
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_LINOONE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH_ALOLAN,
     },
     {
-    .iv = 30,
-    .lvl = 28,
+    .iv =100,
+    .lvl = 11,
     .species = SPECIES_ARON,
     },
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_MIGHTYENA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH_GALARIAN,
     },
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_SWELLOW,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PIDGEY,
     },
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_HARIYAMA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LARVITAR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Isaac5[] = {
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_LOUDRED,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_WHISMUR,
     },
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_LINOONE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH_ALOLAN,
     },
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_LAIRON,
+    .iv =100,
+    .lvl = 11,
+    .species = SPECIES_ARON,
     },
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_MIGHTYENA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MEOWTH_GALARIAN,
     },
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_SWELLOW,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PIDGEY,
     },
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_HARIYAMA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LARVITAR,
     }
 };
 
