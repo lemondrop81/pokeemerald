@@ -4412,75 +4412,147 @@ static const struct TrainerMonNoItemCustomMoves sParty_KateAndJoy[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg1[] = {
     {
     .iv =100,
-    .lvl = 15,
+    .lvl = 1,
     .species = SPECIES_ZIGZAGOON,
-    .moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HEADBUTT, MOVE_ODOR_SLEUTH}
+    .moves = {MOVE_THUNDERBOLT, MOVE_DOUBLE_TEAM, MOVE_SUBSTITUTE, MOVE_TOXIC}
     },
     {
     .iv =100,
-    .lvl = 17,
+    .lvl = 1,
     .species = SPECIES_MAKUHITA,
-    .moves = {MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_ARM_THRUST, MOVE_NONE}
+    .moves = {MOVE_BELLY_DRUM, MOVE_BULK_UP, MOVE_BRICK_BREAK, MOVE_DRAIN_PUNCH}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg2[] = {
     {
-    .iv = 10,
-    .lvl = 28,
+    .iv =140,
+    .lvl = 1,
     .species = SPECIES_ZIGZAGOON,
-    .moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HEADBUTT, MOVE_ODOR_SLEUTH}
+    .moves = {MOVE_THUNDERBOLT, MOVE_DOUBLE_TEAM, MOVE_SUBSTITUTE, MOVE_TOXIC}
     },
     {
-    .iv = 10,
-    .lvl = 30,
+    .iv =140,
+    .lvl = 1,
     .species = SPECIES_MAKUHITA,
-    .moves = {MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_ARM_THRUST, MOVE_NONE}
+    .moves = {MOVE_BELLY_DRUM, MOVE_BULK_UP, MOVE_BRICK_BREAK, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 140,
+    .lvl = 1,
+    .species = SPECIES_NIDOKING,
+    .moves = {MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 140,
+    .lvl = 1,
+    .species = SPECIES_NIDOQUEEN,
+    .moves = {MOVE_SUPERPOWER, MOVE_ROCK_SLIDE, MOVE_IRON_TAIL, MOVE_HYPER_BEAM}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg3[] = {
     {
-    .iv = 20,
-    .lvl = 31,
+    .iv =170,
+    .lvl = 1,
     .species = SPECIES_ZIGZAGOON,
-    .moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HEADBUTT, MOVE_ODOR_SLEUTH}
+    .moves = {MOVE_THUNDERBOLT, MOVE_DOUBLE_TEAM, MOVE_SUBSTITUTE, MOVE_TOXIC}
     },
     {
-    .iv = 20,
-    .lvl = 33,
+    .iv =170,
+    .lvl = 1,
     .species = SPECIES_MAKUHITA,
-    .moves = {MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_ARM_THRUST, MOVE_NONE}
+    .moves = {MOVE_BELLY_DRUM, MOVE_BULK_UP, MOVE_BRICK_BREAK, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 170,
+    .lvl = 1,
+    .species = SPECIES_NIDOKING,
+    .moves = {MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 170,
+    .lvl = 1,
+    .species = SPECIES_NIDOQUEEN,
+    .moves = {MOVE_SUPERPOWER, MOVE_ROCK_SLIDE, MOVE_IRON_TAIL, MOVE_HYPER_BEAM}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg4[] = {
     {
-    .iv = 30,
-    .lvl = 34,
-    .species = SPECIES_LINOONE,
-    .moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HEADBUTT, MOVE_ODOR_SLEUTH}
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_ZIGZAGOON,
+    .moves = {MOVE_THUNDERBOLT, MOVE_DOUBLE_TEAM, MOVE_SUBSTITUTE, MOVE_TOXIC}
     },
     {
-    .iv = 30,
-    .lvl = 36,
+    .iv =170,
+    .lvl = 1,
     .species = SPECIES_MAKUHITA,
-    .moves = {MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_ARM_THRUST, MOVE_NONE}
+    .moves = {MOVE_BELLY_DRUM, MOVE_BULK_UP, MOVE_BRICK_BREAK, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 170,
+    .lvl = 1,
+    .species = SPECIES_NIDOKING,
+    .moves = {MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 170,
+    .lvl = 1,
+    .species = SPECIES_NIDOQUEEN,
+    .moves = {MOVE_SUPERPOWER, MOVE_ROCK_SLIDE, MOVE_IRON_TAIL, MOVE_HYPER_BEAM}
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_ELECTIVIRE,
+    .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_BRICK_BREAK, MOVE_VOLT_SWITCH}
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_MAGMORTAR,
+    .moves = {MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg5[] = {
     {
-    .iv = 40,
-    .lvl = 36,
-    .species = SPECIES_LINOONE,
-    .moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HEADBUTT, MOVE_ODOR_SLEUTH}
+    .iv =230,
+    .lvl = 1,
+    .species = SPECIES_ZIGZAGOON,
+    .moves = {MOVE_THUNDERBOLT, MOVE_DOUBLE_TEAM, MOVE_SUBSTITUTE, MOVE_TOXIC}
     },
     {
-    .iv = 40,
-    .lvl = 38,
-    .species = SPECIES_HARIYAMA,
-    .moves = {MOVE_TACKLE, MOVE_FOCUS_ENERGY, MOVE_ARM_THRUST, MOVE_NONE}
+    .iv =230,
+    .lvl = 1,
+    .species = SPECIES_MAKUHITA,
+    .moves = {MOVE_BELLY_DRUM, MOVE_BULK_UP, MOVE_BRICK_BREAK, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 230,
+    .lvl = 1,
+    .species = SPECIES_NIDOKING,
+    .moves = {MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 230,
+    .lvl = 1,
+    .species = SPECIES_NIDOQUEEN,
+    .moves = {MOVE_SUPERPOWER, MOVE_ROCK_SLIDE, MOVE_IRON_TAIL, MOVE_HYPER_BEAM}
+    },
+    {
+    .iv =230,
+    .lvl = 1,
+    .species = SPECIES_ELECTIVIRE,
+    .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_BRICK_BREAK, MOVE_VOLT_SWITCH}
+    },
+    {
+    .iv =230,
+    .lvl = 1,
+    .species = SPECIES_MAGMORTAR,
+    .moves = {MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH}
     }
 };
 
