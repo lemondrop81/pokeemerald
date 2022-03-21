@@ -4087,9 +4087,14 @@ static const struct TrainerMonItemCustomMoves sParty_Juan1[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Jerry1[] = {
     {
-    .iv = 10,
-    .lvl = 9,
+    .iv = 110,
+    .lvl = 1,
     .species = SPECIES_RALTS,
+    },
+    {
+    .iv = 110,
+    .lvl = 1,
+    .species = SPECIES_PINSIR,
     }
 };
 
@@ -4121,58 +4126,103 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Paul[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Jerry2[] = {
     {
-    .iv = 20,
-    .lvl = 26,
+    .iv = 120,
+    .lvl = 1,
     .species = SPECIES_RALTS,
     },
     {
-    .iv = 20,
-    .lvl = 26,
-    .species = SPECIES_MEDITITE,
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_JOLTIK,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_PINSIR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Jerry3[] = {
     {
-    .iv = 30,
-    .lvl = 29,
-    .species = SPECIES_KIRLIA,
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_RALTS,
     },
     {
-    .iv = 30,
-    .lvl = 29,
-    .species = SPECIES_MEDITITE,
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_JOLTIK,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_SANDSLASH_ALOLAN,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_PINSIR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Jerry4[] = {
     {
-    .iv = 40,
-    .lvl = 32,
-    .species = SPECIES_KIRLIA,
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_RALTS,
     },
     {
-    .iv = 40,
-    .lvl = 32,
-    .species = SPECIES_MEDICHAM,
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_JOLTIK,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_SANDSLASH_ALOLAN,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_GLISCOR,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_PINSIR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Jerry5[] = {
     {
-    .iv = 50,
-    .lvl = 34,
-    .species = SPECIES_KIRLIA,
+    .iv = 220,
+    .lvl = 1,
+    .species = SPECIES_RALTS,
     },
     {
-    .iv = 50,
-    .lvl = 34,
-    .species = SPECIES_BANETTE,
+    .iv = 220,
+    .lvl = 1,
+    .species = SPECIES_JOLTIK,
     },
     {
-    .iv = 50,
-    .lvl = 34,
-    .species = SPECIES_MEDICHAM,
+    .iv = 220,
+    .lvl = 1,
+    .species = SPECIES_SANDSLASH_ALOLAN,
+    },
+    {
+    .iv = 220,
+    .lvl = 1,
+    .species = SPECIES_GLISCOR,
+    },
+    {
+    .iv = 220,
+    .lvl = 1,
+    .species = SPECIES_PINSIR,
+    },
+    {
+    .iv = 220,
+    .lvl = 1,
+    .species = SPECIES_LUCARIO,
     }
 };
 
