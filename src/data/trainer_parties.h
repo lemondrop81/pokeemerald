@@ -7756,13 +7756,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Conor[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Edwin1[] = {
     {
     .iv =100,
-    .lvl = 14,
-    .species = SPECIES_LOMBRE,
+    .lvl = 1,
+    .species = SPECIES_CUTIEFLY,
     },
     {
     .iv =100,
-    .lvl = 14,
-    .species = SPECIES_NUZLEAF,
+    .lvl = 1,
+    .species = SPECIES_WEEZING_GALARIAN,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
     }
 };
 
@@ -7804,53 +7809,113 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMossdeep[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Edwin2[] = {
     {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_LOMBRE,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_CUTIEFLY,
     },
     {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_NUZLEAF,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_WEEZING_GALARIAN,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SNIVY,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Edwin3[] = {
     {
-    .iv =100,
-    .lvl = 29,
-    .species = SPECIES_LOMBRE,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_CUTIEFLY,
     },
     {
-    .iv =100,
-    .lvl = 29,
-    .species = SPECIES_NUZLEAF,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_WEEZING_GALARIAN,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SNIVY,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Edwin4[] = {
     {
-    .iv =100,
-    .lvl = 32,
-    .species = SPECIES_LOMBRE,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_CUTIEFLY,
     },
     {
-    .iv =100,
-    .lvl = 32,
-    .species = SPECIES_NUZLEAF,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_WEEZING_GALARIAN,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SNIVY,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Edwin5[] = {
     {
-    .iv =100,
-    .lvl = 35,
-    .species = SPECIES_LUDICOLO,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_CUTIEFLY,
     },
     {
-    .iv =100,
-    .lvl = 35,
-    .species = SPECIES_SHIFTRY,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_WEEZING_GALARIAN,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SNIVY,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
     }
 };
 
