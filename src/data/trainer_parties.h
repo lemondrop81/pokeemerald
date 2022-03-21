@@ -8814,33 +8814,33 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Lydia1[] = {
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_WINGULL,
+    .lvl = 1,
+    .species = SPECIES_SQUIRTLE,
     },
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_SHROOMISH,
+    .lvl = 1,
+    .species = SPECIES_CHARMANDER,
     },
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_MARILL,
+    .lvl = 1,
+    .species = SPECIES_BULBASAUR,
     },
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_ROSELIA,
+    .lvl = 1,
+    .species = SPECIES_VANILLITE,
     },
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_SKITTY,
+    .lvl = 1,
+    .species = SPECIES_PHANPY,
     },
     {
     .iv =100,
-    .lvl = 11,
-    .species = SPECIES_GOLDEEN,
+    .lvl = 1,
+    .species = SPECIES_MILKTANK,
     }
 };
 
@@ -8877,133 +8877,133 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Garrison[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Lydia2[] = {
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_WINGULL,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SQUIRTLE,
     },
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_SHROOMISH,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CHARMANDER,
     },
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_MARILL,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_BULBASAUR,
     },
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_ROSELIA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VANILLITE,
     },
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_SKITTY,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PHANPY,
     },
     {
-    .iv = 10,
-    .lvl = 22,
-    .species = SPECIES_GOLDEEN,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MILKTANK,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Lydia3[] = {
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_PELIPPER,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SQUIRTLE,
     },
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_BRELOOM,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CHARMANDER,
     },
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_MARILL,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_BULBASAUR,
     },
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_ROSELIA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VANILLITE,
     },
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_DELCATTY,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PHANPY,
     },
     {
-    .iv = 20,
-    .lvl = 25,
-    .species = SPECIES_GOLDEEN,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MILKTANK,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Lydia4[] = {
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_PELIPPER,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SQUIRTLE,
     },
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_BRELOOM,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CHARMANDER,
     },
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_MARILL,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_BULBASAUR,
     },
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_ROSELIA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VANILLITE,
     },
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_DELCATTY,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PHANPY,
     },
     {
-    .iv = 30,
-    .lvl = 28,
-    .species = SPECIES_GOLDEEN,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MILKTANK,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Lydia5[] = {
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_PELIPPER,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SQUIRTLE,
     },
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_BRELOOM,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CHARMANDER,
     },
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_AZUMARILL,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_BULBASAUR,
     },
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_ROSELIA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VANILLITE,
     },
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_DELCATTY,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PHANPY,
     },
     {
-    .iv = 40,
-    .lvl = 31,
-    .species = SPECIES_SEAKING,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MILKTANK,
     }
 };
 
