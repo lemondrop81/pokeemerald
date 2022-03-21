@@ -10277,17 +10277,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Mike2[] = {
     {
     .iv =100,
     .lvl = 16,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_ROGGENROLA,
     },
     {
     .iv =100,
     .lvl = 16,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_BELDUM,
     },
     {
     .iv =100,
     .lvl = 16,
-    .species = SPECIES_MACHOP,
+    .species = SPECIES_KLINK,
     }
 };
 
