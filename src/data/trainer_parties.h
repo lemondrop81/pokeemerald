@@ -11003,14 +11003,20 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Chris[] = {
 static const struct TrainerMonItemDefaultMoves sParty_Dawson[] = {
     {
     .iv =100,
-    .lvl = 8,
-    .species = SPECIES_ZIGZAGOON,
+    .lvl = 1,
+    .species = SPECIES_HATENNA,
     .heldItem = ITEM_NUGGET
     },
     {
     .iv =100,
-    .lvl = 8,
-    .species = SPECIES_POOCHYENA,
+    .lvl = 1,
+    .species = SPECIES_SCYTHER,
+    .heldItem = ITEM_NUGGET
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DRATINI,
     .heldItem = ITEM_NONE
     }
 };
