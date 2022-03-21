@@ -5705,40 +5705,115 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Abigail5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Dylan1[] = {
     {
     .iv =100,
-    .lvl = 17,
-    .species = SPECIES_DODUO,
+    .lvl = 1,
+    .species = SPECIES_MACHOP,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SCYTHER,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dylan2[] = {
     {
-    .iv = 10,
-    .lvl = 28,
-    .species = SPECIES_DODUO,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_MACHOP,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_LUCARIO,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SCYTHER,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dylan3[] = {
     {
-    .iv = 20,
-    .lvl = 31,
-    .species = SPECIES_DODUO,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_MACHAMP,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_GENGAR,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_LUCARIO,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SCIZOR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dylan4[] = {
     {
-    .iv = 30,
-    .lvl = 34,
-    .species = SPECIES_DODRIO,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_MACHAMP,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_GENGAR,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_JANGMO_O,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_LUCARIO,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SCIZOR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dylan5[] = {
     {
-    .iv = 40,
-    .lvl = 37,
-    .species = SPECIES_DODRIO,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_MACHAMP,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_GENGAR,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_JANGMO_O,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SCIZOR,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_LUCARIO,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CONKELDURR,
     }
 };
 
