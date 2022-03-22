@@ -11711,8 +11711,13 @@ static const struct TrainerMonNoItemCustomMoves sParty_Tyron[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Celina[] = {
     {
     .iv =100,
-    .lvl = 18,
-    .species = SPECIES_ROSELIA,
+    .lvl = 1,
+    .species = SPECIES_ROSERADE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VICTREEBEL,
     }
 };
 
