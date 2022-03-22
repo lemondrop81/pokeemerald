@@ -4641,18 +4641,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg5[] = {
     }
 };
 
-static const struct TrainerMonItemDefaultMoves sParty_Victor[] = {
+static const struct TrainerMonItemCustomMoves sParty_Victor[] = {
     {
-    .iv = 25,
-    .lvl = 16,
-    .species = SPECIES_TAILLOW,
-    .heldItem = ITEM_ORAN_BERRY
+    .iv = 125,
+    .lvl = 1,
+    .species = SPECIES_PIDOVE,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_AERIAL_ACE, MOVE_TAKE_DOWN, MOVE_DOUBLE_TEAM}
+    .heldItem = ITEM_SITRUS_BERRY
     },
     {
-    .iv = 25,
-    .lvl = 16,
-    .species = SPECIES_ZIGZAGOON,
-    .heldItem = ITEM_ORAN_BERRY
+    .iv = 125,
+    .lvl = 1,
+    .ability = 2, // Strong jaw
+    .species = SPECIES_YUNGOOS,
+    .moves = {MOVE_PSYCHIC_FANGS, MOVE_FIRE_FANG, MOVE_ICE_FANG, MOVE_THUNDER_FANG}
+    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
