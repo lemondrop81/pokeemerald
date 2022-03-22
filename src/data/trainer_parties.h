@@ -4012,7 +4012,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     {
     .iv = 200,
     .lvl = 1,
-    .ability =100, // LEVITATE
+    .ability = 1, // LEVITATE
     .species = SPECIES_ROTOM_WASH,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_HYDRO_PUMP, MOVE_VOLT_SWITCH, MOVE_WILL_O_WISP, MOVE_THUNDERBOLT}
@@ -4020,7 +4020,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson1[] = {
     {
     .iv = 220,
     .lvl = 1,
-    .ability =100, // Surge surfer
+    .ability = 1, // Surge surfer
     .species = SPECIES_RAICHU_ALOLAN,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_SURF}
@@ -4039,7 +4039,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
     {
     .iv = 250,
     .lvl = 1,
-    .ability =100, // Cursed body
+    .ability = 1, // Cursed body
     .species = SPECIES_MAROWAK_ALOLAN,
     .heldItem = ITEM_THICK_CLUB,
     .moves = {MOVE_FLARE_BLITZ, MOVE_SWORDS_DANCE, MOVE_BONE_RUSH, MOVE_GIGA_IMPACT}
@@ -4055,7 +4055,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
     {
     .iv = 250,
     .lvl = 1,
-    .ability =100, // Corrosion
+    .ability = 1, // Corrosion
     .species = SPECIES_SALANDIT,
     .heldItem = ITEM_CHOICE_SCARF,
     .moves = {MOVE_FLAMETHROWER, MOVE_DRAGON_PULSE, MOVE_NASTY_PLOT, MOVE_SLUDGE_WAVE}
