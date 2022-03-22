@@ -4809,12 +4809,27 @@ static const struct TrainerMonItemDefaultMoves sParty_Miguel5[] = {
     }
 };
 
-static const struct TrainerMonItemDefaultMoves sParty_Victoria[] = {
+static const struct TrainerMonItemCustomMoves sParty_Victoria[] = {
     {
-    .iv = 50,
-    .lvl = 17,
-    .species = SPECIES_ROSELIA,
-    .heldItem = ITEM_ORAN_BERRY
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_LILLIGANT,
+    .heldItem = ITEM_SITRUS_BERRY
+    .moves = {MOVE_QUIVER_DANCE, MOVE_SLEEP_POWDER, MOVE_DRAINING_KISS, MOVE_GIGA_DRAIN}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_FLAPPLE,
+    .heldItem = ITEM_SITRUS_BERRY
+    .moves = {MOVE_GRAV_APPLE, MOVE_FLY, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_APPLETUN,
+    .heldItem = ITEM_SITRUS_BERRY
+    .moves = {MOVE_DRAGON_PULSE, MOVE_APPLE_ACID, MOVE_GIGA_DRAIN, MOVE_TOXIC}
     }
 };
 

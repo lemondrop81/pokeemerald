@@ -4196,7 +4196,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
         .partySize = ARRAY_COUNT(sParty_Victoria),
-        .party = {.ItemDefaultMoves = sParty_Victoria},
+        .party = {.ItemCustomMoves = sParty_Victoria},
     },
 
     [TRAINER_VANESSA] =
