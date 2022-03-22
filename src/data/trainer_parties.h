@@ -4991,9 +4991,17 @@ static const struct TrainerMonNoItemCustomMoves sParty_Timothy5[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Vicky[] = {
     {
     .iv = 200,
-    .lvl = 18,
-    .species = SPECIES_MEDITITE,
-    .moves = {MOVE_HIGH_JUMP_KICK, MOVE_MEDITATE, MOVE_CONFUSION, MOVE_DETECT}
+    .lvl = 1,
+    .ability = 2, // Moxie
+    .species = SPECIES_HERACROSS,
+    .moves = {MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_NIGHT_SLASH, MOVE_BULLET_SEED}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Technician
+    .species = SPECIES_SCIZOR,
+    .moves = {MOVE_AERIAL_ACE, MOVE_SWORDS_DANCE, MOVE_METAL_CLAW, MOVE_STRUGGLE_BUG}
     }
 };
 
