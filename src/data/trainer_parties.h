@@ -2837,7 +2837,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntAquaHideout8[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Shawn[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Shawn[] = {
     {
     .iv = 100,
     .lvl = 1,
