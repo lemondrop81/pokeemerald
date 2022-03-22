@@ -2840,13 +2840,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntAquaHideout8[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Shawn[] = {
     {
     .iv = 100,
-    .lvl = 17,
-    .species = SPECIES_VOLTORB,
+    .lvl = 1,
+    .species = SPECIES_HELIOLISK,
+    .ability = 2, // Solar Power
+    .moves = {MOVE_SUNNY_DAY, MOVE_SWIFT, MOVE_THUNDERBOLT, MOVE_DRAGON_PULSE}
     },
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_MAGNEMITE,
+    .species = SPECIES_RAICHU,
+    .ability = 0, // Static
+    .moves = {MOVE_THUNDERBOLT, MOVE_GRASS_KNOT, MOVE_SIGNAL_BEAM, MOVE_QUICK_ATTACK}
     }
 };
 

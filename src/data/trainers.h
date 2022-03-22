@@ -2726,7 +2726,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Shawn),
-        .party = {.NoItemDefaultMoves = sParty_Shawn},
+        .party = {.NoItemCustomMoves = sParty_Shawn},
     },
 
     [TRAINER_FERNANDO_1] =
