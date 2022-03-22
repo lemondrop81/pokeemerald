@@ -2860,85 +2860,115 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fernando1[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Dalton1[] = {
     {
     .iv =100,
-    .lvl = 15,
-    .species = SPECIES_MAGNEMITE,
+    .lvl = 1,
+    .species = SPECIES_NOIBAT,
     },
     {
     .iv =100,
-    .lvl = 15,
-    .species = SPECIES_WHISMUR,
+    .lvl = 1,
+    .species = SPECIES_TOXEL,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dalton2[] = {
     {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_MAGNEMITE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_NOIBAT,
     },
     {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_WHISMUR,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_KRICKETOT,
     },
     {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_MAGNEMITE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TOXEL,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dalton3[] = {
     {
-    .iv = 20,
-    .lvl = 28,
-    .species = SPECIES_MAGNEMITE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_NOIBAT,
     },
     {
-    .iv = 20,
-    .lvl = 28,
-    .species = SPECIES_LOUDRED,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_KRICKETOT,
     },
     {
-    .iv = 20,
-    .lvl = 28,
-    .species = SPECIES_MAGNEMITE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LOPUNNY,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TOXEL,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dalton4[] = {
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_MAGNETON,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_NOIBAT,
     },
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_LOUDRED,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_KRICKETOT,
     },
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_MAGNETON,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LOPUNNY,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SNOVER,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TOXEL,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dalton5[] = {
     {
-    .iv = 40,
-    .lvl = 34,
-    .species = SPECIES_MAGNETON,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_NOIBAT,
     },
     {
-    .iv = 40,
-    .lvl = 34,
-    .species = SPECIES_EXPLOUD,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_KRICKETOT,
     },
     {
-    .iv = 40,
-    .lvl = 34,
-    .species = SPECIES_MAGNETON,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LOPUNNY,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SNOVER,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SANDILE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TOXEL,
     }
 };
 
