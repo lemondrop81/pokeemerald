@@ -11721,11 +11721,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Celina[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Bianca[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Bianca[] = {
     {
     .iv =100,
-    .lvl = 18,
-    .species = SPECIES_SHROOMISH,
+    .lvl = 1,
+    .species = SPECIES_PUMPKABOO,
+    .moves = {MOVE_SHADOW_BALL, MOVE_GIGA_DRAIN, MOVE_MYSTICAL_FIRE, MOVE_TRICK_OR_TREAT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LEDYBA,
+    .moves = {MOVE_SUNNY_DAY, MOVE_SOLAR_BEAM, MOVE_DRAIN_PUNCH, MOVE_AERIAL_ACE}
     }
 };
 
