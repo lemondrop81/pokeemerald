@@ -4646,16 +4646,16 @@ static const struct TrainerMonItemCustomMoves sParty_Victor[] = {
     .iv = 125,
     .lvl = 1,
     .species = SPECIES_PIDOVE,
+    .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_CLOSE_COMBAT, MOVE_AERIAL_ACE, MOVE_TAKE_DOWN, MOVE_DOUBLE_TEAM}
-    .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv = 125,
     .lvl = 1,
     .ability = 2, // Strong jaw
     .species = SPECIES_YUNGOOS,
+    .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_PSYCHIC_FANGS, MOVE_FIRE_FANG, MOVE_ICE_FANG, MOVE_THUNDER_FANG}
-    .heldItem = ITEM_SITRUS_BERRY
     }
 };
 
