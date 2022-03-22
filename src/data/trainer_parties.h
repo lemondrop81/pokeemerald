@@ -7643,16 +7643,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Cedric[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Irene[] = {
+static const struct TrainerMonItemCustomMoves sParty_Irene[] = {
     {
     .iv =100,
-    .lvl = 17,
-    .species = SPECIES_SHROOMISH,
+    .lvl = 1,
+    .ability = 1, // Harvest
+    .species = SPECIES_TREVENANT,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_HORN_LEECH, MOVE_SHADOW_CLAW, MOVE_WILL_O_WISP, MOVE_FORESTS_CURSE}
     },
     {
     .iv =100,
-    .lvl = 17,
-    .species = SPECIES_MARILL,
+    .lvl = 1,
+    .ability = 2, // Sap Sipper
+    .species = SPECIES_AZUMARILL,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_SURF, MOVE_PLAY_ROUGH, MOVE_ROLLOUT, MOVE_ICE_BEAM}
     }
 };
 
