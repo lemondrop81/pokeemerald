@@ -643,7 +643,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Foster[] = {
     {
     .iv = 100,
     .lvl = 1,
-    .ability =100, // Sand stream
+    .ability = 1, // Sand stream
     .species = SPECIES_HIPPOPOTAS,
     .moves = {MOVE_CRUNCH, MOVE_DOUBLE_EDGE, MOVE_REST, MOVE_EARTHQUAKE}
     },
@@ -2841,15 +2841,15 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shawn[] = {
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_HELIOLISK,
     .ability = 2, // Solar Power
+    .species = SPECIES_HELIOLISK,
     .moves = {MOVE_SUNNY_DAY, MOVE_SWIFT, MOVE_THUNDERBOLT, MOVE_DRAGON_PULSE}
     },
     {
     .iv = 100,
     .lvl = 17,
-    .species = SPECIES_RAICHU,
     .ability = 0, // Static
+    .species = SPECIES_RAICHU,
     .moves = {MOVE_THUNDERBOLT, MOVE_GRASS_KNOT, MOVE_SIGNAL_BEAM, MOVE_QUICK_ATTACK}
     }
 };
