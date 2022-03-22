@@ -9866,7 +9866,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Tyron),
-        .party = {.NoItemDefaultMoves = sParty_Tyron},
+        .party = {.NoItemCustomMoves = sParty_Tyron},
     },
 
     [TRAINER_CELINA] =

@@ -11693,11 +11693,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rhett[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Tyron[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Tyron[] = {
     {
     .iv =100,
-    .lvl = 19,
+    .lvl = 1,
     .species = SPECIES_SANDSHREW,
+    .moves = {MOVE_CRUSH_CLAW, MOVE_DIG, MOVE_X_SCISSOR, MOVE_SAND_TOMB}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SCYTHER,
+    .moves = {MOVE_FURY_CUTTER, MOVE_AERIAL_ACE, MOVE_SLASH, MOVE_PURSUIT}
     }
 };
 
