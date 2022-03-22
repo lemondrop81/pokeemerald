@@ -9812,21 +9812,30 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Janice[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Vivi[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Vivi[] = {
     {
-    .iv = 100,
-    .lvl = 15,
-    .species = SPECIES_MARILL,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_GOGOAT,
+    .moves = {MOVE_AERIAL_ACE, MOVE_SEED_BOMB, MOVE_BULLDOZE, MOVE_SYNTHESIS}
     },
     {
-    .iv = 100,
-    .lvl = 15,
-    .species = SPECIES_SHROOMISH,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_SALAZZLE,
+    .moves = {MOVE_FLAME_BURST, MOVE_VENOSHOCK, MOVE_TOXIC, MOVE_DRAGON_PULSE}
     },
     {
-    .iv = 100,
-    .lvl = 15,
-    .species = SPECIES_NUMEL,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_SANDSHREW_ALOLAN,
+    .moves = {MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_SHADOW_CLAW, MOVE_BRICK_BREAK}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_DRACOZOLT,
+    .moves = {MOVE_BOLT_BEAK, MOVE_DRAGON_PULSE, MOVE_FIRE_FANG, MOVE_METEOR_BEAM}
     }
 };
 
