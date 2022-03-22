@@ -11729,11 +11729,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bianca[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Hayden[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Hayden[] = {
     {
     .iv =100,
-    .lvl = 18,
+    .lvl = 1,
     .species = SPECIES_NUMEL,
+    .moves = {MOVE_EARTH_POWER, MOVE_LAVA_PLUME, MOVE_FOCUS_ENERGY, MOVE_TAKE_DOWN}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_FLAREON,
+    .moves = {MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_TOXIC, MOVE_DIG}
     }
 };
 
