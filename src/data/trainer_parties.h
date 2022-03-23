@@ -11858,7 +11858,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TyraAndIvy[] = {
     .iv =150,
     .lvl = 1,
     .species = SPECIES_EELEKTROSS,
-    .moves = {OVE_DISCHARGE, MOVE_ACID_SPRAY, MOVE_CRUNCH, MOVE_GRASS_KNOT}
+    .moves = {MOVE_DISCHARGE, MOVE_ACID_SPRAY, MOVE_CRUNCH, MOVE_GRASS_KNOT}
     },
     {
     .iv =150,
