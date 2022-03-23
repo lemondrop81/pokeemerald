@@ -5825,21 +5825,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ivan[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Claude[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Claude[] = {
     {
     .iv =100,
-    .lvl = 16,
+    .lvl = 1,
     .species = SPECIES_MAGIKARP,
+    .moves = {MOVE_RECOVER, MOVE_SURF, MOVE_ICE_BEAM, MOVE_TOXIC}
     },
     {
     .iv =100,
-    .lvl = 17,
-    .species = SPECIES_GOLDEEN,
+    .lvl = 1,
+    .species = SPECIES_DRATINI,
+    .moves = {MOVE_OUTRAGE, MOVE_HURRICANE, MOVE_THUNDER_PUNCH, MOVE_DRAGON_DANCE}
     },
     {
     .iv =100,
-    .lvl = 18,
-    .species = SPECIES_BARBOACH,
+    .lvl = 1,
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_SHADOW_BALL, MOVE_FELL_STINGER}
     }
 };
 
