@@ -5575,11 +5575,18 @@ static const struct TrainerMonNoItemCustomMoves sParty_Katelynn[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Jaylen[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Jaylen[] = {
     {
-    .iv =100,
-    .lvl = 19,
+    .iv =200,
+    .lvl = 1,
     .species = SPECIES_TRAPINCH,
+    .moves = {MOVE_EARTH_POWER, MOVE_BUG_BUZZ, MOVE_ROCK_SLIDE, MOVE_HYPER_BEAM}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_DARUMAKA,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_HEADBUTT, MOVE_BITE, MOVE_WORK_UP}
     }
 };
 
