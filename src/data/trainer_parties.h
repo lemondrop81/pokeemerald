@@ -5917,11 +5917,30 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dale[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Nolan[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Nolan[] = {
     {
-    .iv =100,
-    .lvl = 19,
-    .species = SPECIES_BARBOACH,
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_WISHIWASHI,
+    .moves = {MOVE_DOUBLE_EDGE, MOVE_AQUA_TAIL, MOVE_BEAT_UP, MOVE_AQUA_RING}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_SEAKING,
+    .moves = {MOVE_WATERFALL, MOVE_POISON_JAB, MOVE_AQUA_RING, MOVE_AGILITY}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_GOOMY,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_SUBSTITUTE MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_SOBBLE,
+    .moves = {MOVE_SCALD, MOVE_WATERFALL, MOVE_BLIZZARD, MOVE_SHADOW_BALL}
     }
 };
 
