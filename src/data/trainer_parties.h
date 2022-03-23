@@ -12393,16 +12393,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sophie[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Coby[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Coby[] = {
     {
     .iv =100,
     .lvl = 1,
     .species = SPECIES_SKARMORY,
+    .moves = {MOVE_DRILL_PECK, MOVE_STEEL_WING, MOVE_SLASH, MOVE_METAL_SOUND}
     },
     {
     .iv =100,
     .lvl = 1,
     .species = SPECIES_FLETCHLING,
+    .moves = {MOVE_FLAMETHROWER, MOVE_BEAK_BLAST, MOVE_AERIAL_ACE, MOVE_ROOST}
     }
 };
 

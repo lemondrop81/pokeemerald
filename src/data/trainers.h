@@ -9927,7 +9927,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_COBY] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
@@ -9936,7 +9936,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Coby),
-        .party = {.NoItemDefaultMoves = sParty_Coby},
+        .party = {.NoItemCustomMoves = sParty_Coby},
     },
 
     [TRAINER_LAWRENCE] =
