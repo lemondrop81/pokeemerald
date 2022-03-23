@@ -9955,7 +9955,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_WYATT] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
@@ -9964,7 +9964,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Wyatt),
-        .party = {.NoItemDefaultMoves = sParty_Wyatt},
+        .party = {.NoItemCustomMoves = sParty_Wyatt},
     },
 
     [TRAINER_ANGELINA] =

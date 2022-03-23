@@ -12325,16 +12325,18 @@ static const struct TrainerMonNoItemCustomMoves sParty_Lawrence[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Wyatt[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Wyatt[] = {
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_ARON,
+    .iv =250,
+    .lvl = 1,
+    .species = SPECIES_TEPIG,
+    .moves = {MOVE_SCALD, MOVE_FLAMETHROWER, MOVE_HEAD_SMASH, MOVE_DRAIN_PUNCH}
     },
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_ARON,
+    .iv =250,
+    .lvl = 1,
+    .species = SPECIES_NIDOKING,
+    .moves = {MOVE_POISON_FANG, MOVE_EARTH_POWER, MOVE_THRASH, MOVE_THUNDER_PUNCH}
     }
 };
 
