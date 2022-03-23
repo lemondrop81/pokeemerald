@@ -12538,13 +12538,13 @@ static const struct TrainerMonNoItemCustomMoves sParty_Bryant[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Shayla[] = {
     {
     .iv =100,
-    .lvl = 18,
-    .species = SPECIES_SHROOMISH,
+    .lvl = 1,
+    .species = SPECIES_BULBASAUR,
     },
     {
     .iv =100,
-    .lvl = 18,
-    .species = SPECIES_ROSELIA,
+    .lvl = 1,
+    .species = SPECIES_TURTWIG,
     }
 };
 
