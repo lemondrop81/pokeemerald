@@ -5592,9 +5592,24 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jaylen[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Dillon[] = {
     {
-    .iv =100,
-    .lvl = 19,
-    .species = SPECIES_ARON,
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_ROCKRUFF,
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_SANDYGAST,
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_WOOLOO,
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_ROOKIDEE,
     }
 };
 
