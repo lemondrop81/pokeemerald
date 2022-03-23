@@ -12520,16 +12520,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Branden[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Bryant[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Bryant[] = {
     {
     .iv =100,
-    .lvl = 18,
-    .species = SPECIES_NUMEL,
+    .lvl = 1,
+    .species = SPECIES_MAROWAK_ALOLAN,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_SWORDS_DANCE, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
     },
     {
     .iv =100,
-    .lvl = 18,
-    .species = SPECIES_SLUGMA,
+    .lvl = 1,
+    .species = SPECIES_TURTONATOR,
+    .moves = {MOVE_FLAMETHROWER, MOVE_DRAGON_PULSE, MOVE_VENOSHOCK, MOVE_HYPER_BEAM}
     }
 };
 
