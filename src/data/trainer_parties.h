@@ -7958,16 +7958,30 @@ static const struct TrainerMonNoItemCustomMoves sParty_Carol[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Nancy[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Nancy[] = {
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_MARILL,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_AROMATISSE,
+    .moves = {OVE_MOONBLAST, MOVE_CHARM, MOVE_ATTRACT, MOVE_MISTY_TERRAIN}
     },
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_LOMBRE,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_TURTWIG,
+    .moves = {MOVE_EARTHQUAKE, MOVE_SEED_BOMB, MOVE_CURSE, MOVE_LEECH_SEED}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_LUCARIO,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_POWER_UP_PUNCH, MOVE_CLOSE_COMBAT, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SWOOBAT,
+    .moves = {MOVE_AIR_SLASH, MOVE_PSYCHIC, MOVE_TOXIC, MOVE_STEEL_WING}
     }
 };
 
