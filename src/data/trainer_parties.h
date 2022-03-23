@@ -3268,11 +3268,12 @@ static const struct TrainerMonNoItemCustomMoves sParty_Beau[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Larry[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Larry[] = {
     {
     .iv =100,
-    .lvl = 18,
-    .species = SPECIES_NUZLEAF,
+    .lvl = 1,
+    .species = SPECIES_VICTREEBEL,
+    .moves = {MOVE_LEAF_TORNADO, MOVE_POISON_JAB, MOVE_GROWTH, MOVE_SLEEP_POWDER}
     }
 };
 
