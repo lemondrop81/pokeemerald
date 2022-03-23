@@ -11855,16 +11855,16 @@ static const struct TrainerMonNoItemCustomMoves sParty_KimAndIris[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_TyraAndIvy[] = {
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_ROSELIA,
-    .moves = {MOVE_GROWTH, MOVE_STUN_SPORE, MOVE_MEGA_DRAIN, MOVE_LEECH_SEED}
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_EELEKTROSS,
+    .moves = {OVE_DISCHARGE, MOVE_ACID_SPRAY, MOVE_CRUNCH, MOVE_GRASS_KNOT}
     },
     {
-    .iv =100,
-    .lvl = 20,
-    .species = SPECIES_GRAVELER,
-    .moves = {MOVE_DEFENSE_CURL, MOVE_ROLLOUT, MOVE_MUD_SPORT, MOVE_ROCK_THROW}
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_DONPHAN,
+    .moves = {MOVE_EARTHQUAKE, MOVE_ASSURANCE, MOVE_FIRE_FANG, MOVE_SCARY_FACE}
     }
 };
 
