@@ -1301,21 +1301,29 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Leroy[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Wilton1[] = {
+static const struct TrainerMonItemCustomMoves sParty_Wilton1[] = {
     {
     .iv = 100,
-    .lvl = 17,
-    .species = SPECIES_ELECTRIKE,
+    .lvl = 1,
+    .species = SPECIES_DOUBLADE,
+    .heldItem = ITEM_EVIOLITE,
+    .moves = {MOVE_SHADOW_CLAW, MOVE_IRON_HEAD, MOVE_PSYCHO_CUT, MOVE_SHADOW_SNEAK}
     },
     {
     .iv = 100,
-    .lvl = 17,
-    .species = SPECIES_WAILMER,
+    .lvl = 1,
+    .ability = 1, // Magic Guard
+    .species = SPECIES_SOLOSIS,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_PSYSHOCK, MOVE_RECOVER, MOVE_SHOCK_WAVE, MOVE_SIGNAL_BEAM}
     },
     {
     .iv = 100,
-    .lvl = 17,
-    .species = SPECIES_MAKUHITA,
+    .lvl = 1,
+    .ability = 2, // Rough Skin
+    .species = SPECIES_GIBLE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_DIG, MOVE_DUAL_CHOP, MOVE_POISON_JAB, MOVE_FLAMETHROWER}
     }
 };
 
@@ -1404,75 +1412,176 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Owen[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Wilton2[] = {
+static const struct TrainerMonItemCustomMoves sParty_Wilton2[] = {
     {
-    .iv = 110,
-    .lvl = 26,
-    .species = SPECIES_ELECTRIKE,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_DOUBLADE,
+    .heldItem = ITEM_EVIOLITE,
+    .moves = {MOVE_SHADOW_CLAW, MOVE_IRON_HEAD, MOVE_PSYCHO_CUT, MOVE_SHADOW_SNEAK}
     },
     {
-    .iv = 110,
-    .lvl = 26,
-    .species = SPECIES_WAILMER,
+    .iv = 100,
+    .lvl = 1,
+    .ability = 1, // Magic Guard
+    .species = SPECIES_SOLOSIS,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_PSYSHOCK, MOVE_RECOVER, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM}
     },
     {
-    .iv = 110,
-    .lvl = 26,
-    .species = SPECIES_MAKUHITA,
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, // Rough Skin
+    .species = SPECIES_GIBLE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_DUAL_CHOP, MOVE_POISON_JAB, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, // REckless
+    .species = SPECIES_STARAPTOR,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_RETURN, MOVE_CLOSE_COMBAT, MOVE_U_TURN}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Wilton3[] = {
+static const struct TrainerMonItemCustomMoves sParty_Wilton3[] = {
     {
-    .iv = 120,
-    .lvl = 29,
-    .species = SPECIES_MANECTRIC,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_IMPIDIMP,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_SPIRIT_BREAK, MOVE_BULK_UP, MOVE_DRAIN_PUNCH}
     },
     {
-    .iv = 120,
-    .lvl = 29,
-    .species = SPECIES_WAILMER,
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_DOUBLADE,
+    .heldItem = ITEM_EVIOLITE,
+    .moves = {MOVE_SHADOW_CLAW, MOVE_IRON_HEAD, MOVE_PSYCHO_CUT, MOVE_SHADOW_SNEAK}
     },
     {
-    .iv = 120,
-    .lvl = 29,
-    .species = SPECIES_MAKUHITA,
+    .iv = 100,
+    .lvl = 1,
+    .ability = 1, // Magic Guard
+    .species = SPECIES_SOLOSIS,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_PSYSHOCK, MOVE_RECOVER, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, // Rough Skin
+    .species = SPECIES_GIBLE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_DUAL_CHOP, MOVE_POISON_JAB, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, // REckless
+    .species = SPECIES_STARLY,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_RETURN, MOVE_CLOSE_COMBAT, MOVE_U_TURN}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Wilton4[] = {
+static const struct TrainerMonItemCustomMoves sParty_Wilton4[] = {
     {
-    .iv = 130,
-    .lvl = 32,
-    .species = SPECIES_MANECTRIC,
+    .iv = 150,
+    .lvl = 1,
+    .ability = 0, // Prankster
+    .species = SPECIES_IMPIDIMP,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_SPIRIT_BREAK, MOVE_LIGHT_SCREEN, MOVE_REFLECT}
     },
     {
-    .iv = 130,
-    .lvl = 32,
-    .species = SPECIES_WAILMER,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_DOUBLADE,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_SHADOW_BALL, MOVE_FLASH_CANNON, MOVE_CLOSE_COMBAT, MOVE_KINGS_SHIELD}
     },
     {
-    .iv = 130,
-    .lvl = 32,
-    .species = SPECIES_MAKUHITA,
+    .iv = 150,
+    .lvl = 1,
+    .ability = 1, // Magic Guard
+    .species = SPECIES_SOLOSIS,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_PSYSHOCK, MOVE_RECOVER, MOVE_CALM_MIND, MOVE_SIGNAL_BEAM}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_LAPRAS,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_FREEZE_DRY, MOVE_THUNDER, MOVE_PSYCHIC}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Rough Skin
+    .species = SPECIES_GIBLE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_POISON_JAB, MOVE_FIRE_BLAST}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // REckless
+    .species = SPECIES_STARLY,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_DOUBLE_EDGE, MOVE_CLOSE_COMBAT, MOVE_U_TURN}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Wilton5[] = {
+static const struct TrainerMonItemCustomMoves sParty_Wilton5[] = {
     {
-    .iv = 140,
-    .lvl = 35,
-    .species = SPECIES_MANECTRIC,
+    .iv = 250,
+    .lvl = 1,
+    .ability = 0, // Prankster
+    .species = SPECIES_IMPIDIMP,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_SPIRIT_BREAK, MOVE_LIGHT_SCREEN, MOVE_REFLECT}
     },
     {
-    .iv = 140,
-    .lvl = 35,
-    .species = SPECIES_WAILMER,
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_DOUBLADE,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_SHADOW_BALL, MOVE_FLASH_CANNON, MOVE_CLOSE_COMBAT, MOVE_KINGS_SHIELD}
     },
     {
-    .iv = 140,
-    .lvl = 35,
-    .species = SPECIES_HARIYAMA,
+    .iv = 250,
+    .lvl = 1,
+    .ability = 1, // Magic Guard
+    .species = SPECIES_SOLOSIS,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_PSYSHOCK, MOVE_RECOVER, MOVE_CALM_MIND, MOVE_SIGNAL_BEAM}
+    },
+    {
+    .iv = 250,
+    .lvl = 1,
+    .species = SPECIES_LAPRAS,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_FREEZE_DRY, MOVE_THUNDER, MOVE_PSYCHIC}
+    },
+    {
+    .iv = 250,
+    .lvl = 1,
+    .ability = 2, // Rough Skin
+    .species = SPECIES_GIBLE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_POISON_JAB, MOVE_FIRE_BLAST}
+    },
+    {
+    .iv = 250,
+    .lvl = 1,
+    .ability = 2, // REckless
+    .species = SPECIES_STARLY,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_DOUBLE_EDGE, MOVE_CLOSE_COMBAT, MOVE_U_TURN}
     }
 };
 
