@@ -10452,18 +10452,23 @@ static const struct TrainerMonNoItemCustomMoves sParty_Brice[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Trent1[] = {
     {
     .iv =100,
-    .lvl = 16,
+    .lvl = 1,
     .species = SPECIES_GEODUDE,
     },
     {
     .iv =100,
-    .lvl = 17,
+    .lvl = 1,
     .species = SPECIES_GEODUDE,
     },
     {
     .iv =100,
-    .lvl = 16,
+    .lvl = 1,
     .species = SPECIES_GEODUDE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GEODUDE_ALOLAN,
     }
 };
 
@@ -10584,95 +10589,187 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Mike2[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Trent2[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Trent2[] = {
     {
-    .iv = 10,
-    .lvl = 24,
-    .species = SPECIES_GEODUDE,
-    },
-    {
-    .iv = 10,
-    .lvl = 24,
-    .species = SPECIES_GEODUDE,
-    },
-    {
-    .iv = 10,
-    .lvl = 24,
-    .species = SPECIES_GEODUDE,
-    },
-    {
-    .iv = 10,
-    .lvl = 24,
-    .species = SPECIES_GRAVELER,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Trent3[] = {
-    {
-    .iv = 20,
-    .lvl = 27,
-    .species = SPECIES_GEODUDE,
-    },
-    {
-    .iv = 20,
-    .lvl = 27,
-    .species = SPECIES_GEODUDE,
-    },
-    {
-    .iv = 20,
-    .lvl = 27,
-    .species = SPECIES_GRAVELER,
-    },
-    {
-    .iv = 20,
-    .lvl = 27,
-    .species = SPECIES_GRAVELER,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Trent4[] = {
-    {
-    .iv = 30,
-    .lvl = 30,
-    .species = SPECIES_GEODUDE,
-    },
-    {
-    .iv = 30,
-    .lvl = 30,
-    .species = SPECIES_GRAVELER,
-    },
-    {
-    .iv = 30,
-    .lvl = 30,
-    .species = SPECIES_GRAVELER,
-    },
-    {
-    .iv = 30,
-    .lvl = 30,
-    .species = SPECIES_GRAVELER,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Trent5[] = {
-    {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_GRAVELER,
-    },
-    {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_GRAVELER,
-    },
-    {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_GRAVELER,
-    },
-    {
-    .iv = 40,
-    .lvl = 33,
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
     .species = SPECIES_GOLEM,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM_ALOLAN,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Trent3[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM_ALOLAN,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Trent4[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM_ALOLAN,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Trent5[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, //Sturdy
+    .species = SPECIES_GOLEM_ALOLAN,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 
