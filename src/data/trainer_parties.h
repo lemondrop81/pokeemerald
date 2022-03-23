@@ -12506,11 +12506,24 @@ static const struct TrainerMonNoItemCustomMoves sParty_Kai[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Charlotte[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Charlotte[] = {
     {
     .iv =100,
-    .lvl = 19,
-    .species = SPECIES_NUZLEAF,
+    .lvl = 1,
+    .species = SPECIES_TANGROWTH,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_ANCIENT_POWER, MOVE_TOXIC_SPIKES, MOVE_TOXIC}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TREECKO,
+    .moves = {MOVE_LEAF_STORM, MOVE_X_SCISSOR, MOVE_DRAGON_TAIL, MOVE_NIGHT_SLASH}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CACNEA,
+    .moves = {MOVE_DRAIN_PUNCH, MOVE_SUCKER_PUNCH, MOVE_SPIKY_SHIELD, MOVE_GIGA_DRAIN}
     }
 };
 
