@@ -7598,16 +7598,18 @@ static const struct TrainerMonNoItemCustomMoves sParty_Becky[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Carol[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Carol[] = {
     {
-    .iv =100,
-    .lvl = 17,
-    .species = SPECIES_TAILLOW,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_NOCTOWL,
+    .moves = {MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_AIR_SLASH, MOVE_REFLECT}
     },
     {
-    .iv =100,
-    .lvl = 17,
+    .iv =150,
+    .lvl = 1,
     .species = SPECIES_LOMBRE,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_MOONBLAST, MOVE_TOXIC, MOVE_MOONLIGHT}
     }
 };
 
