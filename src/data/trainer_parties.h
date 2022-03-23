@@ -1662,21 +1662,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Keira[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Brooke1[] = {
+static const struct TrainerMonItemCustomMoves sParty_Brooke1[] = {
     {
     .iv = 100,
-    .lvl = 17,
-    .species = SPECIES_WINGULL,
+    .lvl = 1,
+    .species = SPECIES_SHELLOS,
+    .heldItem = ITEM_RINDO_BERRY,
+    .moves = {MOVE_SURF, MOVE_MUD_SHOT, MOVE_RECOVER, MOVE_ANCIENT_POWER}
     },
     {
     .iv = 100,
-    .lvl = 17,
-    .species = SPECIES_NUMEL,
+    .lvl = 1,
+    .species = SPECIES_TORCHIC,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_FIRE_PUNCH, MOVE_GRASS_KNOT, MOVE_ROCK_TOMB}
     },
     {
     .iv = 100,
-    .lvl = 17,
+    .lvl = 1,
+    .ability = 2, // Technician
     .species = SPECIES_ROSELIA,
+    .heldItem = ITEM_BIG_ROOT,
+    .moves = {MOVE_MEGA_DRAIN, MOVE_EXTRASENSORY, MOVE_TOXIC, MOVE_VENOSHOCK}
     }
 };
 
@@ -1753,75 +1759,175 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Julie[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Brooke2[] = {
-    {
-    .iv = 110,
-    .lvl = 26,
-    .species = SPECIES_WINGULL,
-    },
-    {
-    .iv = 110,
-    .lvl = 26,
-    .species = SPECIES_NUMEL,
-    },
-    {
-    .iv = 110,
-    .lvl = 26,
-    .species = SPECIES_ROSELIA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Brooke3[] = {
-    {
-    .iv = 120,
-    .lvl = 29,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv = 120,
-    .lvl = 29,
-    .species = SPECIES_NUMEL,
-    },
-    {
-    .iv = 120,
-    .lvl = 29,
-    .species = SPECIES_ROSELIA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Brooke4[] = {
+static const struct TrainerMonItemCustomMoves sParty_Brooke2[] = {
     {
     .iv = 130,
-    .lvl = 32,
-    .species = SPECIES_PELIPPER,
+    .lvl = 1,
+    .species = SPECIES_SHELLOS,
+    .heldItem = ITEM_RINDO_BERRY,
+    .moves = {MOVE_MUDDY_WATER, MOVE_EARTH_POWER, MOVE_RECOVER, MOVE_SLUDGE_WAVE}
     },
     {
     .iv = 130,
-    .lvl = 32,
-    .species = SPECIES_NUMEL,
+    .lvl = 1,
+    .species = SPECIES_TORCHIC,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_FIRE_PUNCH, MOVE_GRASS_KNOT, MOVE_ROCK_TOMB}
     },
     {
     .iv = 130,
-    .lvl = 32,
+    .lvl = 1,
+    .ability = 2, // Technician
     .species = SPECIES_ROSELIA,
+    .heldItem = ITEM_BIG_ROOT,
+    .moves = {MOVE_MEGA_DRAIN, MOVE_EXTRASENSORY, MOVE_SLEEP_POWDER, MOVE_SLUDGE_BOMB}
+    },
+    {
+    .iv = 130,
+    .lvl = 1,
+    .ability = 2, // Sheer force/ overcoat / moxie
+    .species = SPECIES_BAGON,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_DRAGON_DANCE}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Brooke5[] = {
+static const struct TrainerMonItemCustomMoves sParty_Brooke3[] = {
     {
-    .iv = 140,
-    .lvl = 34,
-    .species = SPECIES_PELIPPER,
+    .iv = 170,
+    .lvl = 1,
+    .species = SPECIES_SHELLOS,
+    .heldItem = ITEM_RINDO_BERRY,
+    .moves = {MOVE_SCALD, MOVE_EARTH_POWER, MOVE_RECOVER, MOVE_TOXIC}
     },
     {
-    .iv = 140,
-    .lvl = 34,
-    .species = SPECIES_CAMERUPT,
+    .iv = 170,
+    .lvl = 1,
+    .species = SPECIES_TORCHIC,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_FLARE_BLITZ, MOVE_THUNDER_PUNCH, MOVE_STONE_EDGE}
     },
     {
-    .iv = 140,
-    .lvl = 34,
-    .species = SPECIES_ROSELIA,
+    .iv = 170,
+    .lvl = 1,
+    .ability = 2, // Technician
+    .species = SPECIES_ROSERADE,
+    .heldItem = ITEM_BIG_ROOT,
+    .moves = {MOVE_MEGA_DRAIN, MOVE_HIDDEN_POWER, MOVE_SLEEP_POWDER, MOVE_SLUDGE_BOMB}
+    },
+    {
+    .iv = 170,
+    .lvl = 1,
+    .ability = 2, // Sheer force/ overcoat / moxie
+    .species = SPECIES_BAGON,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_DRAGON_DANCE}
+    },
+    {
+    .iv = 170,
+    .lvl = 1,
+    .ability = 2, // Ice Scales
+    .species = SPECIES_FROSMOTH,
+    .heldItem = ITEM_WEAKNESS_POLICY,
+    .moves = {MOVE_ICE_BEAM, MOVE_BUG_BUZZ, MOVE_WATER_PULSE, MOVE_QUIVER_DANCE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Brooke4[] = {
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_SHELLOS,
+    .heldItem = ITEM_RINDO_BERRY,
+    .moves = {MOVE_SCALD, MOVE_EARTH_POWER, MOVE_RECOVER, MOVE_TOXIC}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_TORCHIC,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_FLARE_BLITZ, MOVE_THUNDER_PUNCH, MOVE_STONE_EDGE}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Technician
+    .species = SPECIES_ROSERADE,
+    .heldItem = ITEM_BIG_ROOT,
+    .moves = {MOVE_MEGA_DRAIN, MOVE_HIDDEN_POWER, MOVE_SLEEP_POWDER, MOVE_SLUDGE_BOMB}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Technician
+    .species = SPECIES_SCIZOR,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_BULLET_PUNCH, MOVE_SUPERPOWER, MOVE_U_TURN, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Sheer force/ overcoat / moxie
+    .species = SPECIES_BAGON,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_DRAGON_DANCE}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Ice Scales
+    .species = SPECIES_FROSMOTH,
+    .heldItem = ITEM_WEAKNESS_POLICY,
+    .moves = {MOVE_ICE_BEAM, MOVE_BUG_BUZZ, MOVE_WATER_PULSE, MOVE_QUIVER_DANCE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Brooke5[] = {
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_SHELLOS,
+    .heldItem = ITEM_RINDO_BERRY,
+    .moves = {MOVE_SCALD, MOVE_EARTH_POWER, MOVE_RECOVER, MOVE_TOXIC}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_TORCHIC,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_FLARE_BLITZ, MOVE_THUNDER_PUNCH, MOVE_STONE_EDGE}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Technician
+    .species = SPECIES_ROSERADE,
+    .heldItem = ITEM_BIG_ROOT,
+    .moves = {MOVE_MEGA_DRAIN, MOVE_HIDDEN_POWER, MOVE_SLEEP_POWDER, MOVE_SLUDGE_BOMB}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Technician
+    .species = SPECIES_SCIZOR,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_BULLET_PUNCH, MOVE_SUPERPOWER, MOVE_U_TURN, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Sheer force/ overcoat / moxie
+    .species = SPECIES_BAGON,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_DRAGON_DANCE}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Ice Scales
+    .species = SPECIES_FROSMOTH,
+    .heldItem = ITEM_WEAKNESS_POLICY,
+    .moves = {MOVE_ICE_BEAM, MOVE_BUG_BUZZ, MOVE_WATER_PULSE, MOVE_QUIVER_DANCE}
     }
 };
 
