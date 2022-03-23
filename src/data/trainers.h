@@ -6674,7 +6674,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Irene),
-        .party = {.ItemCustomtMoves = sParty_Irene},
+        .party = {.ItemCustomMoves = sParty_Irene},
     },
 
     [TRAINER_DIANA_2] =
