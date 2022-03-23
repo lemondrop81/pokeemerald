@@ -5934,7 +5934,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Nolan[] = {
     .iv =130,
     .lvl = 1,
     .species = SPECIES_GOOMY,
-    .moves = {MOVE_DRAGON_DANCE, MOVE_SUBSTITUTE MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
+    .moves = {MOVE_DRAGON_DANCE, MOVE_SUBSTITUTE, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
     },
     {
     .iv =130,
