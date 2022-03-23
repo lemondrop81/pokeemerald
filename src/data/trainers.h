@@ -8765,7 +8765,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_BRICE] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
@@ -8774,7 +8774,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Brice),
-        .party = {.NoItemDefaultMoves = sParty_Brice},
+        .party = {.NoItemCustomMoves = sParty_Brice},
     },
 
     [TRAINER_TRENT_1] =

@@ -10434,16 +10434,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Brice[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Brice[] = {
     {
-    .iv =100,
-    .lvl = 17,
-    .species = SPECIES_NUMEL,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_DRILBUR,
+    .moves = {MOVE_DRILL_RUN, MOVE_ROCK_SLIDE, MOVE_HORN_DRILL, MOVE_SLASH}
     },
     {
-    .iv =100,
-    .lvl = 17,
-    .species = SPECIES_MACHOP,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_DWEBBLE,
+    .moves = {MOVE_X_SCISSOR, MOVE_ROCK_BLAST, MOVE_IRON_DEFENSE, MOVE_SLASH}
     }
 };
 
