@@ -11770,12 +11770,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ToriAndTia[] = {
     {
     .iv =100,
     .lvl = 19,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_BURMY_SANDY_CLOAK,
     },
     {
     .iv =100,
     .lvl = 19,
-    .species = SPECIES_SPINDA,
+    .species = SPECIES_BURMY_TRASH_CLOAK,
+    },
+    {
+    .iv =100,
+    .lvl = 19,
+    .species = SPECIES_SHELLOS_EAST_SEA,
+    },
+    {
+    .iv =100,
+    .lvl = 19,
+    .species = SPECIES_SHELLOS,
     }
 };
 
