@@ -9699,16 +9699,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenna[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Sophia[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Sophia[] = {
     {
     .iv = 50,
     .lvl = 38,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_SUDOWOODO,
+    .moves = {MOVE_ROCK_SLIDE, MOVE_SUCKER_PUNCH, MOVE_LOW_KICK, MOVE_MIMIC}
     },
     {
     .iv = 50,
     .lvl = 38,
-    .species = SPECIES_ROSELIA,
+    .species = SPECIES_SLURPUFF,
+    .moves = {MOVE_DRAINING_KISS, MOVE_ENERGY_BALL, MOVE_COTTON_GUARD, MOVE_ATTRACT}
     }
 };
 
