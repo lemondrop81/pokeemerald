@@ -7066,7 +7066,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Lao3[] = {
     .iv =200,
     .lvl = 1,
     .species = SPECIES_ACCELGOR,
-    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_FOCUS_BLAS}
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_FOCUS_BLAST}
     },
     {
     .iv =200,
@@ -7093,7 +7093,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Lao4[] = {
     .iv =200,
     .lvl = 1,
     .species = SPECIES_ACCELGOR,
-    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_FOCUS_BLAS}
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_FOCUS_BLAST}
     },
     {
     .iv =200,
@@ -7120,7 +7120,7 @@ static const struct TrainerMonItemCustomMoves sParty_Lao5[] = {
     .iv =200,
     .lvl = 1,
     .species = SPECIES_ACCELGOR,
-    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_FOCUS_BLAS}
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_FOCUS_BLAST}
     },
     {
     .iv =200,
