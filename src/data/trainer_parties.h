@@ -7608,7 +7608,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Carol[] = {
     {
     .iv =150,
     .lvl = 1,
-    .species = SPECIES_LOMBRE,
+    .species = SPECIES_VILEPLUME,
     .moves = {MOVE_GIGA_DRAIN, MOVE_MOONBLAST, MOVE_TOXIC, MOVE_MOONLIGHT}
     }
 };
