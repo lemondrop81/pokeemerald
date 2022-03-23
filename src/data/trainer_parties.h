@@ -3318,11 +3318,31 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Autumn[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Travis[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Travis[] = {
     {
     .iv =100,
     .lvl = 18,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_FLETCHLING,
+    .moves = {MOVE_AIR_CUTTER, MOVE_FLARE_BLITZ, MOVE_TAILWIND, MOVE_ROOST}
+    },
+    {
+    .iv =100,
+    .lvl = 18,
+    .species = SPECIES_GOLETT,
+    .moves = {MOVE_BULLDOZE, MOVE_SHADOW_PUNCH, MOVE_DYNAMIC_PUNCH, MOVE_ROCK_SLIDE}
+    },
+    {
+    .iv =100,
+    .lvl = 18,
+    .species = SPECIES_DEERLING,
+    .moves = {MOVE_JUMP_KICK, MOVE_HORN_LEECH, MOVE_DOUBLE_EDGE, MOVE_MEGAHORN}
+    },
+    {
+    .iv =100,
+    .lvl = 18,
+    .ability = 1, // Rough skin
+    .species = SPECIES_GIBLE,
+    .moves = {MOVE_DRAGON_CLAW, MOVE_STONE_EDGE, MOVE_EARTHQUAKE, MOVE_POISON_JAB}
     }
 };
 
