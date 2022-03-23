@@ -12485,11 +12485,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Angelina[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Kai[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Kai[] = {
     {
     .iv =100,
-    .lvl = 19,
+    .lvl = 1,
     .species = SPECIES_BARBOACH,
+    .moves = {MOVE_AQUA_TAIL, MOVE_EARTHQUAKE, MOVE_TICKLE, MOVE_ZEN_HEADBUTT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CORPHISH,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_CRABHAMMER, MOVE_GUILLOTINE, MOVE_NIGHT_SLASH}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TOTODILE,
+    .moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_SURF, MOVE_SHADOW_CLAW}
     }
 };
 
