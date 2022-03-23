@@ -7342,9 +7342,21 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cyndy5[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Madeline1[] = {
     {
     .iv =100,
-    .lvl = 19,
+    .lvl = 1,
     .species = SPECIES_NUMEL,
-    .moves = {MOVE_EMBER, MOVE_TACKLE, MOVE_MAGNITUDE, MOVE_SUNNY_DAY}
+    .moves = {MOVE_EARTH_POWER, MOVE_LAVA_PLUME, MOVE_ROCK_SLIDE, MOVE_SUNNY_DAY}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TROPIUS,
+    .moves = {MOVE_LEAF_TORNADO, MOVE_AIR_SLASH, MOVE_BODY_SLAM, MOVE_SOLAR_BEAM}
+    },    
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_POPPLIO,
+    .moves = {MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE, MOVE_MOONBLAST}
     }
 };
 
@@ -7372,49 +7384,125 @@ static const struct TrainerMonNoItemCustomMoves sParty_Angelica[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_Madeline2[] = {
     {
-    .iv = 10,
-    .lvl = 29,
+    .iv =150,
+    .lvl = 1,
     .species = SPECIES_NUMEL,
-    .moves = {MOVE_EMBER, MOVE_TACKLE, MOVE_MAGNITUDE, MOVE_SUNNY_DAY}
+    .moves = {MOVE_EARTH_POWER, MOVE_LAVA_PLUME, MOVE_ROCK_SLIDE, MOVE_SUNNY_DAY}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_TROPIUS,
+    .moves = {MOVE_LEAF_TORNADO, MOVE_AIR_SLASH, MOVE_BODY_SLAM, MOVE_SOLAR_BEAM}
+    },    
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_POPPLIO,
+    .moves = {MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE, MOVE_MOONBLAST}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Madeline3[] = {
     {
-    .iv = 20,
-    .lvl = 32,
+    .iv =150,
+    .lvl = 1,
     .species = SPECIES_NUMEL,
-    .moves = {MOVE_EMBER, MOVE_TAKE_DOWN, MOVE_MAGNITUDE, MOVE_SUNNY_DAY}
+    .moves = {MOVE_EARTH_POWER, MOVE_FIRE_BLAST, MOVE_ROCK_SLIDE, MOVE_SUNNY_DAY}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_TROPIUS,
+    .moves = {MOVE_SOLAR_BLADE, MOVE_DOUBLE_EDGE, MOVE_DRAGON_DANCE, MOVE_SYNTHESIS}
+    },    
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_POPPLIO,
+    .moves = {MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE, MOVE_MOONBLAST}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_COMFEY,
+    .moves = {MOVE_DRAINING_KISS, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED, MOVE_SYNTHESIS}
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_Madeline4[] = {
+static const struct TrainerMonItemCustomMoves sParty_Madeline4[] = {
     {
-    .iv = 30,
-    .lvl = 34,
-    .species = SPECIES_ROSELIA,
-    .moves = {MOVE_LEECH_SEED, MOVE_MEGA_DRAIN, MOVE_GRASS_WHISTLE, MOVE_SUNNY_DAY}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_NUMEL,
+    .heldItem = ITEM_HEAT_ROCK,
+    .moves = {MOVE_EARTH_POWER, MOVE_FIRE_BLAST, MOVE_ROCK_SLIDE, MOVE_SUNNY_DAY}
     },
     {
-    .iv = 30,
-    .lvl = 34,
-    .species = SPECIES_NUMEL,
-    .moves = {MOVE_FLAMETHROWER, MOVE_TAKE_DOWN, MOVE_MAGNITUDE, MOVE_SUNNY_DAY}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_TROPIUS,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_SOLAR_BLADE, MOVE_DOUBLE_EDGE, MOVE_DRAGON_DANCE, MOVE_SYNTHESIS}
+    },    
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_POPPLIO,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE, MOVE_MOONBLAST}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_COMFEY,
+    .heldItem = ITEM_BIG_ROOT,
+    .moves = {MOVE_DRAINING_KISS, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED, MOVE_SYNTHESIS}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_DEERLING_WINTER,
+    .heldItem = ITEM_GRASS_GEM,
+    .moves = {MOVE_HORN_LEECH, MOVE_DOUBLE_EDGE, MOVE_WILD_CHARGE, MOVE_SWORDS_DANCE}
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_Madeline5[] = {
+static const struct TrainerMonItemCustomMoves sParty_Madeline5[] = {
     {
-    .iv = 40,
-    .lvl = 37,
-    .species = SPECIES_ROSELIA,
-    .moves = {MOVE_LEECH_SEED, MOVE_GIGA_DRAIN, MOVE_SOLAR_BEAM, MOVE_SUNNY_DAY}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_NUMEL,
+    .heldItem = ITEM_HEAT_ROCK,
+    .moves = {MOVE_EARTH_POWER, MOVE_FIRE_BLAST, MOVE_ROCK_SLIDE, MOVE_SUNNY_DAY}
     },
     {
-    .iv = 40,
-    .lvl = 37,
-    .species = SPECIES_CAMERUPT,
-    .moves = {MOVE_FLAMETHROWER, MOVE_TAKE_DOWN, MOVE_EARTHQUAKE, MOVE_SUNNY_DAY}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_TROPIUS,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_SOLAR_BLADE, MOVE_DOUBLE_EDGE, MOVE_DRAGON_DANCE, MOVE_SYNTHESIS}
+    },    
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_POPPLIO,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE, MOVE_MOONBLAST}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_COMFEY,
+    .heldItem = ITEM_BIG_ROOT,
+    .moves = {MOVE_DRAINING_KISS, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED, MOVE_SYNTHESIS}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_DEERLING_WINTER,
+    .heldItem = ITEM_GRASS_GEM,
+    .moves = {MOVE_HORN_LEECH, MOVE_DOUBLE_EDGE, MOVE_WILD_CHARGE, MOVE_SWORDS_DANCE}
     }
 };
 
