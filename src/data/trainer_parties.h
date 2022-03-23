@@ -7006,22 +7006,22 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jani[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_Lao1[] = {
     {
-    .iv =100,
-    .lvl = 17,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SMOG, MOVE_SELF_DESTRUCT}
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_U_TURN}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_NIGHT_SLASH, MOVE_SHADOW_SNEAK, MOVE_U_TURN}
     },
     {
     .iv =100,
-    .lvl = 17,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SMOG, MOVE_SELF_DESTRUCT}
-    },
-    {
-    .iv =100,
-    .lvl = 17,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_SELF_DESTRUCT}
+    .lvl = 1,
+    .species = SPECIES_SKORUPI,
+    .moves = {MOVE_NIGHT_SLASH, MOVE_CROSS_POISON, MOVE_ICE_FANG, MOVE_X_SCISSOR}
     }
 };
 
@@ -7042,113 +7042,109 @@ static const struct TrainerMonNoItemCustomMoves sParty_Lung[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_Lao2[] = {
     {
-    .iv =100,
-    .lvl = 24,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_SELF_DESTRUCT}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_FOCUS_BLAST}
     },
     {
-    .iv =100,
-    .lvl = 24,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_NIGHT_SLASH, MOVE_SHADOW_SNEAK, MOVE_U_TURN}
     },
     {
-    .iv =100,
-    .lvl = 24,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_SELF_DESTRUCT}
-    },
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE, MOVE_NONE}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SKORUPI,
+    .moves = {MOVE_NIGHT_SLASH, MOVE_CROSS_POISON, MOVE_ICE_FANG, MOVE_X_SCISSOR}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Lao3[] = {
     {
-    .iv = 20,
-    .lvl = 27,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_SELF_DESTRUCT}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_FOCUS_BLAS}
     },
     {
-    .iv = 20,
-    .lvl = 27,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_SELF_DESTRUCT}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
+    .moves = {MOVE_WATERFALL, MOVE_GUNK_SHOT, MOVE_TOXIC_SPIKES, MOVE_U_TURN}
     },
     {
-    .iv = 20,
-    .lvl = 27,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_EKANS,
+    .moves = {MOVE_GUNK_SHOT, MOVE_EARTHQUAKE, MOVE_COIL, MOVE_REST}
     },
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE, MOVE_NONE}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SKORUPI,
+    .moves = {MOVE_CRUNCH, MOVE_POISON_JAB, MOVE_EARTHQUAKE, MOVE_SWORDS_DANCE}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Lao4[] = {
     {
-    .iv = 30,
-    .lvl = 30,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_FOCUS_BLAS}
     },
     {
-    .iv = 30,
-    .lvl = 30,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
+    .moves = {MOVE_WATERFALL, MOVE_GUNK_SHOT, MOVE_TOXIC_SPIKES, MOVE_U_TURN}
     },
     {
-    .iv = 30,
-    .lvl = 30,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_EKANS,
+    .moves = {MOVE_GUNK_SHOT, MOVE_EARTHQUAKE, MOVE_COIL, MOVE_REST}
     },
     {
-    .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE, MOVE_NONE}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SKORUPI,
+    .moves = {MOVE_CRUNCH, MOVE_POISON_JAB, MOVE_EARTHQUAKE, MOVE_SWORDS_DANCE}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Lao5[] = {
     {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_KOFFING,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_FOCUS_BLAS}
     },
     {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_KOFFING,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_SELF_DESTRUCT}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_FROAKIE,
+    .moves = {MOVE_WATERFALL, MOVE_GUNK_SHOT, MOVE_TOXIC_SPIKES, MOVE_U_TURN}
     },
     {
-    .iv = 40,
-    .lvl = 33,
-    .species = SPECIES_KOFFING,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_SELF_DESTRUCT}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_EKANS,
+    .moves = {MOVE_GUNK_SHOT, MOVE_EARTHQUAKE, MOVE_COIL, MOVE_REST}
     },
     {
-    .iv = 40,
-    .lvl = 35,
-    .species = SPECIES_WEEZING,
-    .heldItem = ITEM_SMOKE_BALL,
-    .moves = {MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE, MOVE_NONE}
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_GRIMER,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_TOXIC, MOVE_SLUDGE_WAVE, MOVE_HEAT_WAVE}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SKORUPI,
+    .moves = {MOVE_CRUNCH, MOVE_POISON_JAB, MOVE_EARTHQUAKE, MOVE_SWORDS_DANCE}
     }
 };
 
