@@ -5881,7 +5881,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_LUNG] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_NINJA_BOY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
@@ -5890,7 +5890,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_Lung),
-        .party = {.NoItemDefaultMoves = sParty_Lung},
+        .party = {.NoItemCustomMoves = sParty_Lung},
     },
 
     [TRAINER_LAO_2] =

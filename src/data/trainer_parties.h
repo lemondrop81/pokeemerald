@@ -7025,16 +7025,18 @@ static const struct TrainerMonNoItemCustomMoves sParty_Lao1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Lung[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Lung[] = {
     {
     .iv =100,
-    .lvl = 18,
+    .lvl = 1,
     .species = SPECIES_KOFFING,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_TOXIC, MOVE_DOUBLE_HIT, MOVE_HEAT_WAVE}
     },
     {
     .iv =100,
-    .lvl = 18,
+    .lvl = 1,
     .species = SPECIES_NINJASK,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_AERIAL_ACE, MOVE_FURY_CUTTER, MOVE_DIG}
     }
 };
 
