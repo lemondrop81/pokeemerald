@@ -12681,16 +12681,24 @@ static const struct TrainerMonNoItemCustomMoves sParty_Wyatt[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Angelina[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Angelina[] = {
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_LOMBRE,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CUTIEFLY,
+    .moves = {MOVE_POLLEN_PUFF, MOVE_DAZZLING_GLEAM, MOVE_STUN_SPORE, MOVE_AROMATHERAPY}
     },
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_MARILL,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_AXEW,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_THRASH, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_PIPLUP,
+    .moves = {MOVE_WATER_PULSE, MOVE_FLASH_CANNON, MOVE_SWAGGER, MOVE_AQUA_JET}
     }
 };
 
