@@ -10385,26 +10385,50 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMtChimney[] = {
+static const struct TrainerMonItemCustomMoves sParty_TabithaMtChimney[] = {
     {
-    .iv = 50,
-    .lvl = 18,
-    .species = SPECIES_NUMEL,
+    .iv = 150,
+    .lvl = 1,
+    .ability = 1, // Sand Stream
+    .species = SPECIES_GIGALITH,
+    .heldItem = ITEM_PASSHO_BERRY,
+    .moves = {MOVE_POWER_GEM, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_DISCHARGE}
     },
     {
-    .iv = 50,
-    .lvl = 20,
-    .species = SPECIES_POOCHYENA,
+    .iv = 150,
+    .lvl = 1,
+    .ability = 0, // Sheer Force
+    .species = SPECIES_DARMANITAN,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_ZEN_HEADBUTT, MOVE_ROCK_SLIDE, MOVE_CRUNCH}
     },
     {
-    .iv = 50,
-    .lvl = 22,
-    .species = SPECIES_NUMEL,
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Sheer Force
+    .species = SPECIES_STEELIX,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_IRON_TAIL, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_COIL}
     },
     {
-    .iv = 50,
-    .lvl = 22,
-    .species = SPECIES_ZUBAT,
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Poison Heal
+    .species = SPECIES_GLISCOR,
+    .heldItem = ITEM_TOXIC_ORB,
+    .moves = {MOVE_AERIAL_ACE, MOVE_DIG, MOVE_TOXIC, MOVE_PROTECT}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_SNUBBULL,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_FOCUS_BLAST, MOVE_CRUNCH, MOVE_OUTRAGE}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_FROSLASS,
+    .moves = {MOVE_BLIZZARD, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_PSYCHIC}
     }
 };
 
