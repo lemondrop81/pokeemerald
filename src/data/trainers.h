@@ -2885,7 +2885,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_BERNIE_1] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_KINDLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
@@ -2894,12 +2894,12 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Bernie1),
-        .party = {.NoItemDefaultMoves = sParty_Bernie1},
+        .party = {.NoItemCustomMoves = sParty_Bernie1},
     },
 
     [TRAINER_BERNIE_2] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_KINDLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
@@ -2908,12 +2908,12 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Bernie2),
-        .party = {.NoItemDefaultMoves = sParty_Bernie2},
+        .party = {.NoItemCustomMoves = sParty_Bernie2},
     },
 
     [TRAINER_BERNIE_3] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_KINDLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
@@ -2922,12 +2922,12 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Bernie3),
-        .party = {.NoItemDefaultMoves = sParty_Bernie3},
+        .party = {.NoItemCustomMoves = sParty_Bernie3},
     },
 
     [TRAINER_BERNIE_4] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_KINDLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
@@ -2936,12 +2936,12 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Bernie4),
-        .party = {.NoItemDefaultMoves = sParty_Bernie4},
+        .party = {.NoItemCustomMoves = sParty_Bernie4},
     },
 
     [TRAINER_BERNIE_5] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_KINDLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
@@ -2950,7 +2950,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Bernie5),
-        .party = {.NoItemDefaultMoves = sParty_Bernie5},
+        .party = {.NoItemCustomMoves = sParty_Bernie5},
     },
 
     [TRAINER_DREW] =

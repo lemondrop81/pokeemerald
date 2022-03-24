@@ -3494,68 +3494,132 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Keegan[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Bernie1[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Bernie1[] = {
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_SLUGMA,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_BUG_BITE, MOVE_DOUBLE_EDGE, MOVE_STRING_SHOT}
     },
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_WINGULL,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SIMIPOUR,
+    .moves = {MOVE_SCALD, MOVE_CRUNCH, MOVE_ACROBATICS, MOVE_WORK_UP}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Bernie2[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Bernie2[] = {
     {
-    .iv = 10,
-    .lvl = 26,
-    .species = SPECIES_SLUGMA,
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_LEECH_LIFE, MOVE_DOUBLE_EDGE, MOVE_ZEN_HEADBUTT}
     },
     {
-    .iv = 10,
-    .lvl = 26,
-    .species = SPECIES_WINGULL,
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_SIMIPOUR,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_CRUNCH, MOVE_ACROBATICS, MOVE_GRASS_KNOT}
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_ROLYCOLY,
+    .moves = {MOVE_TAR_SHOT, MOVE_HEAT_CRASH, MOVE_ROCK_SLIDE, MOVE_SCORCHING_SANDS}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Bernie3[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Bernie3[] = {
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_SLUGMA,
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    .moves = {MOVE_MYSTICAL_FIRE, MOVE_SIGNAL_BEAM, MOVE_QUIVER_DANCE, MOVE_GIGA_DRAIN}
     },
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_PELIPPER,
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_SIMIPOUR,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_FOCUS_BLAST, MOVE_ACROBATICS, MOVE_GRASS_KNOT}
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_ROLYCOLY,
+    .moves = {MOVE_TAR_SHOT, MOVE_HEAT_CRASH, MOVE_ROCK_SLIDE, MOVE_SCORCHING_SANDS}
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_CHARMANDER,
+    .moves = {MOVE_FLAMETHROWER, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE, MOVE_FLY}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Bernie4[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Bernie4[] = {
     {
-    .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_SLUGMA,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    .moves = {MOVE_FIERY_DANCE, MOVE_BUG_BUZZ, MOVE_QUIVER_DANCE, MOVE_GIGA_DRAIN}
     },
     {
-    .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_PELIPPER,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SIMIPOUR,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_FOCUS_BLAST, MOVE_NASTY_PLOT, MOVE_GRASS_KNOT}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ROLYCOLY,
+    .moves = {MOVE_TAR_SHOT, MOVE_FIRE_BLAST, MOVE_STONE_EDGE, MOVE_SCORCHING_SANDS}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ROLYCOLY,
+    .moves = {MOVE_TAR_SHOT, MOVE_FIRE_BLAST, MOVE_STONE_EDGE, MOVE_SCORCHING_SANDS}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_DRATINI,
+    .moves = {MOVE_FLAMETHROWER, MOVE_THUNDERBOLT, MOVE_SURF, MOVE_ICE_BEAM}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Bernie5[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Bernie5[] = {
     {
-    .iv = 40,
-    .lvl = 35,
-    .species = SPECIES_MAGCARGO,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_LARVESTA,
+    .moves = {MOVE_FIERY_DANCE, MOVE_BUG_BUZZ, MOVE_QUIVER_DANCE, MOVE_GIGA_DRAIN}
     },
     {
-    .iv = 40,
-    .lvl = 35,
-    .species = SPECIES_PELIPPER,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SIMIPOUR,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_FOCUS_BLAST, MOVE_NASTY_PLOT, MOVE_GRASS_KNOT}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ROLYCOLY,
+    .moves = {MOVE_TAR_SHOT, MOVE_FIRE_BLAST, MOVE_STONE_EDGE, MOVE_SCORCHING_SANDS}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ROLYCOLY,
+    .moves = {MOVE_TAR_SHOT, MOVE_FIRE_BLAST, MOVE_STONE_EDGE, MOVE_SCORCHING_SANDS}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_DRATINI,
+    .moves = {MOVE_FLAMETHROWER, MOVE_THUNDERBOLT, MOVE_SURF, MOVE_ICE_BEAM}
     }
 };
 
