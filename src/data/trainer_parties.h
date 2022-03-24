@@ -10187,11 +10187,20 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Harrison[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtChimney2[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_GruntMtChimney2[] = {
     {
-    .iv =100,
-    .lvl = 20,
-    .species = SPECIES_ZUBAT,
+    .iv =180,
+    .lvl = 1,
+    .ability = 2, // INFILTRATOR
+    .species = SPECIES_CROBAT,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_CROSS_POISON, MOVE_HYPNOSIS, MOVE_SUPER_FANG}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .ability = 1, // Area Trap
+    .species = SPECIES_DIGLETT,
+    .moves = {MOVE_EARTHQUAKE, MOVE_ROTOTILLER, MOVE_SHADOW_CLAW, MOVE_SLUDGE_BOMB}
     }
 };
 
