@@ -8429,7 +8429,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_MAXIE_MT_CHIMNEY] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_LEADER_MAXIE,
@@ -8438,7 +8438,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .partySize = ARRAY_COUNT(sParty_MaxieMtChimney),
-        .party = {.NoItemDefaultMoves = sParty_MaxieMtChimney},
+        .party = {.ItemCUstomMoves = sParty_MaxieMtChimney},
     },
 
     [TRAINER_TIANA] =

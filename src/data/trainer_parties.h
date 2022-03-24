@@ -10509,21 +10509,53 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMagmaHideout[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_MaxieMtChimney[] = {
+static const struct TrainerMonItemCustomMoves sParty_MaxieMtChimney[] = {
     {
-    .iv = 150,
-    .lvl = 24,
-    .species = SPECIES_MIGHTYENA,
+    .iv = 220,
+    .lvl = 1,
+    .ability = 2, // Infiltrator
+    .species = SPECIES_CROBAT,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_CROSS_POISON, MOVE_CRUNCH, MOVE_U_TURN}
     },
     {
-    .iv = 150,
-    .lvl = 24,
-    .species = SPECIES_ZUBAT,
+    .iv = 220,
+    .lvl = 1,
+    .species = SPECIES_DEINO,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .moves = {MOVE_OUTRAGE, MOVE_CRUNCH, MOVE_HEAD_SMASH, MOVE_SUPERPOWER}
     },
     {
-    .iv = 150,
-    .lvl = 25,
+    .iv = 220,
+    .lvl = 1,
+    .ability = 0, // Levitate
+    .species = SPECIES_WEEZING,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_VENOSHOCK, MOVE_THUNDERBOLT, MOVE_TOXIC, MOVE_HEAT_WAVE}
+    },
+    {
+    .iv = 220,
+    .lvl = 1,
+    .ability = 0, // Chlorophyll
+    .species = SPECIES_VICTREEBEL,
+    .heldItem = ITEM_SCOPE_LENS,
+    .moves = {MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_SUCKER_PUNCH, MOVE_SLEEP_POWDER}
+    },
+    {
+    .iv = 220,
+    .lvl = 1,
+    .ability = 0, //Sturdy
+    .species = SPECIES_PROBOPASS,
+    .heldItem = ITEM_AIR_BALLOON
+    .moves = {MOVE_STONE_EDGE, MOVE_ZAP_CANNON, MOVE_TRI_ATTACK, MOVE_VOLT_SWITCH}
+    },
+    {
+    .iv = 220,
+    .lvl = 1,
+    .ability = 0, // Sheer Force
     .species = SPECIES_CAMERUPT,
+    .heldItem = ITEM_POWER_HERB,
+    .moves = {MOVE_EARTH_POWER, MOVE_FIRE_BLAST, MOVE_ROCK_SLIDE, MOVE_SOLAR_BEAM}
     }
 };
 
