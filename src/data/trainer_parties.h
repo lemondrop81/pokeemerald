@@ -11023,17 +11023,33 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Lenny[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Lenny[] = {
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_GEODUDE,
+    .iv =180,
+    .lvl = 1,
+    .ability = 1, // Sturdy
+    .species = SPECIES_STEELIX,
+    .moves = {MOVE_IRON_TAIL, MOVE_DIG, MOVE_SMACK_DOWN, MOVE_CRUNCH}
     },
     {
-    .iv =100,
-    .lvl = 18,
-    .species = SPECIES_MACHOP,
-    }
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_MAMOSWINE,
+    .moves = {MOVE_ICE_FANG, MOVE_ICE_SHARD, MOVE_AMNESIA, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_GIBLE,
+    .moves = {MOVE_DRAGON_CLAW, MOVE_DIG, MOVE_DOUBLE_EDGE, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, // Anger point
+    .species = SPECIES_SANDILE,
+    .moves = {MOVE_FOUL_PLAY, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_OUTRAGE}
+    },
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Lucas1[] = {
