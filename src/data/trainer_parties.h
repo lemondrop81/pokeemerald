@@ -10063,14 +10063,14 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtPyre4[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntJaggedPass[] = {
     {
-    .iv = 50,
-    .lvl = 22,
-    .species = SPECIES_POOCHYENA,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_NINETALES,
     },
     {
-    .iv = 50,
-    .lvl = 22,
-    .species = SPECIES_NUMEL,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_NINETALES_ALOLAN,
     }
 };
 
