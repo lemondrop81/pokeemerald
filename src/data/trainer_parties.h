@@ -11175,16 +11175,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Clark[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Eric[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Eric[] = {
     {
-    .iv =100,
-    .lvl = 20,
-    .species = SPECIES_GEODUDE,
+    .iv =150,
+    .lvl = 2,
+    .species = SPECIES_LARVITAR,
+    .moves = {MOVE_PAYBACK, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_SCREECH}
     },
     {
-    .iv =100,
-    .lvl = 20,
-    .species = SPECIES_BALTOY,
+    .iv =150,
+    .lvl = 2,
+    .species = SPECIES_BELDUM,
+    .moves = {MOVE_BULLET_PUNCH, MOVE_METEOR_MASH, MOVE_ZEN_HEADBUTT, MOVE_MIRACLE_EYE}
+    },
+    {
+    .iv =150,
+    .lvl = 2,
+    .species = SPECIES_JANGMO_O,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_OUTRAGE, MOVE_DRAGON_DANCE, MOVE_NOBLE_ROAR}
     }
 };
 
