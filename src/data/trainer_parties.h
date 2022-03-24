@@ -11036,16 +11036,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lenny[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Lucas1[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Lucas1[] = {
     {
     .iv =100,
-    .lvl = 18,
-    .species = SPECIES_GEODUDE,
+    .lvl = 1,
+    .species = SPECIES_MINIOR,
+    .moves = {MOVE_POWER_GEM, MOVE_COSMIC_POWER, MOVE_AUTOTOMIZE, MOVE_CONFUSE_RAY}
     },
     {
     .iv =100,
-    .lvl = 18,
-    .species = SPECIES_NUMEL,
+    .lvl = 1,
+    .species = SPECIES_FERROSEED,
+    .moves = {MOVE_POWER_WHIP, MOVE_IRON_HEAD, MOVE_CURSE, MOVE_INGRAIN}
     }
 };
 
