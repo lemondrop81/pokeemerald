@@ -8195,21 +8195,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Martha[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Diana1[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Diana1[] = {
     {
     .iv =100,
-    .lvl = 19,
-    .species = SPECIES_SHROOMISH,
+    .lvl = 1,
+    .species = SPECIES_CHESPIN,
+    .moves = {MOVE_SPIKY_SHIELD, MOVE_HAMMER_ARM, MOVE_SEED_BOMB, MOVE_PIN_MISSILE}
     },
     {
     .iv =100,
-    .lvl = 19,
-    .species = SPECIES_ODDISH,
+    .lvl = 1,
+    .species = SPECIES_PIKIPEK,
+    .moves = {MOVE_AIR_SLASH, MOVE_FEATHER_DANCE, MOVE_ROOST, MOVE_U_TURN}
     },
     {
     .iv =100,
-    .lvl = 19,
-    .species = SPECIES_SWABLU,
+    .lvl = 1,
+    .species = SPECIES_MAREEP,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_DRAGON_BREATH, MOVE_DISCHARGE, MOVE_COTTON_GUARD}
     }
 };
 
@@ -8241,75 +8244,123 @@ static const struct TrainerMonItemCustomMoves sParty_Irene[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Diana2[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Diana2[] = {
     {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_SHROOMISH,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CHESPIN,
+    .moves = {MOVE_SPIKY_SHIELD, MOVE_DRAIN_PUNCH, MOVE_WOOD_HAMMER, MOVE_THUNDER_PUNCH}
     },
     {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_GLOOM,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PIKIPEK,
+    .moves = {MOVE_AIR_SLASH, MOVE_HYPER_VOICE, MOVE_ROOST, MOVE_U_TURN}
     },
     {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_SWABLU,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MAREEP,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_DRAGON_PULSE, MOVE_PARABOLIC_CHARGE, MOVE_COTTON_GUARD}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Diana3[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Diana3[] = {
     {
-    .iv = 20,
-    .lvl = 28,
-    .species = SPECIES_BRELOOM,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CHESPIN,
+    .moves = {MOVE_SPIKY_SHIELD, MOVE_DRAIN_PUNCH, MOVE_WOOD_HAMMER, MOVE_THUNDER_PUNCH}
     },
     {
-    .iv = 20,
-    .lvl = 28,
-    .species = SPECIES_GLOOM,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PIKIPEK,
+    .moves = {MOVE_AIR_SLASH, MOVE_HYPER_VOICE, MOVE_ROOST, MOVE_U_TURN}
     },
     {
-    .iv = 20,
-    .lvl = 28,
-    .species = SPECIES_SWABLU,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PORYGON_Z,
+    .moves = {MOVE_ZAP_CANNON, MOVE_TRI_ATTACK, MOVE_SHADOW_BALL, MOVE_HYPER_BEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MAREEP,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_DRAGON_PULSE, MOVE_PARABOLIC_CHARGE, MOVE_COTTON_GUARD}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Diana4[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Diana4[] = {
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_BRELOOM,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CHESPIN,
+    .moves = {MOVE_SPIKY_SHIELD, MOVE_DRAIN_PUNCH, MOVE_WOOD_HAMMER, MOVE_THUNDER_PUNCH}
     },
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_GLOOM,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PIKIPEK,
+    .moves = {MOVE_AIR_SLASH, MOVE_HYPER_VOICE, MOVE_ROOST, MOVE_U_TURN}
     },
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_SWABLU,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PORYGON_Z,
+    .moves = {MOVE_ZAP_CANNON, MOVE_TRI_ATTACK, MOVE_SHADOW_BALL, MOVE_HYPER_BEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ARCANINE,
+    .moves = {MOVE_FLAMETHROWER, MOVE_CLOSE_COMBAT, MOVE_EXTREME_SPEED, MOVE_CRUNCH}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MAREEP,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_DRAGON_PULSE, MOVE_PARABOLIC_CHARGE, MOVE_COTTON_GUARD}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Diana5[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Diana5[] = {
     {
-    .iv = 40,
-    .lvl = 40,
-    .species = SPECIES_BRELOOM,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CHESPIN,
+    .moves = {MOVE_SPIKY_SHIELD, MOVE_DRAIN_PUNCH, MOVE_WOOD_HAMMER, MOVE_THUNDER_PUNCH}
     },
     {
-    .iv = 40,
-    .lvl = 40,
-    .species = SPECIES_VILEPLUME,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PIKIPEK,
+    .moves = {MOVE_AIR_SLASH, MOVE_HYPER_VOICE, MOVE_ROOST, MOVE_U_TURN}
     },
     {
-    .iv = 40,
-    .lvl = 40,
-    .species = SPECIES_ALTARIA,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PORYGON_Z,
+    .moves = {MOVE_ZAP_CANNON, MOVE_TRI_ATTACK, MOVE_SHADOW_BALL, MOVE_HYPER_BEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ARCANINE,
+    .moves = {MOVE_FLAMETHROWER, MOVE_CLOSE_COMBAT, MOVE_EXTREME_SPEED, MOVE_CRUNCH}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_WOOLOO,
+    .moves = {MOVE_DOUBLE_EDGE, MOVE_ZEN_HEADBUTT, MOVE_BODY_PRESS, MOVE_COTTON_GUARD}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MAREEP,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_DRAGON_PULSE, MOVE_PARABOLIC_CHARGE, MOVE_COTTON_GUARD}
     }
 };
 
