@@ -2509,11 +2509,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Mark[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtChimney1[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_GruntMtChimney1[] = {
     {
-    .iv =100,
-    .lvl = 20,
-    .species = SPECIES_NUMEL,
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ARCANINE,
+    .moves = {MOVE_EARTHQUAKE, MOVE_FIRE_BLAST, MOVE_EXTREME_SPEED, MOVE_BULLDOZE}
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_HOUNDOUR,
+    .moves = {MOVE_DARK_PULSE, MOVE_INFERNO, MOVE_IRON_TAIL, MOVE_NASTY_PLOT}
     }
 };
 
