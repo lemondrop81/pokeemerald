@@ -2456,11 +2456,25 @@ static const struct TrainerMonItemCustomMoves sParty_Winston5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Steve1[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Steve1[] = {
     {
-    .iv =100,
-    .lvl = 19,
-    .species = SPECIES_ARON,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_RHYHORN,
+    .moves = {MOVE_DRILL_RUN, MOVE_ROCK_BLAST, MOVE_TAKE_DOWN, MOVE_SCARY_FACE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .ability = 1, // Sheer Force
+    .species = SPECIES_DRUDDIGON,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_CRUNCH, MOVE_REVENGE, MOVE_HONE_CLAWS}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_AERODACTYL,
+    .moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_AERIAL_ACE}
     }
 };
 
@@ -2503,50 +2517,142 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtChimney1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Steve2[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Steve2[] = {
     {
-    .iv = 10,
-    .lvl = 27,
-    .species = SPECIES_LAIRON,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Steve3[] = {
-    {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_LAIRON,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_RHYPERIOR,
+    .moves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_HAMMER_ARM, MOVE_MEGAHORN}
     },
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_RHYHORN,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Steve4[] = {
-    {
-    .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_LAIRON,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SLOWBRO_GALARIAN,
+    .moves = {MOVE_SHELL_SIDE_ARM, MOVE_PSYCHIC, MOVE_SLACK_OFF, MOVE_SURF}
     },
     {
-    .iv = 30,
-    .lvl = 32,
-    .species = SPECIES_RHYHORN,
+    .iv =150,
+    .lvl = 1,
+    .ability = 1, // Sheer Force
+    .species = SPECIES_DRUDDIGON,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_CRUNCH, MOVE_FIRE_PUNCH, MOVE_HONE_CLAWS}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_AERODACTYL,
+    .moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_AERIAL_ACE}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Steve5[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Steve3[] = {
     {
-    .iv = 40,
-    .lvl = 35,
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_RHYPERIOR,
+    .moves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_HAMMER_ARM, MOVE_MEGAHORN}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_SLOWBRO_GALARIAN,
+    .moves = {MOVE_SHELL_SIDE_ARM, MOVE_PSYCHIC, MOVE_SLACK_OFF, MOVE_SURF}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .ability = 1, // Sheer Force
+    .species = SPECIES_DRUDDIGON,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_CRUNCH, MOVE_FIRE_PUNCH, MOVE_HONE_CLAWS}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .ability = 1, // Rock Head
     .species = SPECIES_AGGRON,
+    .moves = {MOVE_IRON_TAIL, MOVE_HEAD_SMASH, MOVE_ICE_PUNCH, MOVE_ROCK_POLISH}
     },
     {
-    .iv = 40,
-    .lvl = 35,
-    .species = SPECIES_RHYDON,
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_AERODACTYL,
+    .moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_AERIAL_ACE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Steve4[] = {
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_RHYPERIOR,
+    .moves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_HAMMER_ARM, MOVE_MEGAHORN}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_SLOWBRO_GALARIAN,
+    .moves = {MOVE_SHELL_SIDE_ARM, MOVE_PSYCHIC, MOVE_SLACK_OFF, MOVE_SURF}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .ability = 1, // Sheer Force
+    .species = SPECIES_DRUDDIGON,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_CRUNCH, MOVE_FIRE_PUNCH, MOVE_HONE_CLAWS}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_ANORITH,
+    .moves = {MOVE_BRICK_BREAK, MOVE_SWORDS_DANCE, MOVE_X_SCISSOR, MOVE_ROCK_SLIDE}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .ability = 1, // Rock Head
+    .species = SPECIES_AGGRON,
+    .moves = {MOVE_IRON_TAIL, MOVE_HEAD_SMASH, MOVE_ICE_PUNCH, MOVE_ROCK_POLISH}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_AERODACTYL,
+    .moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_AERIAL_ACE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Steve5[] = {
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_RHYPERIOR,
+    .moves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_HAMMER_ARM, MOVE_MEGAHORN}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_SLOWBRO_GALARIAN,
+    .moves = {MOVE_SHELL_SIDE_ARM, MOVE_PSYCHIC, MOVE_SLACK_OFF, MOVE_SURF}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .ability = 1, // Sheer Force
+    .species = SPECIES_DRUDDIGON,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_CRUNCH, MOVE_FIRE_PUNCH, MOVE_HONE_CLAWS}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .ability = 1, // Rock Head
+    .species = SPECIES_AGGRON,
+    .moves = {MOVE_IRON_TAIL, MOVE_HEAD_SMASH, MOVE_ICE_PUNCH, MOVE_ROCK_POLISH}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_AERODACTYL,
+    .moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_AERIAL_ACE}
     }
 };
 
