@@ -71,12 +71,12 @@ static const union AnimCmd *const sAnims_SwapLine[] =
 
 static const struct CompressedSpriteSheet sSpriteSheet_SwapLine =
 {
-    gBagSwapLineGfx, 0x100, TAG_SWAP_LINE
+    gSwapLineGfx, 0x100, TAG_SWAP_LINE
 };
 
 static const struct CompressedSpritePalette sSpritePalette_SwapLine =
 {
-    gBagSwapLinePal, TAG_SWAP_LINE
+    gSwapLinePal, TAG_SWAP_LINE
 };
 
 static const struct SpriteTemplate sSpriteTemplate_SwapLine =
@@ -276,8 +276,8 @@ u8 GetLRKeysPressedAndHeld(void)
 
 bool8 IsHoldingItemAllowed(u16 itemId)
 {
-    // Enigma Berry can't be held in link areas
-    if (itemId == ITEM_ENIGMA_BERRY
+    // e-Reader Enigma Berry can't be held in link areas
+    if (itemId == ITEM_ENIGMA_BERRY_E_READER
      && ((gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(TRADE_CENTER)
        && gSaveBlock1Ptr->location.mapNum == MAP_NUM(TRADE_CENTER))
        || InUnionRoom() == TRUE))

@@ -1,3 +1,9 @@
+enum {
+    TAG_POKEBALL = 1200,
+    TAG_POKEBALL_SMALL,
+    TAG_STATUS_ICONS,
+};
+
 static const struct BgTemplate sPartyMenuBgTemplates[] =
 {
     {
@@ -112,8 +118,8 @@ static const u8 sPartyMenuSpriteCoords[PARTY_LAYOUT_COUNT][PARTY_SIZE][4 * 2] =
 };
 
 // Used only when both Cancel and Confirm are present
-static const u32 sConfirmButton_Tilemap[] = INCBIN_U32("graphics/interface/party_menu_confirm_button.bin");
-static const u32 sCancelButton_Tilemap[] = INCBIN_U32("graphics/interface/party_menu_cancel_button.bin");
+static const u32 sConfirmButton_Tilemap[] = INCBIN_U32("graphics/party_menu/confirm_button.bin");
+static const u32 sCancelButton_Tilemap[] = INCBIN_U32("graphics/party_menu/cancel_button.bin");
 
 // Text colors for BG, FG, and Shadow in that order
 static const u8 sFontColorTable[][3] =
@@ -565,34 +571,14 @@ static const struct WindowTemplate sUnusedWindowTemplate2 =
     .baseBlock = 0x39D,
 };
 
-// Tile nums
-static const u8 sMainSlotTileNums[] = {24, 25, 25, 25, 25, 25, 25, 25, 25, 26,
-                                       32, 33, 33, 33, 33, 33, 33, 33, 33, 34,
-                                       32, 33, 33, 33, 33, 33, 33, 33, 33, 34,
-                                       32, 33, 33, 33, 33, 33, 33, 33, 33, 34,
-                                       40, 59, 60, 58, 58, 58, 58, 58, 58, 61,
-                                       15, 16, 16, 16, 16, 16, 16, 16, 16, 17,
-                                       46, 47, 47, 47, 47, 47, 47, 47, 47, 48};
-
-static const u8 sMainSlotTileNums_Egg[] = {24, 25, 25, 25, 25, 25, 25, 25, 25, 26,
-                                           32, 33, 33, 33, 33, 33, 33, 33, 33, 34,
-                                           32, 33, 33, 33, 33, 33, 33, 33, 33, 34,
-                                           32, 33, 33, 33, 33, 33, 33, 33, 33, 34,
-                                           40, 41, 41, 41, 41, 41, 41, 41, 41, 42,
-                                           15, 16, 16, 16, 16, 16, 16, 16, 16, 17,
-                                           46, 47, 47, 47, 47, 47, 47, 47, 47, 48};
-
-static const u8 sOtherSlotsTileNums[] = {43, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 45,
-                                         49, 33, 33, 33, 33, 33, 33, 33, 33, 52, 53, 51, 51, 51, 51, 51, 51, 54,
-                                         55, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 57};
-
-static const u8 sOtherSlotsTileNums_Egg[] = {43, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 45,
-                                             49, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 50,
-                                             55, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 56, 57};
-
-static const u8 sEmptySlotTileNums[] = {21, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 23,
-                                        30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31,
-                                        37, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 39};
+// Plain tilemaps for party menu slots.
+// The versions with no HP bar are used by eggs, and in certain displays like registering at a battle facility.
+// There is no empty version of the main slot because it shouldn't ever be empty.
+static const u8 sSlotTilemap_Main[]      = INCBIN_U8("graphics/party_menu/slot_main.bin");
+static const u8 sSlotTilemap_MainNoHP[]  = INCBIN_U8("graphics/party_menu/slot_main_no_hp.bin");
+static const u8 sSlotTilemap_Wide[]      = INCBIN_U8("graphics/party_menu/slot_wide.bin");
+static const u8 sSlotTilemap_WideNoHP[]  = INCBIN_U8("graphics/party_menu/slot_wide_no_hp.bin");
+static const u8 sSlotTilemap_WideEmpty[] = INCBIN_U8("graphics/party_menu/slot_wide_empty.bin");
 
 // Palette offsets
 static const u8 sGenderPalOffsets[] = {11, 12};
@@ -873,8 +859,8 @@ static const u8 *const sUnionRoomTradeMessages[] =
     [UR_TRADE_MSG_CANT_TRADE_WITH_PARTNER_2 - 1]   = gText_CantTradeWithTrainer,
 };
 
-static const u32 sHeldItemGfx[] = INCBIN_U32("graphics/interface/hold_icons.4bpp");
-static const u16 sHeldItemPalette[] = INCBIN_U16("graphics/interface/hold_icons.gbapal");
+static const u32 sHeldItemGfx[] = INCBIN_U32("graphics/party_menu/hold_icons.4bpp");
+static const u16 sHeldItemPalette[] = INCBIN_U16("graphics/party_menu/hold_icons.gbapal");
 
 static const struct OamData sOamData_HeldItem =
 {
@@ -969,19 +955,19 @@ static const union AnimCmd *const sSpriteAnimTable_MenuPokeball[] =
 
 static const struct CompressedSpriteSheet sSpriteSheet_MenuPokeball =
 {
-    gPartyMenuPokeball_Gfx, 0x400, 0x04b0
+    gPartyMenuPokeball_Gfx, 0x400, TAG_POKEBALL
 };
 
 static const struct CompressedSpritePalette sSpritePalette_MenuPokeball =
 {
-    gPartyMenuPokeball_Pal, 0x04b0
+    gPartyMenuPokeball_Pal, TAG_POKEBALL
 };
 
 // Used for the pokeball sprite on each party slot / Cancel button
 static const struct SpriteTemplate sSpriteTemplate_MenuPokeball =
 {
-    .tileTag = 0x04b0,
-    .paletteTag = 0x04b0,
+    .tileTag = TAG_POKEBALL,
+    .paletteTag = TAG_POKEBALL,
     .oam = &sOamData_MenuPokeball,
     .anims = sSpriteAnimTable_MenuPokeball,
     .images = NULL,
@@ -1055,14 +1041,14 @@ static const union AnimCmd *const sSpriteAnimTable_MenuPokeballSmall[] =
 
 static const struct CompressedSpriteSheet sSpriteSheet_MenuPokeballSmall =
 {
-    gPartyMenuPokeballSmall_Gfx, 0x0300, 0x04b1
+    gPartyMenuPokeballSmall_Gfx, 0x0300, TAG_POKEBALL_SMALL
 };
 
 // Used for the pokeball sprite next to Cancel and Confirm when both are present, otherwise sSpriteTemplate_MenuPokeball is used
 static const struct SpriteTemplate sSpriteTemplate_MenuPokeballSmall =
 {
-    .tileTag = 1201,
-    .paletteTag = 1200,
+    .tileTag = TAG_POKEBALL_SMALL,
+    .paletteTag = TAG_POKEBALL,
     .oam = &sOamData_MenuPokeballSmall,
     .anims = sSpriteAnimTable_MenuPokeballSmall,
     .images = NULL,
@@ -1149,37 +1135,23 @@ static const union AnimCmd *const sSpriteTemplate_StatusCondition[] =
 
 static const struct CompressedSpriteSheet sSpriteSheet_StatusIcons =
 {
-    gStatusGfx_Icons, 0x400, 1202
+    gStatusGfx_Icons, 0x400, TAG_STATUS_ICONS
 };
 
 static const struct CompressedSpritePalette sSpritePalette_StatusIcons =
 {
-    gStatusPal_Icons, 1202
+    gStatusPal_Icons, TAG_STATUS_ICONS
 };
 
 static const struct SpriteTemplate sSpriteTemplate_StatusIcons =
 {
-    .tileTag = 1202,
-    .paletteTag = 1202,
+    .tileTag = TAG_STATUS_ICONS,
+    .paletteTag = TAG_STATUS_ICONS,
     .oam = &sOamData_StatusCondition,
     .anims = sSpriteTemplate_StatusCondition,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy,
-};
-
-// Mask for the partners party in a multi battle. TRUE if in the partners party, FALSE otherwise
-// The 7th slot is Cancel, and the 8th slot is unreachable
-// Used only to determine whether or not to show the Deoxys form icon sprite
-static const bool8 sMultiBattlePartnersPartyMask[PARTY_SIZE + 2] =
-{
-    FALSE,
-    TRUE,
-    FALSE,
-    FALSE,
-    TRUE,
-    TRUE,
-    FALSE
 };
 
 static const u8 *const sUnused_StatStrings[] =
@@ -1244,6 +1216,56 @@ static const u16 sTMHMMoves[] =
     [ITEM_TM48 - ITEM_TM01] = MOVE_SKILL_SWAP,
     [ITEM_TM49 - ITEM_TM01] = MOVE_SNATCH,
     [ITEM_TM50 - ITEM_TM01] = MOVE_OVERHEAT,
+    [ITEM_TM51 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM52 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM53 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM54 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM55 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM56 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM57 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM58 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM59 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM60 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM61 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM62 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM63 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM64 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM65 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM66 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM67 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM68 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM69 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM70 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM71 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM72 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM73 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM74 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM75 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM76 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM77 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM78 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM79 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM80 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM81 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM82 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM83 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM84 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM85 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM86 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM87 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM88 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM89 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM90 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM91 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM92 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM93 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM94 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM95 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM96 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM97 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM98 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM99 - ITEM_TM01] = MOVE_NONE, // Todo
+    [ITEM_TM100 - ITEM_TM01] = MOVE_NONE, // Todo
     [ITEM_HM01 - ITEM_TM01] = MOVE_CUT,
     [ITEM_HM02 - ITEM_TM01] = MOVE_FLY,
     [ITEM_HM03 - ITEM_TM01] = MOVE_SURF,
