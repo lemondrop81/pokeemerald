@@ -424,7 +424,7 @@ u16 GetStarterPokemon(u16 chosenStarterId)
         return sStarterMonKalos[chosenStarterId];
     case 7:
         return sStarterMonAlola[chosenStarterId];
-        case 8:
+    case 8:
         return sStarterMonMystery[chosenStarterId];
     default:
         return sStarterMonHoenn[chosenStarterId];
