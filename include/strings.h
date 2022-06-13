@@ -2159,6 +2159,16 @@ extern const u8 gText_EggCantBeTradedNow[];
 extern const u8 gText_OtherTrainerCantAcceptPkmn[];
 extern const u8 gText_CantTradeWithTrainer[];
 
+// Region names
+extern const u8 gText_Kanto[];
+extern const u8 gText_Johto[];
+extern const u8 gText_Sinnoh[];
+extern const u8 gText_Unova[];
+extern const u8 gText_Kalos[];
+extern const u8 gText_Alola[];
+extern const u8 gText_Galar[];
+extern const u8 gText_Mystery[];
+
 // trade
 extern const u8 gText_XWillBeSentToY[];
 extern const u8 gText_ByeByeVar1[];
