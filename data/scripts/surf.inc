@@ -1,9 +1,6 @@
 EventScript_UseSurf::
-	checkpartymove MOVE_SURF
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_EndUseSurf
-	bufferpartymonnick STR_VAR_1, VAR_RESULT
-	setfieldeffectargument 0, VAR_RESULT
 	lockall
+	goto_if_unset FLAG_SURFBOARD, EventScript_CantSurf
 	msgbox gText_WantToUseSurf, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_ReleaseUseSurf
 	msgbox gText_PlayerUsedSurf, MSGBOX_DEFAULT
@@ -12,3 +9,11 @@ EventScript_ReleaseUseSurf::
 	releaseall
 EventScript_EndUseSurf::
 	end
+
+EventScript_CantSurf:
+	msgbox Text_CantSurf, MSGBOX_DEFAULT
+	releaseall
+	end
+
+Text_CantSurf:
+	.string "I might be able to surf with a surfboard.$" 
