@@ -213,15 +213,15 @@ LittlerootTown_MaysHouse_1F_EventScript_ChooseStarterSet::
 	special ShowScrollableMultichoice
 	waitstate
 	switch VAR_RESULT
-	case 0, LittlerootTown_MaysHouse_2F_EventScript_Kanto
-	case 1, LittlerootTown_MaysHouse_2F_EventScript_Johto
-	case 2, LittlerootTown_MaysHouse_2F_EventScript_Hoenn
-	case 3, LittlerootTown_MaysHouse_2F_EventScript_Sinnoh
-	case 4, LittlerootTown_MaysHouse_2F_EventScript_Unova
-	case 5, LittlerootTown_MaysHouse_2F_EventScript_Kalos
-	case 6, LittlerootTown_MaysHouse_2F_EventScript_Alola
-	case 7, LittlerootTown_MaysHouse_2F_EventScript_Mysterious
-	goto LittlerootTown_MaysHouse_2F_EventScript_Hoenn
+	case 0, LittlerootTown_MaysHouse_1F_EventScript_Kanto
+	case 1, LittlerootTown_MaysHouse_1F_EventScript_Johto
+	case 2, LittlerootTown_MaysHouse_1F_EventScript_Hoenn
+	case 3, LittlerootTown_MaysHouse_1F_EventScript_Sinnoh
+	case 4, LittlerootTown_MaysHouse_1F_EventScript_Unova
+	case 5, LittlerootTown_MaysHouse_1F_EventScript_Kalos
+	case 6, LittlerootTown_MaysHouse_1F_EventScript_Alola
+	case 7, LittlerootTown_MaysHouse_1F_EventScript_Mysterious
+	goto LittlerootTown_MaysHouse_1F_EventScript_Hoenn
 	end
 
 LittlerootTown_MaysHouse_1F_EventScript_Kanto::
@@ -465,26 +465,3 @@ RivalsHouse_1F_Text_DoYouHavePokemon:
 	.string "Do you already have your\n"
 	.string "own POKéMON?$"
 
-StarterRegionStringKanto:
-	.string "Kanto$"
-
-StarterRegionStringJohto:
-	.string "Johto$"
-
-StarterRegionStringHoenn:
-	.string "Hoenn$"
-
-StarterRegionStringSinnoh:
-	.string "Sinnoh$"
-
-StarterRegionStringUnova:
-	.string "Unova$"
-
-StarterRegionStringKalos:
-	.string "Kalos$"
-
-StarterRegionStringAlola:
-	.string "Alola$"
-
-StarterRegionStringMystery:
-	.string "Mystery$" 

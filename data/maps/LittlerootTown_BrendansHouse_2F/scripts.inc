@@ -85,15 +85,15 @@ LittlerootTown_BrendansHouse_2F_EventScript_ChooseStarterSet::
 	special ShowScrollableMultichoice
 	waitstate
 	switch VAR_RESULT
-	case 0, LittlerootTown_MaysHouse_2F_EventScript_Kanto
-	case 1, LittlerootTown_MaysHouse_2F_EventScript_Johto
-	case 2, LittlerootTown_MaysHouse_2F_EventScript_Hoenn
-	case 3, LittlerootTown_MaysHouse_2F_EventScript_Sinnoh
-	case 4, LittlerootTown_MaysHouse_2F_EventScript_Unova
-	case 5, LittlerootTown_MaysHouse_2F_EventScript_Kalos
-	case 6, LittlerootTown_MaysHouse_2F_EventScript_Alola
-	case 7, LittlerootTown_MaysHouse_2F_EventScript_Mysterious
-	goto LittlerootTown_MaysHouse_2F_EventScript_Hoenn
+	case 0, LittlerootTown_BrendansHouse_2F_EventScript_Kanto
+	case 1, LittlerootTown_BrendansHouse_2F_EventScript_Johto
+	case 2, LittlerootTown_BrendansHouse_2F_EventScript_Hoenn
+	case 3, LittlerootTown_BrendansHouse_2F_EventScript_Sinnoh
+	case 4, LittlerootTown_BrendansHouse_2F_EventScript_Unova
+	case 5, LittlerootTown_BrendansHouse_2F_EventScript_Kalos
+	case 6, LittlerootTown_BrendansHouse_2F_EventScript_Alola
+	case 7, LittlerootTown_BrendansHouse_2F_EventScript_Mysterious
+	goto LittlerootTown_BrendansHouse_2F_EventScript_Hoenn
 	end
 
 LittlerootTown_BrendansHouse_2F_EventScript_Kanto::

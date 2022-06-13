@@ -495,3 +495,27 @@ PlayersHouse_1F_Text_WhatColorDidTheySay:
 PlayersHouse_1F_Text_StillUnknownPokemon:
 	.string "MOM: Well, isn't that something!\n"
 	.string "There are still unknown POKéMON.$"
+
+StarterRegionStringKanto:
+	.string "Kanto$"
+
+StarterRegionStringJohto:
+	.string "Johto$"
+
+StarterRegionStringHoenn:
+	.string "Hoenn$"
+
+StarterRegionStringSinnoh:
+	.string "Sinnoh$"
+
+StarterRegionStringUnova:
+	.string "Unova$"
+
+StarterRegionStringKalos:
+	.string "Kalos$"
+
+StarterRegionStringAlola:
+	.string "Alola$"
+
+StarterRegionStringMysterious:
+	.string "Mysterious$" 
