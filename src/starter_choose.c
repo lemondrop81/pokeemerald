@@ -115,11 +115,53 @@ static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
     {8, 4},
 };
 
-static const u16 sStarterMon[STARTER_MON_COUNT] =
+static const u16 sStarterMonKanto[STARTER_MON_COUNT] =
+{
+    SPECIES_BULBASAUR,
+    SPECIES_CHARMANDER,
+    SPECIES_SQUIRTLE,
+};
+
+static const u16 sStarterMonJohto[STARTER_MON_COUNT] =
+{
+    SPECIES_CHIKORITA,
+    SPECIES_CYNDAQUIL,
+    SPECIES_TOTODILE,
+};
+
+static const u16 sStarterMonHoenn[STARTER_MON_COUNT] =
 {
     SPECIES_TREECKO,
     SPECIES_TORCHIC,
     SPECIES_MUDKIP,
+};
+
+static const u16 sStarterMonSinnoh[STARTER_MON_COUNT] =
+{
+    SPECIES_TURTWIG,
+    SPECIES_CHIMCHAR,
+    SPECIES_PIPLUP,
+};
+
+static const u16 sStarterMonUnova[STARTER_MON_COUNT] =
+{
+    SPECIES_SNIVY,
+    SPECIES_TEPIG,
+    SPECIES_OSHAWOTT,
+};
+
+static const u16 sStarterMonKalos[STARTER_MON_COUNT] =
+{
+    SPECIES_CHESPIN,
+    SPECIES_FENNEKIN,
+    SPECIES_FROAKIE,
+};
+
+static const u16 sStarterMonAlola[STARTER_MON_COUNT] =
+{
+    SPECIES_ROWLET,
+    SPECIES_LITTEN,
+    SPECIES_POPPLIO,
 };
 
 static const struct BgTemplate sBgTemplates[3] =
