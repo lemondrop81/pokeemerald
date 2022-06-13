@@ -73,8 +73,9 @@ PetalburgCity_Gym_EventScript_TurnPlayerNorth::
 	end
 
 PetalburgCity_Gym_OnFrame:
-	map_script_2 VAR_PETALBURG_GYM_STATE, 1
+	map_script_2 VAR_PETALBURG_GYM_STATE, 1, PetalburgCity_Gym_EventScript_TurnPlayerNorth
 	.2byte 0
+
 
 PetalburgCity_Gym_EventScript_Norman::
 	lock
@@ -93,6 +94,7 @@ PetalburgCity_Gym_EventScript_Norman::
 	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
 	setvar VAR_PETALBURG_GYM_STATE, 2
 	end
+
 
 PetalburgCity_Gym_EventScript_NormanAddressPlayerSouth::
 	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterUp
@@ -167,6 +169,7 @@ PetalburgCity_Gym_EventScript_GiveFacade2::
 	release
 	end
 
+
 PG_GiveMegaRing::
 	msgbox NormanGivesMR
 	additem ITEM_MEGA_RING
@@ -181,8 +184,6 @@ NormanGivesMR:
 
 NormanfinishGiveRing:
 	.string "While you have that item with\nyou, your Pokémon that have mega\pstones can mega-evolve in battle.\pMake good use of it!$"
-
-
 
 PetalburgCity_Gym_EventScript_NormanRematch::
 	trainerbattle_rematch_double TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanPreRematch, PetalburgCity_Gym_Text_NormanRematchDefeat, PetalburgCity_Gym_Text_NormanRematchNeedTwoMons
