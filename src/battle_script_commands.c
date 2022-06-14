@@ -6729,9 +6729,13 @@ static u32 GetTrainerMoneyToGive(u16 trainerId)
 
 static void Cmd_getmoneyreward(void)
 {
-    u32 moneyReward = GetTrainerMoneyToGive(gTrainerBattleOpponent_A);
+    u32 moneyReward = 2;
+    u16 randomComponent = ((Random() % 5) + 5);
+
+    moneyReward += GetTrainerMoneyToGive(gTrainerBattleOpponent_A);
     if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
         moneyReward += GetTrainerMoneyToGive(gTrainerBattleOpponent_B);
+    moneyReward *= randomComponent;
 
     AddMoney(&gSaveBlock1Ptr->money, moneyReward);
     PREPARE_WORD_NUMBER_BUFFER(gBattleTextBuff1, 5, moneyReward);
