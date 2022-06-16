@@ -1013,7 +1013,7 @@ static void PrintIdOnCard(void)
     s32 xPos;
     u32 top;
     txtPtr = StringCopy(buffer, gText_TrainerCardIDNo);
-    ConvertIntToDecimalStringN(txtPtr, sData->trainerCard.trainerId, STR_CONV_MODE_LEADING_ZEROS, 5);
+    ConvertIntToDecimalStringN(gStringVar1, sData->trainerCard.money, 0, 7);
     if (sData->cardType == CARD_TYPE_FRLG)
     {
         xPos = GetStringCenterAlignXOffset(FONT_NORMAL, buffer, 80) + 132;
