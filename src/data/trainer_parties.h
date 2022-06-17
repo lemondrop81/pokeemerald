@@ -493,12 +493,14 @@ static const struct TrainerMonNoItemCustomMoves sParty_Felix[] = {
     {
     .iv =100,
     .lvl = 43,
+    .ability = 0, //Pure power
     .species = SPECIES_MEDICHAM,
     .moves = {MOVE_PSYCHIC, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv =100,
     .lvl = 43,
+    .ability = 0, // Leviate
     .species = SPECIES_CLAYDOL,
     .moves = {MOVE_SKILL_SWAP, MOVE_EARTHQUAKE, MOVE_NONE, MOVE_NONE}
     }
@@ -613,6 +615,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Dusty1[] = {
     {
     .iv = 50,
     .lvl = 23,
+    .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
     }
@@ -622,18 +625,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Chip[] = {
     {
     .iv = 50,
     .lvl = 27,
+    .ability = 0, // Leviate
     .species = SPECIES_BALTOY,
     .moves = {MOVE_PSYBEAM, MOVE_SELF_DESTRUCT, MOVE_SANDSTORM, MOVE_ANCIENT_POWER}
     },
     {
     .iv = 50,
     .lvl = 27,
+    .ability = 0, // Sand veil
     .species = SPECIES_SANDSHREW,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
     },
     {
     .iv = 50,
     .lvl = 27,
+    .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
     }
@@ -688,6 +694,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Dusty2[] = {
     {
     .iv = 60,
     .lvl = 27,
+    .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
     }
@@ -697,6 +704,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Dusty3[] = {
     {
     .iv = 70,
     .lvl = 30,
+    .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
     }
@@ -706,6 +714,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Dusty4[] = {
     {
     .iv = 80,
     .lvl = 33,
+    .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
     }
@@ -715,6 +724,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Dusty5[] = {
     {
     .iv = 90,
     .lvl = 36,
+    .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
     }
@@ -724,12 +734,14 @@ static const struct TrainerMonNoItemCustomMoves sParty_GabbyAndTy1[] = {
     {
     .iv = 50,
     .lvl = 1,
+    .ability = 1, // Sturdy
     .species = SPECIES_MAGNEMITE,
     .moves = {MOVE_MIRROR_SHOT, MOVE_THUNDERBOLT, MOVE_METAL_SOUND, MOVE_TRI_ATTACK}
     },
     {
     .iv = 50,
     .lvl = 1,
+    .ability = 0, // Soundproof
     .species = SPECIES_WHISMUR,
     .moves = {MOVE_UPROAR, MOVE_EXTRASENSORY, MOVE_WORK_UP, MOVE_NONE}
     }
@@ -739,6 +751,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy2[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Sturdy
     .species = SPECIES_MAGNEZONE,
     .heldItem = ITEM_AIR_BALLOON,
     .moves = {MOVE_FLASH_CANNON, MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_SIGNAL_BEAM}
@@ -746,6 +759,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy2[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 0, // Soundproof
     .species = SPECIES_LOUDRED,
     .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_HYPER_VOICE, MOVE_EXTRASENSORY, MOVE_FOCUS_BLAST, MOVE_ICE_BEAM}
@@ -753,6 +767,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy2[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Download
     .species = SPECIES_PORYGON2,
     .heldItem = ITEM_EVIOLITE,
     .moves = {MOVE_TRI_ATTACK, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_RECOVER}
@@ -760,6 +775,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy2[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 2, // Pixalate
     .species = SPECIES_SYLVEON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYPER_VOICE, MOVE_MYSTICAL_FIRE, MOVE_SHADOW_BALL, MOVE_PSYCHIC}
@@ -770,6 +786,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy3[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Sturdy
     .species = SPECIES_MAGNEZONE,
     .heldItem = ITEM_AIR_BALLOON,
     .moves = {MOVE_FLASH_CANNON, MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_SIGNAL_BEAM}
@@ -777,6 +794,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy3[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 0, // Soundproof
     .species = SPECIES_LOUDRED,
     .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_HYPER_VOICE, MOVE_EXTRASENSORY, MOVE_FOCUS_BLAST, MOVE_ICE_BEAM}
@@ -784,6 +802,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy3[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Download
     .species = SPECIES_PORYGON2,
     .heldItem = ITEM_EVIOLITE,
     .moves = {MOVE_TRI_ATTACK, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_RECOVER}
@@ -791,6 +810,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy3[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 2, // Pixalate
     .species = SPECIES_SYLVEON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYPER_VOICE, MOVE_MYSTICAL_FIRE, MOVE_SHADOW_BALL, MOVE_PSYCHIC}
@@ -798,6 +818,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy3[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Super luck
     .species = SPECIES_ABSOL,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SWORDS_DANCE, MOVE_NIGHT_SLASH, MOVE_SLASH, MOVE_GIGA_IMPACT}
@@ -805,6 +826,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy3[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 2, //Heatproof
     .species = SPECIES_BRONZOR,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_IRON_DEFENSE, MOVE_PSYCHIC, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL}
@@ -815,6 +837,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy4[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Sturdy
     .species = SPECIES_MAGNEZONE,
     .heldItem = ITEM_AIR_BALLOON,
     .moves = {MOVE_FLASH_CANNON, MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_SIGNAL_BEAM}
@@ -822,6 +845,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy4[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 0, // Soundproof
     .species = SPECIES_LOUDRED,
     .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_HYPER_VOICE, MOVE_EXTRASENSORY, MOVE_FOCUS_BLAST, MOVE_ICE_BEAM}
@@ -829,6 +853,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy4[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Download
     .species = SPECIES_PORYGON2,
     .heldItem = ITEM_EVIOLITE,
     .moves = {MOVE_TRI_ATTACK, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_RECOVER}
@@ -836,6 +861,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy4[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 2, // Pixalate
     .species = SPECIES_SYLVEON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYPER_VOICE, MOVE_MYSTICAL_FIRE, MOVE_SHADOW_BALL, MOVE_PSYCHIC}
@@ -843,6 +869,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy4[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Super luck
     .species = SPECIES_ABSOL,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SWORDS_DANCE, MOVE_NIGHT_SLASH, MOVE_SLASH, MOVE_GIGA_IMPACT}
@@ -850,6 +877,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy4[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 2, //Heatproof
     .species = SPECIES_BRONZOR,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_IRON_DEFENSE, MOVE_PSYCHIC, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL}
@@ -860,6 +888,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy5[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Sturdy
     .species = SPECIES_MAGNEZONE,
     .heldItem = ITEM_AIR_BALLOON,
     .moves = {MOVE_FLASH_CANNON, MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_SIGNAL_BEAM}
@@ -867,6 +896,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy5[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 0, // Soundproof
     .species = SPECIES_LOUDRED,
     .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_HYPER_VOICE, MOVE_EXTRASENSORY, MOVE_FOCUS_BLAST, MOVE_ICE_BEAM}
@@ -874,6 +904,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy5[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Download
     .species = SPECIES_PORYGON2,
     .heldItem = ITEM_EVIOLITE,
     .moves = {MOVE_TRI_ATTACK, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_RECOVER}
@@ -881,6 +912,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy5[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 2, // Pixalate
     .species = SPECIES_SYLVEON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYPER_VOICE, MOVE_MYSTICAL_FIRE, MOVE_SHADOW_BALL, MOVE_PSYCHIC}
@@ -888,6 +920,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy5[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Super luck
     .species = SPECIES_ABSOL,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SWORDS_DANCE, MOVE_NIGHT_SLASH, MOVE_SLASH, MOVE_GIGA_IMPACT}
@@ -895,6 +928,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy5[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 2, //Heatproof
     .species = SPECIES_BRONZOR,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_IRON_DEFENSE, MOVE_PSYCHIC, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL}
@@ -905,6 +939,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy6[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Sturdy
     .species = SPECIES_MAGNEZONE,
     .heldItem = ITEM_AIR_BALLOON,
     .moves = {MOVE_FLASH_CANNON, MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_SIGNAL_BEAM}
@@ -912,6 +947,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy6[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 0, // Soundproof
     .species = SPECIES_LOUDRED,
     .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_HYPER_VOICE, MOVE_EXTRASENSORY, MOVE_FOCUS_BLAST, MOVE_ICE_BEAM}
@@ -919,6 +955,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy6[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Download
     .species = SPECIES_PORYGON2,
     .heldItem = ITEM_EVIOLITE,
     .moves = {MOVE_TRI_ATTACK, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_RECOVER}
@@ -926,6 +963,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy6[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 2, // Pixalate
     .species = SPECIES_SYLVEON,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HYPER_VOICE, MOVE_MYSTICAL_FIRE, MOVE_SHADOW_BALL, MOVE_PSYCHIC}
@@ -933,6 +971,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy6[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 1, // Super luck
     .species = SPECIES_ABSOL,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SWORDS_DANCE, MOVE_NIGHT_SLASH, MOVE_SLASH, MOVE_GIGA_IMPACT}
@@ -940,6 +979,7 @@ static const struct TrainerMonItemCustomMoves sParty_GabbyAndTy6[] = {
     {
     .iv = 100,
     .lvl = 2,
+    .ability = 2, //Heatproof
     .species = SPECIES_BRONZOR,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_IRON_DEFENSE, MOVE_PSYCHIC, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL}
@@ -1066,6 +1106,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ricky1[] = {
     {
     .iv = 10,
     .lvl = 1,
+    .ability = 2, // Quick feet
     .species = SPECIES_ZIGZAGOON_GALARIAN,
     .moves = {MOVE_HEADBUTT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_SUCKER_PUNCH}
     }
@@ -1111,6 +1152,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ricky2[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 2, //Quick feet
     .species = SPECIES_ZIGZAGOON_GALARIAN,
     .moves = {MOVE_HEADBUTT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_SUCKER_PUNCH}
     }
@@ -1120,24 +1162,28 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ricky3[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 2, //Quick feet
     .species = SPECIES_ZIGZAGOON_GALARIAN,
     .moves = {MOVE_HEADBUTT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_SUCKER_PUNCH}
     },
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // Prankster
     .species = SPECIES_IMPIDIMP,
     .moves = {MOVE_FOUL_PLAY, MOVE_SWAGGER, MOVE_NASTY_PLOT, MOVE_DRAIN_PUNCH}
     },
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // Default
     .species = SPECIES_COSMOG,
     .moves = {MOVE_CONFUSION, MOVE_TELEPORT, MOVE_SPLASH, MOVE_CONFUSION}
     },
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 1, // Screen Cleaner
     .species = SPECIES_MR_MIME_GALARIAN,
     .moves = {MOVE_MISTY_TERRAIN, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_AVALANCHE}
     }
@@ -1147,24 +1193,28 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ricky4[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 2, //Quick feet
     .species = SPECIES_ZIGZAGOON_GALARIAN,
     .moves = {MOVE_HEADBUTT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_SUCKER_PUNCH}
     },
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // Prankster
     .species = SPECIES_IMPIDIMP,
     .moves = {MOVE_FOUL_PLAY, MOVE_SWAGGER, MOVE_NASTY_PLOT, MOVE_DRAIN_PUNCH}
     },
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // Default
     .species = SPECIES_COSMOG,
     .moves = {MOVE_CONFUSION, MOVE_TELEPORT, MOVE_SPLASH, MOVE_CONFUSION}
     },
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 1, // Screen Cleaner
     .species = SPECIES_MR_MIME_GALARIAN,
     .moves = {MOVE_MISTY_TERRAIN, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_AVALANCHE}
     }
@@ -1174,24 +1224,28 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ricky5[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 2, //Quick feet
     .species = SPECIES_ZIGZAGOON_GALARIAN,
     .moves = {MOVE_HEADBUTT, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_SUCKER_PUNCH}
     },
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // Prankster
     .species = SPECIES_IMPIDIMP,
     .moves = {MOVE_FOUL_PLAY, MOVE_SWAGGER, MOVE_NASTY_PLOT, MOVE_DRAIN_PUNCH}
     },
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // Default
     .species = SPECIES_COSMOG,
     .moves = {MOVE_CONFUSION, MOVE_TELEPORT, MOVE_SPLASH, MOVE_CONFUSION}
     },
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 1, // Screen Cleaner
     .species = SPECIES_MR_MIME_GALARIAN,
     .moves = {MOVE_MISTY_TERRAIN, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_AVALANCHE}
     }
@@ -1201,6 +1255,7 @@ static const struct TrainerMonItemCustomMoves sParty_Randall[] = {
     {
     .iv = 255,
     .lvl = 26,
+    .ability = 2, // Scrappy
     .species = SPECIES_SWELLOW,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_QUICK_ATTACK, MOVE_AGILITY, MOVE_WING_ATTACK, MOVE_NONE}
@@ -1211,6 +1266,7 @@ static const struct TrainerMonItemCustomMoves sParty_Parker[] = {
     {
     .iv = 255,
     .lvl = 26,
+    .ability = 2, // Contrary
     .species = SPECIES_SPINDA,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_DIZZY_PUNCH, MOVE_FOCUS_PUNCH, MOVE_NONE}
@@ -1221,6 +1277,7 @@ static const struct TrainerMonItemCustomMoves sParty_George[] = {
     {
     .iv = 255,
     .lvl = 26,
+    .ability = 0, // Default
     .species = SPECIES_SLAKOTH,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SLACK_OFF, MOVE_COUNTER, MOVE_SHADOW_BALL, MOVE_NONE}
@@ -1231,6 +1288,7 @@ static const struct TrainerMonItemCustomMoves sParty_Berke[] = {
     {
     .iv = 255,
     .lvl = 26,
+    .ability = 0, // Default
     .species = SPECIES_VIGOROTH,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FOCUS_ENERGY, MOVE_SLASH, MOVE_NONE, MOVE_NONE}
@@ -1241,30 +1299,35 @@ static const struct TrainerMonNoItemCustomMoves sParty_Braxton[] = {
     {
     .iv = 100,
     .lvl = 28,
+    .ability = 0, // Default
     .species = SPECIES_SWELLOW,
     .moves = {MOVE_FOCUS_ENERGY, MOVE_QUICK_ATTACK, MOVE_WING_ATTACK, MOVE_ENDEAVOR}
     },
     {
     .iv = 100,
     .lvl = 28,
+    .ability = 0, // Default
     .species = SPECIES_TRAPINCH,
     .moves = {MOVE_BITE, MOVE_DIG, MOVE_FEINT_ATTACK, MOVE_SAND_TOMB}
     },
     {
     .iv = 100,
     .lvl = 28,
+    .ability = 0, // Waterveil
     .species = SPECIES_WAILMER,
     .moves = {MOVE_ROLLOUT, MOVE_WHIRLPOOL, MOVE_ASTONISH, MOVE_WATER_PULSE}
     },
     {
     .iv = 100,
     .lvl = 28,
+    .ability = 1, // Sturdy
     .species = SPECIES_MAGNETON,
     .moves = {MOVE_THUNDERBOLT, MOVE_SUPERSONIC, MOVE_THUNDER_WAVE, MOVE_SONIC_BOOM}
     },
     {
     .iv = 100,
     .lvl = 28,
+    .ability = 1, // Early bird
     .species = SPECIES_SHIFTRY,
     .moves = {MOVE_GIGA_DRAIN, MOVE_FEINT_ATTACK, MOVE_DOUBLE_TEAM, MOVE_SWAGGER}
     }
