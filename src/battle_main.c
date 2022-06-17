@@ -2014,6 +2014,7 @@ u16 PartyLevelAdjust;
                     SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[i].moves[j]);
                     SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[i].moves[j]].pp);
                 }
+                SetMonData(&party[i], MON_DATA_ABILITY_NUM, &partyData[i].ability);
                 break;
             }
             case F_TRAINER_PARTY_HELD_ITEM:
@@ -2058,6 +2059,7 @@ u16 PartyLevelAdjust;
                     SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[i].moves[j]);
                     SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[i].moves[j]].pp);
                 }
+                SetMonData(&party[i], MON_DATA_ABILITY_NUM, &partyData[i].ability);
                 break;
   
             }
