@@ -1368,6 +1368,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wilton1[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // No Guard
     .species = SPECIES_DOUBLADE,
     .heldItem = ITEM_EVIOLITE,
     .moves = {MOVE_SHADOW_CLAW, MOVE_IRON_HEAD, MOVE_PSYCHO_CUT, MOVE_SHADOW_SNEAK}
@@ -1479,6 +1480,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wilton2[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // No Guard
     .species = SPECIES_DOUBLADE,
     .heldItem = ITEM_EVIOLITE,
     .moves = {MOVE_SHADOW_CLAW, MOVE_IRON_HEAD, MOVE_PSYCHO_CUT, MOVE_SHADOW_SNEAK}
@@ -1513,6 +1515,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wilton3[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // Prankster
     .species = SPECIES_IMPIDIMP,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_SUCKER_PUNCH, MOVE_SPIRIT_BREAK, MOVE_BULK_UP, MOVE_DRAIN_PUNCH}
@@ -1520,6 +1523,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wilton3[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 0, // No Guard
     .species = SPECIES_DOUBLADE,
     .heldItem = ITEM_EVIOLITE,
     .moves = {MOVE_SHADOW_CLAW, MOVE_IRON_HEAD, MOVE_PSYCHO_CUT, MOVE_SHADOW_SNEAK}
@@ -1562,6 +1566,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wilton4[] = {
     {
     .iv = 150,
     .lvl = 1,
+    .ability = 0, // No Guard
     .species = SPECIES_DOUBLADE,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_SHADOW_BALL, MOVE_FLASH_CANNON, MOVE_CLOSE_COMBAT, MOVE_KINGS_SHIELD}
@@ -1577,6 +1582,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wilton4[] = {
     {
     .iv = 150,
     .lvl = 1,
+    .ability = 0, // Water absorb
     .species = SPECIES_LAPRAS,
     .heldItem = ITEM_CHOICE_SPECS,
     .moves = {MOVE_HYDRO_PUMP, MOVE_FREEZE_DRY, MOVE_THUNDER, MOVE_PSYCHIC}
@@ -1611,6 +1617,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wilton5[] = {
     {
     .iv = 250,
     .lvl = 1,
+    .ability = 0, // No Guard
     .species = SPECIES_DOUBLADE,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_SHADOW_BALL, MOVE_FLASH_CANNON, MOVE_CLOSE_COMBAT, MOVE_KINGS_SHIELD}
@@ -1626,6 +1633,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wilton5[] = {
     {
     .iv = 250,
     .lvl = 1,
+    .ability = 0, // Water absorb
     .species = SPECIES_LAPRAS,
     .heldItem = ITEM_CHOICE_SPECS,
     .moves = {MOVE_HYDRO_PUMP, MOVE_FREEZE_DRY, MOVE_THUNDER, MOVE_PSYCHIC}
@@ -1665,6 +1673,7 @@ static const struct TrainerMonItemCustomMoves sParty_Mary[] = {
     {
     .iv = 255,
     .lvl = 26,
+    .ability = 1, // Normalize
     .species = SPECIES_DELCATTY,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FEINT_ATTACK, MOVE_SHOCK_WAVE, MOVE_NONE, MOVE_NONE}
@@ -1675,6 +1684,7 @@ static const struct TrainerMonItemCustomMoves sParty_Alexia[] = {
     {
     .iv = 255,
     .lvl = 26,
+    .ability = 1, // Competitive
     .species = SPECIES_WIGGLYTUFF,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_DEFENSE_CURL, MOVE_DOUBLE_EDGE, MOVE_SHADOW_BALL, MOVE_NONE}
@@ -1685,8 +1695,9 @@ static const struct TrainerMonItemCustomMoves sParty_Jody[] = {
     {
     .iv = 255,
     .lvl = 26,
+    .ability = 2, // Toxic boost
     .species = SPECIES_ZANGOOSE,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_TOXIC_ORB,
     .moves = {MOVE_SWORDS_DANCE, MOVE_SLASH, MOVE_NONE, MOVE_NONE}
     }
 };
@@ -1695,18 +1706,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Wendy[] = {
     {
     .iv = 100,
     .lvl = 29,
+    .ability = 2, // Sheer force
     .species = SPECIES_MAWILE,
     .moves = {MOVE_BATON_PASS, MOVE_FEINT_ATTACK, MOVE_FAKE_TEARS, MOVE_BITE}
     },
     {
     .iv = 100,
     .lvl = 29,
+    .ability = 1, // Poison point
     .species = SPECIES_ROSELIA,
     .moves = {MOVE_MEGA_DRAIN, MOVE_MAGICAL_LEAF, MOVE_GRASS_WHISTLE, MOVE_LEECH_SEED}
     },
     {
     .iv = 100,
     .lvl = 29,
+    .ability = 1, // Drizzle
     .species = SPECIES_PELIPPER,
     .moves = {MOVE_FLY, MOVE_WATER_GUN, MOVE_MIST, MOVE_PROTECT}
     }
@@ -1729,6 +1743,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke1[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 1, // Storm drain
     .species = SPECIES_SHELLOS,
     .heldItem = ITEM_RINDO_BERRY,
     .moves = {MOVE_SURF, MOVE_MUD_SHOT, MOVE_RECOVER, MOVE_ANCIENT_POWER}
@@ -1736,13 +1751,14 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke1[] = {
     {
     .iv = 100,
     .lvl = 1,
+    .ability = 2, // speed boost
     .species = SPECIES_TORCHIC,
     .moves = {MOVE_CLOSE_COMBAT, MOVE_FIRE_PUNCH, MOVE_GRASS_KNOT, MOVE_ROCK_TOMB}
     },
     {
     .iv = 100,
     .lvl = 1,
-    .ability = 2, // Technician
+    .ability = 1, // Poison point
     .species = SPECIES_ROSELIA,
     .heldItem = ITEM_BIG_ROOT,
     .moves = {MOVE_MEGA_DRAIN, MOVE_EXTRASENSORY, MOVE_TOXIC, MOVE_VENOSHOCK}
@@ -1826,6 +1842,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke2[] = {
     {
     .iv = 130,
     .lvl = 1,
+    .ability = 1, // Storm drain
     .species = SPECIES_SHELLOS,
     .heldItem = ITEM_RINDO_BERRY,
     .moves = {MOVE_MUDDY_WATER, MOVE_EARTH_POWER, MOVE_RECOVER, MOVE_SLUDGE_WAVE}
@@ -1833,6 +1850,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke2[] = {
     {
     .iv = 130,
     .lvl = 1,
+    .ability = 2, // Speed boost
     .species = SPECIES_TORCHIC,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_CLOSE_COMBAT, MOVE_FIRE_PUNCH, MOVE_GRASS_KNOT, MOVE_ROCK_TOMB}
@@ -1840,7 +1858,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke2[] = {
     {
     .iv = 130,
     .lvl = 1,
-    .ability = 2, // Technician
+    .ability = 1, // Poison point
     .species = SPECIES_ROSELIA,
     .heldItem = ITEM_BIG_ROOT,
     .moves = {MOVE_MEGA_DRAIN, MOVE_EXTRASENSORY, MOVE_SLEEP_POWDER, MOVE_SLUDGE_BOMB}
@@ -1859,6 +1877,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke3[] = {
     {
     .iv = 170,
     .lvl = 1,
+    .ability = 1, // Storm drain
     .species = SPECIES_SHELLOS,
     .heldItem = ITEM_RINDO_BERRY,
     .moves = {MOVE_SCALD, MOVE_EARTH_POWER, MOVE_RECOVER, MOVE_TOXIC}
@@ -1866,6 +1885,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke3[] = {
     {
     .iv = 170,
     .lvl = 1,
+    .ability = 2, // Speed boost
     .species = SPECIES_TORCHIC,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_CLOSE_COMBAT, MOVE_FLARE_BLITZ, MOVE_THUNDER_PUNCH, MOVE_STONE_EDGE}
@@ -1873,7 +1893,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke3[] = {
     {
     .iv = 170,
     .lvl = 1,
-    .ability = 2, // Technician
+    .ability = 1, // Poison point
     .species = SPECIES_ROSERADE,
     .heldItem = ITEM_BIG_ROOT,
     .moves = {MOVE_MEGA_DRAIN, MOVE_HIDDEN_POWER, MOVE_SLEEP_POWDER, MOVE_SLUDGE_BOMB}
@@ -1900,6 +1920,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke4[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 1, // Storm drain
     .species = SPECIES_SHELLOS,
     .heldItem = ITEM_RINDO_BERRY,
     .moves = {MOVE_SCALD, MOVE_EARTH_POWER, MOVE_RECOVER, MOVE_TOXIC}
@@ -1907,6 +1928,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke4[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // Speed boost
     .species = SPECIES_TORCHIC,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_CLOSE_COMBAT, MOVE_FLARE_BLITZ, MOVE_THUNDER_PUNCH, MOVE_STONE_EDGE}
@@ -1914,7 +1936,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke4[] = {
     {
     .iv = 200,
     .lvl = 1,
-    .ability = 2, // Technician
+    .ability = 1, // Poison point
     .species = SPECIES_ROSERADE,
     .heldItem = ITEM_BIG_ROOT,
     .moves = {MOVE_MEGA_DRAIN, MOVE_HIDDEN_POWER, MOVE_SLEEP_POWDER, MOVE_SLUDGE_BOMB}
@@ -1949,6 +1971,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke5[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 1, // Storm drain
     .species = SPECIES_SHELLOS,
     .heldItem = ITEM_RINDO_BERRY,
     .moves = {MOVE_SCALD, MOVE_EARTH_POWER, MOVE_RECOVER, MOVE_TOXIC}
@@ -1956,6 +1979,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke5[] = {
     {
     .iv = 200,
     .lvl = 1,
+    .ability = 2, // Speed boost
     .species = SPECIES_TORCHIC,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_CLOSE_COMBAT, MOVE_FLARE_BLITZ, MOVE_THUNDER_PUNCH, MOVE_STONE_EDGE}
@@ -1963,7 +1987,7 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke5[] = {
     {
     .iv = 200,
     .lvl = 1,
-    .ability = 2, // Technician
+    .ability = 1, // Poison point
     .species = SPECIES_ROSERADE,
     .heldItem = ITEM_BIG_ROOT,
     .moves = {MOVE_MEGA_DRAIN, MOVE_HIDDEN_POWER, MOVE_SLEEP_POWDER, MOVE_SLUDGE_BOMB}
@@ -2131,6 +2155,7 @@ static const struct TrainerMonItemCustomMoves sParty_Daphne[] = {
     {
     .iv = 100,
     .lvl = 39,
+    .ability = 2, // Hydration
     .species = SPECIES_LUVDISC,
     .heldItem = ITEM_NUGGET,
     .moves = {MOVE_ATTRACT, MOVE_SWEET_KISS, MOVE_FLAIL, MOVE_WATER_PULSE}
@@ -2138,6 +2163,7 @@ static const struct TrainerMonItemCustomMoves sParty_Daphne[] = {
     {
     .iv = 100,
     .lvl = 39,
+    .ability = 2, // Hydration
     .species = SPECIES_LUVDISC,
     .heldItem = ITEM_NUGGET,
     .moves = {MOVE_ATTRACT, MOVE_SAFEGUARD, MOVE_TAKE_DOWN, MOVE_WATER_PULSE}
@@ -2166,6 +2192,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cindy2[] = {
     {
     .iv =100,
     .lvl = 11,
+    .ability = 0, // Water absorb
     .species = SPECIES_LAPRAS,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_BODY_SLAM, MOVE_SCALD}
@@ -2173,6 +2200,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cindy2[] = {
     {
     .iv =100,
     .lvl = 11,
+    .ability = 1, // Scrappy
     .species = SPECIES_KANGASKHAN,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_MEGA_PUNCH, MOVE_THUNDERBOLT}
@@ -2180,6 +2208,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cindy2[] = {
     {
     .iv =100,
     .lvl = 11,
+    .ability = 1, // Technician
     .species = SPECIES_SCYTHER,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_X_SCISSOR, MOVE_SWORDS_DANCE, MOVE_DOUBLE_TEAM, MOVE_AERIAL_ACE}
@@ -2187,9 +2216,10 @@ static const struct TrainerMonItemCustomMoves sParty_Cindy2[] = {
     {
     .iv =100,
     .lvl = 11,
+    .ability = 1, // Anger point
     .species = SPECIES_TAUROS,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_EARTHQUAKE, MOVE_MEGAHORN, MOVE_GIGA_IMPACT, MOVE_NONE}
+    .moves = {MOVE_EARTHQUAKE, MOVE_MEGAHORN, MOVE_GIGA_IMPACT, MOVE_SUBSTITUTE}
     }
 };
 
@@ -2242,6 +2272,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cindy6[] = {
     {
     .iv = 40,
     .lvl = 36,
+    .ability = 2, // Quick feet
     .species = SPECIES_LINOONE,
     .heldItem = ITEM_NUGGET,
     .moves = {MOVE_FURY_SWIPES, MOVE_MUD_SPORT, MOVE_ODOR_SLEUTH, MOVE_SAND_ATTACK}
@@ -2276,12 +2307,14 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica1[] = {
     {
     .iv =100,
     .lvl = 29,
+    .ability = 0, // Color change
     .species = SPECIES_KECLEON,
     .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FEINT_ATTACK}
     },
     {
     .iv =100,
     .lvl = 29,
+    .ability = 0, // Shed skin
     .species = SPECIES_SEVIPER,
     .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
     }
