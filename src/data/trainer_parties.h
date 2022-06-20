@@ -8285,15 +8285,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenny5[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Heidi[] = {
     {
     .iv =100,
-    .lvl = 22,
-    .species = SPECIES_SANDSHREW,
-    .moves = {MOVE_DIG, MOVE_SAND_ATTACK, MOVE_POISON_STING, MOVE_SLASH}
+    .lvl = 1,
+    .ability = 1, // Moxie
+    .species = SPECIES_SANDILE,
+    .moves = {MOVE_FOUL_PLAY, MOVE_EARTHQUAKE, MOVE_THRASH, MOVE_OUTRAGE}
     },
     {
     .iv =100,
-    .lvl = 22,
-    .species = SPECIES_BALTOY,
-    .moves = {MOVE_RAPID_SPIN, MOVE_MUD_SLAP, MOVE_PSYBEAM, MOVE_ROCK_TOMB}
+    .lvl = 1,
+    .ability = 1, // Rivalry
+    .species = SPECIES_NIDOKING,
+    .moves = {MOVE_SLUDGE_WAVE, MOVE_MEGAHORN, MOVE_POISON_JAB, MOVE_EARTH_POWER}
     }
 };
 
