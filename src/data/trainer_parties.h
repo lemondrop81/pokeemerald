@@ -3758,21 +3758,24 @@ static const struct TrainerMonNoItemCustomMoves sParty_Drew[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Beau[] = {
     {
     .iv =100,
-    .lvl = 21,
-    .species = SPECIES_BALTOY,
-    .moves = {MOVE_RAPID_SPIN, MOVE_MUD_SLAP, MOVE_PSYBEAM, MOVE_ROCK_TOMB}
+    .lvl = 1,
+    .ability = 2, //Sand force
+    .species = SPECIES_HIPPOPOTAS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_IRON_TAIL, MOVE_GIGA_IMPACT}
     },
     {
     .iv =100,
-    .lvl = 21,
-    .species = SPECIES_SANDSHREW,
-    .moves = {MOVE_POISON_STING, MOVE_SAND_ATTACK, MOVE_SCRATCH, MOVE_DIG}
+    .lvl = 1,
+    .ability = 2, // Thick fat
+    .species = SPECIES_MAMOSWINE,
+    .moves = {MOVE_AVALANCHE, MOVE_THRASH, MOVE_ANCIENT_POWER, MOVE_BULLDOZE}
     },
     {
     .iv =100,
-    .lvl = 21,
-    .species = SPECIES_BALTOY,
-    .moves = {MOVE_RAPID_SPIN, MOVE_MUD_SLAP, MOVE_PSYBEAM, MOVE_ROCK_TOMB}
+    .lvl = 1,
+    .ability = 1, // Solid rock
+    .species = SPECIES_RHYPERIOR,
+    .moves = {MOVE_HAMMER_ARM, MOVE_EARTHQUAKE, MOVE_ROCK_WRECKER, MOVE_THUNDERBOLT}
     }
 };
 
