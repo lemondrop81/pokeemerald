@@ -3809,13 +3809,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Justin[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Ethan1[] = {
     {
     .iv =100,
-    .lvl = 20,
-    .species = SPECIES_ZIGZAGOON,
+    .lvl = 1,
+    .species = SPECIES_STANTLER,
     },
     {
     .iv =100,
-    .lvl = 20,
-    .species = SPECIES_TAILLOW,
+    .lvl = 1,
+    .species = SPECIES_HOUNDOUR,
     }
 };
 
@@ -3862,63 +3862,103 @@ static const struct TrainerMonNoItemCustomMoves sParty_Travis[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Ethan2[] = {
     {
-    .iv = 10,
-    .lvl = 26,
-    .species = SPECIES_ZIGZAGOON,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_STANTLER,
     },
     {
-    .iv = 10,
-    .lvl = 26,
-    .species = SPECIES_TAILLOW,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_HOUNDOUR,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TYMPOLE,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Ethan3[] = {
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_LINOONE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_STANTLER,
     },
     {
-    .iv = 20,
-    .lvl = 29,
-    .species = SPECIES_SWELLOW,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_HOUNDOUR,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TYMPOLE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VANILLITE,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Ethan4[] = {
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_SANDSHREW,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_STANTLER,
     },
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_SWELLOW,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_HOUNDOUR,
     },
     {
-    .iv = 30,
-    .lvl = 31,
-    .species = SPECIES_LINOONE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TYMPOLE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VANILLITE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GOOMY,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Ethan5[] = {
     {
-    .iv = 40,
-    .lvl = 34,
-    .species = SPECIES_SWELLOW,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_STANTLER,
     },
     {
-    .iv = 40,
-    .lvl = 34,
-    .species = SPECIES_SANDSLASH,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_HOUNDOUR,
     },
     {
-    .iv = 40,
-    .lvl = 34,
-    .species = SPECIES_LINOONE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_TYMPOLE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VANILLITE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MORPEKO,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GOOMY,
     }
 };
 
