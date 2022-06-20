@@ -3602,8 +3602,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jace[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Keegan[] = {
     {
     .iv = 120,
-    .lvl = 23,
-    .species = SPECIES_SLUGMA,
+    .lvl = 1,
+    .species = SPECIES_FLETCHLING,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_TURTONATOR,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_CASTFORM_SUNNY,
     }
 };
 
