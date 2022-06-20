@@ -3749,9 +3749,17 @@ static const struct TrainerMonNoItemCustomMoves sParty_Bernie5[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Drew[] = {
     {
     .iv =100,
-    .lvl = 23,
-    .species = SPECIES_SANDSHREW,
-    .moves = {MOVE_DIG, MOVE_SAND_ATTACK, MOVE_POISON_STING, MOVE_SLASH}
+    .lvl = 1,
+    .ability = 1, // sand force
+    .species = SPECIES_DRILBUR,
+    .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_SMART_STRIKE, MOVE_CRUSH_CLAW}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 0, // Wandering spirit
+    .species = SPECIES_RUNERIGUS,
+    .moves = {MOVE_PHANTOM_FORCE, MOVE_BRUTAL_SWING, MOVE_DESTINY_BOND, MOVE_GIGA_IMPACT}
     }
 };
 
