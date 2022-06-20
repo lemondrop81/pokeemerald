@@ -2134,19 +2134,19 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy1[] = {
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_SHELLDER,
+    .species = SPECIES_WIMPOD,
     .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_KANGASKHAN,
+    .species = SPECIES_BUNNELBY,
     .heldItem = ITEM_SITRUS_BERRY
     },
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_FARFETCHD,
+    .species = SPECIES_HOOTHOOT,
     .heldItem = ITEM_SITRUS_BERRY
     }
 };
