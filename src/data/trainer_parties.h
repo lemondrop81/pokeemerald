@@ -4765,7 +4765,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     {
     .iv = 250,
     .lvl = 1,
-    .ability = 2, // Thick Fat
+    .ability = 2, // Protean
     .species = SPECIES_SLAKING,
     .heldItem = ITEM_CHOICE_BAND,
     .moves = {MOVE_SUCKER_PUNCH, MOVE_GIGA_IMPACT, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE}
