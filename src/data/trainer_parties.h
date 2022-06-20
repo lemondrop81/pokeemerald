@@ -11833,9 +11833,24 @@ static const struct TrainerMonNoItemCustomMoves sParty_Vivian[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Danielle[] = {
     {
     .iv = 100,
-    .lvl = 23,
-    .species = SPECIES_MEDITITE,
-    .moves = {MOVE_BIDE, MOVE_DETECT, MOVE_CONFUSION, MOVE_FIRE_PUNCH}
+    .lvl = 1,
+    .ability = 2, // Thick fat or reckless
+    .species = SPECIES_TEPIG,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_HEAD_SMASH, MOVE_HIGH_JUMP_KICK, MOVE_LIGHT_OF_RUIN}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, // Iron fist
+    .species = SPECIES_CHIMCHAR,
+    .moves = {MOVE_DRAIN_PUNCH, MOVE_PLASMA_FISTS, MOVE_ICE_HAMMER, MOVE_FIRE_PUNCH}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, // Speed boost
+    .species = SPECIES_TORCHIC,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_BLAZE_KICK, MOVE_EARTHQUAKE}
     }
 };
 
