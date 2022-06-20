@@ -10710,22 +10710,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tiana[] = {
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_EKANS,
+    .species = SPECIES_SENTRET,
     },
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_DEWPIDER,
+    .species = SPECIES_WOOLOO,
     },
     {
     .iv =100,
     .lvl = 1,
-    .species = SPECIES_DUCKLETT,
-    },
-    {
-    .iv =100,
-    .lvl = 1,
-    .species = SPECIES_ODDISH,
+    .species = SPECIES_FOMANTIS,
     }
 };
 
