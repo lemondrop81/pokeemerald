@@ -11791,9 +11791,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Johanna[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Gerald[] = {
     {
     .iv = 100,
-    .lvl = 23,
+    .lvl = 1,
+    .ability = 2, //Protean
     .species = SPECIES_KECLEON,
-    .moves = {MOVE_FLAMETHROWER, MOVE_FURY_SWIPES, MOVE_FEINT_ATTACK, MOVE_BIND}
+    .moves = {MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 2, //Flame body
+    .species = SPECIES_SIZZLIPEDE,
+    .moves = {MOVE_OVERHEAT, MOVE_HYPER_BEAM, MOVE_CRUNCH, MOVE_BUG_BITE}
     }
 };
 
