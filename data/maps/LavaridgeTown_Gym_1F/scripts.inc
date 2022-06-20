@@ -88,6 +88,8 @@ LR_GiveMegaRing::
 	msgbox FlanneryGivesMR
 	additem ITEM_MEGA_RING
 	additem ITEM_CAMERUPTITE
+	additem ITEM_ABILITY_CAPSULE
+	additem ITEM_ABILITY_CAPSULE
 	closemessage
 	msgbox FlanneryfinishGiveRing
 	return
