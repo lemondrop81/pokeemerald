@@ -3584,8 +3584,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Axle[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Jace[] = {
     {
     .iv = 100,
-    .lvl = 23,
-    .species = SPECIES_SLUGMA,
+    .lvl = 1,
+    .species = SPECIES_ROTOM_HEAT,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_CHANDELURE,
     }
 };
 
