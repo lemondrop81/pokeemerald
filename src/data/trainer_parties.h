@@ -8302,15 +8302,15 @@ static const struct TrainerMonNoItemCustomMoves sParty_Heidi[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Becky[] = {
     {
     .iv =100,
-    .lvl = 22,
-    .species = SPECIES_SANDSHREW,
-    .moves = {MOVE_SAND_ATTACK, MOVE_POISON_STING, MOVE_SLASH, MOVE_DIG}
+    .lvl = 2,
+    .species = SPECIES_NIDOQUEEN,
+    .moves = {MOVE_SLUDGE_WAVE, MOVE_SUPERPOWER, MOVE_CRUNCH, MOVE_ICE_BEAM}
     },
     {
     .iv =100,
-    .lvl = 22,
-    .species = SPECIES_MARILL,
-    .moves = {MOVE_ROLLOUT, MOVE_BUBBLE_BEAM, MOVE_TAIL_WHIP, MOVE_DEFENSE_CURL}
+    .lvl = 2,
+    .species = SPECIES_FLYGON,
+    .moves = {MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_BOOMBURST}
     }
 };
 
