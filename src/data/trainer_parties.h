@@ -4730,10 +4730,10 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
     {
     .iv = 250,
     .lvl = 1,
-    .ability = 1, // Corrosion
-    .species = SPECIES_SALANDIT,
-    .heldItem = ITEM_CHOICE_SCARF,
-    .moves = {MOVE_FLAMETHROWER, MOVE_DRAGON_PULSE, MOVE_NASTY_PLOT, MOVE_SLUDGE_WAVE}
+    .ability = 1, // Solid Rock
+    .species = SPECIES_CAMERUPT,
+    .heldItem = ITEM_CAMERUPTITE,
+    .moves = {MOVE_EARTHQUAKE, MOVE_OVERHEAT, MOVE_STONE_EDGE, MOVE_HYPER_BEAM}
     },
 };
 
