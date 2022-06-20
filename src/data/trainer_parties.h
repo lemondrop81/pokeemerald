@@ -3555,8 +3555,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Cole[] = {
     {
     .iv = 100,
-    .lvl = 23,
-    .species = SPECIES_NUMEL,
+    .lvl = 1,
+    .species = SPECIES_FLAREON,
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_ARCANINE,
     }
 };
 
