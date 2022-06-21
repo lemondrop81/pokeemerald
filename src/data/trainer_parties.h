@@ -1358,12 +1358,20 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ricky5[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Randall[] = {
     {
-    .iv = 255,
-    .lvl = 26,
+    .iv = 155,
+    .lvl = 1,
     .ability = 2, // Scrappy
     .species = SPECIES_SWELLOW,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_QUICK_ATTACK, MOVE_AGILITY, MOVE_WING_ATTACK, MOVE_NONE}
+    .moves = {MOVE_BRAVE_BIRD, MOVE_DOUBLE_TEAM, MOVE_AERIAL_ACE, MOVE_ROOST}
+    },
+    {
+    .iv = 155,
+    .lvl = 1,
+    .ability = 2, // Skill link
+    .species = SPECIES_AMBIPOM,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_FURY_SWIPES, MOVE_PIN_MISSILE, MOVE_ROCK_BLAST, MOVE_BULLET_SEED}
     }
 };
 
