@@ -6674,8 +6674,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Benjamin5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Abigail1[] = {
     {
     .iv =100,
-    .lvl = 16,
-    .species = SPECIES_MAGNEMITE,
+    .lvl = 1,
+    .species = SPECIES_ELECTRODE,
     }
 };
 
@@ -6699,33 +6699,83 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jasmine[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Abigail2[] = {
     {
-    .iv = 10,
-    .lvl = 28,
-    .species = SPECIES_MAGNEMITE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ELECTRODE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_NINJASK,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Abigail3[] = {
     {
-    .iv = 20,
-    .lvl = 31,
-    .species = SPECIES_MAGNEMITE,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ELECTRODE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_NINJASK,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ARROKUDA,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Abigail4[] = {
     {
-    .iv = 30,
-    .lvl = 34,
-    .species = SPECIES_MAGNETON,
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ELECTRODE,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_NINJASK,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ARROKUDA,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_WEAVILE,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Abigail5[] = {
     {
-    .iv = 40,
-    .lvl = 37,
-    .species = SPECIES_MAGNETON,
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_ELECTRODE,
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_NINJASK,
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_ARROKUDA,
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_WEAVILE,
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .species = SPECIES_DREEPY,
     }
 };
 
