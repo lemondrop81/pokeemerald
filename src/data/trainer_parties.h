@@ -10006,11 +10006,20 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Davis[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Davis[] = {
     {
-    .iv =100,
-    .lvl = 27,
+    .iv =150,
+    .lvl = 1,
+    .ability = 1, // Mold Breaker
     .species = SPECIES_PINSIR,
+    .moves = {MOVE_X_SCISSOR, MOVE_THRASH, MOVE_SUPERPOWER, MOVE_SWORDS_DANCE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .ability = 2, // Speed boost
+    .species = SPECIES_VENIPEDE,
+    .moves = {MOVE_POISON_JAB, MOVE_X_SCISSOR, MOVE_DOUBLE_EDGE, MOVE_PURSUIT}
     }
 };
 
