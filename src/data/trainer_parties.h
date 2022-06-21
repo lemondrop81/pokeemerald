@@ -13567,13 +13567,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bryan[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Branden[] = {
     {
     .iv =100,
-    .lvl = 22,
-    .species = SPECIES_TAILLOW,
+    .lvl = 12,
+    .species = SPECIES_CACNEA,
     },
     {
     .iv =100,
-    .lvl = 22,
-    .species = SPECIES_NUZLEAF,
+    .lvl = 12,
+    .species = SPECIES_SHIELDON,
     }
 };
 
