@@ -8853,16 +8853,20 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GinaAndMia1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_MiuAndYuki[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_MiuAndYuki[] = {
     {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_BEAUTIFLY,
+    .iv =200,
+    .lvl = 1,
+    .ability = 0, // flame body
+    .species = SPECIES_NINETALES,
+    .moves = {MOVE_FLAMETHROWER, MOVE_HYPNOSIS, MOVE_HEX, MOVE_DREAM_EATER}
     },
     {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_DUSTOX,
+    .iv =200,
+    .lvl = 1,
+    .ability = 0, // Snow coat
+    .species = SPECIES_NINETALES_ALOLAN,
+    .moves = {MOVE_FREEZE_DRY, MOVE_HYPNOSIS, MOVE_HEX, MOVE_DREAM_EATER}
     }
 };
 

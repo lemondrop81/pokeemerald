@@ -6777,16 +6777,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_MIU_AND_YUKI] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
         .trainerName = _("MIU & YUKI"),
         .items = {},
         .doubleBattle = TRUE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_RISKY,
         .partySize = ARRAY_COUNT(sParty_MiuAndYuki),
-        .party = {.NoItemDefaultMoves = sParty_MiuAndYuki},
+        .party = {.NoItemCustomMoves = sParty_MiuAndYuki},
     },
 
     [TRAINER_AMY_AND_LIV_3] =
