@@ -13541,13 +13541,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elijah[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Celia[] = {
     {
     .iv =100,
-    .lvl = 22,
-    .species = SPECIES_MARILL,
+    .lvl = 1    ,
+    .species = SPECIES_MAGNEZONE,
     },
     {
     .iv =100,
-    .lvl = 22,
-    .species = SPECIES_LOMBRE,
+    .lvl = 1,
+    .species = SPECIES_OMANYTE,
     }
 };
 
