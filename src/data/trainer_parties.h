@@ -1803,12 +1803,20 @@ static const struct TrainerMonItemCustomMoves sParty_Mary[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Alexia[] = {
     {
-    .iv = 255,
+    .iv = 155,
     .lvl = 26,
     .ability = 1, // Competitive
     .species = SPECIES_WIGGLYTUFF,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_DEFENSE_CURL, MOVE_DOUBLE_EDGE, MOVE_SHADOW_BALL, MOVE_NONE}
+    .moves = {MOVE_IRON_DEFENSE, MOVE_DOUBLE_EDGE, MOVE_SHADOW_BALL, MOVE_PLAY_ROUGH}
+    },
+    {
+    .iv = 155,
+    .lvl = 1,
+    .ability = 0, // Thick fat
+    .species = SPECIES_MILTANK,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_IRON_DEFENSE, MOVE_PLAY_ROUGH, MOVE_BODY_SLAM, MOVE_MILK_DRINK}
     }
 };
 
