@@ -1397,11 +1397,11 @@ static const struct TrainerMonItemCustomMoves sParty_Parker[] = {
 static const struct TrainerMonItemCustomMoves sParty_George[] = {
     {
     .iv = 255,
-    .lvl = 26,
+    .lvl = 1,
     .ability = 0, // Default
-    .species = SPECIES_SLAKOTH,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SLACK_OFF, MOVE_COUNTER, MOVE_SHADOW_BALL, MOVE_NONE}
+    .species = SPECIES_BLISSEY,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_IRON_DEFENSE, MOVE_SOFT_BOILED, MOVE_TOXIC_SPIKES, MOVE_SUBSTITUTE}
     }
 };
 
