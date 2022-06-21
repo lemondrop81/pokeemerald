@@ -506,16 +506,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_Felix[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Violet[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Violet[] = {
     {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_ROSELIA,
+    .iv =150,
+    .lvl = 1,
+    .ability = 2, // Technician
+    .species = SPECIES_ROSERADE,
+    .moves = {MOVE_MEGA_DRAIN, MOVE_MAGICAL_LEAF, MOVE_WEATHER_BALL, MOVE_SHADOW_PUNCH}
     },
     {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_GLOOM,
+    .iv =150,
+    .lvl = 1,
+    .ability = 1, // Solar power
+    .species = SPECIES_TROPIUS,
+    .moves = {MOVE_LEAF_BLADE, MOVE_AIR_SLASH, MOVE_BODY_SLAM, MOVE_SYNTHESIS}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .ability = 2, // Overcoat
+    .species = SPECIES_SEWADDLE,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_SLEEP_POWDER, MOVE_LEECH_SEED}
     }
 };
 
