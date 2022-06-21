@@ -7387,11 +7387,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_Aaron[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Perry[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Perry[] = {
     {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_WINGULL,
+    .iv =140,
+    .lvl = 1,
+    .ability = 1, // Skill Link
+    .species = SPECIES_PIKIPEK,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_BULLET_SEED, MOVE_ROCK_BLAST, MOVE_ROOST}
+    },
+    {
+    .iv =140,
+    .lvl = 1,
+    .ability = 1, // Super luck
+    .species = SPECIES_PIDOVE,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_BULLET_SEED, MOVE_ROCK_BLAST, MOVE_ROOST}
+    },
+    {
+    .iv =140,
+    .lvl = 1,
+    .ability = 2, // Long reach
+    .species = SPECIES_DECIDUEYE,
+    .moves = {MOVE_SPIRIT_SHACKLE, MOVE_LEAF_BLADE, MOVE_JUMP_KICK, MOVE_SUCKER_PUNCH}
     }
 };
 
