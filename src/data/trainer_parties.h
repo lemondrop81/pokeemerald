@@ -613,11 +613,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rose5[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_Dusty1[] = {
     {
-    .iv = 50,
-    .lvl = 23,
+    .iv = 150,
+    .lvl = 1,
     .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Battle Armor
+    .species = SPECIES_CUBONE,
+    .moves = {MOVE_BONEMERANG, MOVE_THRASH, MOVE_BRICK_BREAK, MOVE_AERIAL_ACE}
     }
 };
 
@@ -692,41 +699,139 @@ static const struct TrainerMonNoItemCustomMoves sParty_Foster[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_Dusty2[] = {
     {
-    .iv = 60,
-    .lvl = 27,
+    .iv = 150,
+    .lvl = 1,
     .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Battle Armor
+    .species = SPECIES_CUBONE,
+    .moves = {MOVE_BONEMERANG, MOVE_THRASH, MOVE_BRICK_BREAK, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Sand Viel
+    .species = SPECIES_PHANPY,
+    .moves = {MOVE_STONE_EDGE, MOVE_GIGA_IMPACT, MOVE_EARTH_POWER, MOVE_THUNDER_FANG}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Dusty3[] = {
     {
-    .iv = 70,
-    .lvl = 30,
+    .iv = 150,
+    .lvl = 1,
     .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Battle Armor
+    .species = SPECIES_CUBONE,
+    .moves = {MOVE_BONEMERANG, MOVE_THRASH, MOVE_BRICK_BREAK, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Sand Veil
+    .species = SPECIES_PHANPY,
+    .moves = {MOVE_STONE_EDGE, MOVE_GIGA_IMPACT, MOVE_EARTH_POWER, MOVE_THUNDER_FANG}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 1, // Stamina
+    .species = SPECIES_MUDBRAY,
+    .moves = {MOVE_HIGH_HORSEPOWER, MOVE_MEGA_KICK, MOVE_SUPERPOWER, MOVE_STOMPING_TANTRUM}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Dusty4[] = {
     {
-    .iv = 80,
-    .lvl = 33,
+    .iv = 150,
+    .lvl = 1,
     .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Battle Armor
+    .species = SPECIES_CUBONE,
+    .moves = {MOVE_BONEMERANG, MOVE_THRASH, MOVE_BRICK_BREAK, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Sand Veil
+    .species = SPECIES_PHANPY,
+    .moves = {MOVE_STONE_EDGE, MOVE_GIGA_IMPACT, MOVE_EARTH_POWER, MOVE_THUNDER_FANG}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 1, // Stamina
+    .species = SPECIES_MUDBRAY,
+    .moves = {MOVE_HIGH_HORSEPOWER, MOVE_MEGA_KICK, MOVE_SUPERPOWER, MOVE_STOMPING_TANTRUM}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Sheer force
+    .species = SPECIES_STEELIX,
+    .moves = {MOVE_IRON_TAIL, MOVE_FIRE_FANG, MOVE_THUNDER_FANG, MOVE_ICE_FANG}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_Dusty5[] = {
     {
-    .iv = 90,
-    .lvl = 36,
+    .iv = 150,
+    .lvl = 1,
     .ability = 2, // Sandrush
     .species = SPECIES_SANDSLASH,
     .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Battle Armor
+    .species = SPECIES_CUBONE,
+    .moves = {MOVE_BONEMERANG, MOVE_THRASH, MOVE_BRICK_BREAK, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Sand Veil
+    .species = SPECIES_PHANPY,
+    .moves = {MOVE_STONE_EDGE, MOVE_GIGA_IMPACT, MOVE_EARTH_POWER, MOVE_THUNDER_FANG}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 1, // Stamina
+    .species = SPECIES_MUDBRAY,
+    .moves = {MOVE_HIGH_HORSEPOWER, MOVE_MEGA_KICK, MOVE_SUPERPOWER, MOVE_STOMPING_TANTRUM}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Sheer force
+    .species = SPECIES_STEELIX,
+    .moves = {MOVE_IRON_TAIL, MOVE_FIRE_FANG, MOVE_THUNDER_FANG, MOVE_ICE_FANG}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 0, // Sand Viel
+    .species = SPECIES_GIBLE,
+    .moves = {MOVE_DRAGON_CLAW, MOVE_CRUNCH, MOVE_DIG, MOVE_BRICK_BREAK}
     }
 };
 
