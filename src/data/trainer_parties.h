@@ -1407,12 +1407,12 @@ static const struct TrainerMonItemCustomMoves sParty_George[] = {
 
 static const struct TrainerMonItemCustomMoves sParty_Berke[] = {
     {
-    .iv = 255,
-    .lvl = 26,
-    .ability = 0, // Default
-    .species = SPECIES_VIGOROTH,
+    .iv = 155,
+    .lvl = 1,
+    .ability = 1, // Super luck
+    .species = SPECIES_PIDOVE,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_FOCUS_ENERGY, MOVE_SLASH, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_FOCUS_ENERGY, MOVE_SKY_ATTACK, MOVE_ROOST, MOVE_FEATHER_DANCE}
     }
 };
 
