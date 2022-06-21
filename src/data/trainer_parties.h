@@ -9222,7 +9222,7 @@ static const struct TrainerMonItemCustomMoves sParty_Jazmyn[] = {
     .ability = 2, // Gooey
     .species = SPECIES_GOOMY,
     .heldItem = ITEM_ASSAULT_VEST,
-    .moves = {MMOVE_DRAGON_PULSE, MOVE_SLUDGE_WAVE, MOVE_FLAMETHROWER, MOVE_THUNDERBOLT}
+    .moves = {MOVE_DRAGON_PULSE, MOVE_SLUDGE_WAVE, MOVE_FLAMETHROWER, MOVE_THUNDERBOLT}
     },
     {
     .iv =170,
