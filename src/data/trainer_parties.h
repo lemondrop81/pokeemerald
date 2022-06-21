@@ -6445,16 +6445,26 @@ static const struct TrainerMonNoItemCustomMoves sParty_Nolan[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Barny[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Barny[] = {
     {
-    .iv =100,
-    .lvl = 25,
+    .iv =150,
+    .lvl = 1,
+    .ability = 1, // Liquid Ooze
     .species = SPECIES_TENTACOOL,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_SLUDGE_WAVE, MOVE_WRING_OUT, MOVE_BARRIER}
     },
     {
-    .iv =100,
-    .lvl = 25,
+    .iv =150,
+    .lvl = 1,
+    .ability = 2, // Speed boost
     .species = SPECIES_CARVANHA,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_CRUNCH, MOVE_ICE_FANG, MOVE_AQUA_JET}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_BARBARACLE,
+    .moves = {MOVE_RAZOR_SHELL, MOVE_STONE_EDGE, MOVE_CROSS_CHOP, MOVE_NIGHT_SLASH}
     }
 };
 
