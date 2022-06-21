@@ -6621,13 +6621,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacob[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Anthony[] = {
     {
     .iv =100,
-    .lvl = 14,
-    .species = SPECIES_MAGNEMITE,
+    .lvl = 1,
+    .species = SPECIES_GENGAR,
     },
     {
     .iv =100,
-    .lvl = 14,
-    .species = SPECIES_MAGNEMITE,
+    .lvl = 1,
+    .species = SPECIES_SCEPTILE,
     }
 };
 
