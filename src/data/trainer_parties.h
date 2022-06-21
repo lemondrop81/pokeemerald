@@ -6731,19 +6731,19 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Abigail1[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Jasmine[] = {
     {
-    .iv = 80,
-    .lvl = 14,
-    .species = SPECIES_MAGNEMITE,
+    .iv = 180,
+    .lvl = 1,
+    .species = SPECIES_ZOROARK,
     },
     {
-    .iv = 80,
-    .lvl = 14,
-    .species = SPECIES_MAGNEMITE,
+    .iv = 180,
+    .lvl = 1,
+    .species = SPECIES_SCYTHER,
     },
     {
-    .iv =100,
-    .lvl = 6,
-    .species = SPECIES_VOLTORB,
+    .iv =1100,
+    .lvl = 1,
+    .species = SPECIES_ABRA,
     }
 };
 
