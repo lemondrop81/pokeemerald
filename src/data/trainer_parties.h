@@ -1378,11 +1378,19 @@ static const struct TrainerMonItemCustomMoves sParty_Randall[] = {
 static const struct TrainerMonItemCustomMoves sParty_Parker[] = {
     {
     .iv = 255,
-    .lvl = 26,
+    .lvl = 1,
     .ability = 2, // Contrary
     .species = SPECIES_SPINDA,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TEETER_DANCE, MOVE_DIZZY_PUNCH, MOVE_FOCUS_PUNCH, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 1,
+    .ability = 2, // Sap seeker
+    .species = SPECIES_GIRAFARIG,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_CONFUSE_RAY, MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_CRUNCH}
     }
 };
 
