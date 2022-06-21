@@ -7534,16 +7534,20 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Chester[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Chester[] = {
     {
     .iv =100,
-    .lvl = 25,
-    .species = SPECIES_TAILLOW,
+    .lvl = 1,
+    .ability = 2, // Gale wings
+    .species = SPECIES_FLETCHLING,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_ROOST}
     },
     {
     .iv =100,
-    .lvl = 25,
-    .species = SPECIES_SWELLOW,
+    .lvl = 1,
+    .ability = 1, // Sheer force
+    .species = SPECIES_RUFFLET,
+    .moves = {MOVE_FOUL_PLAY, MOVE_ROOST, MOVE_IRON_DEFENSE, MOVE_WHIRLWIND}
     }
 };
 
