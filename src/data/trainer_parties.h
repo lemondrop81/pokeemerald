@@ -1815,11 +1815,11 @@ static const struct TrainerMonItemCustomMoves sParty_Alexia[] = {
 static const struct TrainerMonItemCustomMoves sParty_Jody[] = {
     {
     .iv = 255,
-    .lvl = 26,
+    .lvl = 1,
     .ability = 2, // Toxic boost
     .species = SPECIES_ZANGOOSE,
     .heldItem = ITEM_TOXIC_ORB,
-    .moves = {MOVE_SWORDS_DANCE, MOVE_SLASH, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_SWORDS_DANCE, MOVE_SLASH, MOVE_X_SCISSOR, MOVE_CLOSE_COMBAT}
     }
 };
 
