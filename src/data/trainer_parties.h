@@ -9207,11 +9207,38 @@ static const struct TrainerMonItemCustomMoves sParty_Annika[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Jazmyn[] = {
+static const struct TrainerMonItemCustomMoves sParty_Jazmyn[] = {
     {
-    .iv =100,
-    .lvl = 27,
+    .iv =170,
+    .lvl = 1,
+    .ability = 1, // Super Luck
     .species = SPECIES_ABSOL,
+    .heldItem = ITEM_SCOPE_LENS,
+    .moves = {MOVE_NIGHT_SLASH, MOVE_PLAY_ROUGH, MOVE_SUCKER_PUNCH, MOVE_MEGAHORN}
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .ability = 2, // Gooey
+    .species = SPECIES_GOOMY,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MMOVE_DRAGON_PULSE, MOVE_SLUDGE_WAVE, MOVE_FLAMETHROWER, MOVE_THUNDERBOLT}
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .ability = 1, // Technician
+    .species = SPECIES_SCIZOR,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_BULLET_PUNCH, MOVE_BUG_BITE, MOVE_CURSE, MOVE_ROOST}
+    },
+    {
+    .iv =170,
+    .lvl = 1,
+    .ability = 0, // Volt absorb
+    .species = SPECIES_JOLTEON,
+    .heldItem = ITEM_EXPERT_BELT,
+    .moves = {MOVE_THUNDER, MOVE_SHADOW_BALL, MOVE_AURORA_BEAM, MOVE_SIGNAL_BEAM}
     }
 };
 

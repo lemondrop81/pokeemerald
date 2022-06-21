@@ -7043,7 +7043,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_JAZMYN] =
     {
-        .partyFlags = 0,
+        .partyFlags =  F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_COOLTRAINER_2,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
@@ -7052,7 +7052,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .partySize = ARRAY_COUNT(sParty_Jazmyn),
-        .party = {.NoItemDefaultMoves = sParty_Jazmyn},
+        .party = {.NoItemCustomMoves = sParty_Jazmyn},
     },
 
     [TRAINER_JONAS] =
