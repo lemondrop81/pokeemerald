@@ -11446,16 +11446,20 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Doug[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Greg[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Greg[] = {
     {
     .iv =100,
-    .lvl = 25,
-    .species = SPECIES_VOLBEAT,
+    .lvl = 1,
+    .ability = 2, // Iron fist
+    .species = SPECIES_LEDIAN,
+    .moves = {MOVE_DOUBLE_EDGE, MOVE_BRICK_BREAK, MOVE_CLOSE_COMBAT, MOVE_THUNDER_PUNCH}
     },
     {
     .iv =100,
-    .lvl = 25,
-    .species = SPECIES_ILLUMISE,
+    .lvl = 1,
+    .ability = 1, // Shell armor
+    .species = SPECIES_ESCAVALIER,
+    .moves = {MOVE_IRON_HEAD, MOVE_X_SCISSOR, MOVE_RAZOR_SHELL, MOVE_REVERSAL}
     }
 };
 
