@@ -4164,21 +4164,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_Donald[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Taylor[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Taylor[] = {
     {
     .iv = 100,
-    .lvl = 27,
-    .species = SPECIES_WURMPLE,
+    .lvl = 1,
+    .ability = 1, // Shield dust
+    .species = SPECIES_RIBOMBEE,
+    .moves = {MOVE_POLLEN_PUFF, MOVE_DAZZLING_GLEAM, MOVE_QUIVER_DANCE, MOVE_AROMATHERAPY}
     },
     {
     .iv = 100,
-    .lvl = 27,
-    .species = SPECIES_CASCOON,
+    .lvl = 1,
+    .ability = 2, // Sniper
+    .species = SPECIES_BEEDRILL,
+    .moves = {MOVE_X_SCISSOR, MOVE_POISON_JAB, MOVE_DRILL_PECK, MOVE_ENDEAVOR}
     },
     {
     .iv = 100,
-    .lvl = 27,
-    .species = SPECIES_DUSTOX,
+    .lvl = 1,
+    .ability = 2, // TInted lens
+    .species = SPECIES_BUTTERFREE,
+    .moves = {MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_SLEEP_POWDER, MOVE_QUIVER_DANCE}
     }
 };
 
