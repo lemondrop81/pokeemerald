@@ -11454,11 +11454,20 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Greg[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Kent[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Kent[] = {
     {
     .iv =100,
-    .lvl = 25,
+    .lvl = 1,
+    .ability = 0, // Speed boost
     .species = SPECIES_NINJASK,
+    .moves = {MOVE_LEECH_LIFE, MOVE_SUBSTITUTE, MOVE_DOUBLE_TEAM, MOVE_BATON_PASS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 0, // Wonder guard
+    .species = SPECIES_SHEDINJA,
+    .moves = {MOVE_SHADOW_CLAW, MOVE_SWORDS_DANCE, MOVE_X_SCISSOR, MOVE_DIG}
     }
 };
 
