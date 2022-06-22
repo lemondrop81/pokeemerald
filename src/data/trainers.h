@@ -3137,16 +3137,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_DONALD] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_BUG_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
         .trainerName = _("DONALD"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_RISKY,
         .partySize = ARRAY_COUNT(sParty_Donald),
-        .party = {.NoItemDefaultMoves = sParty_Donald},
+        .party = {.NoItemCustomMoves = sParty_Donald},
     },
 
     [TRAINER_TAYLOR] =

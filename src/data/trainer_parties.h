@@ -4141,21 +4141,26 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brent[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Donald[] = {
+static const struct TrainerMonNoIteCustomMoves sParty_Donald[] = {
     {
     .iv = 100,
-    .lvl = 24,
-    .species = SPECIES_WURMPLE,
+    .lvl = 1,
+    .ability = 2, // Overcoat
+    .species = SPECIES_LEAVANNY,
+    .moves = {MOVE_LEAF_BLADE, MOVE_X_SCISSOR, MOVE_STICKY_WEB, MOVE_SWORDS_DANCE}
     },
     {
     .iv = 100,
-    .lvl = 24,
-    .species = SPECIES_SILCOON,
+    .lvl = 2, // water absorb
+    .species = SPECIES_ARAQUANID,
+    .moves = {MOVE_LIQUIDATION, MOVE_LUNGE, MOVE_ICE_FANG, MOVE_MIRROR_COAT}
     },
     {
     .iv = 100,
-    .lvl = 24,
-    .species = SPECIES_BEAUTIFLY,
+    .lvl = 1,
+    .ability = 0, // Compound eyes
+    .species = SPECIES_GALVANTULA,
+    .moves = {MOVE_THUNDER, MOVE_BUG_BUZZ, MOVE_SUCKER_PUNCH, MOVE_THUNDER_WAVE}
     }
 };
 
