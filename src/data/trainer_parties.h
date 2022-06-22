@@ -10469,16 +10469,35 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jackson5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Catherine1[] = {
+static const struct TrainerMonItemCustomMoves sParty_Catherine1[] = {
     {
-    .iv = 50,
-    .lvl = 26,
-    .species = SPECIES_GLOOM,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_BELLOSSOM,
+    .heldItem = ITEM_MIRACLE_SEED,
+    .moves = {MOVE_QUIVER_DANCE, MOVE_MOONBLAST, MOVE_GIGA_DRAIN, MOVE_SLEEP_POWDER}
     },
     {
-    .iv = 50,
-    .lvl = 26,
-    .species = SPECIES_ROSELIA,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_NOIVERN,
+    .heldItem = ITEM_PETAYA_BERRY,
+    .moves = {MOVE_HURRICANE, MOVE_WATER_PULSE, MOVE_DRAGON_PULSE, MOVE_BOOMBURST}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Swift Swim
+    .species = SPECIES_BEARTIC,
+    .heldItem = ITEM_WATER_GEM,
+    .moves = {MOVE_ICICLE_CRASH, MOVE_LIQUIDATION, MOVE_THROAT_CHOP, MOVE_AQUA_JET}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_SEISMITOAD,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_EARTH_POWER, MOVE_HYDRO_PUMP, MOVE_SLUDGE_WAVE, MOVE_POWER_WHIP}
     }
 };
 
@@ -10515,55 +10534,177 @@ static const struct TrainerMonNoItemCustomMoves sParty_Sophia[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Catherine2[] = {
+static const struct TrainerMonItemCustomMoves sParty_Catherine2[] = {
     {
-    .iv = 60,
-    .lvl = 30,
-    .species = SPECIES_GLOOM,
-    },
-    {
-    .iv = 60,
-    .lvl = 30,
-    .species = SPECIES_ROSELIA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Catherine3[] = {
-    {
-    .iv = 70,
-    .lvl = 33,
-    .species = SPECIES_GLOOM,
-    },
-    {
-    .iv = 70,
-    .lvl = 33,
-    .species = SPECIES_ROSELIA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Catherine4[] = {
-    {
-    .iv = 80,
-    .lvl = 36,
-    .species = SPECIES_GLOOM,
-    },
-    {
-    .iv = 80,
-    .lvl = 36,
-    .species = SPECIES_ROSELIA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Catherine5[] = {
-    {
-    .iv = 90,
-    .lvl = 39,
+    .iv = 150,
+    .lvl = 1,
     .species = SPECIES_BELLOSSOM,
+    .heldItem = ITEM_MIRACLE_SEED,
+    .moves = {MOVE_QUIVER_DANCE, MOVE_MOONBLAST, MOVE_GIGA_DRAIN, MOVE_SLEEP_POWDER}
     },
     {
-    .iv = 90,
-    .lvl = 39,
-    .species = SPECIES_ROSELIA,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_NOIVERN,
+    .heldItem = ITEM_PETAYA_BERRY,
+    .moves = {MOVE_HURRICANE, MOVE_WATER_PULSE, MOVE_DRAGON_PULSE, MOVE_BOOMBURST}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Swift Swim
+    .species = SPECIES_BEARTIC,
+    .heldItem = ITEM_WATER_GEM,
+    .moves = {MOVE_ICICLE_CRASH, MOVE_LIQUIDATION, MOVE_THROAT_CHOP, MOVE_AQUA_JET}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_SEISMITOAD,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_EARTH_POWER, MOVE_HYDRO_PUMP, MOVE_SLUDGE_WAVE, MOVE_POWER_WHIP}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Rain Dish
+    .species = SPECIES_BLASTOISE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SCALD, MOVE_PROTECT, MOVE_YAWN, MOVE_AQUA_RING}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Catherine3[] = {
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_BELLOSSOM,
+    .heldItem = ITEM_MIRACLE_SEED,
+    .moves = {MOVE_QUIVER_DANCE, MOVE_MOONBLAST, MOVE_GIGA_DRAIN, MOVE_SLEEP_POWDER}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_NOIVERN,
+    .heldItem = ITEM_PETAYA_BERRY,
+    .moves = {MOVE_HURRICANE, MOVE_WATER_PULSE, MOVE_DRAGON_PULSE, MOVE_BOOMBURST}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Swift Swim
+    .species = SPECIES_BEARTIC,
+    .heldItem = ITEM_WATER_GEM,
+    .moves = {MOVE_ICICLE_CRASH, MOVE_LIQUIDATION, MOVE_THROAT_CHOP, MOVE_CLOSE_COMBAT}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_SEISMITOAD,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_EARTH_POWER, MOVE_HYDRO_PUMP, MOVE_SLUDGE_WAVE, MOVE_POWER_WHIP}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Rain Dish
+    .species = SPECIES_BLASTOISE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SCALD, MOVE_PROTECT, MOVE_YAWN, MOVE_AQUA_RING}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Catherine4[] = {
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_BELLOSSOM,
+    .heldItem = ITEM_MIRACLE_SEED,
+    .moves = {MOVE_QUIVER_DANCE, MOVE_MOONBLAST, MOVE_GIGA_DRAIN, MOVE_SLEEP_POWDER}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_NOIVERN,
+    .heldItem = ITEM_PETAYA_BERRY,
+    .moves = {MOVE_HURRICANE, MOVE_WATER_PULSE, MOVE_DRAGON_PULSE, MOVE_BOOMBURST}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Swift Swim
+    .species = SPECIES_BEARTIC,
+    .heldItem = ITEM_WATER_GEM,
+    .moves = {MOVE_ICICLE_CRASH, MOVE_LIQUIDATION, MOVE_THROAT_CHOP, MOVE_CLOSE_COMBAT}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_SEISMITOAD,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_EARTH_POWER, MOVE_HYDRO_PUMP, MOVE_SLUDGE_WAVE, MOVE_POWER_WHIP}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Rain Dish
+    .species = SPECIES_BLASTOISE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SCALD, MOVE_PROTECT, MOVE_YAWN, MOVE_AQUA_RING}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_AUDINO,
+    .heldItem = ITEM_AUDINITE,
+    .moves = {MOVE_DRAINING_KISS, MOVE_THUNDER, MOVE_CALM_MIND, MOVE_SURF}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Catherine5[] = {
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_BELLOSSOM,
+    .heldItem = ITEM_MIRACLE_SEED,
+    .moves = {MOVE_QUIVER_DANCE, MOVE_MOONBLAST, MOVE_GIGA_DRAIN, MOVE_SLEEP_POWDER}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_NOIVERN,
+    .heldItem = ITEM_PETAYA_BERRY,
+    .moves = {MOVE_HURRICANE, MOVE_WATER_PULSE, MOVE_DRAGON_PULSE, MOVE_BOOMBURST}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Swift Swim
+    .species = SPECIES_BEARTIC,
+    .heldItem = ITEM_WATER_GEM,
+    .moves = {MOVE_ICICLE_CRASH, MOVE_LIQUIDATION, MOVE_THROAT_CHOP, MOVE_CLOSE_COMBAT}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_SEISMITOAD,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_EARTH_POWER, MOVE_HYDRO_PUMP, MOVE_SLUDGE_WAVE, MOVE_POWER_WHIP}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Rain Dish
+    .species = SPECIES_BLASTOISE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SCALD, MOVE_PROTECT, MOVE_YAWN, MOVE_AQUA_RING}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_AUDINO,
+    .heldItem = ITEM_AUDINITE,
+    .moves = {MOVE_DRAINING_KISS, MOVE_THUNDER, MOVE_CALM_MIND, MOVE_SURF}
     }
 };
 
