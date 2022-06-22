@@ -13043,26 +13043,34 @@ static const struct TrainerMonNoItemDefaultMoves sParty_LisaAndRay[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Chris[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Chris[] = {
     {
     .iv =100,
-    .lvl = 29,
-    .species = SPECIES_MAGIKARP,
-    },
-    {
-    .iv =100,
-    .lvl = 20,
-    .species = SPECIES_TENTACOOL,
-    },
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_FEEBAS,
-    },
-    {
-    .iv =100,
-    .lvl = 23,
+    .lvl = 1,
+    .ability = 2, // speed boost
     .species = SPECIES_CARVANHA,
+    .moves = {MOVE_WATERFALL, MOVE_CRUNCH, MOVE_PSYCHIC_FANGS, MOVE_SCREECH}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, // adaptability
+    .species = SPECIES_BASCULIN,
+    .moves = {MOVE_HEAD_SMASH, MOVE_THRASH, MOVE_AQUA_TAIL, MOVE_CRUNCH}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 2, // Hydration
+    .species = SPECIES_BARBOACH,
+    .moves = {MOVE_EARTHQUAKE, MOVE_AQUA_TAIL, MOVE_SPARK, MOVE_ZEN_HEADBUTT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 2, // Moxie
+    .species = SPECIES_GYARADOS,
+    .moves = {MOVE_AQUA_TAIL, MOVE_HURRICANE, MOVE_CRUNCH, MOVE_WHIRLPOOL}
     }
 };
 
