@@ -7435,16 +7435,25 @@ static const struct TrainerMonNoItemCustomMoves sParty_Perry[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Hugh[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Hugh[] = {
     {
-    .iv =100,
-    .lvl = 25,
-    .species = SPECIES_WINGULL,
+    .iv =160,
+    .lvl = 1,
+    .species = SPECIES_NOCTOWL,
+    .moves = {MOVE_BOOMBURST, MOVE_AIR_SLASH, MOVE_HYPNOSIS, MOVE_ROOST}
     },
     {
-    .iv =100,
-    .lvl = 25,
+    .iv =160,
+    .lvl = 1,
+    .ability = 1, // Aerilate
     .species = SPECIES_TROPIUS,
+    .moves = {MOVE_BODY_SLAM, MOVE_DRAGON_HAMMER, MOVE_LEAF_BLADE, MOVE_DRAGON_DANCE}
+    },
+    {
+    .iv =160,
+    .lvl = 1,
+    .species = SPECIES_STARAVIA,
+    .moves = {MOVE_DRILL_PECK, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY, MOVE_NONE}
     }
 };
 
