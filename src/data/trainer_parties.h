@@ -14398,11 +14398,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Makayla[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Fabian[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Fabian[] = {
     {
-    .iv =100,
-    .lvl = 26,
+    .iv =150,
+    .lvl = 1,
     .species = SPECIES_MANECTRIC,
+    .moves = {MOVE_THUNDER, MOVE_CRUNCH, MOVE_ICE_FANG, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CHATOT,
+    .moves = {MOVE_BOOMBURST, MOVE_CHATTER, MOVE_NASTY_PLOT, MOVE_FEATHER_DANCE}
     }
 };
 

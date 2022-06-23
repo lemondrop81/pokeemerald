@@ -10627,16 +10627,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_FABIAN] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_GUITARIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_GUITARIST,
         .trainerName = _("FABIAN"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE,
         .partySize = ARRAY_COUNT(sParty_Fabian),
-        .party = {.NoItemDefaultMoves = sParty_Fabian},
+        .party = {.NoItemCustomMoves = sParty_Fabian},
     },
 
     [TRAINER_DAYTON] =
