@@ -7731,11 +7731,25 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Beck[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Yasu[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Yasu[] = {
     {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_NINJASK,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_GRENINJA,
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_DARK_PULSE, MOVE_PSYCHIC, MOVE_SMOKESCREEN}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CROBAT,
+    .moves = {MOVE_AERIAL_ACE, MOVE_CROSS_POISON, MOVE_CRUNCH, MOVE_SCREECH}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .ability = 1, // Sniper
+    .species = SPECIES_DRAPION,
+    .moves = {MOVE_NIGHT_SLASH, MOVE_CROSS_POISON, MOVE_SCARY_FACE, MOVE_PURSUIT}
     }
 };
 
