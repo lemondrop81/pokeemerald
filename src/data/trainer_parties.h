@@ -234,17 +234,25 @@ static const struct TrainerMonNoItemCustomMoves sParty_GruntWeatherInst1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst2[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_GruntWeatherInst2[] = {
     {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_POOCHYENA,
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_MIGHTYENA,
+    .moves = {MOVE_CRUNCH, MOVE_PLAY_ROUGH, MOVE_FIRE_FANG, MOVE_ICE_FANG}
     },
     {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_CARVANHA,
-    }
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_EELEKTROSS,
+    .moves = {MOVE_THUNDER, MOVE_AQUA_TAIL, MOVE_GIGA_DRAIN, MOVE_IRON_TAIL}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_MALAMAR,
+    .moves = {MOVE_THROAT_CHOP, MOVE_PSYCHO_CUT, MOVE_SUPERPOWER, MOVE_TOPSY_TURVY}
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst3[] = {
