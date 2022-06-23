@@ -7460,7 +7460,7 @@ static const struct TrainerMonItemCustomMoves sParty_Phil[] = {
     .lvl = 1,
     .species = SPECIES_FARFETCHD,
     .heldItem = ITEM_LEEK,
-    .moves = {OVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}
+    .moves = {MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}
     }
 };
 
