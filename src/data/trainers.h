@@ -10655,16 +10655,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_RACHEL] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PARASOL_LADY,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PARASOL_LADY,
         .trainerName = _("RACHEL"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .partySize = ARRAY_COUNT(sParty_Rachel),
-        .party = {.NoItemDefaultMoves = sParty_Rachel},
+        .party = {.NoItemCustomMoves = sParty_Rachel},
     },
 
     [TRAINER_LEONEL] =

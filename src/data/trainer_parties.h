@@ -14321,11 +14321,19 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dayton[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Rachel[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Rachel[] = {
     {
     .iv =100,
-    .lvl = 26,
-    .species = SPECIES_GOLDEEN,
+    .lvl = 1,
+    .ability = 1, // Rain Dish
+    .species = SPECIES_LUDICOLO,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_HYDRO_PUMP, MOVE_ZEN_HEADBUTT, MOVE_FAKE_OUT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_HELIOLISK,
+    .moves = {MOVE_THUNDERBOLT, MOVE_HYPER_VOICE, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK}
     }
 };
 
