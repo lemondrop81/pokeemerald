@@ -5825,16 +5825,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_TAKASHI] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET
         .trainerClass = TRAINER_CLASS_NINJA_BOY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
         .trainerName = _("TAKASHI"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .partySize = ARRAY_COUNT(sParty_Takashi),
-        .party = {.NoItemDefaultMoves = sParty_Takashi},
+        .party = {.NoItemCustomMoves = sParty_Takashi},
     },
 
     [TRAINER_DIANNE] =
@@ -10641,7 +10641,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_DAYTON] =
     {
-        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_KINDLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,

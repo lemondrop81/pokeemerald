@@ -7653,16 +7653,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Yasu[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Takashi[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Takashi[] = {
     {
-    .iv =100,
-    .lvl = 25,
-    .species = SPECIES_NINJASK,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ACCELGOR,
+    .moves = {MOVE_BUG_BUZZ, MOVE_ENERGY_BALL, MOVE_WATER_SHURIKEN, MOVE_SLUDGE_BOMB}
     },
     {
-    .iv =100,
-    .lvl = 25,
+    .iv =150,
+    .lvl = 1,
     .species = SPECIES_KOFFING,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_SMOKESCREEN, MOVE_TOXIC, MOVE_EXPLOSION}
     }
 };
 
