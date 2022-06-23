@@ -5825,7 +5825,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_TAKASHI] =
     {
-        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_NINJA_BOY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
