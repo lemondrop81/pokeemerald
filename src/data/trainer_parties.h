@@ -11296,16 +11296,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isabella[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst5[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_GruntWeatherInst5[] = {
     {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_ZUBAT,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_FLOATZEL,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_CRUNCH, MOVE_ICE_PUNCH, MOVE_FOCUS_BLAST}
     },
     {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_POOCHYENA,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_HONCHKROW,
+    .moves = {OVE_BRAVE_BIRD, MOVE_SUCKER_PUNCH, MOVE_ICY_WIND, MOVE_HEAT_WAVE}
     }
 };
 
