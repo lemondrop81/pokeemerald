@@ -14316,16 +14316,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fabian[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Dayton[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Dayton[] = {
     {
-    .iv =100,
-    .lvl = 25,
+    .iv =150,
+    .lvl = 1,
     .species = SPECIES_SLUGMA,
+    .moves = {MOVE_FLAMETHROWER, MOVE_STONE_EDGE, MOVE_EARTH_POWER, MOVE_SHELL_SMASH}
     },
     {
-    .iv =100,
-    .lvl = 25,
-    .species = SPECIES_NUMEL,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_DARMANITAN,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_SUPERPOWER, MOVE_THRASH, MOVE_ROCK_SLIDE}
     }
 };
 
