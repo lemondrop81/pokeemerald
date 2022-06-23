@@ -206,16 +206,31 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntRusturfTunnel[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst1[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_GruntWeatherInst1[] = {
     {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_ZUBAT,
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_MAREANIE,
+    .moves = {MOVE_BITE, MOVE_PECK, MOVE_POISON_STING, MOVE_TOXIC_SPIKES}
     },
     {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_POOCHYENA,
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_CROBAT,
+    .moves = {MOVE_ACROBATICS, MOVE_LEECH_LIFE, MOVE_CONFUSE_RAY, MOVE_HYPNOSIS}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .ability = 2, // Adaptability
+    .species = SPECIES_DRAGALGE,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_DRAGON_PULSE, MOVE_HYDRO_PUMP, MOVE_TOXIC}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_LIEPARD,
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_PLAY_ROUGH, MOVE_SWAGGER, MOVE_IRON_TAIL}
     }
 };
 
