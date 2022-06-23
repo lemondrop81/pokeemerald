@@ -255,7 +255,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_GruntWeatherInst2[] = {
     },
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntWeatherInst3[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_GruntWeatherInst3[] = {
     {
     .iv =180,
     .lvl = 1,
@@ -11307,7 +11307,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_GruntWeatherInst5[] = {
     .iv =150,
     .lvl = 1,
     .species = SPECIES_HONCHKROW,
-    .moves = {OVE_BRAVE_BIRD, MOVE_SUCKER_PUNCH, MOVE_ICY_WIND, MOVE_HEAT_WAVE}
+    .moves = {MOVE_BRAVE_BIRD, MOVE_SUCKER_PUNCH, MOVE_ICY_WIND, MOVE_HEAT_WAVE}
     }
 };
 
