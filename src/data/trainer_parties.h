@@ -7615,11 +7615,19 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Colin[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Robert1[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Robert1[] = {
     {
     .iv =100,
-    .lvl = 29,
-    .species = SPECIES_SWABLU,
+    .lvl = 1,
+    .ability = 2, // Sniper
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY, MOVE_PURSUIT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_STARAPTOR,
+    .moves = {MOVE_RETURN, MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_WORK_UP}
     }
 };
 
@@ -7658,55 +7666,118 @@ static const struct TrainerMonNoItemCustomMoves sParty_Chester[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Robert2[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Robert2[] = {
     {
-    .iv = 10,
-    .lvl = 32,
-    .species = SPECIES_NATU,
+    .iv =150,
+    .lvl = 1,
+    .ability = 2, // Sniper
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY, MOVE_PURSUIT}
     },
     {
-    .iv = 10,
-    .lvl = 32,
-    .species = SPECIES_SWABLU,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_STARAPTOR,
+    .moves = {MOVE_RETURN, MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_WORK_UP}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CORVIKNIGHT,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_STEEL_WING, MOVE_BODY_PRESS, MOVE_BULK_UP}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Robert3[] = {
+static const struct TrainerMonItemCustomMoves sParty_Robert3[] = {
     {
-    .iv = 20,
-    .lvl = 35,
-    .species = SPECIES_NATU,
+    .iv =150,
+    .lvl = 1,
+    .ability = 2, // Sniper
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY, MOVE_PURSUIT}
     },
     {
-    .iv = 20,
-    .lvl = 35,
-    .species = SPECIES_ALTARIA,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_STARAPTOR,
+    .moves = {MOVE_RETURN, MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_WORK_UP}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CORVIKNIGHT,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_STEEL_WING, MOVE_BODY_PRESS, MOVE_BULK_UP}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_TALONFLAME,
+    .heldItem = ITEM_POWER_HERB,
+    .moves = { MOVE_BRAVE_BIRD, MOVE_FIRE_BLAST, MOVE_SOLAR_BEAM, MOVE_STEEL_WING}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Robert4[] = {
+static const struct TrainerMonItemCustomMoves sParty_Robert4[] = {
     {
-    .iv = 30,
-    .lvl = 38,
-    .species = SPECIES_NATU,
+    .iv =150,
+    .lvl = 1,
+    .ability = 2, // Sniper
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY, MOVE_PURSUIT}
     },
     {
-    .iv = 30,
-    .lvl = 38,
-    .species = SPECIES_ALTARIA,
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_STARAPTOR,
+    .moves = {MOVE_RETURN, MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_WORK_UP}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CORVIKNIGHT,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_STEEL_WING, MOVE_BODY_PRESS, MOVE_BULK_UP}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_TALONFLAME,
+    .heldItem = ITEM_POWER_HERB,
+    .moves = { MOVE_BRAVE_BIRD, MOVE_FIRE_BLAST, MOVE_SOLAR_BEAM, MOVE_STEEL_WING}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Robert5[] = {
+static const struct TrainerMonItemCustomMoves sParty_Robert5[] = {
     {
-    .iv = 40,
-    .lvl = 41,
+    .iv = 150,
+    .lvl = 1,
     .species = SPECIES_ALTARIA,
+    .moves = {MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_COTTON_GUARD, MOVE_ROOST}
     },
     {
-    .iv = 40,
-    .lvl = 41,
-    .species = SPECIES_XATU,
+    .iv =150,
+    .lvl = 1,
+    .ability = 2, // Sniper
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY, MOVE_PURSUIT}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_STARAPTOR,
+    .moves = {MOVE_RETURN, MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_WORK_UP}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CORVIKNIGHT,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_STEEL_WING, MOVE_BODY_PRESS, MOVE_BULK_UP}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_TALONFLAME,
+    .heldItem = ITEM_POWER_HERB,
+    .moves = { MOVE_BRAVE_BIRD, MOVE_FIRE_BLAST, MOVE_SOLAR_BEAM, MOVE_STEEL_WING}
     }
 };
 
