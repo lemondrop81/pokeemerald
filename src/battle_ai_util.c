@@ -1126,8 +1126,9 @@ s32 AI_GetAbility(u32 battlerId)
 {
     u32 knownAbility = GetBattlerAbility(battlerId);
     
-    // The AI knows its own ability.
-    if (IsBattlerAIControlled(battlerId))
+    // The AI knows its own ability, and "Smart" AI knows the player's ability too. This prevents it from
+    // getting cheesed due to the fact that it forgets the player's ability on switching out.
+    if (IsBattlerAIControlled(battlerId) || (AI_THINKING_STRUCT->aiFlags & AI_FLAG_CHECK_FOE))
         return knownAbility;
     
     // Check neutralizing gas, gastro acid
@@ -1825,7 +1826,8 @@ bool32 CanIndexMoveFaintTarget(u8 battlerAtk, u8 battlerDef, u8 index, u8 numHit
 
 u16 *GetMovesArray(u32 battler)
 {
-    if (IsBattlerAIControlled(battler) || IsBattlerAIControlled(BATTLE_PARTNER(battler)))
+    if (IsBattlerAIControlled(battler) || IsBattlerAIControlled(BATTLE_PARTNER(battler))
+        || (AI_THINKING_STRUCT->aiFlags & AI_FLAG_CHECK_FOE))
         return gBattleMons[battler].moves;
     else
         return gBattleResources->battleHistory->usedMoves[battler];
