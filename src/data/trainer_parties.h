@@ -12635,16 +12635,16 @@ static const struct TrainerMonNoItemCustomMoves sParty_Danielle[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_Hideo[] = {
     {
-    .iv =100,
-    .lvl = 25,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_TACKLE, MOVE_SELF_DESTRUCT, MOVE_SLUDGE, MOVE_SMOKESCREEN}
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_BISHARP,
+    .moves = {MOVE_NIGHT_SLASH, MOVE_IRON_HEAD, MOVE_LASER_FOCUS, MOVE_TORMENT}
     },
     {
-    .iv =100,
-    .lvl = 25,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_TACKLE, MOVE_POISON_GAS, MOVE_SLUDGE, MOVE_SMOKESCREEN}
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_MUK,
+    .moves = {MOVE_GUNK_SHOT, MOVE_SCREECH, MOVE_SHADOW_SNEAK, MOVE_ACID_ARMOR}
     }
 };
 
