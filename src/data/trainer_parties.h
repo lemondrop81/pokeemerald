@@ -4903,7 +4903,7 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
+static const struct TrainerMonItemCustomMoves sParty_Sandy1[] = {
     {
     .iv = 100,
     .lvl = 1,
@@ -14729,7 +14729,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroTreecko[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne2[] = {
+static const struct TrainerMonItemCustomMoves sParty_Sandy2[] = {
     {
     .iv = 100,
     .lvl = 1,
@@ -14772,7 +14772,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne2[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne3[] = {
+static const struct TrainerMonItemCustomMoves sParty_Sandy3[] = {
     {
     .iv = 100,
     .lvl = 1,
@@ -14815,7 +14815,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne3[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne4[] = {
+static const struct TrainerMonItemCustomMoves sParty_Sandy4[] = {
     {
     .iv = 255,
     .lvl = 42,
@@ -14853,7 +14853,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne4[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Roxanne5[] = {
+static const struct TrainerMonItemCustomMoves sParty_Sandy5[] = {
     {
     .iv = 255,
     .lvl = 47,
