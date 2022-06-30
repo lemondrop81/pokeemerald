@@ -7568,11 +7568,36 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jared[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Humberto[] = {
+static const struct TrainerMonItemCustomMoves sParty_Humberto[] = {
     {
-    .iv = 250,
-    .lvl = 30,
-    .species = SPECIES_SKARMORY,
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_GLISCOR,
+    .heldItem = ITEM_FLYING_GEM,
+    .moves = {MOVE_ACROBATICS, MOVE_EARTHQUAKE, MOVE_POISON_JAB, MOVE_SWORDS_DANCE}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Overcoat
+    .species = SPECIES_VULLABY,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_FOUL_PLAY, MOVE_SWAGGER, MOVE_ROOST, MOVE_SUBSTITUTE}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_MINIOR,
+    .heldItem = ITEM_WHITE_HERB,
+    .moves = MOVE_ACROBATICS, MOVE_ROCK_SLIDE, MOVE_ZEN_HEADBUTT, MOVE_SHELL_SMASH}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Unburden
+    .species = SPECIES_HAWLUCHA,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_STONE_EDGE, MOVE_SWORDS_DANCE}
     }
 };
 
