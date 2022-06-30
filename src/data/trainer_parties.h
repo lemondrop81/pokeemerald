@@ -7589,7 +7589,7 @@ static const struct TrainerMonItemCustomMoves sParty_Humberto[] = {
     .lvl = 1,
     .species = SPECIES_MINIOR,
     .heldItem = ITEM_WHITE_HERB,
-    .moves = MOVE_ACROBATICS, MOVE_ROCK_SLIDE, MOVE_ZEN_HEADBUTT, MOVE_SHELL_SMASH}
+    .moves = {MOVE_ACROBATICS, MOVE_ROCK_SLIDE, MOVE_ZEN_HEADBUTT, MOVE_SHELL_SMASH}
     },
     {
     .iv = 200,
@@ -12795,21 +12795,28 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Flint[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Ashley[] = {
+static const struct TrainerMonItemCustomMoves sParty_Ashley[] = {
     {
-    .iv = 100,
-    .lvl = 27,
-    .species = SPECIES_SWABLU,
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_RUFFLET,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_DOUBLE_EDGE, MOVE_CLOSE_COMBAT, MOVE_ASSURANCE}
     },
     {
-    .iv = 100,
-    .lvl = 27,
-    .species = SPECIES_SWABLU,
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_PIDGEOT,
+    .heldItem = ITEM_NORMAL_GEM,
+    .moves = {MOVE_HYPER_BEAM, MOVE_HURRICANE, MOVE_FOCUS_BLAST, MOVE_HEAT_WAVE}
     },
     {
-    .iv = 100,
-    .lvl = 27,
-    .species = SPECIES_SWABLU,
+    .iv =180,
+    .lvl = 1,
+    .ability = 2, // Hydration
+    .species = SPECIES_SWANNA,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_LIQUIDATION, MOVE_STEEL_WING, MOVE_AQUA_JET}
     }
 };
 
