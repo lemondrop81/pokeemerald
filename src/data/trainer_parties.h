@@ -6086,27 +6086,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_Josh[] = {
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_LILEEP,
-    .moves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_ANCIENT_POWER, MOVE_CONFUSE_RAY}
+    .species = SPECIES_DIGLETT,
+    .moves = {MOVE_BULLDOZE, MOVE_SLASH, MOVE_SUCKER_PUNCH, MOVE_ASTONISH}
     },
     {
     .iv = 100,
     .lvl = 1,
-    .species = SPECIES_STEELIX,
-    .moves = {MOVE_CRUNCH, MOVE_FIRE_FANG, MOVE_IRON_TAIL, MOVE_STONE_EDGE}
+    .species = SPECIES_YAMASK_GALARIAN,
+    .moves = {MOVE_SHADOW_BALL, MOVE_BRUTAL_SWING, MOVE_DISABLE, MOVE_EARTH_POWER}
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Tommy[] = {
     {
     .iv = 110,
-    .lvl = 8,
-    .species = SPECIES_RHYHORN,
+    .lvl = 1,
+    .species = SPECIES_SILICOBRA,
     },
     {
     .iv = 120,
-    .lvl = 8,
-    .species = SPECIES_ARON,
+    .lvl = 1,
+    .species = SPECIES_BALTOY,
     }
 };
 
@@ -11156,13 +11156,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntJaggedPass[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Marc[] = {
     {
     .iv = 120,
-    .lvl = 8,
-    .species = SPECIES_LILEEP,
+    .lvl = 1,
+    .species = SPECIES_BARBOACH,
     },
     {
     .iv = 130,
-    .lvl = 8,
-    .species = SPECIES_ARCHEN,
+    .lvl = 1,
+    .species = SPECIES_NUMEL,
     }
 };
 
