@@ -12782,16 +12782,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Riley[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Flint[] = {
+static const struct TrainerMonItemCustomMoves sParty_Flint[] = {
     {
     .iv = 150,
-    .lvl = 29,
-    .species = SPECIES_SWELLOW,
+    .lvl = 1,
+    .ability = 0, // Speed Boost
+    .species = SPECIES_YANMEGA,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_PSYCHIC, MOVE_DETECT}
     },
     {
     .iv = 150,
-    .lvl = 29,
-    .species = SPECIES_XATU,
+    .lvl = 1,
+    .ability = 1, // Water Absorb
+    .species = SPECIES_MANTINE,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_SCALD, MOVE_AIR_SLASH, MOVE_ICE_BEAM, MOVE_ROOST}
     }
 };
 
