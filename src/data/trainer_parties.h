@@ -7617,13 +7617,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Presley[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Edwardo[] = {
     {
     .iv = 150,
-    .lvl = 29,
-    .species = SPECIES_DODUO,
+    .lvl = 1,
+    .species = SPECIES_HONCHKROW,
     },
     {
     .iv = 150,
-    .lvl = 29,
-    .species = SPECIES_PELIPPER,
+    .lvl = 1,
+    .species = SPECIES_WOOBAT,
     }
 };
 
