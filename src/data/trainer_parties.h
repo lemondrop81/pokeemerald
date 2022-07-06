@@ -5084,7 +5084,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
     .lvl = 1,
     .ability = 2, // Weak armor
     .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_ROCKY_HELMET,
+    .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_AIR_SLASH}
     },
     {
@@ -5098,18 +5098,18 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
     {
     .iv = 210,
     .lvl = 1,
-    .ability = 1, // INFILTRATOR
-    .species = SPECIES_NOIVERN,
+    .ability = 0, // Speed boost
+    .species = SPECIES_YANMEGA,
     .heldItem = ITEM_FOCUS_SASH,
-    .moves = {MOVE_DRAGON_PULSE, MOVE_TAILWIND, MOVE_SUPER_FANG, MOVE_U_TURN}
+    .moves = {MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_PSYCHIC, MOVE_DETECT}
     },
     {
     .iv = 220,
     .lvl = 1,
-    .ability = 2, // Weak armor
-    .species = SPECIES_VULLABY,
-    .heldItem = ITEM_KINGS_ROCK,
-    .moves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_TAUNT, MOVE_DEFOG}
+    .ability = 0, // tough claws
+    .species = SPECIES_AERODACTYL,
+    .heldItem = ITEM_AERODACTYLITE,
+    .moves = {MOVE_STONE_EDGE, MOVE_BRAVE_BIRD, MOVE_EARTHQUAKE, MOVE_WIDE_GUARD}
     },
 };
 
@@ -15577,7 +15577,7 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
     .lvl = 1,
     .ability = 2, // Weak armor
     .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_ROCKY_HELMET,
+    .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_AIR_SLASH}
     },
     {
@@ -15591,18 +15591,18 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
     {
     .iv = 210,
     .lvl = 1,
-    .ability = 1, // INFILTRATOR
-    .species = SPECIES_NOIVERN,
+    .ability = 0, // Speed boost
+    .species = SPECIES_YANMEGA,
     .heldItem = ITEM_FOCUS_SASH,
-    .moves = {MOVE_DRAGON_PULSE, MOVE_TAILWIND, MOVE_SUPER_FANG, MOVE_U_TURN}
+    .moves = {MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_PSYCHIC, MOVE_DETECT}
     },
     {
     .iv = 220,
     .lvl = 1,
-    .ability = 2, // Weak armor
-    .species = SPECIES_VULLABY,
-    .heldItem = ITEM_KINGS_ROCK,
-    .moves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_TAUNT, MOVE_DEFOG}
+    .ability = 0, // tough claws
+    .species = SPECIES_AERODACTYL,
+    .heldItem = ITEM_AERODACTYLITE,
+    .moves = {MOVE_STONE_EDGE, MOVE_BRAVE_BIRD, MOVE_EARTHQUAKE, MOVE_WIDE_GUARD}
     },
 };
 
