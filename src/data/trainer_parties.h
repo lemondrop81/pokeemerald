@@ -16100,8 +16100,13 @@ static const struct TrainerMonItemCustomMoves sParty_Angelo[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Darius[] = {
     {
     .iv = 200,
-    .lvl = 30,
-    .species = SPECIES_TROPIUS,
+    .lvl = 1,
+    .species = SPECIES_GYARADOS,
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_ROTOM_FAN,
     }
 };
 
