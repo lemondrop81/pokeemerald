@@ -5078,41 +5078,6 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
-    {
-    .iv = 210,
-    .lvl = 1,
-    .ability = 2, // Weak armor
-    .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_AIR_SLASH}
-    },
-    {
-    .iv = 210,
-    .lvl = 1,
-    .ability = 2, // Poison Heal
-    .species = SPECIES_GLISCOR,
-    .heldItem = ITEM_TOXIC_ORB,
-    .moves = {MOVE_EARTHQUAKE, MOVE_TOXIC, MOVE_SWORDS_DANCE, MOVE_SUBSTITUTE}
-    },
-    {
-    .iv = 210,
-    .lvl = 1,
-    .ability = 0, // Speed boost
-    .species = SPECIES_YANMEGA,
-    .heldItem = ITEM_FOCUS_SASH,
-    .moves = {MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_PSYCHIC, MOVE_DETECT}
-    },
-    {
-    .iv = 220,
-    .lvl = 1,
-    .ability = 0, // tough claws
-    .species = SPECIES_AERODACTYL,
-    .heldItem = ITEM_AERODACTYLITE,
-    .moves = {MOVE_STONE_EDGE, MOVE_BRAVE_BIRD, MOVE_EARTHQUAKE, MOVE_WIDE_GUARD}
-    },
-};
-
 static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
     {
     .iv = 250,
@@ -7550,7 +7515,9 @@ static const struct TrainerMonItemCustomMoves sParty_Phil[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Jared[] = {
+// Fortree Gym
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Jared[] = { // With Ashley
     {
     .iv = 100,
     .lvl = 1,
@@ -7565,6 +7532,31 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jared[] = {
     .iv = 100,
     .lvl = 1,
     .species = SPECIES_ROOKIDEE,
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Ashley[] = { // With Jared
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_RUFFLET,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_DOUBLE_EDGE, MOVE_CLOSE_COMBAT, MOVE_ASSURANCE}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_PIDGEOT,
+    .heldItem = ITEM_NORMAL_GEM,
+    .moves = {MOVE_HYPER_BEAM, MOVE_HURRICANE, MOVE_FOCUS_BLAST, MOVE_HEAT_WAVE}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .ability = 2, // Hydration
+    .species = SPECIES_SWANNA,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_LIQUIDATION, MOVE_STEEL_WING, MOVE_AQUA_JET}
     }
 };
 
@@ -7601,6 +7593,264 @@ static const struct TrainerMonItemCustomMoves sParty_Humberto[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Flint[] = { // with Edwardo
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 0, // Speed Boost
+    .species = SPECIES_YANMEGA,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_PSYCHIC, MOVE_DETECT}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 1, // Water Absorb
+    .species = SPECIES_MANTINE,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_SCALD, MOVE_AIR_SLASH, MOVE_ICE_BEAM, MOVE_ROOST}
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Edwardo[] = { // With Flint
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_HONCHKROW,
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_WOOBAT,
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Darius[] = {
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_GYARADOS,
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_ROTOM_FAN,
+    }
+}; 
+
+static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
+    {
+    .iv = 210,
+    .lvl = 1,
+    .ability = 2, // Weak armor
+    .species = SPECIES_SKARMORY,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_AIR_SLASH}
+    },
+    {
+    .iv = 210,
+    .lvl = 1,
+    .ability = 2, // Poison Heal
+    .species = SPECIES_GLISCOR,
+    .heldItem = ITEM_TOXIC_ORB,
+    .moves = {MOVE_EARTHQUAKE, MOVE_TOXIC, MOVE_SWORDS_DANCE, MOVE_SUBSTITUTE}
+    },
+    {
+    .iv = 210,
+    .lvl = 1,
+    .ability = 0, // Speed boost
+    .species = SPECIES_YANMEGA,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_PSYCHIC, MOVE_DETECT}
+    },
+    {
+    .iv = 220,
+    .lvl = 1,
+    .ability = 0, // tough claws
+    .species = SPECIES_AERODACTYL,
+    .heldItem = ITEM_AERODACTYLITE,
+    .moves = {MOVE_STONE_EDGE, MOVE_BRAVE_BIRD, MOVE_EARTHQUAKE, MOVE_WIDE_GUARD}
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
+    {
+    .iv = 210,
+    .lvl = 1,
+    .ability = 2, // Gale winds
+    .species = SPECIES_TALONFLAME,
+    .heldItem = ITEM_SHARP_BEAK,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_ROOST, MOVE_U_TURN}
+    },
+    {
+    .iv = 210,
+    .lvl = 1,
+    .ability = 2, // Weak armor
+    .species = SPECIES_SKARMORY,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_AIR_SLASH}
+    },
+    {
+    .iv = 210,
+    .lvl = 1,
+    .ability = 2, // Poison Heal
+    .species = SPECIES_GLISCOR,
+    .heldItem = ITEM_TOXIC_ORB,
+    .moves = {MOVE_EARTHQUAKE, MOVE_TOXIC, MOVE_SWORDS_DANCE, MOVE_SUBSTITUTE}
+    },
+    {
+    .iv = 210,
+    .lvl = 1,
+    .ability = 0, // Speed boost
+    .species = SPECIES_YANMEGA,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_PSYCHIC, MOVE_DETECT}
+    },
+    {
+    .iv = 220,
+    .lvl = 1,
+    .ability = 0, // tough claws
+    .species = SPECIES_AERODACTYL,
+    .heldItem = ITEM_AERODACTYLITE,
+    .moves = {MOVE_STONE_EDGE, MOVE_BRAVE_BIRD, MOVE_EARTHQUAKE, MOVE_WIDE_GUARD}
+    },
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Winona3[] = {
+    {
+    .iv = 255,
+    .lvl = 43,
+    .species = SPECIES_HOOTHOOT,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_HYPNOSIS, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_DREAM_EATER}
+    },
+    {
+    .iv = 255,
+    .lvl = 43,
+    .species = SPECIES_TROPIUS,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 255,
+    .lvl = 45,
+    .species = SPECIES_DRAGONAIR,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_ICE_BEAM}
+    },
+    {
+    .iv = 255,
+    .lvl = 46,
+    .species = SPECIES_PELIPPER,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 255,
+    .lvl = 48,
+    .species = SPECIES_SKARMORY,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 255,
+    .lvl = 50,
+    .species = SPECIES_ALTARIA,
+    .heldItem = ITEM_CHESTO_BERRY,
+    .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Winona4[] = {
+    {
+    .iv = 255,
+    .lvl = 48,
+    .species = SPECIES_NOCTOWL,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_HYPNOSIS, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_DREAM_EATER}
+    },
+    {
+    .iv = 255,
+    .lvl = 49,
+    .species = SPECIES_TROPIUS,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 255,
+    .lvl = 50,
+    .species = SPECIES_DRAGONAIR,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_ICE_BEAM}
+    },
+    {
+    .iv = 255,
+    .lvl = 51,
+    .species = SPECIES_PELIPPER,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 255,
+    .lvl = 53,
+    .species = SPECIES_SKARMORY,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 255,
+    .lvl = 55,
+    .species = SPECIES_ALTARIA,
+    .heldItem = ITEM_CHESTO_BERRY,
+    .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Winona5[] = {
+    {
+    .iv = 255,
+    .lvl = 53,
+    .species = SPECIES_NOCTOWL,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_HYPNOSIS, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_DREAM_EATER}
+    },
+    {
+    .iv = 255,
+    .lvl = 54,
+    .species = SPECIES_TROPIUS,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 255,
+    .lvl = 55,
+    .species = SPECIES_PELIPPER,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 255,
+    .lvl = 55,
+    .species = SPECIES_DRAGONITE,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_HYPER_BEAM, MOVE_THUNDERBOLT, MOVE_EARTHQUAKE, MOVE_ICE_BEAM}
+    },
+    {
+    .iv = 255,
+    .lvl = 58,
+    .species = SPECIES_SKARMORY,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
+    },
+    {
+    .iv = 255,
+    .lvl = 60,
+    .species = SPECIES_ALTARIA,
+    .heldItem = ITEM_CHESTO_BERRY,
+    .moves = {MOVE_SKY_ATTACK, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Presley[] = {
     {
     .iv =100,
@@ -7611,19 +7861,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Presley[] = {
     .iv =100,
     .lvl = 33,
     .species = SPECIES_XATU,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Edwardo[] = {
-    {
-    .iv = 150,
-    .lvl = 1,
-    .species = SPECIES_HONCHKROW,
-    },
-    {
-    .iv = 150,
-    .lvl = 1,
-    .species = SPECIES_WOOBAT,
     }
 };
 
@@ -12782,50 +13019,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Riley[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Flint[] = {
-    {
-    .iv = 150,
-    .lvl = 1,
-    .ability = 0, // Speed Boost
-    .species = SPECIES_YANMEGA,
-    .heldItem = ITEM_LIFE_ORB,
-    .moves = {MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_PSYCHIC, MOVE_DETECT}
-    },
-    {
-    .iv = 150,
-    .lvl = 1,
-    .ability = 1, // Water Absorb
-    .species = SPECIES_MANTINE,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SCALD, MOVE_AIR_SLASH, MOVE_ICE_BEAM, MOVE_ROOST}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Ashley[] = {
-    {
-    .iv =180,
-    .lvl = 1,
-    .species = SPECIES_RUFFLET,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_BRAVE_BIRD, MOVE_DOUBLE_EDGE, MOVE_CLOSE_COMBAT, MOVE_ASSURANCE}
-    },
-    {
-    .iv =180,
-    .lvl = 1,
-    .species = SPECIES_PIDGEOT,
-    .heldItem = ITEM_NORMAL_GEM,
-    .moves = {MOVE_HYPER_BEAM, MOVE_HURRICANE, MOVE_FOCUS_BLAST, MOVE_HEAT_WAVE}
-    },
-    {
-    .iv =180,
-    .lvl = 1,
-    .ability = 2, // Hydration
-    .species = SPECIES_SWANNA,
-    .heldItem = ITEM_LIFE_ORB,
-    .moves = {MOVE_BRAVE_BIRD, MOVE_LIQUIDATION, MOVE_STEEL_WING, MOVE_AQUA_JET}
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_WallyMauville[] = {
     {
     .iv = 30,
@@ -15563,183 +15756,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman5[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
-    {
-    .iv = 210,
-    .lvl = 1,
-    .ability = 2, // Gale winds
-    .species = SPECIES_TALONFLAME,
-    .heldItem = ITEM_SHARP_BEAK,
-    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_ROOST, MOVE_U_TURN}
-    },
-    {
-    .iv = 210,
-    .lvl = 1,
-    .ability = 2, // Weak armor
-    .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_ROOST, MOVE_AIR_SLASH}
-    },
-    {
-    .iv = 210,
-    .lvl = 1,
-    .ability = 2, // Poison Heal
-    .species = SPECIES_GLISCOR,
-    .heldItem = ITEM_TOXIC_ORB,
-    .moves = {MOVE_EARTHQUAKE, MOVE_TOXIC, MOVE_SWORDS_DANCE, MOVE_SUBSTITUTE}
-    },
-    {
-    .iv = 210,
-    .lvl = 1,
-    .ability = 0, // Speed boost
-    .species = SPECIES_YANMEGA,
-    .heldItem = ITEM_FOCUS_SASH,
-    .moves = {MOVE_BUG_BUZZ, MOVE_HURRICANE, MOVE_PSYCHIC, MOVE_DETECT}
-    },
-    {
-    .iv = 220,
-    .lvl = 1,
-    .ability = 0, // tough claws
-    .species = SPECIES_AERODACTYL,
-    .heldItem = ITEM_AERODACTYLITE,
-    .moves = {MOVE_STONE_EDGE, MOVE_BRAVE_BIRD, MOVE_EARTHQUAKE, MOVE_WIDE_GUARD}
-    },
-};
 
-static const struct TrainerMonItemCustomMoves sParty_Winona3[] = {
-    {
-    .iv = 255,
-    .lvl = 43,
-    .species = SPECIES_HOOTHOOT,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_HYPNOSIS, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_DREAM_EATER}
-    },
-    {
-    .iv = 255,
-    .lvl = 43,
-    .species = SPECIES_TROPIUS,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
-    },
-    {
-    .iv = 255,
-    .lvl = 45,
-    .species = SPECIES_DRAGONAIR,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_ICE_BEAM}
-    },
-    {
-    .iv = 255,
-    .lvl = 46,
-    .species = SPECIES_PELIPPER,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
-    },
-    {
-    .iv = 255,
-    .lvl = 48,
-    .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
-    },
-    {
-    .iv = 255,
-    .lvl = 50,
-    .species = SPECIES_ALTARIA,
-    .heldItem = ITEM_CHESTO_BERRY,
-    .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Winona4[] = {
-    {
-    .iv = 255,
-    .lvl = 48,
-    .species = SPECIES_NOCTOWL,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_HYPNOSIS, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_DREAM_EATER}
-    },
-    {
-    .iv = 255,
-    .lvl = 49,
-    .species = SPECIES_TROPIUS,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
-    },
-    {
-    .iv = 255,
-    .lvl = 50,
-    .species = SPECIES_DRAGONAIR,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_ICE_BEAM}
-    },
-    {
-    .iv = 255,
-    .lvl = 51,
-    .species = SPECIES_PELIPPER,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
-    },
-    {
-    .iv = 255,
-    .lvl = 53,
-    .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
-    },
-    {
-    .iv = 255,
-    .lvl = 55,
-    .species = SPECIES_ALTARIA,
-    .heldItem = ITEM_CHESTO_BERRY,
-    .moves = {MOVE_AERIAL_ACE, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Winona5[] = {
-    {
-    .iv = 255,
-    .lvl = 53,
-    .species = SPECIES_NOCTOWL,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_HYPNOSIS, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_DREAM_EATER}
-    },
-    {
-    .iv = 255,
-    .lvl = 54,
-    .species = SPECIES_TROPIUS,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SUNNY_DAY, MOVE_AERIAL_ACE, MOVE_SOLAR_BEAM, MOVE_EARTHQUAKE}
-    },
-    {
-    .iv = 255,
-    .lvl = 55,
-    .species = SPECIES_PELIPPER,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SURF, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_AERIAL_ACE}
-    },
-    {
-    .iv = 255,
-    .lvl = 55,
-    .species = SPECIES_DRAGONITE,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_HYPER_BEAM, MOVE_THUNDERBOLT, MOVE_EARTHQUAKE, MOVE_ICE_BEAM}
-    },
-    {
-    .iv = 255,
-    .lvl = 58,
-    .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_WHIRLWIND, MOVE_SPIKES, MOVE_STEEL_WING, MOVE_AERIAL_ACE}
-    },
-    {
-    .iv = 255,
-    .lvl = 60,
-    .species = SPECIES_ALTARIA,
-    .heldItem = ITEM_CHESTO_BERRY,
-    .moves = {MOVE_SKY_ATTACK, MOVE_REST, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
-    }
-};
 
 static const struct TrainerMonItemCustomMoves sParty_TateAndLiza2[] = {
     {
@@ -16094,19 +16111,6 @@ static const struct TrainerMonItemCustomMoves sParty_Angelo[] = {
     .species = SPECIES_VIKAVOLT,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_THUNDERBOLT, MOVE_CHARGE_BEAM, MOVE_SUBSTITUTE, MOVE_DIG}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Darius[] = {
-    {
-    .iv = 200,
-    .lvl = 1,
-    .species = SPECIES_GYARADOS,
-    },
-    {
-    .iv = 200,
-    .lvl = 1,
-    .species = SPECIES_ROTOM_FAN,
     }
 };
 
