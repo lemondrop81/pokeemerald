@@ -8021,13 +8021,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Presley[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Colin[] = {
     {
     .iv =100,
-    .lvl = 28,
-    .species = SPECIES_WINGULL,
+    .lvl = 1,
+    .species = SPECIES_PIDGEY,
     },
     {
     .iv =100,
-    .lvl = 28,
-    .species = SPECIES_NATU,
+    .lvl = 1,
+    .species = SPECIES_HOPPIP,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_PIKIPEK,
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ORICORIO_POM_POM,
     }
 };
 
