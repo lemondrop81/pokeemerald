@@ -7851,29 +7851,26 @@ static const struct TrainerMonItemCustomMoves sParty_Winona5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Presley[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_TROPIUS,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_XATU,
-    }
-};
+// Route 120
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Colin[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_Clarissa[] = {
     {
-    .iv =100,
-    .lvl = 28,
-    .species = SPECIES_WINGULL,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_TANGROWTH,
+    .moves = {MOVE_POWER_WHIP, MOVE_ANCIENT_POWER, MOVE_SLEEP_POWDER, MOVE_LEECH_SEED}
     },
     {
-    .iv =100,
-    .lvl = 28,
-    .species = SPECIES_NATU,
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_WAILORD,
+    .moves = {MOVE_WATER_SPOUT, MOVE_HEAVY_SLAM, MOVE_BOUNCE, MOVE_AQUA_RING}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_PYROAR,
+    .moves = {MOVE_FIRE_BLAST, MOVE_HYPER_VOICE, MOVE_NOBLE_ROAR, MOVE_WORK_UP}
     }
 };
 
@@ -7890,41 +7887,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Robert1[] = {
     .lvl = 1,
     .species = SPECIES_STARAPTOR,
     .moves = {MOVE_RETURN, MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_WORK_UP}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
-    {
-    .iv =100,
-    .lvl = 36,
-    .species = SPECIES_SWELLOW,
-    },
-    {
-    .iv =100,
-    .lvl = 36,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv =100,
-    .lvl = 36,
-    .species = SPECIES_XATU,
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_Chester[] = {
-    {
-    .iv =100,
-    .lvl = 1,
-    .ability = 2, // Gale wings
-    .species = SPECIES_FLETCHLING,
-    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_ROOST}
-    },
-    {
-    .iv =100,
-    .lvl = 1,
-    .ability = 1, // Sheer force
-    .species = SPECIES_RUFFLET,
-    .moves = {MOVE_FOUL_PLAY, MOVE_ROOST, MOVE_IRON_DEFENSE, MOVE_WHIRLWIND}
     }
 };
 
@@ -8040,6 +8002,67 @@ static const struct TrainerMonItemCustomMoves sParty_Robert5[] = {
     .species = SPECIES_TALONFLAME,
     .heldItem = ITEM_POWER_HERB,
     .moves = { MOVE_BRAVE_BIRD, MOVE_FIRE_BLAST, MOVE_SOLAR_BEAM, MOVE_STEEL_WING}
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Presley[] = {
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_TROPIUS,
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_XATU,
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Colin[] = {
+    {
+    .iv =100,
+    .lvl = 28,
+    .species = SPECIES_WINGULL,
+    },
+    {
+    .iv =100,
+    .lvl = 28,
+    .species = SPECIES_NATU,
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
+    {
+    .iv =100,
+    .lvl = 36,
+    .species = SPECIES_SWELLOW,
+    },
+    {
+    .iv =100,
+    .lvl = 36,
+    .species = SPECIES_PELIPPER,
+    },
+    {
+    .iv =100,
+    .lvl = 36,
+    .species = SPECIES_XATU,
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Chester[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 2, // Gale wings
+    .species = SPECIES_FLETCHLING,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_ROOST}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 1, // Sheer force
+    .species = SPECIES_RUFFLET,
+    .moves = {MOVE_FOUL_PLAY, MOVE_ROOST, MOVE_IRON_DEFENSE, MOVE_WHIRLWIND}
     }
 };
 
@@ -8485,27 +8508,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Madeline1[] = {
     .lvl = 1,
     .species = SPECIES_POPPLIO,
     .moves = {MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE, MOVE_MOONBLAST}
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_Clarissa[] = {
-    {
-    .iv = 150,
-    .lvl = 1,
-    .species = SPECIES_TANGROWTH,
-    .moves = {MOVE_POWER_WHIP, MOVE_ANCIENT_POWER, MOVE_SLEEP_POWDER, MOVE_LEECH_SEED}
-    },
-    {
-    .iv = 150,
-    .lvl = 1,
-    .species = SPECIES_WAILORD,
-    .moves = {MOVE_WATER_SPOUT, MOVE_HEAVY_SLAM, MOVE_BOUNCE, MOVE_AQUA_RING}
-    },
-    {
-    .iv = 150,
-    .lvl = 1,
-    .species = SPECIES_PYROAR,
-    .moves = {MOVE_FIRE_BLAST, MOVE_HYPER_VOICE, MOVE_NOBLE_ROAR, MOVE_WORK_UP}
     }
 };
 
