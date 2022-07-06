@@ -8041,6 +8041,21 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Colin[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Callie[] = {
+    {
+    .iv =100,
+    .lvl = 2,
+    .species = SPECIES_POLIWRATH,
+    .moves = {MOVE_DRAIN_PUNCH, MOVE_HYDRO_PUMP, MOVE_HYPNOSIS, MOVE_ICE_PUNCH}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_STUFFUL,
+    .moves = {MOVE_HAMMER_ARM, MOVE_THRASH, MOVE_PAYBACK, MOVE_BULK_UP}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14786,19 +14801,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Leonel[] = {
     .lvl = 30,
     .species = SPECIES_MANECTRIC,
     .moves = {MOVE_THUNDER, MOVE_QUICK_ATTACK, MOVE_THUNDER_WAVE, MOVE_NONE}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Callie[] = {
-    {
-    .iv =100,
-    .lvl = 28,
-    .species = SPECIES_MEDITITE,
-    },
-    {
-    .iv =100,
-    .lvl = 28,
-    .species = SPECIES_MAKUHITA,
     }
 };
 
