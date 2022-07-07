@@ -8041,6 +8041,42 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Colin[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Leonel[] = {
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_VIKAVOLT,
+    .moves = {MOVE_THUNDER, MOVE_BUG_BUZZ, MOVE_ENERGY_BALL, MOVE_MUD_SHOT}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_CHIKORITA,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_WEATHER_BALL, MOVE_SLEEP_POWDER}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_GLACEON,
+    .moves = {MOVE_BLIZZARD, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT, MOVE_SURF}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Angelica[] = {
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_MR_MIME,
+    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_REFLECT, MOVE_LIGHT_SCREEN}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_MR_MIME_GALARIAN,
+    .moves = {MOVE_THUNDER, MOVE_WEATHER_BALL, MOVE_ICE_BEAM, MOVE_PSYCHIC}
+    }
+};
+
 static const struct TrainerMonNoItemCustomMoves sParty_Callie[] = {
     {
     .iv =100,
@@ -8548,15 +8584,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Madeline1[] = {
     .lvl = 1,
     .species = SPECIES_POPPLIO,
     .moves = {MOVE_ICE_BEAM, MOVE_SURF, MOVE_ROCK_SLIDE, MOVE_MOONBLAST}
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_Angelica[] = {
-    {
-    .iv = 50,
-    .lvl = 30,
-    .species = SPECIES_CASTFORM,
-    .moves = {MOVE_RAIN_DANCE, MOVE_WEATHER_BALL, MOVE_THUNDER, MOVE_WATER_PULSE}
     }
 };
 
@@ -14794,27 +14821,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Rachel[] = {
     .lvl = 1,
     .species = SPECIES_HELIOLISK,
     .moves = {MOVE_THUNDERBOLT, MOVE_HYPER_VOICE, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK}
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_Leonel[] = {
-    {
-    .iv = 100,
-    .lvl = 1,
-    .species = SPECIES_VIKAVOLT,
-    .moves = {MOVE_THUNDER, MOVE_BUG_BUZZ, MOVE_ENERGY_BALL, MOVE_MUD_SHOT}
-    },
-    {
-    .iv = 100,
-    .lvl = 1,
-    .species = SPECIES_CHIKORITA,
-    .moves = {MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_WEATHER_BALL, MOVE_SLEEP_POWDER}
-    },
-    {
-    .iv = 100,
-    .lvl = 1,
-    .species = SPECIES_GLACEON,
-    .moves = {MOVE_BLIZZARD, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT, MOVE_SURF}
     }
 };
 
