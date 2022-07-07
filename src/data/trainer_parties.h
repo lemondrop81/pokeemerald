@@ -1982,14 +1982,6 @@ static const struct TrainerMonItemCustomMoves sParty_Brooke1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Jennifer[] = {
-    {
-    .iv = 200,
-    .lvl = 30,
-    .species = SPECIES_SABLEYE,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Hope[] = {
     {
     .iv = 100,
@@ -8104,6 +8096,31 @@ static const struct TrainerMonNoItemCustomMoves sParty_Riley[] = {
     .lvl = 1,
     .species = SPECIES_WORMADAM_TRASH_CLOAK,
     .moves = {MOVE_QUIVER_DANCE, MOVE_BUG_BUZZ, MOVE_FLASH_CANNON, MOVE_PSYCHIC}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Jennifer[] = {
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 2, // Prankster
+    .species = SPECIES_SABLEYE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_WILL_O_WISP, MOVE_CALM_MIND, MOVE_DARK_PULSE, MOVE_RECOVER}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_WHIMSICOTT,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_MOONBLAST, MOVE_ENERGY_BALL, MOVE_STUN_SPORE, MOVE_PSYCHIC}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_BOUFFALANT,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_HEAD_CHARGE, MOVE_MEGAHORN, MOVE_REVENGE, MOVE_HEAD_SMASH}
     }
 };
 
