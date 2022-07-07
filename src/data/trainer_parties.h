@@ -8056,6 +8056,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Callie[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Riley[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_STUNKY,
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_POISON_JAB, MOVE_PLAY_ROUGH, MOVE_EXPLOSION}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_WORMADAM_TRASH_CLOAK,
+    .moves = {MOVE_QUIVER_DANCE, MOVE_BUG_BUZZ, MOVE_FLASH_CANNON, MOVE_PSYCHIC}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -13031,20 +13046,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Keigo[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_Riley[] = {
-    {
-    .iv =100,
-    .lvl = 28,
-    .species = SPECIES_NINCADA,
-    .moves = {MOVE_LEECH_LIFE, MOVE_FURY_SWIPES, MOVE_MIND_READER, MOVE_DIG}
-    },
-    {
-    .iv =100,
-    .lvl = 28,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_TACKLE, MOVE_SELF_DESTRUCT, MOVE_SLUDGE, MOVE_SMOKESCREEN}
-    }
-};
+
 
 static const struct TrainerMonNoItemDefaultMoves sParty_WallyMauville[] = {
     {
