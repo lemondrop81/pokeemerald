@@ -716,30 +716,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Dusty1[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_Chip[] = {
-    {
-    .iv = 50,
-    .lvl = 27,
-    .ability = 0, // Leviate
-    .species = SPECIES_BALTOY,
-    .moves = {MOVE_PSYBEAM, MOVE_SELF_DESTRUCT, MOVE_SANDSTORM, MOVE_ANCIENT_POWER}
-    },
-    {
-    .iv = 50,
-    .lvl = 27,
-    .ability = 0, // Sand veil
-    .species = SPECIES_SANDSHREW,
-    .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
-    },
-    {
-    .iv = 50,
-    .lvl = 27,
-    .ability = 2, // Sandrush
-    .species = SPECIES_SANDSLASH,
-    .moves = {MOVE_DIG, MOVE_SLASH, MOVE_SAND_ATTACK, MOVE_POISON_STING}
-    }
-};
-
 static const struct TrainerMonNoItemCustomMoves sParty_Foster[] = {
     {
     .iv = 100,
@@ -8213,6 +8189,28 @@ static const struct TrainerMonNoItemCustomMoves sParty_Keigo[] = {
     .lvl = 1,
     .species = SPECIES_BISHARP,
     .moves = {MOVE_IRON_HEAD, MOVE_NIGHT_SLASH, MOVE_THUNDER_WAVE, MOVE_LOW_KICK}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Chip[] = {
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 0, // Leviate
+    .species = SPECIES_BALTOY,
+    .moves = {MOVE_EXTRASENSORY, MOVE_EARTH_POWER, MOVE_HYPER_BEAM, MOVE_COSMIC_POWER}
+    },
+    {
+    .iv = 150,
+    .lvl = 27,
+    .species = SPECIES_CRUSTLE,
+    .moves = {MOVE_X_SCISSOR, MOVE_ROCK_WRECKER, MOVE_NIGHT_SLASH, MOVE_SHELL_SMASH}
+    },
+    {
+    .iv = 150,
+    .lvl = 27,
+    .species = SPECIES_BARBARACLE,
+    .moves = {MOVE_LIQUIDATION, MOVE_STONE_EDGE, MOVE_NIGHT_SLASH, MOVE_CROSS_CHOP}
     }
 };
 
