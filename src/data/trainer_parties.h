@@ -2229,19 +2229,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kindra[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Tammy[] = {
-    {
-    .iv =100,
-    .lvl = 29,
-    .species = SPECIES_DUSKULL,
-    },
-    {
-    .iv =100,
-    .lvl = 29,
-    .species = SPECIES_SHUPPET,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Valerie1[] = {
     {
     .iv =100,
@@ -8211,6 +8198,23 @@ static const struct TrainerMonNoItemCustomMoves sParty_Chip[] = {
     .lvl = 27,
     .species = SPECIES_BARBARACLE,
     .moves = {MOVE_LIQUIDATION, MOVE_STONE_EDGE, MOVE_NIGHT_SLASH, MOVE_CROSS_CHOP}
+    }
+};
+
+// Route 121
+
+static const struct TrainerMonNoItemCustomMoves sParty_Tammy[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CORSOLA_GALARIAN,
+    .moves = {MOVE_POWER_GEM, MOVE_METEOR_BEAM, MOVE_POLTERGEIST, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_DHELMISE,
+    .moves = {MOVE_ANCHOR_SHOT, MOVE_POWER_WHIP, MOVE_PHANTOM_FORCE, MOVE_SOLAR_BLADE}
     }
 };
 
