@@ -8190,7 +8190,7 @@ static const struct TrainerMonItemCustomMoves sParty_Jeffrey5[] = {
     .iv =100,
     .lvl = 1,
     .species = SPECIES_BEEDRILL,
-    .heldItem = ITEM_BEEDRILLITE
+    .heldItem = ITEM_BEEDRILLITE,
     .moves = {MOVE_LEECH_LIFE, MOVE_FLARE_BLITZ, MOVE_COIL, MOVE_POWER_WHIP}
     }
 };
