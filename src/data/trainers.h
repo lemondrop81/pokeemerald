@@ -3235,7 +3235,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_JEFFREY_5] =
     {
-        .partyFlags = F_TRAINER_PARTY_HELD_ITEM, F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_BUG_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
