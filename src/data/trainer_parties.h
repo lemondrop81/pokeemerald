@@ -4259,24 +4259,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Taylor[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey1[] = {
-    {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_SURSKIT,
-    },
-    {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_SURSKIT,
-    },
-    {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_SURSKIT,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Derek[] = {
     {
     .iv = 150,
@@ -4307,98 +4289,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Derek[] = {
     .iv = 150,
     .lvl = 1,
     .species = SPECIES_GOLISOPOD,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey2[] = {
-    {
-    .iv = 10,
-    .lvl = 31,
-    .species = SPECIES_SURSKIT,
-    },
-    {
-    .iv = 10,
-    .lvl = 31,
-    .species = SPECIES_SURSKIT,
-    },
-    {
-    .iv = 10,
-    .lvl = 31,
-    .species = SPECIES_SURSKIT,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey3[] = {
-    {
-    .iv = 20,
-    .lvl = 34,
-    .species = SPECIES_SURSKIT,
-    },
-    {
-    .iv = 20,
-    .lvl = 34,
-    .species = SPECIES_SURSKIT,
-    },
-    {
-    .iv = 20,
-    .lvl = 34,
-    .species = SPECIES_MASQUERAIN,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey4[] = {
-    {
-    .iv = 30,
-    .lvl = 36,
-    .species = SPECIES_SURSKIT,
-    },
-    {
-    .iv = 30,
-    .lvl = 36,
-    .species = SPECIES_WURMPLE,
-    },
-    {
-    .iv = 30,
-    .lvl = 36,
-    .species = SPECIES_SURSKIT,
-    },
-    {
-    .iv = 30,
-    .lvl = 36,
-    .species = SPECIES_MASQUERAIN,
-    }
-};
-
-static const struct TrainerMonItemDefaultMoves sParty_Jeffrey5[] = {
-    {
-    .iv = 40,
-    .lvl = 38,
-    .species = SPECIES_SURSKIT,
-    .heldItem = ITEM_NONE
-    },
-    {
-    .iv = 40,
-    .lvl = 38,
-    .species = SPECIES_DUSTOX,
-    .heldItem = ITEM_NONE
-    },
-    {
-    .iv = 40,
-    .lvl = 38,
-    .species = SPECIES_SURSKIT,
-    .heldItem = ITEM_NONE
-    },
-    {
-    .iv = 40,
-    .lvl = 38,
-    .species = SPECIES_MASQUERAIN,
-    .heldItem = ITEM_SILVER_POWDER
-    },
-    {
-    .iv = 40,
-    .lvl = 38,
-    .species = SPECIES_BEAUTIFLY,
-    .heldItem = ITEM_NONE
     }
 };
 
@@ -8166,6 +8056,142 @@ static const struct TrainerMonNoItemCustomMoves sParty_Lorenzo[] = {
     .ability = 2, // Analytic
     .species = SPECIES_STARMIE,
     .moves = {MOVE_SURF, MOVE_PSYSHOCK, MOVE_POWER_GEM, MOVE_GRASS_KNOT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jeffrey1[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DURANT,
+    .moves = {MOVE_X_SCISSOR, MOVE_IRON_HEAD, MOVE_CRUNCH, MOVE_HONE_CLAWS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VESPIQUEN,
+    .moves = {MOVE_ATTACK_ORDER, MOVE_DEFEND_ORDER, MOVE_HEAL_ORDER, MOVE_ACROBATICS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MASQUERAIN,
+    .moves = {MOVE_BUG_BUZZ, MOVE_AIR_SLASH, MOVE_QUIVER_DANCE, MOVE_STUN_SPORE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jeffrey2[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DURANT,
+    .moves = {MOVE_X_SCISSOR, MOVE_IRON_HEAD, MOVE_CRUNCH, MOVE_HONE_CLAWS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VESPIQUEN,
+    .moves = {MOVE_ATTACK_ORDER, MOVE_DEFEND_ORDER, MOVE_HEAL_ORDER, MOVE_ACROBATICS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MASQUERAIN,
+    .moves = {MOVE_BUG_BUZZ, MOVE_AIR_SLASH, MOVE_QUIVER_DANCE, MOVE_STUN_SPORE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CENTISKORCH,
+    .moves = {MOVE_LEECH_LIFE, MOVE_FLARE_BLITZ, MOVE_COIL, MOVE_POWER_WHIP}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jeffrey3[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DURANT,
+    .moves = {MOVE_X_SCISSOR, MOVE_IRON_HEAD, MOVE_CRUNCH, MOVE_HONE_CLAWS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VESPIQUEN,
+    .moves = {MOVE_ATTACK_ORDER, MOVE_DEFEND_ORDER, MOVE_HEAL_ORDER, MOVE_ACROBATICS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MASQUERAIN,
+    .moves = {MOVE_BUG_BUZZ, MOVE_AIR_SLASH, MOVE_QUIVER_DANCE, MOVE_STUN_SPORE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CENTISKORCH,
+    .moves = {MOVE_LEECH_LIFE, MOVE_FLARE_BLITZ, MOVE_COIL, MOVE_POWER_WHIP}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jeffrey4[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DURANT,
+    .moves = {MOVE_X_SCISSOR, MOVE_IRON_HEAD, MOVE_CRUNCH, MOVE_HONE_CLAWS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VESPIQUEN,
+    .moves = {MOVE_ATTACK_ORDER, MOVE_DEFEND_ORDER, MOVE_HEAL_ORDER, MOVE_ACROBATICS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MASQUERAIN,
+    .moves = {MOVE_BUG_BUZZ, MOVE_AIR_SLASH, MOVE_QUIVER_DANCE, MOVE_STUN_SPORE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CENTISKORCH,
+    .moves = {MOVE_LEECH_LIFE, MOVE_FLARE_BLITZ, MOVE_COIL, MOVE_POWER_WHIP}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Jeffrey5[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DURANT,
+    .moves = {MOVE_X_SCISSOR, MOVE_IRON_HEAD, MOVE_CRUNCH, MOVE_HONE_CLAWS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_VESPIQUEN,
+    .moves = {MOVE_ATTACK_ORDER, MOVE_DEFEND_ORDER, MOVE_HEAL_ORDER, MOVE_ACROBATICS}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MASQUERAIN,
+    .moves = {MOVE_BUG_BUZZ, MOVE_AIR_SLASH, MOVE_QUIVER_DANCE, MOVE_STUN_SPORE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CENTISKORCH,
+    .moves = {MOVE_LEECH_LIFE, MOVE_FLARE_BLITZ, MOVE_COIL, MOVE_POWER_WHIP}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_BEEDRILL,
+    .heldItem = ITEM_BEEDRILLITE
+    .moves = {MOVE_LEECH_LIFE, MOVE_FLARE_BLITZ, MOVE_COIL, MOVE_POWER_WHIP}
     }
 };
 
