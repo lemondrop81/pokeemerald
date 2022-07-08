@@ -8195,6 +8195,27 @@ static const struct TrainerMonItemCustomMoves sParty_Jeffrey5[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Keigo[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_KOFFING,
+    .moves = {MMOVE_SLUDGE_BOMB, MOVE_HEAT_WAVE, MOVE_EXPLOSION, MOVE_TOXIC}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_FERALIGATR,
+    .moves = {MOVE_LIQUIDATION, MOVE_CRUNCH, MOVE_ICE_PUNCH, MOVE_DRAGON_DANCE}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_BISHARP,
+    .moves = {MOVE_IRON_HEAD, MOVE_NIGHT_SLASH, MOVE_THUNDER_WAVE, MOVE_LOW_KICK}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -13109,22 +13130,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Hideo[] = {
     .moves = {MOVE_GUNK_SHOT, MOVE_SCREECH, MOVE_SHADOW_SNEAK, MOVE_ACID_ARMOR}
     }
 };
-
-static const struct TrainerMonNoItemCustomMoves sParty_Keigo[] = {
-    {
-    .iv =100,
-    .lvl = 28,
-    .species = SPECIES_KOFFING,
-    .moves = {MOVE_POISON_GAS, MOVE_SELF_DESTRUCT, MOVE_SLUDGE, MOVE_SMOKESCREEN}
-    },
-    {
-    .iv =100,
-    .lvl = 28,
-    .species = SPECIES_NINJASK,
-    .moves = {MOVE_SAND_ATTACK, MOVE_DOUBLE_TEAM, MOVE_FURY_CUTTER, MOVE_SWORDS_DANCE}
-    }
-};
-
 
 
 static const struct TrainerMonNoItemDefaultMoves sParty_WallyMauville[] = {
