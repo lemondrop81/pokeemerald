@@ -7743,16 +7743,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_LORENZO] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
         .trainerName = _("LORENZO"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_Lorenzo),
-        .party = {.NoItemDefaultMoves = sParty_Lorenzo},
+        .party = {.ItemCustomMoves = sParty_Lorenzo},
     },
 
     [TRAINER_SEBASTIAN] =
