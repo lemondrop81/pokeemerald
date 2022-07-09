@@ -8304,6 +8304,45 @@ static const struct TrainerMonNoItemCustomMoves sParty_KateAndJoy[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Myles[] = {
+    {
+    .iv = 10,
+    .lvl = 25,
+    .species = SPECIES_ROTOM,
+    .moves = {MOVE_ELECTRO_BALL, MOVE_HEX, MOVE_ELECTROWEB, MOVE_PAIN_SPLIT}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_ROTOM_FROST,
+    .moves = {MOVE_FREEZE_DRY, MOVE_THUNDERBOLT, MOVE_HEX, MOVE_NASTY_PLOT}
+    },
+    {
+    .iv = 10,
+    .lvl = 25,
+    .species = SPECIES_ROTOM_WASH,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_THUNDERBOLT, MOVE_WILL_O_WISP, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 10,
+    .lvl = 25,
+    .species = SPECIES_ROTOM_MOW,
+    .moves = {MOVE_VOLT_SWITCH, MOVE_LEAF_STORM, MOVE_TOXIC, MOVE_HEX}
+    },
+    {
+    .iv = 10,
+    .lvl = 25,
+    .species = SPECIES_ROTOM_HEAT,
+    .moves = {MOVE_OVERHEAT, MOVE_WILL_O_WISP, MOVE_CHARGE_BEAM, MOVE_NASTY_PLOT}
+    },
+    {
+    .iv = 10,
+    .lvl = 25,
+    .species = SPECIES_ROTOM_FAN,
+    .moves = {MOVE_OMINOUS_WIND, MOVE_DARK_PULSE, MOVE_AIR_SLASH, MOVE_DOUBLE_TEAM}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14966,39 +15005,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Rachel[] = {
     .lvl = 1,
     .species = SPECIES_HELIOLISK,
     .moves = {MOVE_THUNDERBOLT, MOVE_HYPER_VOICE, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Myles[] = {
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_MAKUHITA,
-    },
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_WINGULL,
-    },
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_TROPIUS,
-    },
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_ZIGZAGOON,
-    },
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_ELECTRIKE,
-    },
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_NUMEL,
     }
 };
 
