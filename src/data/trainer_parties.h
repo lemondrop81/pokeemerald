@@ -123,19 +123,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = 
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Marcel[] = {
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_MANECTRIC,
-    },
-    {
-    .iv = 100,
-    .lvl = 29,
-    .species = SPECIES_SHIFTRY,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Alberto[] = {
     {
     .iv =100,
@@ -8403,8 +8390,21 @@ static const struct TrainerMonItemCustomMoves sParty_Vanessa[] = {
     .iv =150,
     .lvl = 1,
     .species = SPECIES_LURANTIS,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_MIRACLE_SEED,
     .moves = {MOVE_GRASSY_TERRAIN, MOVE_SUNNY_DAY, MOVE_SOLAR_BLADE, MOVE_X_SCISSOR}
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Marcel[] = {
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_GOURGEIST_SUPER,
+    },
+    {
+    .iv = 120,
+    .lvl = 1,
+    .species = SPECIES_SIGILYPH,
     }
 };
 
