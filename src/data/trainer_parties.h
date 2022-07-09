@@ -8343,6 +8343,33 @@ static const struct TrainerMonNoItemCustomMoves sParty_Myles[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Pat[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SWAMPERT,
+    .moves = {MOVE_AVALANCHE, MOVE_EARTHQUAKE, MOVE_COUNTER, MOVE_YAWN}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_BOUFFALANT,
+    .moves = {MOVE_COTTON_GUARD, MOVE_AMNESIA, MOVE_IRON_HEAD, MOVE_BODY_SLAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SIMISEAR,
+    .moves = {MOVE_HEAT_WAVE, MOVE_FOCUS_BLAST, MOVE_GRASS_KNOT, MOVE_NASTY_PLOT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LYCANROC_DUSK,
+    .moves = {MOVE_THRASH, MOVE_SUCKER_PUNCH, MOVE_STONE_EDGE, MOVE_FIRE_FANG}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -15005,39 +15032,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Rachel[] = {
     .lvl = 1,
     .species = SPECIES_HELIOLISK,
     .moves = {MOVE_THUNDERBOLT, MOVE_HYPER_VOICE, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Pat[] = {
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_POOCHYENA,
-    },
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_SHROOMISH,
-    },
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_ELECTRIKE,
-    },
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_MARILL,
-    },
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_SANDSHREW,
-    },
-    {
-    .iv = 10,
-    .lvl = 25,
-    .species = SPECIES_GULPIN,
     }
 };
 
