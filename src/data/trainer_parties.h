@@ -340,19 +340,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Fredrick[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Matt[] = {
-    {
-    .iv = 50,
-    .lvl = 34,
-    .species = SPECIES_MIGHTYENA,
-    },
-    {
-    .iv = 50,
-    .lvl = 34,
-    .species = SPECIES_GOLBAT,
-    }
-};
-
 static const struct TrainerMonItemCustomMoves sParty_ShellyWeatherInstitute[] = {
     {
     .iv = 200,
@@ -8935,6 +8922,58 @@ static const struct TrainerMonNoItemCustomMoves sParty_GruntMtPyre4[] = {
     .moves = {MOVE_WATERFALL, MOVE_POISON_JAB, MOVE_PAYBACK, MOVE_THUNDER_WAVE}
     }
 };
+
+static const struct TrainerMonItemCustomMoves sParty_Matt[] = {
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Drizzle
+    .species = SPECIES_PELIPPER,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .moves = {MOVE_HURRICANE, MOVE_SCALD, MOVE_ROOST, MOVE_U_TURN}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .species = SPECIES_DHELMISE,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_POWER_WHIP, MOVE_PHANTOM_FORCE, MOVE_LIQUIDATION, MOVE_ANCHOR_SHOT}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 0, // Dry Skin
+    .species = SPECIES_HELIOLISK,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_THUNDER, MOVE_WEATHER_BALL, MOVE_FOCUS_BLAST, MOVE_GRASS_KNOT}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Dry Skin
+    .species = SPECIES_TOXICROAK,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_DRAIN_PUNCH, MOVE_POISON_JAB, MOVE_BULK_UP, MOVE_SUCKER_PUNCH}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 0, // Swift Swim
+    .species = SPECIES_SEISMITOAD,
+    .heldItem = ITEM_RINDO_BERRY,
+    .moves = {MOVE_LIQUIDATION, MOVE_EARTHQUAKE, MOVE_POWER_WHIP, MOVE_ICE_PUNCH}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 0, // Intimidate
+    .species = SPECIES_GYARADOS,
+    .heldItem = ITEM_GYARADOSITE,
+    .moves = {MOVE_WATERFALL, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_DRAGON_DANCE}
+    },
+};
+
+// Route 123
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
