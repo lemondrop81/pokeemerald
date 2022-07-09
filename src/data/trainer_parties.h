@@ -504,14 +504,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Archie[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Leah[] = {
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_SPOINK,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Daisy[] = {
     {
     .iv =100,
@@ -8546,6 +8538,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Mark[] = {
     .iv =150,
     .lvl = 1,
     .species = SPECIES_LICKILICKY,
+    }
+};
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Leah[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_GENGAR,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_JYNX,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_DUSKNOIR,
     }
 };
 
