@@ -4141,24 +4141,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Blake[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_William[] = {
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_RALTS,
-    },
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_RALTS,
-    },
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_KIRLIA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Joshua[] = {
     {
     .iv =100,
@@ -8757,6 +8739,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_Gabrielle5[] = {
     .lvl = 1,
     .species = SPECIES_KOMMO_O,
     .moves = {MOVE_CLANGING_SCALES, MOVE_AURA_SPHERE, MOVE_FLASH_CANNON, MOVE_FLAMETHROWER}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_William[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ESPEON,
+    .moves = {MOVE_CALM_MIND, MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GARDEVOIR,
+    .moves = {MOVE_PSYCHIC, MOVE_MOONBLAST, MOVE_MYSTICAL_FIRE, MOVE_CALM_MIND}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_KIRLIA,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_PSYCHO_CUT, MOVE_LEAF_BLADE, MOVE_SWORDS_DANCE}
     }
 };
 

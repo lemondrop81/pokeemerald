@@ -3305,16 +3305,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_WILLIAM] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
         .trainerName = _("WILLIAM"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_William),
-        .party = {.NoItemDefaultMoves = sParty_William},
+        .party = {.NoItemCustomMoves = sParty_William},
     },
 
     [TRAINER_JOSHUA] =
@@ -11770,7 +11770,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_Gabrielle2),
-        .party = {.NoItemDefaultMoves = sParty_Gabrielle2},
+        .party = {.NoItemCustomMoves = sParty_Gabrielle2},
     },
 
     [TRAINER_GABRIELLE_3] =
