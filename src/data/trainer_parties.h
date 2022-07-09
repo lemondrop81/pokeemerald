@@ -2475,23 +2475,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shirley[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_Jessica1[] = {
-    {
-    .iv =100,
-    .lvl = 29,
-    .ability = 0, // Color change
-    .species = SPECIES_KECLEON,
-    .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FEINT_ATTACK}
-    },
-    {
-    .iv =100,
-    .lvl = 29,
-    .ability = 0, // Shed skin
-    .species = SPECIES_SEVIPER,
-    .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Connie[] = {
     {
     .iv = 100,
@@ -2539,66 +2522,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tiffany[] = {
     .iv = 100,
     .lvl = 39,
     .species = SPECIES_SHARPEDO,
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_Jessica2[] = {
-    {
-    .iv = 10,
-    .lvl = 35,
-    .species = SPECIES_KECLEON,
-    .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FEINT_ATTACK}
-    },
-    {
-    .iv = 10,
-    .lvl = 35,
-    .species = SPECIES_SEVIPER,
-    .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_Jessica3[] = {
-    {
-    .iv = 20,
-    .lvl = 38,
-    .species = SPECIES_KECLEON,
-    .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FEINT_ATTACK}
-    },
-    {
-    .iv = 20,
-    .lvl = 38,
-    .species = SPECIES_SEVIPER,
-    .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_Jessica4[] = {
-    {
-    .iv = 30,
-    .lvl = 41,
-    .species = SPECIES_KECLEON,
-    .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FEINT_ATTACK}
-    },
-    {
-    .iv = 30,
-    .lvl = 41,
-    .species = SPECIES_SEVIPER,
-    .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_Jessica5[] = {
-    {
-    .iv = 40,
-    .lvl = 44,
-    .species = SPECIES_KECLEON,
-    .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FEINT_ATTACK}
-    },
-    {
-    .iv = 40,
-    .lvl = 44,
-    .species = SPECIES_SEVIPER,
-    .moves = {MOVE_POISON_TAIL, MOVE_SCREECH, MOVE_GLARE, MOVE_CRUNCH}
     }
 };
 
@@ -8231,6 +8154,141 @@ static const struct TrainerMonNoItemCustomMoves sParty_Cale[] = {
     .ability = 1, // Technician
     .species = SPECIES_SCIZOR,
     .moves = {MOVE_SWORDS_DANCE, MOVE_AERIAL_ACE, MOVE_IRON_HEAD, MOVE_X_SCISSOR}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jessica1[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_BELLOSSOM,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_MOONBLAST, MOVE_HYPER_BEAM, MOVE_PETAL_DANCE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_GLACEON,
+    .moves = {MOVE_ICE_BEAM, MOVE_SHADOW_BALL, MOVE_WATER_PULSE, MOVE_DIG}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jessica2[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_BELLOSSOM,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_MOONBLAST, MOVE_HYPER_BEAM, MOVE_PETAL_DANCE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_GLACEON,
+    .moves = {MOVE_ICE_BEAM, MOVE_SHADOW_BALL, MOVE_WATER_PULSE, MOVE_DIG}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_PONYTA_GALARIAN,
+    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_MEGAHORN, MOVE_MYSTICAL_FIRE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jessica3[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_BELLOSSOM,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_MOONBLAST, MOVE_HYPER_BEAM, MOVE_PETAL_DANCE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_GLACEON,
+    .moves = {MOVE_ICE_BEAM, MOVE_SHADOW_BALL, MOVE_WATER_PULSE, MOVE_DIG}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_PONYTA_GALARIAN,
+    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_MEGAHORN, MOVE_MYSTICAL_FIRE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SNORLAX,
+    .moves = {MOVE_CRUNCH, MOVE_HIGH_HORSEPOWER, MOVE_GIGA_IMPACT, MOVE_HAMMER_ARM}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jessica4[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_BELLOSSOM,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_MOONBLAST, MOVE_HYPER_BEAM, MOVE_PETAL_DANCE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_GLACEON,
+    .moves = {MOVE_ICE_BEAM, MOVE_SHADOW_BALL, MOVE_WATER_PULSE, MOVE_DIG}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_PONYTA_GALARIAN,
+    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_MEGAHORN, MOVE_MYSTICAL_FIRE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SNORLAX,
+    .moves = {MOVE_CRUNCH, MOVE_HIGH_HORSEPOWER, MOVE_GIGA_IMPACT, MOVE_HAMMER_ARM}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_DRACOVISH,
+    .moves = {MOVE_FISHIOUS_REND, MOVE_CRUNCH, MOVE_OUTRAGE, MOVE_LEECH_LIFE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jessica5[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_BELLOSSOM,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_MOONBLAST, MOVE_HYPER_BEAM, MOVE_PETAL_DANCE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_GLACEON,
+    .moves = {MOVE_ICE_BEAM, MOVE_SHADOW_BALL, MOVE_WATER_PULSE, MOVE_DIG}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_PONYTA_GALARIAN,
+    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_MEGAHORN, MOVE_MYSTICAL_FIRE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_SNORLAX,
+    .moves = {MOVE_CRUNCH, MOVE_HIGH_HORSEPOWER, MOVE_GIGA_IMPACT, MOVE_HAMMER_ARM}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_DRACOVISH,
+    .moves = {MOVE_FISHIOUS_REND, MOVE_CRUNCH, MOVE_OUTRAGE, MOVE_LEECH_LIFE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_BLACEPHALON,
+    .moves = {MOVE_MIND_BLOWN, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP, MOVE_SOLAR_BEAM}
     }
 };
 
