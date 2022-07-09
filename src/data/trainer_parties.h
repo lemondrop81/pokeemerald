@@ -3374,14 +3374,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Daisuke[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Atsushi[] = {
-    {
-    .iv = 100,
-    .lvl = 32,
-    .species = SPECIES_HARIYAMA,
-    }
-};
-
 static const struct TrainerMonNoItemCustomMoves sParty_Kirk[] = {
     {
     .iv = 100,
@@ -8767,6 +8759,34 @@ static const struct TrainerMonNoItemCustomMoves sParty_Tasha[] = {
     .lvl = 1,
     .species = SPECIES_POLTEAGEIST,
     .moves = {MOVE_SHADOW_BALL, MOVE_GIGA_DRAIN, MOVE_STORED_POWER, MOVE_SHELL_SMASH}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Atsushi[] = {
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_SAMUROTT,
+    .moves = {MOVE_SACRED_SWORD, MOVE_X_SCISSOR, MOVE_AQUA_TAIL, MOVE_AQUA_JET}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_DYNAMIC_PUNCH, MOVE_DUAL_CHOP, MOVE_KNOCK_OFF, MOVE_STONE_EDGE}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 1, // Rock Head
+    .species = SPECIES_AGGRON,
+    .moves = {MOVE_HEAD_SMASH, MOVE_ICE_PUNCH, MOVE_IRON_HEAD, MOVE_METAL_BURST}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_PASSIMIAN,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_GIGA_IMPACT, MOVE_BRUTAL_SWING, MOVE_GUNK_SHOT}
     }
 };
 
