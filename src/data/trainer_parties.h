@@ -5193,21 +5193,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Karen5[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_KateAndJoy[] = {
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_SPINDA,
-    .moves = {MOVE_HYPNOSIS, MOVE_PSYBEAM, MOVE_DIZZY_PUNCH, MOVE_TEETER_DANCE}
-    },
-    {
-    .iv =100,
-    .lvl = 32,
-    .species = SPECIES_SLAKING,
-    .moves = {MOVE_FOCUS_PUNCH, MOVE_YAWN, MOVE_SLACK_OFF, MOVE_FEINT_ATTACK}
-    }
-};
-
 static const struct TrainerMonNoItemCustomMoves sParty_AnnaAndMeg1[] = {
     {
     .iv =100,
@@ -8289,6 +8274,33 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica5[] = {
     .lvl = 1,
     .species = SPECIES_BLACEPHALON,
     .moves = {MOVE_MIND_BLOWN, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP, MOVE_SOLAR_BEAM}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_KateAndJoy[] = {
+    {
+    .iv =160,
+    .lvl = 1,
+    .species = SPECIES_HITMONCHAN,
+    .moves = {MOVE_HIGH_JUMP_KICK, MOVE_BLAZE_KICK, MOVE_EARTHQUAKE, MOVE_POISON_JAB}
+    },
+    {
+    .iv =160,
+    .lvl = 1,
+    .species = SPECIES_HITMONLEE,
+    .moves = {MOVE_DRAIN_PUNCH, MOVE_FIRE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH}
+    },
+    {
+    .iv =160,
+    .lvl = 1,
+    .species = SPECIES_ELDEGOSS,
+    .moves = {MOVE_ZAP_CANNON, MOVE_THUNDER, MOVE_FLAMETHROWER, MOVE_FLASH_CANNON}
+    },
+    {
+    .iv =160,
+    .lvl = 1,
+    .species = SPECIES_SLOWBRO,
+    .moves = {MOVE_PSYCHIC, MOVE_SURF, MOVE_ICE_BEAM, MOVE_AERIAL_ACE}
     }
 };
 
