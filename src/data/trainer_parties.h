@@ -8163,7 +8163,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Keigo[] = {
     .iv =100,
     .lvl = 1,
     .species = SPECIES_KOFFING,
-    .moves = {MMOVE_SLUDGE_BOMB, MOVE_HEAT_WAVE, MOVE_EXPLOSION, MOVE_TOXIC}
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_HEAT_WAVE, MOVE_EXPLOSION, MOVE_TOXIC}
     },
     {
     .iv =100,
@@ -8215,6 +8215,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Tammy[] = {
     .lvl = 1,
     .species = SPECIES_DHELMISE,
     .moves = {MOVE_ANCHOR_SHOT, MOVE_POWER_WHIP, MOVE_PHANTOM_FORCE, MOVE_SOLAR_BLADE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Cale[] = {
+    {
+    .iv =180,
+    .lvl = 1,
+    .species = SPECIES_VENONAT,
+    .moves = {MOVE_PSYCHIC, MOVE_BUG_BUZZ, MOVE_SLUDGE_BOMB, MOVE_QUIVER_DANCE}
+    },
+    {
+    .iv =180,
+    .lvl = 1,
+    .ability = 1, // Technician
+    .species = SPECIES_SCIZOR,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_AERIAL_ACE, MOVE_IRON_HEAD, MOVE_X_SCISSOR}
     }
 };
 
@@ -14880,19 +14896,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Rachel[] = {
     .lvl = 1,
     .species = SPECIES_HELIOLISK,
     .moves = {MOVE_THUNDERBOLT, MOVE_HYPER_VOICE, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Cale[] = {
-    {
-    .iv =100,
-    .lvl = 29,
-    .species = SPECIES_DUSTOX,
-    },
-    {
-    .iv =100,
-    .lvl = 29,
-    .species = SPECIES_BEAUTIFLY,
     }
 };
 
