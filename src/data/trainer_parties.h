@@ -8854,6 +8854,28 @@ static const struct TrainerMonNoItemCustomMoves sParty_Valerie5[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Cedric[] = {
+    {
+    .iv =130,
+    .lvl = 1,
+    .ability = 1, // Heatproof
+    .species = SPECIES_BRONZONG,
+    .moves = {MOVE_FLASH_CANNON, MOVE_PSYCHIC, MOVE_CONFUSE_RAY, MOVE_CALM_MIND}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_REUNICLUS,
+    .moves = {MOVE_PSYSHOCK, MOVE_THUNDER, MOVE_RECOVER, MOVE_ACID_ARMOR}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_MEOWSTIC_FEMALE,
+    .moves = {MOVE_PSYCHIC, MOVE_DARK_PULSE, MOVE_ENERGY_BALL, MOVE_SIGNAL_BEAM}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -9937,15 +9959,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Diana1[] = {
     .lvl = 1,
     .species = SPECIES_MAREEP,
     .moves = {MOVE_THUNDER_WAVE, MOVE_DRAGON_BREATH, MOVE_DISCHARGE, MOVE_COTTON_GUARD}
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_Cedric[] = {
-    {
-    .iv =100,
-    .lvl = 32,
-    .species = SPECIES_WOBBUFFET,
-    .moves = {MOVE_DESTINY_BOND, MOVE_SAFEGUARD, MOVE_COUNTER, MOVE_MIRROR_COAT}
     }
 };
 

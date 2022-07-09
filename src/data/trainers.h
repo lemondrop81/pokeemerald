@@ -1541,7 +1541,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_VALERIE_2] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_HEX_MANIAC,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_HEX_MANIAC,
@@ -1550,12 +1550,12 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Valerie2),
-        .party = {.NoItemDefaultMoves = sParty_Valerie2},
+        .party = {.NoItemCustomMoves = sParty_Valerie2},
     },
 
     [TRAINER_VALERIE_3] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_HEX_MANIAC,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_HEX_MANIAC,
@@ -1564,12 +1564,12 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Valerie3),
-        .party = {.NoItemDefaultMoves = sParty_Valerie3},
+        .party = {.NoItemCustomMoves = sParty_Valerie3},
     },
 
     [TRAINER_VALERIE_4] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_HEX_MANIAC,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_HEX_MANIAC,
@@ -1578,12 +1578,12 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Valerie4),
-        .party = {.NoItemDefaultMoves = sParty_Valerie4},
+        .party = {.NoItemCustomMoves = sParty_Valerie4},
     },
 
     [TRAINER_VALERIE_5] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_HEX_MANIAC,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_HEX_MANIAC,
@@ -1592,7 +1592,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Valerie5),
-        .party = {.NoItemDefaultMoves = sParty_Valerie5},
+        .party = {.NoItemCustomMoves = sParty_Valerie5},
     },
 
     [TRAINER_CINDY_1] =
@@ -6658,7 +6658,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("CEDRIC"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_Cedric),
         .party = {.NoItemCustomMoves = sParty_Cedric},
     },
