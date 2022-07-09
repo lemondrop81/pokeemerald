@@ -2167,71 +2167,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kindra[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Valerie1[] = {
-    {
-    .iv =100,
-    .lvl = 32,
-    .species = SPECIES_SABLEYE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Valerie2[] = {
-    {
-    .iv = 10,
-    .lvl = 31,
-    .species = SPECIES_SABLEYE,
-    },
-    {
-    .iv = 10,
-    .lvl = 31,
-    .species = SPECIES_SPOINK,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Valerie3[] = {
-    {
-    .iv = 20,
-    .lvl = 35,
-    .species = SPECIES_SPOINK,
-    },
-    {
-    .iv = 20,
-    .lvl = 35,
-    .species = SPECIES_SABLEYE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Valerie4[] = {
-    {
-    .iv = 30,
-    .lvl = 40,
-    .species = SPECIES_SPOINK,
-    },
-    {
-    .iv = 30,
-    .lvl = 40,
-    .species = SPECIES_SABLEYE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Valerie5[] = {
-    {
-    .iv = 40,
-    .lvl = 42,
-    .species = SPECIES_DUSKULL,
-    },
-    {
-    .iv = 40,
-    .lvl = 42,
-    .species = SPECIES_SABLEYE,
-    },
-    {
-    .iv = 40,
-    .lvl = 42,
-    .species = SPECIES_GRUMPIG,
-    }
-};
-
 static const struct TrainerMonItemDefaultMoves sParty_Cindy1[] = {
     {
     .iv =100,
@@ -8787,6 +8722,135 @@ static const struct TrainerMonNoItemCustomMoves sParty_Atsushi[] = {
     .lvl = 1,
     .species = SPECIES_PASSIMIAN,
     .moves = {MOVE_CLOSE_COMBAT, MOVE_GIGA_IMPACT, MOVE_BRUTAL_SWING, MOVE_GUNK_SHOT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Valerie1[] = {
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_TREVENANT,
+    .moves = {MOVE_PHANTOM_FORCE, MOVE_WOOD_HAMMER, MOVE_HORN_LEECH, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_YAMASK,
+    .moves = {MOVE_DARK_PULSE, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP, MOVE_PROTECT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Valerie2[] = {
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_TREVENANT,
+    .moves = {MOVE_PHANTOM_FORCE, MOVE_WOOD_HAMMER, MOVE_HORN_LEECH, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_YAMASK,
+    .moves = {MOVE_DARK_PULSE, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP, MOVE_PROTECT}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_RUNERIGUS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_SANDSTORM, MOVE_DRAGON_PULSE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Valerie3[] = {
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_TREVENANT,
+    .moves = {MOVE_PHANTOM_FORCE, MOVE_WOOD_HAMMER, MOVE_HORN_LEECH, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_YAMASK,
+    .moves = {MOVE_DARK_PULSE, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP, MOVE_PROTECT}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_RUNERIGUS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_SANDSTORM, MOVE_DRAGON_PULSE}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_CHANDELURE,
+    .moves = {MOVE_SHADOW_BALL, MOVE_OVERHEAT, MOVE_SKITTER_SMACK, MOVE_CALM_MIND}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Valerie4[] = {
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_TREVENANT,
+    .moves = {MOVE_PHANTOM_FORCE, MOVE_WOOD_HAMMER, MOVE_HORN_LEECH, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_YAMASK,
+    .moves = {MOVE_DARK_PULSE, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP, MOVE_PROTECT}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_RUNERIGUS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_SANDSTORM, MOVE_DRAGON_PULSE}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_CHANDELURE,
+    .moves = {MOVE_SHADOW_BALL, MOVE_OVERHEAT, MOVE_SKITTER_SMACK, MOVE_CALM_MIND}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_DECIDUEYE,
+    .moves = {MOVE_SPIRIT_SHACKLE, MOVE_LEAF_STORM, MOVE_STEEL_WING, MOVE_LOW_SWEEP}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Valerie5[] = {
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_TREVENANT,
+    .moves = {MOVE_PHANTOM_FORCE, MOVE_WOOD_HAMMER, MOVE_HORN_LEECH, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_YAMASK,
+    .moves = {MOVE_DARK_PULSE, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP, MOVE_PROTECT}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_RUNERIGUS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_SANDSTORM, MOVE_DRAGON_PULSE}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_CHANDELURE,
+    .moves = {MOVE_SHADOW_BALL, MOVE_OVERHEAT, MOVE_SKITTER_SMACK, MOVE_CALM_MIND}
+    },
+    {
+    .iv =120,
+    .lvl = 1,
+    .species = SPECIES_DECIDUEYE,
+    .moves = {MOVE_SPIRIT_SHACKLE, MOVE_LEAF_STORM, MOVE_STEEL_WING, MOVE_LOW_SWEEP}
     }
 };
 
