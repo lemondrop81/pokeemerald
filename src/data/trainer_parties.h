@@ -290,35 +290,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtPyre1[] = {
-    {
-    .iv =100,
-    .lvl = 32,
-    .species = SPECIES_ZUBAT,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtPyre2[] = {
-    {
-    .iv =100,
-    .lvl = 32,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtPyre3[] = {
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_POOCHYENA,
-    },
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
 static const struct TrainerMonNoItemCustomMoves sParty_GruntWeatherInst4[] = {
     {
     .iv =180,
@@ -8876,6 +8847,95 @@ static const struct TrainerMonNoItemCustomMoves sParty_Cedric[] = {
     }
 };
 
+// Mt. Pyre summit
+
+static const struct TrainerMonNoItemCustomMoves sParty_GruntMtPyre1[] = {
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_MUK,
+    .moves = {MOVE_FIRE_BLAST, MOVE_ACID_SPRAY, MOVE_GIGA_DRAIN, MOVE_TOXIC}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_RATICATE_ALOLAN,
+    .moves = {MOVE_CRUNCH, MOVE_IRON_TAIL, MOVE_QUICK_ATTACK, MOVE_ZEN_HEADBUTT}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_TENTACRUEL,
+    .moves = {MOVE_SCALD, MOVE_SLUDGE_BOMB, MOVE_MIRROR_COAT, MOVE_HEX}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_GruntMtPyre2[] = {
+    {
+    .iv =130,
+    .lvl = 1,
+    .ability = 1, // Strong Jaw
+    .species = SPECIES_BRUXISH,
+    .moves = {MOVE_WATERFALL, MOVE_CRUNCH, MOVE_PSYCHIC_FANGS, MOVE_ICE_FANG}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_WEAVILE,
+    .moves = {MOVE_NIGHT_SLASH, MOVE_ICICLE_CRASH, MOVE_PSYCHO_CUT, MOVE_ICE_SHARD}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_WAILORD,
+    .moves = {MOVE_SCALD, MOVE_ICE_BEAM, MOVE_BODY_SLAM, MOVE_NOBLE_ROAR}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_GruntMtPyre3[] = {
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_JELLICENT,
+    .moves = {MOVE_RAIN_DANCE, MOVE_SCALD, MOVE_SHADOW_BALL, MOVE_PSYCHIC}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_AMOONGUSS,
+    .moves = {MOVE_SPORE, MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_SYNTHESIS}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_LANTURN,
+    .moves = {MOVE_SCALD, MOVE_THUNDER, MOVE_CONFUSE_RAY, MOVE_SPOTLIGHT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_GruntMtPyre4[] = {
+    {
+    .iv =130,
+    .lvl = 1,
+    .ability = 2, // Swift Swim
+    .species = SPECIES_CARRACOSTA,
+    .moves = {MOVE_LIQUIDATION, MOVE_ROCK_SLIDE, MOVE_SHELL_SMASH, MOVE_ZEN_HEADBUTT}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .species = SPECIES_LIEPARD,
+    .moves = {MOVE_KNOCK_OFF, MOVE_PLAY_ROUGH, MOVE_U_TURN, MOVE_ENCORE}
+    },
+    {
+    .iv =130,
+    .lvl = 1,
+    .ability = 2, // Intimidate
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_WATERFALL, MOVE_POISON_JAB, MOVE_PAYBACK, MOVE_THUNDER_WAVE}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -12153,19 +12213,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntUnused[] = {
     {
     .iv =100,
     .lvl = 31,
-    .species = SPECIES_ZUBAT,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtPyre4[] = {
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_WAILMER,
-    },
-    {
-    .iv =100,
-    .lvl = 30,
     .species = SPECIES_ZUBAT,
     }
 };
