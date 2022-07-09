@@ -415,14 +415,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Matt[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Zander[] = {
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_HARIYAMA,
-    }
-};
-
 static const struct TrainerMonItemCustomMoves sParty_ShellyWeatherInstitute[] = {
     {
     .iv = 200,
@@ -8556,6 +8548,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Leah[] = {
     .iv =150,
     .lvl = 1,
     .species = SPECIES_DUSKNOIR,
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Zander[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_PANGORO,
+    .moves = {MOVE_CRUNCH, MOVE_STORM_THROW, MOVE_BODY_SLAM, MOVE_SHADOW_CLAW}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_HERACROSS,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_MEGAHORN, MOVE_THROAT_CHOP, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_URSHIFU,
+    .moves = {MOVE_WICKED_BLOW, MOVE_CLOSE_COMBAT, MOVE_RETALIATE, MOVE_POISON_JAB}
     }
 };
 
