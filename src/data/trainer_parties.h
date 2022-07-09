@@ -4298,24 +4298,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maura[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Kayla[] = {
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_WOBBUFFET,
-    },
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_NATU,
-    },
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_KADABRA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Alexis[] = {
     {
     .iv =100,
@@ -8592,6 +8574,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_DezAndLuke[] = {
     .iv =200,
     .lvl = 1,
     .species = SPECIES_SHELMET,
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Kayla[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_HYPNO,
+    .moves = {MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ORANGURU,
+    .moves = {MOVE_FOUL_PLAY, MOVE_EXPANDING_FORCE, MOVE_ENERGY_BALL, MOVE_MEGA_KICK}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_EXEGGUTOR,
+    .moves = {MOVE_UPROAR, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SLUDGE_BOMB}
     }
 };
 
