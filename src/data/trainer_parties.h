@@ -8572,6 +8572,29 @@ static const struct TrainerMonNoItemCustomMoves sParty_Zander[] = {
     }
 };
 
+static const struct TrainerMonNoItemDefaultMoves sParty_DezAndLuke[] = {
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_DURANT,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_HEATMOR,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_ESCAVALIER,
+    },
+    {
+    .iv =200,
+    .lvl = 1,
+    .species = SPECIES_SHELMET,
+    }
+};
+
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
@@ -13255,19 +13278,6 @@ static const struct TrainerMonItemCustomMoves sParty_Trent5[] = {
     .species = SPECIES_GOLEM_ALOLAN,
     .heldItem = ITEM_CHOICE_BAND,
     .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_DezAndLuke[] = {
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_DELCATTY,
-    },
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_MANECTRIC,
     }
 };
 
