@@ -2679,14 +2679,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Mark[] = {
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_RHYHORN,
-    }
-};
-
 static const struct TrainerMonNoItemCustomMoves sParty_GruntMtChimney1[] = {
     {
     .iv =200,
@@ -8536,6 +8528,27 @@ static const struct TrainerMonItemCustomMoves sParty_Cristin5[] = {
     .moves = {MOVE_FLAMETHROWER, MOVE_DARK_PULSE, MOVE_SOLAR_BEAM, MOVE_SLUDGE_BOMB}
     }
 };
+
+// Mt. Pyre Interior
+
+static const struct TrainerMonNoItemDefaultMoves sParty_Mark[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_RHYPERIOR,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_HAXORUS,
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_LICKILICKY,
+    }
+};
+
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
