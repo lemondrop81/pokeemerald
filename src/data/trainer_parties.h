@@ -5465,15 +5465,6 @@ static const struct TrainerMonItemCustomMoves sParty_Victoria[] = {
     }
 };
 
-static const struct TrainerMonItemDefaultMoves sParty_Vanessa[] = {
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_PIKACHU,
-    .heldItem = ITEM_ORAN_BERRY
-    }
-};
-
 static const struct TrainerMonItemDefaultMoves sParty_Bethany[] = {
     {
     .iv = 100,
@@ -8390,6 +8381,30 @@ static const struct TrainerMonNoItemCustomMoves sParty_Walter5[] = {
     .lvl = 1,
     .species = SPECIES_SPHEAL,
     .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_ROCK_SLIDE, MOVE_BODY_SLAM}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Vanessa[] = {
+        {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_PIPLUP,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_HYDRO_CANNON, MOVE_DRILL_PECK, MOVE_FLASH_CANNON, MOVE_STEALTH_ROCK}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_TOGEDEMARU,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_ZING_ZAP, MOVE_IRON_TAIL, MOVE_FELL_STINGER, MOVE_ELECTRIC_TERRAIN}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_LURANTIS,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_GRASSY_TERRAIN, MOVE_SUNNY_DAY, MOVE_SOLAR_BLADE, MOVE_X_SCISSOR}
     }
 };
 
