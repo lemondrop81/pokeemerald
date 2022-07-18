@@ -103,19 +103,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alberto[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Ed[] = {
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_ZANGOOSE,
-    },
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_SEVIPER,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern4[] = {
     {
     .iv =100,
@@ -8974,6 +8961,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Kindra[] = {
     .lvl = 1,
     .species = SPECIES_AEGISLASH_BLADE,
     .moves = {MOVE_SWORDS_DANCE, MOVE_HEAD_SMASH, MOVE_SACRED_SWORD, MOVE_IRON_HEAD}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Ed[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ABSOL,
+    .moves = {MOVE_SWORDS_DANCE, MOVE_SUCKER_PUNCH, MOVE_PLAY_ROUGH, MOVE_MEGAHORN}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_WHIMSICOTT,
+    .moves = {MOVE_MOONBLAST, MOVE_LEECH_SEED, MOVE_U_TURN, MOVE_SHADOW_BALL}
     }
 };
 
