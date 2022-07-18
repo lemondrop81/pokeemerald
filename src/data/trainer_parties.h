@@ -1363,44 +1363,6 @@ static const struct TrainerMonItemCustomMoves sParty_Berke[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_Braxton[] = {
-    {
-    .iv = 100,
-    .lvl = 28,
-    .ability = 0, // Default
-    .species = SPECIES_SWELLOW,
-    .moves = {MOVE_FOCUS_ENERGY, MOVE_QUICK_ATTACK, MOVE_WING_ATTACK, MOVE_ENDEAVOR}
-    },
-    {
-    .iv = 100,
-    .lvl = 28,
-    .ability = 0, // Default
-    .species = SPECIES_TRAPINCH,
-    .moves = {MOVE_BITE, MOVE_DIG, MOVE_FEINT_ATTACK, MOVE_SAND_TOMB}
-    },
-    {
-    .iv = 100,
-    .lvl = 28,
-    .ability = 0, // Waterveil
-    .species = SPECIES_WAILMER,
-    .moves = {MOVE_ROLLOUT, MOVE_WHIRLPOOL, MOVE_ASTONISH, MOVE_WATER_PULSE}
-    },
-    {
-    .iv = 100,
-    .lvl = 28,
-    .ability = 1, // Sturdy
-    .species = SPECIES_MAGNETON,
-    .moves = {MOVE_THUNDERBOLT, MOVE_SUPERSONIC, MOVE_THUNDER_WAVE, MOVE_SONIC_BOOM}
-    },
-    {
-    .iv = 100,
-    .lvl = 28,
-    .ability = 1, // Early bird
-    .species = SPECIES_SHIFTRY,
-    .moves = {MOVE_GIGA_DRAIN, MOVE_FEINT_ATTACK, MOVE_DOUBLE_TEAM, MOVE_SWAGGER}
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Vincent[] = {
     {
     .iv = 100,
@@ -8985,6 +8947,47 @@ static const struct TrainerMonItemCustomMoves sParty_Wendy[] = {
     .species = SPECIES_MAWILE,
     .heldItem = ITEM_MAWILITE,
     .moves = {MOVE_IRON_HEAD, MOVE_PLAY_ROUGH, MOVE_FIRE_FANG, MOVE_SUCKER_PUNCH}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Braxton[] = {
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Defiant
+    .species = SPECIES_BRAVIARY,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_DOUBLE_EDGE, MOVE_CLOSE_COMBAT, MOVE_U_TURN}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_GARCHOMP,
+    .heldItem = ITEM_FIRE_GEM,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_FIRE_FANG}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Speed Boost
+    .species = SPECIES_SCOLIPEDE,
+    .heldItem = ITEM_SALAC_BERRY,
+    .moves = {MOVE_PROTECT, MOVE_IRON_DEFENSE, MOVE_POISON_JAB, MOVE_BATON_PASS}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .ability = 2, // Analytic
+    .species = SPECIES_MAGNEZONE,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_FLASH_CANNON, MOVE_VOLT_SWITCH, MOVE_HIDDEN_POWER, MOVE_SIGNAL_BEAM}
+    },
+    {
+    .iv = 150,
+    .lvl = 1,
+    .species = SPECIES_BLASTOISE,
+    .heldItem = ITEM_BLASTOISINITE,
+    .moves = {MOVE_WATER_PULSE, MOVE_DARK_PULSE, MOVE_AURA_SPHERE, MOVE_ICE_BEAM}
     }
 };
 
