@@ -1778,30 +1778,6 @@ static const struct TrainerMonItemCustomMoves sParty_Jody[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_Wendy[] = {
-    {
-    .iv = 100,
-    .lvl = 29,
-    .ability = 2, // Sheer force
-    .species = SPECIES_MAWILE,
-    .moves = {MOVE_BATON_PASS, MOVE_FEINT_ATTACK, MOVE_FAKE_TEARS, MOVE_BITE}
-    },
-    {
-    .iv = 100,
-    .lvl = 29,
-    .ability = 1, // Poison point
-    .species = SPECIES_ROSELIA,
-    .moves = {MOVE_MEGA_DRAIN, MOVE_MAGICAL_LEAF, MOVE_GRASS_WHISTLE, MOVE_LEECH_SEED}
-    },
-    {
-    .iv = 100,
-    .lvl = 29,
-    .ability = 1, // Drizzle
-    .species = SPECIES_PELIPPER,
-    .moves = {MOVE_FLY, MOVE_WATER_GUN, MOVE_MIST, MOVE_PROTECT}
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Keira[] = {
     {
     .iv = 100,
@@ -8976,6 +8952,39 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ed[] = {
     .lvl = 1,
     .species = SPECIES_WHIMSICOTT,
     .moves = {MOVE_MOONBLAST, MOVE_LEECH_SEED, MOVE_U_TURN, MOVE_SHADOW_BALL}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Wendy[] = {
+    {
+    .iv = 180,
+    .lvl = 1,
+    .ability = 2, // Technician
+    .species = SPECIES_ROSERADE,
+    .heldItem = ITEM_BIG_ROOT,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_HIDDEN_POWER, MOVE_SLUDGE_BOMB, MOVE_QUIVER_DANCE}
+    },
+    {
+    .iv = 180,
+    .lvl = 1,
+    .species = SPECIES_SWANNA,
+    .heldItem = ITEM_WIDE_LENS,
+    .moves = {MOVE_AIR_SLASH, MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_ROOST}
+    },
+    {
+    .iv = 180,
+    .lvl = 1,
+    .species = SPECIES_DRAGONAIR,
+    .heldItem = ITEM_EXPERT_BELT,
+    .moves = {MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_HURRICANE, MOVE_FIRE_BLAST}
+    },
+    {
+    .iv = 200,
+    .lvl = 1,
+    .ability = 1, // Intimidate
+    .species = SPECIES_MAWILE,
+    .heldItem = ITEM_MAWILITE,
+    .moves = {MOVE_IRON_HEAD, MOVE_PLAY_ROUGH, MOVE_FIRE_FANG, MOVE_SUCKER_PUNCH}
     }
 };
 
