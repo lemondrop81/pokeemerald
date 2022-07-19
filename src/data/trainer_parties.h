@@ -90,19 +90,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = 
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Alberto[] = {
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_XATU,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern4[] = {
     {
     .iv =100,
@@ -9081,6 +9068,28 @@ static const struct TrainerMonNoItemCustomMoves sParty_Fernando5[] = {
     .species = SPECIES_ZEBSTRIKA,
     .moves = {MOVE_VOLT_TACKLE, MOVE_JUMP_KICK, MOVE_FLARE_BLITZ, MOVE_QUICK_ATTACK}
     }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Alberto[] = {
+    {
+    .iv =160,
+    .lvl = 1,
+    .ability = 2, // Rain Dish
+    .species = SPECIES_PELIPPER,
+    .moves = {MOVE_RAIN_DANCE, MOVE_HURRICANE, MOVE_BRINE, MOVE_ROOST}
+    },
+    {
+    .iv =160,
+    .lvl = 1,
+    .species = SPECIES_BAGON,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_DRAGON_CLAW, MOVE_ICE_BEAM, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv =160,
+    .lvl = 1,
+    .species = SPECIES_XATU,
+    .moves = {MOVE_AIR_SLASH, MOVE_PSYCHIC, MOVE_GIGA_DRAIN, MOVE_DAZZLING_GLEAM}
+    },
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
