@@ -9115,7 +9115,7 @@ static const struct TrainerMonItemCustomMoves sParty_Fredrick[] = {
     .species = SPECIES_COMFEY,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_DRAINING_KISS, MOVE_GIGA_DRAIN, MOVE_CALM_MIND, MOVE_CHARM}
-    }.
+    },
     {
     .iv = 100,
     .lvl = 1,
