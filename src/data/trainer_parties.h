@@ -8910,7 +8910,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Fernando1[] = {
     {
     .iv =150,
     .lvl = 1,
-    .species = SPECIES_RILLABOOOM,
+    .species = SPECIES_RILLABOOM,
     .moves = {MOVE_DRUM_BEATING, MOVE_HIGH_HORSEPOWER, MOVE_U_TURN, MOVE_BOOMBURST}
     },
     {
@@ -8931,7 +8931,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Fernando2[] = {
     {
     .iv =150,
     .lvl = 1,
-    .species = SPECIES_RILLABOOOM,
+    .species = SPECIES_RILLABOOM,
     .moves = {MOVE_DRUM_BEATING, MOVE_HIGH_HORSEPOWER, MOVE_U_TURN, MOVE_BOOMBURST}
     },
     {
@@ -8952,7 +8952,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Fernando3[] = {
     {
     .iv =150,
     .lvl = 1,
-    .species = SPECIES_RILLABOOOM,
+    .species = SPECIES_RILLABOOM,
     .moves = {MOVE_DRUM_BEATING, MOVE_HIGH_HORSEPOWER, MOVE_U_TURN, MOVE_BOOMBURST}
     },
     {
@@ -8973,7 +8973,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Fernando4[] = {
     {
     .iv =150,
     .lvl = 1,
-    .species = SPECIES_RILLABOOOM,
+    .species = SPECIES_RILLABOOM,
     .moves = {MOVE_DRUM_BEATING, MOVE_HIGH_HORSEPOWER, MOVE_U_TURN, MOVE_BOOMBURST}
     },
     {
@@ -8994,7 +8994,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Fernando5[] = {
     {
     .iv =150,
     .lvl = 1,
-    .species = SPECIES_RILLABOOOM,
+    .species = SPECIES_RILLABOOM,
     .moves = {MOVE_DRUM_BEATING, MOVE_HIGH_HORSEPOWER, MOVE_U_TURN, MOVE_BOOMBURST}
     },
     {
