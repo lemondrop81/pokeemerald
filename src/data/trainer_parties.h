@@ -3238,19 +3238,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Shawn[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Fernando1[] = {
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_ELECTRIKE,
-    },
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_LOUDRED,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Dalton1[] = {
     {
     .iv =100,
@@ -8988,6 +8975,111 @@ static const struct TrainerMonItemCustomMoves sParty_Braxton[] = {
     .species = SPECIES_BLASTOISE,
     .heldItem = ITEM_BLASTOISINITE,
     .moves = {MOVE_WATER_PULSE, MOVE_DARK_PULSE, MOVE_AURA_SPHERE, MOVE_ICE_BEAM}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Fernando1[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CHATOT,
+    .moves = {MOVE_BOOMBURST, MOVE_CHATTER, MOVE_NASTY_PLOT, MOVE_SING}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_RILLABOOOM,
+    .moves = {MOVE_DRUM_BEATING, MOVE_HIGH_HORSEPOWER, MOVE_U_TURN, MOVE_BOOMBURST}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ZEBSTRIKA,
+    .moves = {MOVE_WILD_CHARGE, MOVE_PURSUIT, MOVE_OVERHEAT, MOVE_QUICK_ATTACK}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Fernando2[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CHATOT,
+    .moves = {MOVE_BOOMBURST, MOVE_CHATTER, MOVE_NASTY_PLOT, MOVE_SING}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_RILLABOOOM,
+    .moves = {MOVE_DRUM_BEATING, MOVE_HIGH_HORSEPOWER, MOVE_U_TURN, MOVE_BOOMBURST}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ZEBSTRIKA,
+    .moves = {MOVE_WILD_CHARGE, MOVE_PURSUIT, MOVE_OVERHEAT, MOVE_QUICK_ATTACK}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Fernando3[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CHATOT,
+    .moves = {MOVE_BOOMBURST, MOVE_HURRICANE, MOVE_NASTY_PLOT, MOVE_HEAT_WAVE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_RILLABOOOM,
+    .moves = {MOVE_DRUM_BEATING, MOVE_HIGH_HORSEPOWER, MOVE_U_TURN, MOVE_BOOMBURST}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ZEBSTRIKA,
+    .moves = {MOVE_VOLT_TACKLE, MOVE_JUMP_KICK, MOVE_FLARE_BLITZ, MOVE_QUICK_ATTACK}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Fernando4[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CHATOT,
+    .moves = {MOVE_BOOMBURST, MOVE_HURRICANE, MOVE_NASTY_PLOT, MOVE_HEAT_WAVE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_RILLABOOOM,
+    .moves = {MOVE_DRUM_BEATING, MOVE_HIGH_HORSEPOWER, MOVE_U_TURN, MOVE_BOOMBURST}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ZEBSTRIKA,
+    .moves = {MOVE_VOLT_TACKLE, MOVE_JUMP_KICK, MOVE_FLARE_BLITZ, MOVE_QUICK_ATTACK}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Fernando5[] = {
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_CHATOT,
+    .moves = {MOVE_BOOMBURST, MOVE_HURRICANE, MOVE_NASTY_PLOT, MOVE_HEAT_WAVE}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_RILLABOOOM,
+    .moves = {MOVE_DRUM_BEATING, MOVE_HIGH_HORSEPOWER, MOVE_U_TURN, MOVE_BOOMBURST}
+    },
+    {
+    .iv =150,
+    .lvl = 1,
+    .species = SPECIES_ZEBSTRIKA,
+    .moves = {MOVE_VOLT_TACKLE, MOVE_JUMP_KICK, MOVE_FLARE_BLITZ, MOVE_QUICK_ATTACK}
     }
 };
 
@@ -17289,78 +17381,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Koji5[] = {
     .iv = 40,
     .lvl = 43,
     .species = SPECIES_MACHAMP,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Fernando2[] = {
-    {
-    .iv = 10,
-    .lvl = 35,
-    .species = SPECIES_ELECTRIKE,
-    },
-    {
-    .iv = 10,
-    .lvl = 35,
-    .species = SPECIES_ELECTRIKE,
-    },
-    {
-    .iv = 10,
-    .lvl = 35,
-    .species = SPECIES_LOUDRED,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Fernando3[] = {
-    {
-    .iv = 20,
-    .lvl = 37,
-    .species = SPECIES_ELECTRIKE,
-    },
-    {
-    .iv = 20,
-    .lvl = 37,
-    .species = SPECIES_MANECTRIC,
-    },
-    {
-    .iv = 20,
-    .lvl = 37,
-    .species = SPECIES_LOUDRED,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Fernando4[] = {
-    {
-    .iv = 30,
-    .lvl = 39,
-    .species = SPECIES_MANECTRIC,
-    },
-    {
-    .iv = 30,
-    .lvl = 39,
-    .species = SPECIES_MANECTRIC,
-    },
-    {
-    .iv = 30,
-    .lvl = 39,
-    .species = SPECIES_LOUDRED,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Fernando5[] = {
-    {
-    .iv = 40,
-    .lvl = 41,
-    .species = SPECIES_MANECTRIC,
-    },
-    {
-    .iv = 40,
-    .lvl = 41,
-    .species = SPECIES_MANECTRIC,
-    },
-    {
-    .iv = 40,
-    .lvl = 41,
-    .species = SPECIES_EXPLOUD,
     }
 };
 
