@@ -4023,71 +4023,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alexis[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Jacki1[] = {
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_KADABRA,
-    },
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_LUNATONE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Jacki2[] = {
-    {
-    .iv = 10,
-    .lvl = 34,
-    .species = SPECIES_KADABRA,
-    },
-    {
-    .iv = 10,
-    .lvl = 34,
-    .species = SPECIES_LUNATONE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Jacki3[] = {
-    {
-    .iv = 20,
-    .lvl = 37,
-    .species = SPECIES_KADABRA,
-    },
-    {
-    .iv = 20,
-    .lvl = 37,
-    .species = SPECIES_LUNATONE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Jacki4[] = {
-    {
-    .iv = 30,
-    .lvl = 40,
-    .species = SPECIES_KADABRA,
-    },
-    {
-    .iv = 30,
-    .lvl = 40,
-    .species = SPECIES_LUNATONE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Jacki5[] = {
-    {
-    .iv = 40,
-    .lvl = 43,
-    .species = SPECIES_LUNATONE,
-    },
-    {
-    .iv = 40,
-    .lvl = 43,
-    .species = SPECIES_ALAKAZAM,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Micah[] = {
     {
     .iv =100,
@@ -9090,6 +9025,152 @@ static const struct TrainerMonNoItemCustomMoves sParty_Alberto[] = {
     .species = SPECIES_XATU,
     .moves = {MOVE_AIR_SLASH, MOVE_PSYCHIC, MOVE_GIGA_DRAIN, MOVE_DAZZLING_GLEAM}
     },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jacki1[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 2, // Psychic Surge
+    .species = SPECIES_MUSHARNA,
+    .moves = {MOVE_DREAM_EATER, MOVE_YAWN, MOVE_MOONBLAST, MOVE_MOONLIGHT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GIRAFARIG,
+    .moves = {MOVE_PSYCHIC_FANGS, MOVE_CRUNCH, MOVE_ICE_FANG, MOVE_THUNDER_FANG}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ESPEON,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_GRASS_KNOT, MOVE_DAZZLING_GLEAM}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jacki2[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 2, // Psychic Surge
+    .species = SPECIES_MUSHARNA,
+    .moves = {MOVE_DREAM_EATER, MOVE_YAWN, MOVE_MOONBLAST, MOVE_MOONLIGHT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GIRAFARIG,
+    .moves = {MOVE_PSYCHIC_FANGS, MOVE_CRUNCH, MOVE_ICE_FANG, MOVE_THUNDER_FANG}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ESPEON,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_GRASS_KNOT, MOVE_DAZZLING_GLEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ORBEETLE,
+    .moves = {MOVE_PSYCHIC, MOVE_BUG_BUZZ, MOVE_CALM_MIND, MOVE_RECOVER}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jacki3[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 2, // Psychic Surge
+    .species = SPECIES_MUSHARNA,
+    .moves = {MOVE_DREAM_EATER, MOVE_YAWN, MOVE_MOONBLAST, MOVE_MOONLIGHT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GIRAFARIG,
+    .moves = {MOVE_PSYCHIC_FANGS, MOVE_CRUNCH, MOVE_ICE_FANG, MOVE_THUNDER_FANG}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ESPEON,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_GRASS_KNOT, MOVE_DAZZLING_GLEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ORBEETLE,
+    .moves = {MOVE_PSYCHIC, MOVE_BUG_BUZZ, MOVE_CALM_MIND, MOVE_RECOVER}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jacki4[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 2, // Psychic Surge
+    .species = SPECIES_MUSHARNA,
+    .moves = {MOVE_DREAM_EATER, MOVE_YAWN, MOVE_MOONBLAST, MOVE_MOONLIGHT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GIRAFARIG,
+    .moves = {MOVE_PSYCHIC_FANGS, MOVE_CRUNCH, MOVE_ICE_FANG, MOVE_THUNDER_FANG}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ESPEON,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_GRASS_KNOT, MOVE_DAZZLING_GLEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MEOWSTIC_FEMALE,
+    .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ORBEETLE,
+    .moves = {MOVE_PSYCHIC, MOVE_BUG_BUZZ, MOVE_CALM_MIND, MOVE_RECOVER}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Jacki5[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .ability = 2, // Psychic Surge
+    .species = SPECIES_MUSHARNA,
+    .moves = {MOVE_DREAM_EATER, MOVE_YAWN, MOVE_MOONBLAST, MOVE_MOONLIGHT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_GIRAFARIG,
+    .moves = {MOVE_PSYCHIC_FANGS, MOVE_CRUNCH, MOVE_ICE_FANG, MOVE_THUNDER_FANG}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ESPEON,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_GRASS_KNOT, MOVE_DAZZLING_GLEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_MEOWSTIC_FEMALE,
+    .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_ORBEETLE,
+    .moves = {MOVE_PSYCHIC, MOVE_BUG_BUZZ, MOVE_CALM_MIND, MOVE_RECOVER}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
