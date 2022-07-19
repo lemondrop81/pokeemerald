@@ -301,19 +301,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntAquaHideout6[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Fredrick[] = {
-    {
-    .iv = 100,
-    .lvl = 30,
-    .species = SPECIES_MAKUHITA,
-    },
-    {
-    .iv = 100,
-    .lvl = 30,
-    .species = SPECIES_MACHOKE,
-    }
-};
-
 static const struct TrainerMonItemCustomMoves sParty_ShellyWeatherInstitute[] = {
     {
     .iv = 200,
@@ -9170,6 +9157,31 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jacki5[] = {
     .lvl = 1,
     .species = SPECIES_ORBEETLE,
     .moves = {MOVE_PSYCHIC, MOVE_BUG_BUZZ, MOVE_CALM_MIND, MOVE_RECOVER}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Fredrick[] = {
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_AEGISLASH,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_IRON_HEAD, MOVE_SHADOW_BALL, MOVE_HEAD_SMASH, MOVE_KINGS_SHIELD}
+    },
+    {
+    .iv = 100,
+    .lvl = 1,
+    .ability = 0, // No Triage due to psychic terrain from ally
+    .species = SPECIES_COMFEY,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_DRAINING_KISS, MOVE_GIGA_DRAIN, MOVE_CALM_MIND, MOVE_CHARM}
+    }.
+    {
+    .iv = 100,
+    .lvl = 1,
+    .species = SPECIES_TYRANITAR,
+    .heldItem = ITEM_WATER_GEM,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_DARK_PULSE, MOVE_FIRE_BLAST, MOVE_ICE_BEAM}
     }
 };
 
