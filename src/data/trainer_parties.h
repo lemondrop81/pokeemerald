@@ -9269,6 +9269,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jonas[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Kayley[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_CASTFORM,
+    .moves = {MOVE_SUNNY_DAY, MOVE_WEATHER_BALL, MOVE_ICE_BEAM, MOVE_SOLAR_BEAM}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SAWSBUCK,
+    .moves = {MOVE_DOUBLE_EDGE, MOVE_HORN_LEECH, MOVE_JUMP_KICK, MOVE_MEGAHORN}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -10944,15 +10959,6 @@ static const struct TrainerMonItemCustomMoves sParty_Jazmyn[] = {
     .species = SPECIES_JOLTEON,
     .heldItem = ITEM_EXPERT_BELT,
     .moves = {MOVE_THUNDER, MOVE_SHADOW_BALL, MOVE_AURORA_BEAM, MOVE_SIGNAL_BEAM}
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_Kayley[] = {
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_CASTFORM,
-    .moves = {MOVE_SUNNY_DAY, MOVE_WEATHER_BALL, MOVE_FLAMETHROWER, MOVE_SOLAR_BEAM}
     }
 };
 
