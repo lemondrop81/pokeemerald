@@ -3904,66 +3904,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Joshua[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Cameron1[] = {
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_SOLROCK,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Cameron2[] = {
-    {
-    .iv = 10,
-    .lvl = 33,
-    .species = SPECIES_KADABRA,
-    },
-    {
-    .iv = 10,
-    .lvl = 33,
-    .species = SPECIES_SOLROCK,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Cameron3[] = {
-    {
-    .iv = 20,
-    .lvl = 38,
-    .species = SPECIES_KADABRA,
-    },
-    {
-    .iv = 20,
-    .lvl = 38,
-    .species = SPECIES_SOLROCK,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Cameron4[] = {
-    {
-    .iv = 30,
-    .lvl = 41,
-    .species = SPECIES_KADABRA,
-    },
-    {
-    .iv = 30,
-    .lvl = 41,
-    .species = SPECIES_SOLROCK,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Cameron5[] = {
-    {
-    .iv = 40,
-    .lvl = 45,
-    .species = SPECIES_SOLROCK,
-    },
-    {
-    .iv = 40,
-    .lvl = 45,
-    .species = SPECIES_ALAKAZAM,
-    }
-};
-
 static const struct TrainerMonNoItemCustomMoves sParty_Jaclyn[] = {
     {
     .iv =100,
@@ -9182,6 +9122,135 @@ static const struct TrainerMonItemCustomMoves sParty_Fredrick[] = {
     .species = SPECIES_TYRANITAR,
     .heldItem = ITEM_WATER_GEM,
     .moves = {MOVE_HYDRO_PUMP, MOVE_DARK_PULSE, MOVE_FIRE_BLAST, MOVE_ICE_BEAM}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Cameron1[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SOLROCK,
+    .moves = {MOVE_STONE_EDGE, MOVE_SUNNY_DAY, MOVE_ZEN_HEADBUTT, MOVE_EXPLOSION}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_EXEGGUTOR_ALOLAN,
+    .moves = {MOVE_SOLAR_BEAM, MOVE_DRAGON_HAMMER, MOVE_FLAMETHROWER, MOVE_PSYCHIC}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DELPHOX,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Cameron2[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SOLROCK,
+    .moves = {MOVE_STONE_EDGE, MOVE_SUNNY_DAY, MOVE_ZEN_HEADBUTT, MOVE_EXPLOSION}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LUNATONE,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_CALM_MIND, MOVE_MOONLIGHT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_EXEGGUTOR_ALOLAN,
+    .moves = {MOVE_SOLAR_BEAM, MOVE_DRAGON_HAMMER, MOVE_FLAMETHROWER, MOVE_PSYCHIC}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DELPHOX,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Cameron3[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SOLROCK,
+    .moves = {MOVE_STONE_EDGE, MOVE_SUNNY_DAY, MOVE_ZEN_HEADBUTT, MOVE_EXPLOSION}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LUNATONE,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_CALM_MIND, MOVE_MOONLIGHT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_EXEGGUTOR_ALOLAN,
+    .moves = {MOVE_SOLAR_BEAM, MOVE_DRAGON_HAMMER, MOVE_FLAMETHROWER, MOVE_PSYCHIC}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DELPHOX,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Cameron4[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SOLROCK,
+    .moves = {MOVE_STONE_EDGE, MOVE_SUNNY_DAY, MOVE_ZEN_HEADBUTT, MOVE_EXPLOSION}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LUNATONE,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_CALM_MIND, MOVE_MOONLIGHT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_EXEGGUTOR_ALOLAN,
+    .moves = {MOVE_SOLAR_BEAM, MOVE_DRAGON_HAMMER, MOVE_FLAMETHROWER, MOVE_PSYCHIC}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DELPHOX,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Cameron5[] = {
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_SOLROCK,
+    .moves = {MOVE_STONE_EDGE, MOVE_SUNNY_DAY, MOVE_ZEN_HEADBUTT, MOVE_EXPLOSION}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_LUNATONE,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_CALM_MIND, MOVE_MOONLIGHT}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_EXEGGUTOR_ALOLAN,
+    .moves = {MOVE_SOLAR_BEAM, MOVE_DRAGON_HAMMER, MOVE_FLAMETHROWER, MOVE_PSYCHIC}
+    },
+    {
+    .iv =100,
+    .lvl = 1,
+    .species = SPECIES_DELPHOX,
+    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_MYSTICAL_FIRE, MOVE_WILL_O_WISP}
     }
 };
 
