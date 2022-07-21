@@ -9849,6 +9849,123 @@ static const struct TrainerMonNoItemCustomMoves sParty_Declan[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_LilaAndRoy1[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_GASTRODON_EAST_SEA,
+    .moves = {MOVE_MUDDY_WATER, MOVE_EARTH_POWER, MOVE_ANCIENT_POWER, MOVE_RECOVER}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_LANTURN,
+    .moves = {MOVE_SURF, MOVE_DISCHARGE, MOVE_CONFUSE_RAY, MOVE_THUNDER_WAVE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_LilaAndRoy2[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_GASTRODON_EAST_SEA,
+    .moves = {MOVE_MUDDY_WATER, MOVE_EARTH_POWER, MOVE_ANCIENT_POWER, MOVE_RECOVER}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_LANTURN,
+    .moves = {MOVE_SURF, MOVE_DISCHARGE, MOVE_CONFUSE_RAY, MOVE_THUNDER_WAVE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_LilaAndRoy3[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_GASTRODON_EAST_SEA,
+    .moves = {MOVE_SURF, MOVE_EARTH_POWER, MOVE_ANCIENT_POWER, MOVE_RECOVER}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .ability = 2, // Water Absorb
+    .species = SPECIES_LANTURN,
+    .moves = {MOVE_SURF, MOVE_THUNDERBOLT, MOVE_CONFUSE_RAY, MOVE_THUNDER_WAVE}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_LUDICOLO,
+    .moves = {MOVE_SURF, MOVE_LEAF_STORM, MOVE_KNOCK_OFF, MOVE_ZEN_HEADBUTT}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .ability = 1, // Storm Drain
+    .species = SPECIES_LUMINEON,
+    .moves = {MOVE_SURF, MOVE_DAZZLING_GLEAM, MOVE_BUG_BUZZ, MOVE_QUIVER_DANCE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_LilaAndRoy4[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_GASTRODON_EAST_SEA,
+    .moves = {MOVE_SURF, MOVE_EARTH_POWER, MOVE_ANCIENT_POWER, MOVE_RECOVER}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .ability = 2, // Water Absorb
+    .species = SPECIES_LANTURN,
+    .moves = {MOVE_SURF, MOVE_THUNDERBOLT, MOVE_CONFUSE_RAY, MOVE_THUNDER_WAVE}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_LUDICOLO,
+    .moves = {MOVE_SURF, MOVE_LEAF_STORM, MOVE_KNOCK_OFF, MOVE_ZEN_HEADBUTT}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .ability = 1, // Storm Drain
+    .species = SPECIES_LUMINEON,
+    .moves = {MOVE_SURF, MOVE_DAZZLING_GLEAM, MOVE_BUG_BUZZ, MOVE_QUIVER_DANCE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_LilaAndRoy5[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_GASTRODON_EAST_SEA,
+    .moves = {MOVE_SURF, MOVE_EARTH_POWER, MOVE_ANCIENT_POWER, MOVE_RECOVER}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .ability = 2, // Water Absorb
+    .species = SPECIES_LANTURN,
+    .moves = {MOVE_SURF, MOVE_THUNDERBOLT, MOVE_CONFUSE_RAY, MOVE_THUNDER_WAVE}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_LUDICOLO,
+    .moves = {MOVE_SURF, MOVE_LEAF_STORM, MOVE_KNOCK_OFF, MOVE_ZEN_HEADBUTT}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .ability = 1, // Storm Drain
+    .species = SPECIES_LUMINEON,
+    .moves = {MOVE_SURF, MOVE_DAZZLING_GLEAM, MOVE_BUG_BUZZ, MOVE_QUIVER_DANCE}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -15358,71 +15475,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ReliAndIan[] = {
     .iv =100,
     .lvl = 33,
     .species = SPECIES_WINGULL,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy1[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_CHINCHOU,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy2[] = {
-    {
-    .iv =100,
-    .lvl = 42,
-    .species = SPECIES_CHINCHOU,
-    },
-    {
-    .iv =100,
-    .lvl = 40,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy3[] = {
-    {
-    .iv =100,
-    .lvl = 45,
-    .species = SPECIES_LANTURN,
-    },
-    {
-    .iv =100,
-    .lvl = 43,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy4[] = {
-    {
-    .iv =100,
-    .lvl = 48,
-    .species = SPECIES_LANTURN,
-    },
-    {
-    .iv =100,
-    .lvl = 46,
-    .species = SPECIES_SHARPEDO,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_LilaAndRoy5[] = {
-    {
-    .iv =100,
-    .lvl = 51,
-    .species = SPECIES_LANTURN,
-    },
-    {
-    .iv =100,
-    .lvl = 49,
-    .species = SPECIES_SHARPEDO,
     }
 };
 
