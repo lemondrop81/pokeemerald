@@ -63,14 +63,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern4[] =
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Declan[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_GYARADOS,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntRusturfTunnel[] = {
     {
     .iv =100,
@@ -9838,6 +9830,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Grace[] = {
     .lvl = 34,
     .species = SPECIES_GOREBYSS,
     .moves = {MOVE_HYDRO_PUMP, MOVE_DRAINING_KISS, MOVE_PSYCHIC, MOVE_SHELL_SMASH}
+    }
+};
+
+
+static const struct TrainerMonNoItemCustomMoves sParty_Declan[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_GYARADOS,
+    .moves = {MOVE_WATERFALL, MOVE_CRUNCH, MOVE_BOUNCE, MOVE_OUTRAGE}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_DEWGONG,
+    .moves = {MOVE_ICE_BEAM, MOVE_AQUA_TAIL, MOVE_FAKE_OUT, MOVE_ENCORE}
     }
 };
 
