@@ -9824,6 +9824,23 @@ static const struct TrainerMonNoItemCustomMoves sParty_GruntAquaHideout8[] = {
     }
 };
 
+// Route 124
+
+static const struct TrainerMonNoItemCustomMoves sParty_Grace[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_LANTURN,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_THUNDER_WAVE}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_GOREBYSS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_DRAINING_KISS, MOVE_PSYCHIC, MOVE_SHELL_SMASH}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -10602,14 +10619,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenny1[] = {
     .iv =100,
     .lvl = 34,
     .species = SPECIES_WAILMER,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Grace[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_MARILL,
     }
 };
 
