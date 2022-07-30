@@ -2670,14 +2670,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_David[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Roland[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Nolen[] = {
     {
     .iv =100,
@@ -10121,6 +10113,24 @@ static const struct TrainerMonNoItemCustomMoves sParty_Isabella[] = {
     .moves = {MOVE_FISHIOUS_REND, MOVE_DRAGON_RUSH, MOVE_LEECH_LIFE, MOVE_ZEN_HEADBUTT}
     }
 };
+
+static const struct TrainerMonNoItemCustomMoves sParty_Roland[] = {
+    {
+    .iv =100,
+    .lvl = 33,
+    .ability = 1, // Skill Link
+    .species = SPECIES_CLOYSTER,
+    .moves = {MOVE_ICICLE_SPEAR, MOVE_ROCK_BLAST, MOVE_HYDRO_PUMP, MOVE_TOXIC_SPIKES}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_SEISMITOAD,
+    .moves = {MOVE_EARTH_POWER, MOVE_HYDRO_PUMP, MOVE_SLUDGE_WAVE, MOVE_POWER_WHIP}
+    }
+};
+
+// Route 125
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
