@@ -6287,16 +6287,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_JENNY_1] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
         .trainerName = _("JENNY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_Jenny1),
-        .party = {.NoItemDefaultMoves = sParty_Jenny1},
+        .party = {.NoItemCustomMoves = sParty_Jenny1},
     },
 
     [TRAINER_GRACE] =
@@ -6511,58 +6511,58 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_JENNY_2] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
         .trainerName = _("JENNY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_Jenny2),
-        .party = {.NoItemDefaultMoves = sParty_Jenny2},
+        .party = {.NoItemCustomMoves = sParty_Jenny2},
     },
 
     [TRAINER_JENNY_3] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
         .trainerName = _("JENNY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_Jenny3),
-        .party = {.NoItemDefaultMoves = sParty_Jenny3},
+        .party = {.NoItemCustomMoves = sParty_Jenny3},
     },
 
     [TRAINER_JENNY_4] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
         .trainerName = _("JENNY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_Jenny4),
-        .party = {.NoItemDefaultMoves = sParty_Jenny4},
+        .party = {.NoItemCustomMoves = sParty_Jenny4},
     },
 
     [TRAINER_JENNY_5] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
         .trainerName = _("JENNY"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_Jenny5),
-        .party = {.NoItemDefaultMoves = sParty_Jenny5},
+        .party = {.NoItemCustomMoves = sParty_Jenny5},
     },
 
     [TRAINER_HEIDI] =
