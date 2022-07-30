@@ -6223,19 +6223,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaiah1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Pablo1[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_STARYU,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_STARYU,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Chase[] = {
     {
     .iv =100,
@@ -10456,6 +10443,165 @@ static const struct TrainerMonNoItemCustomMoves sParty_Sienna[] = {
     .lvl = 31,
     .species = SPECIES_POLITOED,
     .moves = {MOVE_SURF, MOVE_HYPER_VOICE, MOVE_SING, MOVE_MUD_SHOT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Pablo1[] = {
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_OMASTAR,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_RAIN_DANCE}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_DREDNAW,
+    .moves = {MOVE_LIQUIDATION, MOVE_HEAD_SMASH, MOVE_CRUNCH, MOVE_MEGAHORN}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_WATERFALL, MOVE_POISON_JAB, MOVE_SWORDS_DANCE, MOVE_EXPLOSION}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Pablo2[] = {
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_OMASTAR,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_RAIN_DANCE}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_DREDNAW,
+    .moves = {MOVE_LIQUIDATION, MOVE_HEAD_SMASH, MOVE_CRUNCH, MOVE_MEGAHORN}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_WATERFALL, MOVE_POISON_JAB, MOVE_SWORDS_DANCE, MOVE_EXPLOSION}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_SLOWBRO,
+    .moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_CALM_MIND}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Pablo3[] = {
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_OMASTAR,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_RAIN_DANCE}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_DREDNAW,
+    .moves = {MOVE_LIQUIDATION, MOVE_HEAD_SMASH, MOVE_CRUNCH, MOVE_MEGAHORN}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_WATERFALL, MOVE_POISON_JAB, MOVE_SWORDS_DANCE, MOVE_EXPLOSION}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_SLOWBRO,
+    .moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_CALM_MIND}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_CARRACOSTA,
+    .moves = {MOVE_STRENGTH, MOVE_LIQUIDATION, MOVE_CRUNCH, MOVE_AQUA_JET}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Pablo4[] = {
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_OMASTAR,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_RAIN_DANCE}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_DREDNAW,
+    .moves = {MOVE_LIQUIDATION, MOVE_HEAD_SMASH, MOVE_CRUNCH, MOVE_MEGAHORN}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_WATERFALL, MOVE_POISON_JAB, MOVE_SWORDS_DANCE, MOVE_EXPLOSION}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_SLOWBRO,
+    .moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_CALM_MIND}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_CARRACOSTA,
+    .moves = {MOVE_STRENGTH, MOVE_LIQUIDATION, MOVE_CRUNCH, MOVE_AQUA_JET}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_WAILORD,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_EARTHQUAKE, MOVE_AMNESIA, MOVE_REST}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Pablo5[] = {
+    {
+    .iv =200,
+    .lvl = 31,
+    .species = SPECIES_OMASTAR,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_RAIN_DANCE}
+    },
+    {
+    .iv =200,
+    .lvl = 31,
+    .species = SPECIES_DREDNAW,
+    .moves = {MOVE_LIQUIDATION, MOVE_HEAD_SMASH, MOVE_CRUNCH, MOVE_MEGAHORN}
+    },
+    {
+    .iv =200,
+    .lvl = 31,
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_WATERFALL, MOVE_POISON_JAB, MOVE_SWORDS_DANCE, MOVE_EXPLOSION}
+    },
+    {
+    .iv =200,
+    .lvl = 31,
+    .species = SPECIES_SLOWBRO,
+    .moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_CALM_MIND}
+    },
+    {
+    .iv =200,
+    .lvl = 31,
+    .species = SPECIES_CARRACOSTA,
+    .moves = {MOVE_STRENGTH, MOVE_LIQUIDATION, MOVE_CRUNCH, MOVE_AQUA_JET}
+    },
+    {
+    .iv =200,
+    .lvl = 31,
+    .species = SPECIES_WAILORD,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_EARTHQUAKE, MOVE_AMNESIA, MOVE_REST}
     }
 };
 
@@ -18132,72 +18278,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cory5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Pablo2[] = {
-    {
-    .iv = 10,
-    .lvl = 37,
-    .species = SPECIES_STARYU,
-    },
-    {
-    .iv = 10,
-    .lvl = 37,
-    .species = SPECIES_STARYU,
-    }
-};
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Pablo3[] = {
-    {
-    .iv = 20,
-    .lvl = 39,
-    .species = SPECIES_WINGULL,
-    },
-    {
-    .iv = 20,
-    .lvl = 39,
-    .species = SPECIES_STARYU,
-    },
-    {
-    .iv = 20,
-    .lvl = 39,
-    .species = SPECIES_STARYU,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Pablo4[] = {
-    {
-    .iv = 30,
-    .lvl = 41,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv = 30,
-    .lvl = 41,
-    .species = SPECIES_STARYU,
-    },
-    {
-    .iv = 30,
-    .lvl = 41,
-    .species = SPECIES_STARYU,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Pablo5[] = {
-    {
-    .iv = 40,
-    .lvl = 43,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv = 40,
-    .lvl = 43,
-    .species = SPECIES_STARMIE,
-    },
-    {
-    .iv = 40,
-    .lvl = 43,
-    .species = SPECIES_STARMIE,
-    }
-};
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Koji2[] = {
     {
