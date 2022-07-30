@@ -2670,14 +2670,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_David[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Barry[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_GYARADOS,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Rodney[] = {
     {
     .iv =100,
@@ -10427,6 +10419,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Nikki[] = {
     .lvl = 31,
     .species = SPECIES_AUDINO,
     .moves = {MOVE_HYPER_VOICE, MOVE_SURF, MOVE_WISH, MOVE_THUNDERBOLT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Barry[] = {
+    {
+    .iv =160,
+    .lvl = 31,
+    .ability = 1, // Mega Launcher
+    .species = SPECIES_BLASTOISE,
+    .moves = {MOVE_WATER_PULSE, MOVE_DARK_PULSE, MOVE_ICE_BEAM, MOVE_SHELL_SMASH}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_GOGOAT,
+    .moves = {MOVE_SURF, MOVE_HORN_LEECH, MOVE_EARTHQUAKE, MOVE_MILK_DRINK}
     }
 };
 
