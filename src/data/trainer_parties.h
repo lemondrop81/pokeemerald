@@ -10390,6 +10390,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_KimAndIris[] = {
 
 // Route 126
 
+static const struct TrainerMonNoItemCustomMoves sParty_Leonardo[] = {
+    {
+    .iv =160,
+    .lvl = 34,
+    .species = SPECIES_FLOATZEL,
+    .moves = {MOVE_AQUA_TAIL, MOVE_ICE_PUNCH, MOVE_CRUNCH, MOVE_IRON_TAIL}
+    },
+    {
+    .iv =160,
+    .lvl = 34,
+    .species = SPECIES_BARBARACLE,
+    .moves = {MOVE_LIQUIDATION, MOVE_STONE_EDGE, MOVE_NIGHT_SLASH, MOVE_CROSS_CHOP}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -13566,14 +13581,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sylvia[] = {
     .iv = 100,
     .lvl = 36,
     .species = SPECIES_MEDITITE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Leonardo[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_CARVANHA,
     }
 };
 
