@@ -10415,6 +10415,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Dean[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Nikki[] = {
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_KINGLER,
+    .moves = {MOVE_CRABHAMMER, MOVE_HAMMER_ARM, MOVE_X_SCISSOR, MOVE_HIGH_HORSEPOWER}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_AUDINO,
+    .moves = {MOVE_HYPER_VOICE, MOVE_SURF, MOVE_WISH, MOVE_THUNDERBOLT}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -11185,19 +11200,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alice[] = {
     .iv =100,
     .lvl = 1,
     .species = SPECIES_TYMPOLE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Nikki[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_MARILL,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_SPHEAL,
     }
 };
 
