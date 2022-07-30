@@ -2670,19 +2670,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_David[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Spencer[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_TENTACOOL,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_WINGULL,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Roland[] = {
     {
     .iv =100,
@@ -9963,6 +9950,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_LilaAndRoy5[] = {
     .ability = 1, // Storm Drain
     .species = SPECIES_LUMINEON,
     .moves = {MOVE_SURF, MOVE_DAZZLING_GLEAM, MOVE_BUG_BUZZ, MOVE_QUIVER_DANCE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Spencer[] = {
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_TENTACOOL,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_POISON_JAB, MOVE_MIRROR_COAT, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_WINGULL,
+    .moves = {MOVE_AIR_SLASH, MOVE_HYDRO_PUMP, MOVE_SHOCK_WAVE, MOVE_TAILWIND}
     }
 };
 
