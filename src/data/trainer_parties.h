@@ -10655,6 +10655,21 @@ static const struct TrainerMonItemCustomMoves sParty_Athena[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Jonah[] = {
+    {
+    .iv =150,
+    .lvl = 30,
+    .species = SPECIES_CORSOLA,
+    .moves = {MOVE_RECOVER, MOVE_MIRROR_COAT, MOVE_POWER_GEM, MOVE_SCALD}
+    },
+    {
+    .iv =150,
+    .lvl = 31,
+    .species = SPECIES_TOXAPEX,
+    .moves = {MOVE_TOXIC, MOVE_VENOSHOCK, MOVE_RECOVER, MOVE_VENOM_DRENCH}
+    },
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -15531,24 +15546,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTreecko[] = {
     .iv = 200,
     .lvl = 34,
     .species = SPECIES_MARSHTOMP,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Jonah[] = {
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_WAILMER,
-    },
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_TENTACOOL,
-    },
-    {
-    .iv =100,
-    .lvl = 32,
-    .species = SPECIES_SHARPEDO,
     }
 };
 
