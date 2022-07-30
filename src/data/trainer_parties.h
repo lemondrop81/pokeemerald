@@ -10361,6 +10361,35 @@ static const struct TrainerMonNoItemCustomMoves sParty_Stan[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_KimAndIris[] = {
+    {
+    .iv =150,
+    .lvl = 32,
+    .species = SPECIES_ALTARIA,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_DRAGON_RUSH, MOVE_SING, MOVE_ICE_BEAM}
+    },
+    {
+    .iv =150,
+    .lvl = 35,
+    .species = SPECIES_RHYPERIOR,
+    .moves = {MOVE_STONE_EDGE, MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_FIRE_PUNCH}
+    },
+    {
+    .iv =150,
+    .lvl = 32,
+    .species = SPECIES_CRYOGONAL,
+    .moves = {MOVE_ICE_BEAM, MOVE_POWER_GEM, MOVE_WATER_PULSE, MOVE_CONFUSE_RAY}
+    },
+    {
+    .iv =150,
+    .lvl = 35,
+    .species = SPECIES_ROTOM_WASH,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_THUNDERBOLT, MOVE_WILL_O_WISP, MOVE_SHADOW_BALL}
+    }
+};
+
+// Route 126
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -15454,21 +15483,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ToriAndTia[] = {
     .iv =100,
     .lvl = 19,
     .species = SPECIES_SHELLOS,
-    }
-};
-
-static const struct TrainerMonNoItemCustomMoves sParty_KimAndIris[] = {
-    {
-    .iv =100,
-    .lvl = 32,
-    .species = SPECIES_SWABLU,
-    .moves = {MOVE_SING, MOVE_FURY_ATTACK, MOVE_SAFEGUARD, MOVE_AERIAL_ACE}
-    },
-    {
-    .iv =100,
-    .lvl = 35,
-    .species = SPECIES_NUMEL,
-    .moves = {MOVE_FLAMETHROWER, MOVE_TAKE_DOWN, MOVE_REST, MOVE_EARTHQUAKE}
     }
 };
 
