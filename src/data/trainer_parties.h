@@ -2812,19 +2812,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dudley[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Chad[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_TENTACOOL,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_WAILMER,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Tony2[] = {
     {
     .iv = 10,
@@ -10100,6 +10087,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jenny5[] = {
     .lvl = 34,
     .species = SPECIES_STARMIE,
     .moves = {MOVE_PSYCHIC, MOVE_HYDRO_PUMP, MOVE_POWER_GEM, MOVE_RECOVER}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Chad[] = {
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_STOUTLAND,
+    .moves = {MOVE_SURF, MOVE_DOUBLE_EDGE, MOVE_CRUNCH, MOVE_PLAY_ROUGH}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_JELLICENT,
+    .moves = {MOVE_WATER_SPOUT, MOVE_SHADOW_BALL, MOVE_GIGA_DRAIN, MOVE_RECOVER}
     }
 };
 
