@@ -2670,14 +2670,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_David[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Stan[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_HORSEA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Barry[] = {
     {
     .iv =100,
@@ -10351,6 +10343,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Auron[] = {
     .lvl = 33,
     .species = SPECIES_LUCARIO,
     .moves = {MOVE_AURA_SPHERE, MOVE_FLASH_CANNON, MOVE_DARK_PULSE, MOVE_VACUUM_WAVE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Stan[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_KINGDRA,
+    .moves = {MOVE_WATERFALL, MOVE_OUTRAGE, MOVE_IRON_HEAD, MOVE_RAIN_DANCE}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_ARAQUANID,
+    .moves = {MOVE_LIQUIDATION, MOVE_LEECH_LIFE, MOVE_MIRROR_COAT, MOVE_WIDE_GUARD}
     }
 };
 
