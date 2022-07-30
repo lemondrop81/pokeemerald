@@ -10622,6 +10622,39 @@ static const struct TrainerMonNoItemCustomMoves sParty_Brenda[] = {
 
 // Route 127
 
+static const struct TrainerMonItemCustomMoves sParty_Athena[] = {
+    {
+    .iv = 100,
+    .lvl = 32,
+    .ability = 1, // Iron Fist
+    .species = SPECIES_MANECTRIC,
+    .heldItem = ITEM_EXPERT_BELT,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_FIRE_BLAST, MOVE_THUNDER_PUNCH, MOVE_STONE_EDGE}
+    },
+    {
+    .iv = 100,
+    .lvl = 32,
+    .species = SPECIES_ACCELGOR,
+    .heldItem = ITEM_POISON_GEM,
+    .moves = {MOVE_BUG_BUZZ, MOVE_FOCUS_BLAST, MOVE_ENERGY_BALL, MOVE_SLUDGE_BOMB}
+    },
+    {
+    .iv = 100,
+    .lvl = 32,
+    .ability = 2, // Gale Wings
+    .species = SPECIES_TALONFLAME,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_SUNNY_DAY, MOVE_SOLAR_BEAM}
+    },
+    {
+    .iv = 100,
+    .lvl = 32,
+    .species = SPECIES_PIDGEOT,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_HYPER_VOICE, MOVE_HURRICANE, MOVE_HEAT_WAVE, MOVE_WORK_UP}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -13764,23 +13797,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sylvia[] = {
     .iv = 100,
     .lvl = 36,
     .species = SPECIES_MEDITITE,
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Athena[] = {
-    {
-    .iv = 100,
-    .lvl = 32,
-    .species = SPECIES_MANECTRIC,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_THUNDER, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK, MOVE_NONE}
-    },
-    {
-    .iv = 100,
-    .lvl = 32,
-    .species = SPECIES_LINOONE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SURF, MOVE_THIEF, MOVE_NONE, MOVE_NONE}
     }
 };
 
