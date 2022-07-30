@@ -10132,6 +10132,167 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roland[] = {
 
 // Route 125
 
+static const struct TrainerMonNoItemCustomMoves sParty_Ernest1[] = {
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_DUAL_CHOP, MOVE_BULLET_PUNCH, MOVE_STRENGTH}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_POLIWRATH,
+    .moves = {MOVE_WATERFALL, MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_HYPNOSIS}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_TAUROS,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_CLOSE_COMBAT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Ernest2[] = {
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_DUAL_CHOP, MOVE_BULLET_PUNCH, MOVE_STRENGTH}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_POLIWRATH,
+    .moves = {MOVE_WATERFALL, MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_HYPNOSIS}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_TAUROS,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_CLOSE_COMBAT}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_CRAMORANT,
+    .moves = {MOVE_SURF, MOVE_HURRICANE, MOVE_ICE_BEAM, MOVE_FEATHER_DANCE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Ernest3[] = {
+    {
+    .iv =140,
+    .lvl = 33,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_DUAL_CHOP, MOVE_BULLET_PUNCH, MOVE_STRENGTH}
+    },
+    {
+    .iv =140,
+    .lvl = 33,
+    .species = SPECIES_POLIWRATH,
+    .moves = {MOVE_WATERFALL, MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_HYPNOSIS}
+    },
+    {
+    .iv =140,
+    .lvl = 33,
+    .species = SPECIES_TAUROS,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_CLOSE_COMBAT}
+    },
+    {
+    .iv =140,
+    .lvl = 33,
+    .species = SPECIES_CRAMORANT,
+    .moves = {MOVE_SURF, MOVE_HURRICANE, MOVE_ICE_BEAM, MOVE_FEATHER_DANCE}
+    },
+    {
+    .iv =140,
+    .lvl = 33,
+    .species = SPECIES_MAGNEZONE,
+    .moves = {MOVE_FLASH_CANNON, MOVE_HIDDEN_POWER, MOVE_VOLT_SWITCH, MOVE_THUNDER_WAVE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Ernest4[] = {
+    {
+    .iv =170,
+    .lvl = 33,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_DUAL_CHOP, MOVE_BULLET_PUNCH, MOVE_STRENGTH}
+    },
+    {
+    .iv =170,
+    .lvl = 33,
+    .species = SPECIES_POLIWRATH,
+    .moves = {MOVE_WATERFALL, MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_HYPNOSIS}
+    },
+    {
+    .iv =170,
+    .lvl = 33,
+    .species = SPECIES_TAUROS,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_CLOSE_COMBAT}
+    },
+    {
+    .iv =170,
+    .lvl = 33,
+    .species = SPECIES_CRAMORANT,
+    .moves = {MOVE_SURF, MOVE_HURRICANE, MOVE_ICE_BEAM, MOVE_FEATHER_DANCE}
+    },
+    {
+    .iv =170,
+    .lvl = 33,
+    .species = SPECIES_MAGNEZONE,
+    .moves = {MOVE_FLASH_CANNON, MOVE_HIDDEN_POWER, MOVE_VOLT_SWITCH, MOVE_THUNDER_WAVE}
+    },
+    {
+    .iv =170,
+    .lvl = 33,
+    .ability = 2, // Adaptability
+    .species = SPECIES_DRAGALGE,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_DRACO_METEOR, MOVE_FOCUS_BLAST, MOVE_PROTECT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Ernest5[] = {
+    {
+    .iv =200,
+    .lvl = 33,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_DUAL_CHOP, MOVE_BULLET_PUNCH, MOVE_STRENGTH}
+    },
+    {
+    .iv =200,
+    .lvl = 33,
+    .species = SPECIES_POLIWRATH,
+    .moves = {MOVE_WATERFALL, MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_HYPNOSIS}
+    },
+    {
+    .iv =200,
+    .lvl = 33,
+    .species = SPECIES_TAUROS,
+    .moves = {MOVE_BODY_SLAM, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_CLOSE_COMBAT}
+    },
+    {
+    .iv =200,
+    .lvl = 33,
+    .species = SPECIES_CRAMORANT,
+    .moves = {MOVE_SURF, MOVE_HURRICANE, MOVE_ICE_BEAM, MOVE_FEATHER_DANCE}
+    },
+    {
+    .iv =200,
+    .lvl = 33,
+    .species = SPECIES_MAGNEZONE,
+    .moves = {MOVE_FLASH_CANNON, MOVE_HIDDEN_POWER, MOVE_VOLT_SWITCH, MOVE_THUNDER_WAVE}
+    },
+    {
+    .iv =200,
+    .lvl = 33,
+    .ability = 2, // Adaptability
+    .species = SPECIES_DRAGALGE,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_DRACO_METEOR, MOVE_FOCUS_BLAST, MOVE_PROTECT}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -11530,19 +11691,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edmond[] = {
     },
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Ernest1[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_WINGULL,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_MACHOKE,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Dwayne[] = {
     {
     .iv =100,
@@ -11607,78 +11755,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Duncan[] = {
     .iv = 100,
     .lvl = 1,
     .species = SPECIES_MACHAMP,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Ernest2[] = {
-    {
-    .iv = 10,
-    .lvl = 36,
-    .species = SPECIES_WINGULL,
-    },
-    {
-    .iv = 10,
-    .lvl = 36,
-    .species = SPECIES_TENTACOOL,
-    },
-    {
-    .iv = 10,
-    .lvl = 36,
-    .species = SPECIES_MACHOKE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Ernest3[] = {
-    {
-    .iv = 20,
-    .lvl = 39,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv = 20,
-    .lvl = 39,
-    .species = SPECIES_TENTACOOL,
-    },
-    {
-    .iv = 20,
-    .lvl = 39,
-    .species = SPECIES_MACHOKE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Ernest4[] = {
-    {
-    .iv = 30,
-    .lvl = 42,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv = 30,
-    .lvl = 42,
-    .species = SPECIES_TENTACOOL,
-    },
-    {
-    .iv = 30,
-    .lvl = 42,
-    .species = SPECIES_MACHOKE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Ernest5[] = {
-    {
-    .iv = 40,
-    .lvl = 45,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv = 40,
-    .lvl = 45,
-    .species = SPECIES_MACHOKE,
-    },
-    {
-    .iv = 40,
-    .lvl = 45,
-    .species = SPECIES_TENTACRUEL,
     }
 };
 
