@@ -10338,6 +10338,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Presley[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Auron[] = {
+    {
+    .iv =150,
+    .lvl = 33,
+    .ability = 1, // Lightningrod
+    .species = SPECIES_MANECTRIC,
+    .moves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_AURORA_BEAM, MOVE_SIGNAL_BEAM}
+    },
+    {
+    .iv =150,
+    .lvl = 33,
+    .species = SPECIES_LUCARIO,
+    .moves = {MOVE_AURA_SPHERE, MOVE_FLASH_CANNON, MOVE_DARK_PULSE, MOVE_VACUUM_WAVE}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -11849,19 +11865,6 @@ static const struct TrainerMonItemCustomMoves sParty_Jazmyn[] = {
     .species = SPECIES_JOLTEON,
     .heldItem = ITEM_EXPERT_BELT,
     .moves = {MOVE_THUNDER, MOVE_SHADOW_BALL, MOVE_AURORA_BEAM, MOVE_SIGNAL_BEAM}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Auron[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_MANECTRIC,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_MACHAMP,
     }
 };
 
