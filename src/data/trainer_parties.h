@@ -2678,24 +2678,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Barry[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Dean[] = {
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_CARVANHA,
-    },
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_WINGULL,
-    },
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Rodney[] = {
     {
     .iv =100,
@@ -10409,6 +10391,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_Isobel[] = {
     .lvl = 34,
     .species = SPECIES_SWANNA,
     .moves = {MOVE_BRAVE_BIRD, MOVE_HYDRO_PUMP, MOVE_STEEL_WING, MOVE_ROOST}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Dean[] = {
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_HAXORUS,
+    .moves = {MOVE_OUTRAGE, MOVE_CRUNCH, MOVE_IRON_TAIL, MOVE_SURF}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_LUDICOLO,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_SURF, MOVE_LEECH_SEED, MOVE_RAIN_DANCE}
+    },
+    {
+    .iv =160,
+    .lvl = 31,
+    .species = SPECIES_QUAGSIRE,
+    .moves = {MOVE_LIQUIDATION, MOVE_EARTHQUAKE, MOVE_RECOVER, MOVE_TOXIC}
     }
 };
 
