@@ -6174,19 +6174,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maria5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Camden[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_STARYU,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_STARYU,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Demetrius[] = {
     {
     .iv = 100,
@@ -10697,7 +10684,28 @@ static const struct TrainerMonNoItemCustomMoves sParty_Henry[] = {
     .lvl = 31,
     .species = SPECIES_JELLICENT,
     .moves = {MOVE_ACID_ARMOR, MOVE_STRENGTH_SAP, MOVE_SCALD, MOVE_GIGA_DRAIN}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Camden[] = {
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_KLINKLANG,
+    .moves = {MOVE_GEAR_GRIND, MOVE_WILD_CHARGE, MOVE_DOUBLE_EDGE, MOVE_SHIFT_GEAR}
     },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_GRENINJA,
+    .moves = {MOVE_WATER_SHURIKEN, MOVE_SCALD, MOVE_ICE_BEAM, MOVE_GRASS_KNOT}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_EMOLGA,
+    .moves = {MOVE_ACROBATICS, MOVE_DISCHARGE, MOVE_ENERGY_BALL, MOVE_EERIE_IMPULSE}
+    }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
