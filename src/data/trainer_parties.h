@@ -10708,6 +10708,143 @@ static const struct TrainerMonNoItemCustomMoves sParty_Camden[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Koji1[] = {
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_HARIYAMA,
+    .moves = {MOVE_FAKE_OUT, MOVE_CLOSE_COMBAT, MOVE_STONE_EDGE, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Rock Head
+    .species = SPECIES_AGGRON,
+    .moves = {MOVE_HEAD_SMASH, MOVE_IRON_TAIL, MOVE_EARTHQUAKE, MOVE_FIRE_PUNCH}
+    },
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Koji2[] = {
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_HARIYAMA,
+    .moves = {MOVE_FAKE_OUT, MOVE_CLOSE_COMBAT, MOVE_STONE_EDGE, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Rock Head
+    .species = SPECIES_AGGRON,
+    .moves = {MOVE_HEAD_SMASH, MOVE_IRON_TAIL, MOVE_EARTHQUAKE, MOVE_FIRE_PUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_SIRFETCHD,
+    .moves = {MOVE_METEOR_ASSAULT, MOVE_BRAVE_BIRD, MOVE_LEAF_BLADE, MOVE_KNOCK_OFF}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Koji3[] = {
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_HARIYAMA,
+    .moves = {MOVE_FAKE_OUT, MOVE_CLOSE_COMBAT, MOVE_STONE_EDGE, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Rock Head
+    .species = SPECIES_AGGRON,
+    .moves = {MOVE_HEAD_SMASH, MOVE_IRON_TAIL, MOVE_EARTHQUAKE, MOVE_FIRE_PUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_SIRFETCHD,
+    .moves = {MOVE_METEOR_ASSAULT, MOVE_BRAVE_BIRD, MOVE_LEAF_BLADE, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Iron Fist
+    .species = SPECIES_DUSKNOIR,
+    .moves = {MOVE_SHADOW_PUNCH, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_EARTHQUAKE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Koji4[] = {
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_HARIYAMA,
+    .moves = {MOVE_FAKE_OUT, MOVE_CLOSE_COMBAT, MOVE_STONE_EDGE, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Rock Head
+    .species = SPECIES_AGGRON,
+    .moves = {MOVE_HEAD_SMASH, MOVE_IRON_TAIL, MOVE_EARTHQUAKE, MOVE_FIRE_PUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_SIRFETCHD,
+    .moves = {MOVE_METEOR_ASSAULT, MOVE_BRAVE_BIRD, MOVE_LEAF_BLADE, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Iron Fist
+    .species = SPECIES_DUSKNOIR,
+    .moves = {MOVE_SHADOW_PUNCH, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_SALAMENCE,
+    .moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_FIRE_BLAST, MOVE_DRAGON_DANCE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Koji5[] = {
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_HARIYAMA,
+    .moves = {MOVE_FAKE_OUT, MOVE_CLOSE_COMBAT, MOVE_STONE_EDGE, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Rock Head
+    .species = SPECIES_AGGRON,
+    .moves = {MOVE_HEAD_SMASH, MOVE_IRON_TAIL, MOVE_EARTHQUAKE, MOVE_FIRE_PUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_SIRFETCHD,
+    .moves = {MOVE_METEOR_ASSAULT, MOVE_BRAVE_BIRD, MOVE_LEAF_BLADE, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Iron Fist
+    .species = SPECIES_DUSKNOIR,
+    .moves = {MOVE_SHADOW_PUNCH, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_SALAMENCE,
+    .moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_FIRE_BLAST, MOVE_DRAGON_DANCE}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -15613,14 +15750,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ruben[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Koji1[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_MACHOKE,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Wayne[] = {
     {
     .iv =100,
@@ -18304,75 +18433,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cory5[] = {
     .iv =100,
     .lvl = 1,
     .species = SPECIES_CARVANHA,
-    }
-};
-
-
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Koji2[] = {
-    {
-    .iv = 10,
-    .lvl = 37,
-    .species = SPECIES_MACHOKE,
-    },
-    {
-    .iv = 10,
-    .lvl = 37,
-    .species = SPECIES_MACHOKE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Koji3[] = {
-    {
-    .iv = 20,
-    .lvl = 39,
-    .species = SPECIES_MAKUHITA,
-    },
-    {
-    .iv = 20,
-    .lvl = 39,
-    .species = SPECIES_MACHOKE,
-    },
-    {
-    .iv = 20,
-    .lvl = 39,
-    .species = SPECIES_MACHOKE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Koji4[] = {
-    {
-    .iv = 30,
-    .lvl = 41,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 30,
-    .lvl = 41,
-    .species = SPECIES_MACHOKE,
-    },
-    {
-    .iv = 30,
-    .lvl = 41,
-    .species = SPECIES_MACHOKE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Koji5[] = {
-    {
-    .iv = 40,
-    .lvl = 43,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 40,
-    .lvl = 43,
-    .species = SPECIES_MACHAMP,
-    },
-    {
-    .iv = 40,
-    .lvl = 43,
-    .species = SPECIES_MACHAMP,
     }
 };
 
