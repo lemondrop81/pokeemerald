@@ -6255,19 +6255,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaiah5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Donny[] = {
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_WINGULL,
-    },
-    {
-    .iv = 160,
-    .lvl = 34,
-    .species = SPECIES_STARYU,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Talia[] = {
     {
     .iv =100,
@@ -10844,6 +10831,23 @@ static const struct TrainerMonNoItemCustomMoves sParty_Koji5[] = {
     .moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_FIRE_BLAST, MOVE_DRAGON_DANCE}
     }
 };
+
+static const struct TrainerMonNoItemCustomMoves sParty_Donny[] = {
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_YANMEGA,
+    .moves = {MOVE_BUG_BUZZ, MOVE_AIR_SLASH, MOVE_PSYCHIC, MOVE_DETECT}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_BLASTOISE,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_AURA_SPHERE, MOVE_RAPID_SPIN}
+    }
+};
+
+// Route 128
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
