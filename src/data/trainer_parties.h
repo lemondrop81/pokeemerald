@@ -10891,6 +10891,47 @@ static const struct TrainerMonItemCustomMoves sParty_Alexa[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Ruben[] = {
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 0, // Tough Claws
+    .species = SPECIES_HEATMOR,
+    .heldItem = ITEM_CHOICE_BAND,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_IRON_HEAD, MOVE_POWER_WHIP, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 2, // Triage
+    .species = SPECIES_MEGANIUM,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_DRAINING_KISS, MOVE_CALM_MIND, MOVE_SYNTHESIS}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 2, // Multiscale
+    .species = SPECIES_DRAGONITE,
+    .heldItem = ITEM_YACHE_BERRY,
+    .moves = {MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_IRON_TAIL, MOVE_EXTREME_SPEED}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_MILOTIC,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SCALD, MOVE_ICE_BEAM, MOVE_RECOVER, MOVE_HYPNOSIS}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_LOPUNNY,
+    .heldItem = ITEM_LOPUNNITE,
+    .moves = {MOVE_HIGH_JUMP_KICK, MOVE_DOUBLE_EDGE, MOVE_KNOCK_OFF, MOVE_U_TURN}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -15767,19 +15808,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTreecko[] = {
     .iv = 200,
     .lvl = 34,
     .species = SPECIES_MARSHTOMP,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Ruben[] = {
-    {
-    .iv = 100,
-    .lvl = 34,
-    .species = SPECIES_SHIFTRY,
-    },
-    {
-    .iv = 100,
-    .lvl = 34,
-    .species = SPECIES_NOSEPASS,
     }
 };
 
