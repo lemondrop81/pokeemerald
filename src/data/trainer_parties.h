@@ -10685,6 +10685,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Roger[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Henry[] = {
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_TENTACRUEL,
+    .moves = {MOVE_WHIRLPOOL, MOVE_TOXIC, MOVE_PROTECT, MOVE_DIVE}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_JELLICENT,
+    .moves = {MOVE_ACID_ARMOR, MOVE_STRENGTH_SAP, MOVE_SCALD, MOVE_GIGA_DRAIN}
+    },
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -15561,19 +15576,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTreecko[] = {
     .iv = 200,
     .lvl = 34,
     .species = SPECIES_MARSHTOMP,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Henry[] = {
-    {
-    .iv =100,
-    .lvl = 31,
-    .species = SPECIES_CARVANHA,
-    },
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_TENTACRUEL,
     }
 };
 
