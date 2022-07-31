@@ -10849,6 +10849,48 @@ static const struct TrainerMonNoItemCustomMoves sParty_Donny[] = {
 
 // Route 128
 
+static const struct TrainerMonItemCustomMoves sParty_Alexa[] = { 
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 2, // Sheer Force
+    .species = SPECIES_FERALIGATR,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_LIQUIDATION, MOVE_CRUNCH, MOVE_ICE_PUNCH, MOVE_DRAGON_DANCE}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Lightningrod
+    .species = SPECIES_MAROWAK_ALOLAN,
+    .heldItem = ITEM_THICK_CLUB,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_SHADOW_BONE, MOVE_BONEMERANG, MOVE_SHADOW_SNEAK}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Technician
+    .species = SPECIES_SCIZOR,
+    .heldItem = ITEM_METAL_COAT,
+    .moves = {MOVE_BULLET_PUNCH, MOVE_U_TURN, MOVE_SUPERPOWER, MOVE_ROOST}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .ability = 1, // Chloroplast
+    .species = SPECIES_EXEGGUTOR,
+    .heldItem = ITEM_GRASS_GEM,
+    .moves = {MOVE_SOLAR_BEAM, MOVE_PSYCHIC, MOVE_SYNTHESIS, MOVE_TRICK_ROOM}
+    },
+    {
+    .iv =120,
+    .lvl = 31,
+    .species = SPECIES_AMPHAROS,
+    .heldItem = ITEM_AMPHAROSITE,
+    .moves = {MOVE_VOLT_SWITCH, MOVE_DRAGON_PULSE, MOVE_FOCUS_BLAST, MOVE_POWER_GEM}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -15725,19 +15767,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveTreecko[] = {
     .iv = 200,
     .lvl = 34,
     .species = SPECIES_MARSHTOMP,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Alexa[] = {
-    {
-    .iv = 100,
-    .lvl = 34,
-    .species = SPECIES_GLOOM,
-    },
-    {
-    .iv = 100,
-    .lvl = 34,
-    .species = SPECIES_AZUMARILL,
     }
 };
 
