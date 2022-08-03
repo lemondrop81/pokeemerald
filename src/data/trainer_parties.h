@@ -6223,14 +6223,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Talia[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn1[] = {
-    {
-    .iv =100,
-    .lvl = 35,
-    .species = SPECIES_STARYU,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Allison[] = {
     {
     .iv =100,
@@ -6241,38 +6233,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Allison[] = {
     .iv = 240,
     .lvl = 33,
     .species = SPECIES_STARYU,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn2[] = {
-    {
-    .iv = 10,
-    .lvl = 39,
-    .species = SPECIES_STARYU,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn3[] = {
-    {
-    .iv = 20,
-    .lvl = 42,
-    .species = SPECIES_STARYU,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn4[] = {
-    {
-    .iv = 30,
-    .lvl = 45,
-    .species = SPECIES_STARMIE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Katelyn5[] = {
-    {
-    .iv = 40,
-    .lvl = 48,
-    .species = SPECIES_STARMIE,
     }
 };
 
@@ -11040,6 +11000,140 @@ static const struct TrainerMonNoItemCustomMoves sParty_Isaiah5[] = {
     .ability = 2, // Contrary
     .species = SPECIES_LURANTIS,
     .moves = {MOVE_PETAL_BLIZZARD, MOVE_SUPERPOWER, MOVE_LEECH_LIFE, MOVE_SYNTHESIS}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Katelyn1[] = {
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DOUBLE_EDGE, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_ZEBSTRIKA,
+    .moves = {MOVE_VOLT_TACKLE, MOVE_BLAZE_KICK, MOVE_JUMP_KICK, MOVE_AGILITY}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Katelyn2[] = {
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DOUBLE_EDGE, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_ZEBSTRIKA,
+    .moves = {MOVE_VOLT_TACKLE, MOVE_BLAZE_KICK, MOVE_JUMP_KICK, MOVE_AGILITY}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_RAPIDASH_GALARIAN,
+    .moves = {MOVE_PLAY_ROUGH, MOVE_ZEN_HEADBUTT, MOVE_DRILL_RUN, MOVE_SWORDS_DANCE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Katelyn3[] = {
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DOUBLE_EDGE, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_ZEBSTRIKA,
+    .moves = {MOVE_VOLT_TACKLE, MOVE_BLAZE_KICK, MOVE_JUMP_KICK, MOVE_AGILITY}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_RAPIDASH_GALARIAN,
+    .moves = {MOVE_PLAY_ROUGH, MOVE_ZEN_HEADBUTT, MOVE_DRILL_RUN, MOVE_SWORDS_DANCE}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .ability = 2, // Speed Boost
+    .species = SPECIES_SCOLIPEDE,
+    .moves = {MOVE_MEGAHORN, MOVE_POISON_JAB, MOVE_PROTECT, MOVE_BATON_PASS}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Katelyn4[] = {
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DOUBLE_EDGE, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_ZEBSTRIKA,
+    .moves = {MOVE_VOLT_TACKLE, MOVE_BLAZE_KICK, MOVE_JUMP_KICK, MOVE_AGILITY}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_RAPIDASH_GALARIAN,
+    .moves = {MOVE_PLAY_ROUGH, MOVE_ZEN_HEADBUTT, MOVE_DRILL_RUN, MOVE_SWORDS_DANCE}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .ability = 2, // Speed Boost
+    .species = SPECIES_SCOLIPEDE,
+    .moves = {MOVE_MEGAHORN, MOVE_POISON_JAB, MOVE_PROTECT, MOVE_BATON_PASS}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .ability = 0, // Reckless
+    .species = SPECIES_RAPIDASH,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_JUMP_KICK, MOVE_WILD_CHARGE, MOVE_POISON_JAB}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Katelyn5[] = {
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DOUBLE_EDGE, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_ZEBSTRIKA,
+    .moves = {MOVE_VOLT_TACKLE, MOVE_BLAZE_KICK, MOVE_JUMP_KICK, MOVE_AGILITY}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .species = SPECIES_RAPIDASH_GALARIAN,
+    .moves = {MOVE_PLAY_ROUGH, MOVE_ZEN_HEADBUTT, MOVE_DRILL_RUN, MOVE_SWORDS_DANCE}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .ability = 2, // Speed Boost
+    .species = SPECIES_SCOLIPEDE,
+    .moves = {MOVE_MEGAHORN, MOVE_POISON_JAB, MOVE_PROTECT, MOVE_BATON_PASS}
+    },
+    {
+    .iv =140,
+    .lvl = 35,
+    .ability = 0, // Reckless
+    .species = SPECIES_RAPIDASH,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_JUMP_KICK, MOVE_WILD_CHARGE, MOVE_POISON_JAB}
     }
 };
 
