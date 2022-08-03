@@ -6210,19 +6210,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Talia[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Allison[] = {
-    {
-    .iv =100,
-    .lvl = 27,
-    .species = SPECIES_WINGULL,
-    },
-    {
-    .iv = 240,
-    .lvl = 33,
-    .species = SPECIES_STARYU,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas1[] = {
     {
     .iv = 100,
@@ -11190,6 +11177,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_Chase[] = {
     .lvl = 26,
     .species = SPECIES_JUMPLUFF,
     .moves = {MOVE_STRENGTH_SAP, MOVE_SEED_BOMB, MOVE_U_TURN, MOVE_COTTON_SPORE}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Allison[] = {
+    {
+    .iv =100,
+    .lvl = 27,
+    .species = SPECIES_UNFEZANT,
+    .moves = {MOVE_DRILL_PECK, MOVE_NIGHT_SLASH, MOVE_ROOST, MOVE_FOCUS_ENERGY}
+    },
+    {
+    .iv = 240,
+    .lvl = 33,
+    .species = SPECIES_GALVANTULA,
+    .moves = {MOVE_THUNDER, MOVE_BUG_BUZZ, MOVE_SUCKER_PUNCH, MOVE_POISON_JAB}
+    },
+    {
+    .iv = 240,
+    .lvl = 33,
+    .species = SPECIES_HEATMOR,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_IRON_HEAD, MOVE_POWER_WHIP, MOVE_DRAIN_PUNCH}
     }
 };
 
