@@ -6202,19 +6202,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Demetrius[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Chase[] = {
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_WINGULL,
-    },
-    {
-    .iv = 80,
-    .lvl = 34,
-    .species = SPECIES_STARYU,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Talia[] = {
     {
     .iv =100,
@@ -11182,6 +11169,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_Reed[] = {
     .lvl = 33,
     .species = SPECIES_SHARPEDO,
     .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_DARK_PULSE, MOVE_PSYCHIC_FANGS}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Chase[] = {
+    {
+    .iv =150,
+    .lvl = 26,
+    .species = SPECIES_DELIBIRD,
+    .moves = {MOVE_FLY, MOVE_EXTREME_SPEED, MOVE_SEED_BOMB, MOVE_GUNK_SHOT}
+    },
+    {
+    .iv =150,
+    .lvl = 26,
+    .species = SPECIES_FEAROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_DRILL_RUN, MOVE_FOCUS_ENERGY, MOVE_PURSUIT}
+    },
+    {
+    .iv =150,
+    .lvl = 26,
+    .species = SPECIES_JUMPLUFF,
+    .moves = {MOVE_STRENGTH_SAP, MOVE_SEED_BOMB, MOVE_U_TURN, MOVE_COTTON_SPORE}
     }
 };
 
