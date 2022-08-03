@@ -2670,14 +2670,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_David[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Richard[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_PELIPPER,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Herman[] = {
     {
     .iv =100,
@@ -11279,6 +11271,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Talia[] = {
     .lvl = 34,
     .species = SPECIES_SCIZOR,
     .moves = {MOVE_BULLET_PUNCH, MOVE_U_TURN, MOVE_SUPERPOWER, MOVE_PURSUIT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Richard[] = {
+    {
+    .iv =120,
+    .lvl = 34,
+    .species = SPECIES_EXPLOUD,
+    .moves = {MOVE_HYPER_VOICE, MOVE_EXTRASENSORY, MOVE_SURF, MOVE_CRUNCH}
+    },
+    {
+    .iv =120,
+    .lvl = 34,
+    .ability = 1, // Skill Link
+    .species = SPECIES_CLOYSTER,
+    .moves = {MOVE_LIQUIDATION, MOVE_ICICLE_SPEAR, MOVE_ROCK_BLAST, MOVE_SHELL_SMASH}
     }
 };
 
