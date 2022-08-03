@@ -11217,6 +11217,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Clarence[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Tisha[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .ability = 2, // Water Absorb
+    .species = SPECIES_LANTURN,
+    .moves = {MOVE_DISCHARGE, MOVE_CONFUSE_RAY, MOVE_ICE_BEAM, MOVE_AQUA_RING}
+    },
+    {
+    .iv = 200,
+    .lvl = 33,
+    .species = SPECIES_SLURPUFF,
+    .moves = {MOVE_SURF, MOVE_PLAY_ROUGH, MOVE_ENERGY_BALL, MOVE_FLAMETHROWER}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -16082,14 +16098,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Aidan[] = {
     .iv =100,
     .lvl = 32,
     .species = SPECIES_SKARMORY,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Tisha[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_CHINCHOU,
     }
 };
 
