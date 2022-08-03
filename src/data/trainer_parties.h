@@ -11201,6 +11201,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Allison[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Clarence[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .ability = 2, // Huge Power
+    .species = SPECIES_DIGGERSBY,
+    .moves = {MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE, MOVE_U_TURN, MOVE_SURF}
+    },
+    {
+    .iv = 200,
+    .lvl = 33,
+    .species = SPECIES_EMPOLEON,
+    .moves = {MOVE_SURF, MOVE_FLASH_CANNON, MOVE_DRILL_PECK, MOVE_AQUA_JET}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14352,14 +14368,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_GruntMtChimney2[] = {
     .ability = 1, // Area Trap
     .species = SPECIES_DIGLETT,
     .moves = {MOVE_EARTHQUAKE, MOVE_ROTOTILLER, MOVE_SHADOW_CLAW, MOVE_SLUDGE_BOMB}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Clarence[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_SHARPEDO,
     }
 };
 
