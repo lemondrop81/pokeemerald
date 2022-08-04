@@ -2792,14 +2792,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hitoshi[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Kiyo[] = {
-    {
-    .iv = 100,
-    .lvl = 34,
-    .species = SPECIES_HARIYAMA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Koichi[] = {
     {
     .iv = 100,
@@ -11400,6 +11392,49 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ronald[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Kiyo[] = {
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_PRIMEAPE,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_THRASH, MOVE_OUTRAGE, MOVE_NIGHT_SLASH}
+    },
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_THROH,
+    .moves = {MOVE_STORM_THROW, MOVE_PAYBACK, MOVE_BULK_UP, MOVE_BODY_SLAM}
+    },
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_HITMONLEE,
+    .moves = {MOVE_HIGH_JUMP_KICK, MOVE_KNOCK_OFF, MOVE_BLAZE_KICK, MOVE_FAKE_OUT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Paxton[] = {
+    {
+    .iv = 100,
+    .lvl = 34,
+    .ability = 1, // Poison Heal
+    .species = SPECIES_BRELOOM,
+    .moves = {MOVE_SPORE, MOVE_FOCUS_PUNCH, MOVE_SUBSTITUTE, MOVE_STONE_EDGE}
+    },
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_URSARING,
+    .moves = {MOVE_FACADE, MOVE_CLOSE_COMBAT, MOVE_CRUNCH, MOVE_SWORDS_DANCE}
+    },
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_LUXRAY,
+    .moves = {MOVE_THUNDER_FANG, MOVE_CRUNCH, MOVE_FIRE_FANG, MOVE_ICE_FANG}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14653,19 +14688,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroTorchic[]
     .iv = 150,
     .lvl = 1,
     .species = SPECIES_TREECKO,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Paxton[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_SWELLOW,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_BRELOOM,
     }
 };
 
