@@ -2670,19 +2670,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_David[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Herman[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_WINGULL,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_TENTACRUEL,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Gilbert[] = {
     {
     .iv =100,
@@ -11302,6 +11289,37 @@ static const struct TrainerMonNoItemCustomMoves sParty_Kara[] = {
     .lvl = 34,
     .species = SPECIES_CLAWITZER,
     .moves = {MOVE_WATER_PULSE, MOVE_DARK_PULSE, MOVE_AURA_SPHERE, MOVE_DRAGON_PULSE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Herman[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_GOURGEIST,
+    .moves = {MOVE_SHADOW_BALL, MOVE_GIGA_DRAIN, MOVE_FLAMETHROWER, MOVE_PSYCHIC}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_LYCANROC,
+    .heldItem = ITEM_ROCK_GEM,
+    .moves = {MOVE_STONE_EDGE, MOVE_EARTHQUAKE, MOVE_CLOSE_COMBAT, MOVE_ACCELEROCK}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .ability = 1, // Misty Surge
+    .species = SPECIES_FLORGES,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_DRAINING_KISS, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED, MOVE_CALM_MIND}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_HERACROSS,
+    .heldItem = ITEM_HERACRONITE,
+    .moves = {MOVE_PIN_MISSILE, MOVE_BULLET_SEED, MOVE_ROCK_BLAST, MOVE_CLOSE_COMBAT}
     }
 };
 
