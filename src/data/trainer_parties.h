@@ -5649,39 +5649,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Ronald[] = {
-    {
-    .iv =100,
-    .lvl = 19,
-    .species = SPECIES_MAGIKARP,
-    },
-    {
-    .iv =100,
-    .lvl = 21,
-    .species = SPECIES_GYARADOS,
-    },
-    {
-    .iv =100,
-    .lvl = 23,
-    .species = SPECIES_GYARADOS,
-    },
-    {
-    .iv =100,
-    .lvl = 26,
-    .species = SPECIES_GYARADOS,
-    },
-    {
-    .iv =100,
-    .lvl = 30,
-    .species = SPECIES_GYARADOS,
-    },
-    {
-    .iv =100,
-    .lvl = 35,
-    .species = SPECIES_GYARADOS,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Jacob[] = {
     {
     .iv = 120,
@@ -11391,6 +11358,45 @@ static const struct TrainerMonNoItemCustomMoves sParty_Dana[] = {
     .lvl = 33,
     .species = SPECIES_PRIMARINA,
     .moves = {MOVE_SPARKLING_ARIA, MOVE_MOONBLAST, MOVE_PSYCHIC, MOVE_SING}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Ronald[] = {
+    {
+    .iv =100,
+    .lvl = 19,
+    .species = SPECIES_MAGIKARP,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_REVERSAL, MOVE_BOUNCE, MOVE_SPLASH}
+    },
+    {
+    .iv =100,
+    .lvl = 21,
+    .species = SPECIES_GYARADOS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_HURRICANE, MOVE_RAIN_DANCE, MOVE_THUNDER}
+    },
+    {
+    .iv =100,
+    .lvl = 23,
+    .species = SPECIES_GYARADOS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_BOUNCE, MOVE_CRUNCH, MOVE_LEER}
+    },
+    {
+    .iv =100,
+    .lvl = 26,
+    .species = SPECIES_GYARADOS,
+    .moves = {MOVE_AQUA_TAIL, MOVE_BOUNCE, MOVE_DRAGON_DANCE, MOVE_ICE_FANG}
+    },
+    {
+    .iv =100,
+    .lvl = 30,
+    .species = SPECIES_GYARADOS,
+    .moves = {MOVE_WATERFALL, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_ICE_FANG}
+    },
+    {
+    .iv =100,
+    .lvl = 35,
+    .species = SPECIES_GYARADOS,
+    .moves = {MOVE_SPLASH, MOVE_THRASH, MOVE_OUTRAGE, MOVE_NONE}
     }
 };
 
