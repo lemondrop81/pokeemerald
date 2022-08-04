@@ -2670,14 +2670,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_David[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Gilbert[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_SHARPEDO,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Franklin[] = {
     {
     .iv =100,
@@ -11367,6 +11359,23 @@ static const struct TrainerMonNoItemCustomMoves sParty_ReliAndIan[] = {
     .lvl = 33,
     .species = SPECIES_RELICANTH,
     .moves = {MOVE_AQUA_TAIL, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE}
+    }
+};
+
+// Route 132
+
+static const struct TrainerMonNoItemCustomMoves sParty_Gilbert[] = {
+    {
+    .iv =100,
+    .lvl = 35,
+    .species = SPECIES_NIDOKING,
+    .moves = {MOVE_SURF, MOVE_SLUDGE_BOMB, MOVE_EARTHQUAKE, MOVE_MEGAHORN}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_WATERFALL, MOVE_PSYCHIC_FANGS, MOVE_CRUNCH, MOVE_DOUBLE_EDGE}
     }
 };
 
