@@ -11354,6 +11354,22 @@ static const struct TrainerMonItemCustomMoves sParty_Susie[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_ReliAndIan[] = {
+    {
+    .iv =100,
+    .lvl = 35,
+    .ability = 1, // Drizzle
+    .species = SPECIES_PELIPPER,
+    .moves = {MOVE_SOAK, MOVE_TAILWIND, MOVE_WEATHER_BALL, MOVE_WIDE_GUARD}
+    },
+    {
+    .iv =100,
+    .lvl = 33,
+    .species = SPECIES_RELICANTH,
+    .moves = {MOVE_AQUA_TAIL, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -16424,19 +16440,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay5[] = {
     .ability = 2, // Justified
     .species = SPECIES_LUCARIO,
     .moves = {MOVE_SWORDS_DANCE, MOVE_POWER_UP_PUNCH, MOVE_CLOSE_COMBAT, MOVE_DRAIN_PUNCH}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_ReliAndIan[] = {
-    {
-    .iv =100,
-    .lvl = 35,
-    .species = SPECIES_AZUMARILL,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_WINGULL,
     }
 };
 
