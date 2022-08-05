@@ -2184,19 +2184,6 @@ static const struct TrainerMonItemDefaultMoves sParty_Winston1[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Mollie[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_WHISCASH,
-    },
-    {
-    .iv = 200,
-    .lvl = 33,
-    .species = SPECIES_MEDITITE,
-    }
-};
-
 static const struct TrainerMonItemDefaultMoves sParty_Garret[] = {
     {
     .iv =100,
@@ -11565,6 +11552,30 @@ static const struct TrainerMonItemCustomMoves sParty_Conor[] = {
     .species = SPECIES_GOTHITELLE,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_PSYCHIC, MOVE_DARK_PULSE, MOVE_THUNDERBOLT, MOVE_FAKE_OUT}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Mollie[] = {
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_GENGAR,
+    .heldItem = ITEM_SPELL_TAG,
+    .moves = {MOVE_SHADOW_BALL, MOVE_SLUDGE_BOMB, MOVE_ICY_WIND, MOVE_HYPNOSIS}
+    },
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_CARRACOSTA,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_ROCK_SLIDE, MOVE_LIQUIDATION, MOVE_ZEN_HEADBUTT, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_AROMATISSE,
+    .heldItem = ITEM_FAIRY_GEM,
+    .moves = {MOVE_MOONBLAST, MOVE_DISABLE, MOVE_HEAL_PULSE, MOVE_CHARM}
     }
 };
 
