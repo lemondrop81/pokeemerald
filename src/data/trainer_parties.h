@@ -11527,6 +11527,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Linda[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Beck[] = {
+    {
+    .iv =130,
+    .lvl = 33,
+    .ability = 1, // Super Luck
+    .species = SPECIES_HONCHKROW,
+    .moves = {MOVE_DRILL_PECK, MOVE_NIGHT_SLASH, MOVE_HEAT_WAVE, MOVE_THUNDER_WAVE}
+    },
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_NOCTOWL,
+    .moves = {MOVE_BOOMBURST, MOVE_HURRICANE, MOVE_HYPNOSIS, MOVE_NASTY_PLOT}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -11572,14 +11588,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alex[] = {
     .iv = 150,
     .lvl = 33,
     .species = SPECIES_SWELLOW,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Beck[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_TROPIUS,
     }
 };
 
