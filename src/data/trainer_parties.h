@@ -11669,6 +11669,23 @@ static const struct TrainerMonNoItemCustomMoves sParty_Hitoshi[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Reyna[] = {
+    {
+    .iv = 50,
+    .lvl = 33,
+    .ability = 2, // Defiant
+    .species = SPECIES_BEWEAR,
+    .moves = {MOVE_DARKEST_LARIAT, MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_IRON_HEAD}
+    },
+    {
+    .iv = 200,
+    .lvl = 33,
+    .ability = 1, // No Guard
+    .species = SPECIES_PASSIMIAN,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_U_TURN, MOVE_ACROBATICS, MOVE_GUNK_SHOT}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -13082,19 +13099,6 @@ static const struct TrainerMonItemCustomMoves sParty_Marley[] = {
     .species = SPECIES_MANECTRIC,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_BITE, MOVE_ROAR, MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Reyna[] = {
-    {
-    .iv = 50,
-    .lvl = 33,
-    .species = SPECIES_MEDITITE,
-    },
-    {
-    .iv = 200,
-    .lvl = 33,
-    .species = SPECIES_HARIYAMA,
     }
 };
 
