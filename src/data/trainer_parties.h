@@ -11460,6 +11460,31 @@ static const struct TrainerMonItemCustomMoves sParty_Darcy[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Makayla[] = {
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_AMOONGUSS,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_SPORE, MOVE_RAGE_POWDER, MOVE_FOUL_PLAY, MOVE_GIGA_DRAIN}
+    },
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_MEDICHAM,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_HIGH_JUMP_KICK, MOVE_ZEN_HEADBUTT, MOVE_ICE_PUNCH, MOVE_BULLET_PUNCH}
+    },
+    {
+    .iv = 100,
+    .lvl = 34,
+    .ability = 2, // Guts
+    .species = SPECIES_FLAREON,
+    .heldItem = ITEM_TOXIC_ORB,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_FACADE, MOVE_SUPERPOWER, MOVE_PROTECT}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -17285,19 +17310,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Aisha[] = {
     .iv =100,
     .lvl = 1,
     .species = SPECIES_URSHIFU_RAPID_STRIKE_STYLE,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Makayla[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_ROSELIA,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_MEDICHAM,
     }
 };
 
