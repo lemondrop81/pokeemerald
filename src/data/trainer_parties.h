@@ -6169,15 +6169,6 @@ static const struct TrainerMonItemDefaultMoves sParty_Nicolas5[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_Aaron[] = {
-    {
-    .iv = 255,
-    .lvl = 34,
-    .species = SPECIES_BAGON,
-    .moves = {MOVE_DRAGON_BREATH, MOVE_HEADBUTT, MOVE_FOCUS_ENERGY, MOVE_EMBER}
-    }
-};
-
 static const struct TrainerMonNoItemCustomMoves sParty_Perry[] = {
     {
     .iv =140,
@@ -11699,6 +11690,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_Hudson[] = {
     .ability = 2, // Hustle
     .species = SPECIES_RATICATE,
     .moves = {MOVE_DOUBLE_EDGE, MOVE_QUICK_ATTACK, MOVE_CRUNCH, MOVE_CLOSE_COMBAT}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Aaron[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_DRUDDIGON,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_CRUNCH, MOVE_FIRE_PUNCH, MOVE_GUNK_SHOT}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_TYRANTRUM,
+    .moves = {MOVE_HEAD_SMASH, MOVE_HIGH_HORSEPOWER, MOVE_OUTRAGE, MOVE_DRAGON_DANCE}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_BAGON,
+    .moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_FIRE_BLAST, MOVE_DRAGON_DANCE}
     }
 };
 
