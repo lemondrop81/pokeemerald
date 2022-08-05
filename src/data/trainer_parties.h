@@ -11686,6 +11686,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_Reyna[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Hudson[] = {
+    {
+    .iv = 150,
+    .lvl = 33,
+    .species = SPECIES_POLIWRATH,
+    .moves = {MOVE_FOCUS_BLAST, MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_MIND_READER}
+    },
+    {
+    .iv = 200,
+    .lvl = 33,
+    .ability = 2, // Hustle
+    .species = SPECIES_RATICATE,
+    .moves = {MOVE_DOUBLE_EDGE, MOVE_QUICK_ATTACK, MOVE_CRUNCH, MOVE_CLOSE_COMBAT}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -13099,14 +13115,6 @@ static const struct TrainerMonItemCustomMoves sParty_Marley[] = {
     .species = SPECIES_MANECTRIC,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_BITE, MOVE_ROAR, MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Hudson[] = {
-    {
-    .iv =100,
-    .lvl = 34,
-    .species = SPECIES_WAILMER,
     }
 };
 
