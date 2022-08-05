@@ -1601,19 +1601,6 @@ static const struct TrainerMonItemCustomMoves sParty_Wilton5[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Warren[] = {
-    {
-    .iv = 100,
-    .lvl = 33,
-    .species = SPECIES_GRAVELER,
-    },
-    {
-    .iv = 100,
-    .lvl = 33,
-    .species = SPECIES_LUDICOLO,
-    }
-};
-
 static const struct TrainerMonItemCustomMoves sParty_Mary[] = {
     {
     .iv = 255,
@@ -11576,6 +11563,46 @@ static const struct TrainerMonItemCustomMoves sParty_Mollie[] = {
     .species = SPECIES_AROMATISSE,
     .heldItem = ITEM_FAIRY_GEM,
     .moves = {MOVE_MOONBLAST, MOVE_DISABLE, MOVE_HEAL_PULSE, MOVE_CHARM}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Warren[] = {
+    {
+    .iv =130,
+    .lvl = 33,
+    .ability = 2, // Galvanize
+    .species = SPECIES_GOLEM_ALOLAN,
+    .heldItem = ITEM_ELECTRIC_GEM,
+    .moves = {MOVE_EXPLOSION, MOVE_STEALTH_ROCK, MOVE_STONE_EDGE, MOVE_FIRE_PUNCH}
+    },
+    {
+    .iv =130,
+    .lvl = 33,
+    .ability = 2, // Psychic Surge
+    .species = SPECIES_MUSHARNA,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_PSYCHIC, MOVE_MOONBLAST, MOVE_YAWN, MOVE_TRICK_ROOM}
+    },
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_TORTERRA,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_WOOD_HAMMER, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_CRUNCH}
+    },
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_COFAGRIGUS,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_SHADOW_BALL, MOVE_AURA_SPHERE, MOVE_NASTY_PLOT, MOVE_TRICK_ROOM}
+    },
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_AGGRON,
+    .heldItem = ITEM_AGGRONITE,
+    .moves = {MOVE_HEAVY_SLAM, MOVE_EARTHQUAKE, MOVE_DRAGON_CLAW, MOVE_AQUA_TAIL}
     }
 };
 
