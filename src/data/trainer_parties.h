@@ -11543,6 +11543,31 @@ static const struct TrainerMonNoItemCustomMoves sParty_Beck[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Conor[] = {
+    {
+    .iv =130,
+    .lvl = 33,
+    .ability = 1, // Guts
+    .species = SPECIES_HARIYAMA,
+    .heldItem = ITEM_FLAME_ORB,
+    .moves = {MOVE_FAKE_OUT, MOVE_CLOSE_COMBAT, MOVE_FACADE, MOVE_ROCK_SLIDE}
+    },
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_FERROTHORN,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .moves = {MOVE_POWER_WHIP, MOVE_IRON_HEAD, MOVE_THUNDER_WAVE, MOVE_LEECH_SEED}
+    },
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_GOTHITELLE,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_PSYCHIC, MOVE_DARK_PULSE, MOVE_THUNDERBOLT, MOVE_FAKE_OUT}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -12998,19 +13023,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hudson[] = {
     .iv =100,
     .lvl = 34,
     .species = SPECIES_WAILMER,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Conor[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_CHINCHOU,
-    },
-    {
-    .iv = 200,
-    .lvl = 33,
-    .species = SPECIES_HARIYAMA,
     }
 };
 
