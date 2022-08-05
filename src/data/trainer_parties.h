@@ -11510,6 +11510,23 @@ static const struct TrainerMonItemCustomMoves sParty_Jonathan[] = {
     }
 };
 
+// Route 133
+
+static const struct TrainerMonNoItemCustomMoves sParty_Linda[] = {
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_KINGDRA,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_DRAGON_PULSE, MOVE_AGILITY, MOVE_BODY_SLAM}
+    },
+    {
+    .iv =130,
+    .lvl = 33,
+    .species = SPECIES_LUMINEON,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_QUIVER_DANCE, MOVE_RAIN_DANCE}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -12288,19 +12305,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Debra[] = {
     .iv =100,
     .lvl = 34,
     .species = SPECIES_SEAKING,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Linda[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_HORSEA,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_SEADRA,
     }
 };
 
