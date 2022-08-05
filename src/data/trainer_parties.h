@@ -11435,6 +11435,31 @@ static const struct TrainerMonNoItemCustomMoves sParty_Paxton[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Darcy[] = {
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_CHARIZARD,
+    .heldItem = ITEM_CHARIZARDITE_X,
+    .moves = {MOVE_DRAGON_CLAW, MOVE_FLARE_BLITZ, MOVE_THUNDER_PUNCH, MOVE_BRICK_BREAK}
+    },
+    {
+    .iv = 100,
+    .lvl = 34,
+    .ability = 1, // Own Tempo
+    .species = SPECIES_LILLIGANT,
+    .heldItem = ITEM_GRASS_GEM,
+    .moves = {MOVE_PETAL_DANCE, MOVE_MOONBLAST, MOVE_SLEEP_POWDER, MOVE_QUIVER_DANCE}
+    },
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_PORYGON_Z,
+    .heldItem = ITEM_SILK_SCARF,
+    .moves = {MOVE_TECHNO_BLAST, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_DARK_PULSE}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -16920,21 +16945,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Deandre[] = {
     .iv =100,
     .lvl = 1,
     .species = SPECIES_SIMISEAR,
-    }
-};
-
-
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Darcy[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_PELIPPER,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_CAMERUPT,
     }
 };
 
