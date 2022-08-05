@@ -11485,6 +11485,31 @@ static const struct TrainerMonItemCustomMoves sParty_Makayla[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Jonathan[] = {
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_CHARIZARD,
+    .heldItem = ITEM_CHARIZARDITE_Y,
+    .moves = {MOVE_HEAT_WAVE, MOVE_AIR_SLASH, MOVE_SOLAR_BEAM, MOVE_DRAGON_PULSE}
+    },
+    {
+    .iv = 100,
+    .lvl = 34,
+    .ability = 2, // Sheer Force
+    .species = SPECIES_RAMPARDOS,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_ROCK_SLIDE, MOVE_FIRE_BLAST, MOVE_BLIZZARD, MOVE_CRUNCH}
+    },
+    {
+    .iv = 100,
+    .lvl = 34,
+    .species = SPECIES_SAWSBUCK,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_HORN_LEECH, MOVE_DOUBLE_EDGE, MOVE_WILD_CHARGE, MOVE_JUMP_KICK}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14800,19 +14825,6 @@ static const struct TrainerMonItemCustomMoves sParty_TabithaMtChimney[] = {
     .lvl = 1,
     .species = SPECIES_FROSLASS,
     .moves = {MOVE_BLIZZARD, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_PSYCHIC}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Jonathan[] = {
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_KECLEON,
-    },
-    {
-    .iv =100,
-    .lvl = 33,
-    .species = SPECIES_LOUDRED,
     }
 };
 
