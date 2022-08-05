@@ -2737,19 +2737,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Takao[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Hitoshi[] = {
-    {
-    .iv = 50,
-    .lvl = 32,
-    .species = SPECIES_MACHOP,
-    },
-    {
-    .iv = 200,
-    .lvl = 32,
-    .species = SPECIES_MACHOKE,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Koichi[] = {
     {
     .iv = 100,
@@ -11642,13 +11629,43 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jack[] = {
     .iv =100,
     .lvl = 34,
     .species = SPECIES_LINOONE,
-    .moves = { MOVE_EXTREME_SPEED, MOVE_SURF, MOVE_SEED_BOMB, MOVE_SHADOW_CLAW}
+    .moves = {MOVE_EXTREME_SPEED, MOVE_SURF, MOVE_SEED_BOMB, MOVE_SHADOW_CLAW}
     },
     {
     .iv =100,
     .lvl = 34,
     .species = SPECIES_SIMIPOUR,
     .moves = {MOVE_SURF, MOVE_GRASS_KNOT, MOVE_ACROBATICS, MOVE_FOCUS_BLAST}
+    }
+};
+
+static const struct TrainerMonNoItemCustomMoves sParty_Hitoshi[] = {
+    {
+    .iv =100,
+    .lvl = 34,
+    .ability = 1, // Iron Fist
+    .species = SPECIES_HITMONCHAN,
+    .moves = {MOVE_BULLET_PUNCH, MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .ability = 1, // No Guard
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_DYNAMIC_PUNCH, MOVE_GRASS_KNOT, MOVE_ACROBATICS, MOVE_FOCUS_BLAST}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .ability = 1, // Iron Fist
+    .species = SPECIES_CRABOMINABLE,
+    .moves = {MOVE_ICE_HAMMER, MOVE_CLOSE_COMBAT, MOVE_CRABHAMMER, MOVE_ICE_SHARD}
+    },
+    {
+    .iv =100,
+    .lvl = 34,
+    .species = SPECIES_CONKELDURR,
+    .moves = {MOVE_DRAIN_PUNCH, MOVE_FIRE_PUNCH, MOVE_ROCK_SLIDE, MOVE_MACH_PUNCH}
     }
 };
 
