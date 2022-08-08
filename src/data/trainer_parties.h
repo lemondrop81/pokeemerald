@@ -11867,6 +11867,24 @@ static const struct TrainerMonItemCustomMoves sParty_Kathleen[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Nicholas[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Psychic Surge
+    .species = SPECIES_MUSHARNA,
+    .heldItem = ITEM_PSYCHIC_SEED,
+    .moves = {MOVE_FUTURE_SIGHT, MOVE_HYPNOSIS, MOVE_REFLECT, MOVE_LIGHT_SCREEN}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_WOBBUFFET,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .moves = {MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_ENCORE, MOVE_DESTINY_BOND}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14885,14 +14903,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nate[] = {
     .iv = 100,
     .lvl = 36,
     .species = SPECIES_SPOINK,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Nicholas[] = {
-    {
-    .iv =100,
-    .lvl = 36,
-    .species = SPECIES_WOBBUFFET,
     }
 };
 
