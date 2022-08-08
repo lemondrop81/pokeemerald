@@ -11885,6 +11885,23 @@ static const struct TrainerMonItemCustomMoves sParty_Nicholas[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Nate[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_GRUMPIG,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_EXTRASENSORY, MOVE_ENERGY_BALL, MOVE_FOCUS_BLAST, MOVE_CHARGE_BEAM}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_STARMIE,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .moves = {MOVE_PSYCHIC, MOVE_SCALD, MOVE_RECOVER, MOVE_COSMIC_POWER}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14895,14 +14912,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Terry[] = {
     .iv =100,
     .lvl = 37,
     .species = SPECIES_GIRAFARIG,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Nate[] = {
-    {
-    .iv = 100,
-    .lvl = 36,
-    .species = SPECIES_SPOINK,
     }
 };
 
