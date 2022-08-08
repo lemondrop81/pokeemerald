@@ -3636,14 +3636,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hannah[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Samantha[] = {
-    {
-    .iv = 100,
-    .lvl = 36,
-    .species = SPECIES_XATU,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Alexis[] = {
     {
     .iv =100,
@@ -11789,6 +11781,25 @@ static const struct TrainerMonItemCustomMoves sParty_Maura[] = {
     .species = SPECIES_ESPEON,
     .heldItem = ITEM_FAIRY_GEM,
     .moves = {MOVE_DAZZLING_GLEAM, MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_CALM_MIND}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Samantha[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Magic Bounce
+    .species = SPECIES_XATU,
+    .heldItem = ITEM_FIRE_GEM,
+    .moves = {MOVE_PSYCHIC, MOVE_AIR_SLASH, MOVE_HEAT_WAVE, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 1, // Trace
+    .species = SPECIES_GARDEVOIR,
+    .heldItem = ITEM_EXPERT_BELT,
+    .moves = {MOVE_DAZZLING_GLEAM, MOVE_MYSTICAL_FIRE, MOVE_FOCUS_BLAST, MOVE_SHADOW_BALL}
     }
 };
 
