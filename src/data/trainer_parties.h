@@ -3612,14 +3612,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jaclyn[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Hannah[] = {
-    {
-    .iv = 100,
-    .lvl = 36,
-    .species = SPECIES_KIRLIA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Alexis[] = {
     {
     .iv =100,
@@ -11927,6 +11919,24 @@ static const struct TrainerMonItemCustomMoves sParty_Sylvia[] = {
     .species = SPECIES_GOTHITELLE,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_CHARM, MOVE_CALM_MIND}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Hannah[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 1, // Strong Jaw
+    .species = SPECIES_BRUXISH,
+    .heldItem = ITEM_POISON_GEM,
+    .moves = {MOVE_LIQUIDATION, MOVE_PSYCHIC_FANGS, MOVE_POISON_FANG, MOVE_ICE_FANG}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_MALAMAR,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_SUPERPOWER, MOVE_THROAT_CHOP, MOVE_PSYCHO_CUT, MOVE_ROCK_SLIDE}
     }
 };
 
