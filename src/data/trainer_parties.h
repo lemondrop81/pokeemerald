@@ -11754,6 +11754,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Alex[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Kelvin[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_MACHAMP,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_DUAL_CHOP, MOVE_BULLET_PUNCH, MOVE_STRENGTH}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_DHELMISE,
+    .moves = {MOVE_ANCHOR_SHOT, MOVE_SHADOW_CLAW, MOVE_LIQUIDATION, MOVE_BRICK_BREAK}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -13131,19 +13146,6 @@ static const struct TrainerMonItemCustomMoves sParty_Jazmyn[] = {
     .species = SPECIES_JOLTEON,
     .heldItem = ITEM_EXPERT_BELT,
     .moves = {MOVE_THUNDER, MOVE_SHADOW_BALL, MOVE_AURORA_BEAM, MOVE_SIGNAL_BEAM}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Kelvin[] = {
-    {
-    .iv = 150,
-    .lvl = 33,
-    .species = SPECIES_MACHOKE,
-    },
-    {
-    .iv = 150,
-    .lvl = 33,
-    .species = SPECIES_SPHEAL,
     }
 };
 
