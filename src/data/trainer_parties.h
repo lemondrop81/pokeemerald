@@ -3598,14 +3598,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Virgil[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Blake[] = {
-    {
-    .iv = 100,
-    .lvl = 36,
-    .species = SPECIES_GIRAFARIG,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Joshua[] = {
     {
     .iv =100,
@@ -11800,6 +11792,23 @@ static const struct TrainerMonItemCustomMoves sParty_Samantha[] = {
     .species = SPECIES_GARDEVOIR,
     .heldItem = ITEM_EXPERT_BELT,
     .moves = {MOVE_DAZZLING_GLEAM, MOVE_MYSTICAL_FIRE, MOVE_FOCUS_BLAST, MOVE_SHADOW_BALL}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Blake[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_GIRAFARIG,
+    .heldItem = ITEM_SALAC_BERRY,
+    .moves = {MOVE_PSYCHIC_FANGS, MOVE_CRUNCH, MOVE_HYPER_FANG, MOVE_ICE_FANG}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_MEOWSTIC_FEMALE,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_ENERGY_BALL, MOVE_SIGNAL_BEAM}
     }
 };
 
