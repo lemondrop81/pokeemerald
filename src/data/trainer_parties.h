@@ -3590,14 +3590,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Edward[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Virgil[] = {
-    {
-    .iv = 100,
-    .lvl = 36,
-    .species = SPECIES_RALTS,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Joshua[] = {
     {
     .iv =100,
@@ -11899,6 +11891,24 @@ static const struct TrainerMonItemCustomMoves sParty_Nate[] = {
     .species = SPECIES_STARMIE,
     .heldItem = ITEM_ROCKY_HELMET,
     .moves = {MOVE_PSYCHIC, MOVE_SCALD, MOVE_RECOVER, MOVE_COSMIC_POWER}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Virgil[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_MEDICHAM,
+    .heldItem = ITEM_ROCK_GEM,
+    .moves = {MOVE_DRAIN_PUNCH, MOVE_POISON_JAB, MOVE_FAKE_OUT, MOVE_ROCK_SLIDE}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Heavy Metal
+    .species = SPECIES_BRONZONG,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_HEAVY_SLAM, MOVE_PAYBACK, MOVE_HYPNOSIS, MOVE_ROCK_SLIDE}
     }
 };
 
