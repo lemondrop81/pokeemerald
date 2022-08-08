@@ -11812,6 +11812,26 @@ static const struct TrainerMonItemCustomMoves sParty_Blake[] = {
     }
 };
 
+
+static const struct TrainerMonItemCustomMoves sParty_Macey[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Dry Skin
+    .species = SPECIES_JYNX,
+    .heldItem = ITEM_ICE_GEM,
+    .moves = {MOVE_PSYCHIC, MOVE_FREEZE_DRY, MOVE_LOVELY_KISS, MOVE_NASTY_PLOT}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 1, // Pyromancy
+    .species = SPECIES_DELPHOX,
+    .heldItem = ITEM_POWER_HERB,
+    .moves = {MOVE_PSYCHIC, MOVE_HEAT_WAVE, MOVE_SOLAR_BEAM, MOVE_AURA_SPHERE}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14899,14 +14919,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter7[] = {
     .iv =100,
     .lvl = 32,
     .species = SPECIES_BALTOY,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Macey[] = {
-    {
-    .iv =100,
-    .lvl = 36,
-    .species = SPECIES_NATU,
     }
 };
 
