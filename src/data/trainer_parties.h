@@ -11714,6 +11714,30 @@ static const struct TrainerMonNoItemCustomMoves sParty_Aaron[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Marley[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_ARCANINE,
+    .heldItem = ITEM_NORMAL_GEM,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_WILD_CHARGE, MOVE_EXTREME_SPEED, MOVE_PLAY_ROUGH}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_ESCAVALIER,
+    .heldItem = ITEM_OCCA_BERRY,
+    .moves = {MOVE_MEGAHORN, MOVE_IRON_HEAD, MOVE_CLOSE_COMBAT, MOVE_RAZOR_SHELL}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_VENUSAUR,
+    .heldItem = ITEM_VENUSAURITE,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_EARTH_POWER, MOVE_SLUDGE_BOMB, MOVE_SYNTHESIS}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -13117,16 +13141,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kelvin[] = {
     .iv = 150,
     .lvl = 33,
     .species = SPECIES_SPHEAL,
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Marley[] = {
-    {
-    .iv = 255,
-    .lvl = 34,
-    .species = SPECIES_MANECTRIC,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_BITE, MOVE_ROAR, MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT}
     }
 };
 
