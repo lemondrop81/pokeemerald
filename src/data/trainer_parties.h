@@ -11912,6 +11912,24 @@ static const struct TrainerMonItemCustomMoves sParty_Virgil[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Sylvia[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_ORANGURU,
+    .heldItem = ITEM_DARK_GEM,
+    .moves = {MOVE_TRICK_ROOM, MOVE_PSYCHIC, MOVE_FOUL_PLAY, MOVE_HYPER_BEAM}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Shadow Tag
+    .species = SPECIES_GOTHITELLE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_CHARM, MOVE_CALM_MIND}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14890,14 +14908,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cristian[] = {
     .lvl = 1,
     .species = SPECIES_JANGMO_O,
     },
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Sylvia[] = {
-    {
-    .iv = 100,
-    .lvl = 36,
-    .species = SPECIES_MEDITITE,
-    }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_GruntMtChimney2[] = {
