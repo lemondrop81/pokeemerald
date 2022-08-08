@@ -11832,6 +11832,23 @@ static const struct TrainerMonItemCustomMoves sParty_Macey[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Clifford[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_RAICHU_ALOLAN,
+    .heldItem = ITEM_ELECTRIC_SEED,
+    .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_GRASS_KNOT, MOVE_ELECTRIC_TERRAIN}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_MR_MIME,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_REFLECT, MOVE_LIGHT_SCREEN}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14858,14 +14875,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kathleen[] = {
     .iv = 100,
     .lvl = 36,
     .species = SPECIES_KADABRA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Clifford[] = {
-    {
-    .iv =100,
-    .lvl = 36,
-    .species = SPECIES_GIRAFARIG,
     }
 };
 
