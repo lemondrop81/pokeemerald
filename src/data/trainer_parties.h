@@ -11738,6 +11738,22 @@ static const struct TrainerMonItemCustomMoves sParty_Marley[] = {
     }
 };
 
+static const struct TrainerMonNoItemCustomMoves sParty_Alex[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_SWELLOW,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_DOUBLE_EDGE, MOVE_U_TURN, MOVE_ROOST}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 1, // Serene Grace
+    .species = SPECIES_TOGEKISS,
+    .moves = {MOVE_AIR_SLASH, MOVE_AURA_SPHERE, MOVE_ANCIENT_POWER, MOVE_BODY_SLAM}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -11770,19 +11786,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Chester[] = {
     .ability = 1, // Sheer force
     .species = SPECIES_RUFFLET,
     .moves = {MOVE_FOUL_PLAY, MOVE_ROOST, MOVE_IRON_DEFENSE, MOVE_WHIRLWIND}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Alex[] = {
-    {
-    .iv = 150,
-    .lvl = 33,
-    .species = SPECIES_NATU,
-    },
-    {
-    .iv = 150,
-    .lvl = 33,
-    .species = SPECIES_SWELLOW,
     }
 };
 
