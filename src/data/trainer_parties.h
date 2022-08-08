@@ -3590,14 +3590,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_Edward[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Preston[] = {
-    {
-    .iv = 100,
-    .lvl = 36,
-    .species = SPECIES_KIRLIA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Virgil[] = {
     {
     .iv = 100,
@@ -11766,6 +11758,26 @@ static const struct TrainerMonNoItemCustomMoves sParty_Kelvin[] = {
     .lvl = 34,
     .species = SPECIES_DHELMISE,
     .moves = {MOVE_ANCHOR_SHOT, MOVE_SHADOW_CLAW, MOVE_LIQUIDATION, MOVE_BRICK_BREAK}
+    }
+};
+
+// Mossdeep Gym
+
+static const struct TrainerMonItemCustomMoves sParty_Preston[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_SLOWKING,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_FIRE_BLAST}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Magic Guard
+    .species = SPECIES_ALAKAZAM,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_PSYCHIC, MOVE_AURA_SPHERE, MOVE_DAZZLING_GLEAM, MOVE_SHADOW_BALL}
     }
 };
 
