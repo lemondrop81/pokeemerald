@@ -3644,14 +3644,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Samantha[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Maura[] = {
-    {
-    .iv = 100,
-    .lvl = 36,
-    .species = SPECIES_KADABRA,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Alexis[] = {
     {
     .iv =100,
@@ -11778,6 +11770,25 @@ static const struct TrainerMonItemCustomMoves sParty_Preston[] = {
     .species = SPECIES_ALAKAZAM,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_PSYCHIC, MOVE_AURA_SPHERE, MOVE_DAZZLING_GLEAM, MOVE_SHADOW_BALL}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Maura[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Psychic Surge
+    .species = SPECIES_BEHEEYEM,
+    .heldItem = ITEM_PSYCHIC_SEED,
+    .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_DARK_PULSE, MOVE_NASTY_PLOT}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Magic Bounce
+    .species = SPECIES_ESPEON,
+    .heldItem = ITEM_FAIRY_GEM,
+    .moves = {MOVE_DAZZLING_GLEAM, MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_CALM_MIND}
     }
 };
 
