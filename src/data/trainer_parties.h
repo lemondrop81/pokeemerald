@@ -11849,6 +11849,24 @@ static const struct TrainerMonItemCustomMoves sParty_Clifford[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_Kathleen[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_HYPNO,
+    .heldItem = ITEM_ELECTRIC_SEED,
+    .moves = {MOVE_FUTURE_SIGHT, MOVE_SHADOW_BALL, MOVE_HYPNOSIS, MOVE_FOCUS_BLAST}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Simple
+    .species = SPECIES_SWOOBAT,
+    .heldItem = ITEM_WEAKNESS_POLICY,
+    .moves = {MOVE_AIR_SLASH, MOVE_GIGA_DRAIN, MOVE_HEAT_WAVE, MOVE_ENDURE}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -14867,14 +14885,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nate[] = {
     .iv = 100,
     .lvl = 36,
     .species = SPECIES_SPOINK,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Kathleen[] = {
-    {
-    .iv = 100,
-    .lvl = 36,
-    .species = SPECIES_KADABRA,
     }
 };
 

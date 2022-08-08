@@ -8163,16 +8163,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_KATHLEEN] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_HELD_ITEM,
         .trainerClass = TRAINER_CLASS_HEX_MANIAC,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_HEX_MANIAC,
         .trainerName = _("KATHLEEN"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_FOE | AI_FLAG_HP_AWARE | AI_FLAG_SMART_SWITCHING,
         .partySize = ARRAY_COUNT(sParty_Kathleen),
-        .party = {.NoItemDefaultMoves = sParty_Kathleen},
+        .party = {.ItemCustomMoves = sParty_Kathleen},
     },
 
     [TRAINER_CLIFFORD] =
