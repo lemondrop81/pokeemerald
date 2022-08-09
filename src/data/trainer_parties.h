@@ -6,32 +6,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sawyer1[] = {
     }
 };
 
-
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern1[] = {
-    {
-    .iv =100,
-    .lvl = 36,
-    .species = SPECIES_POOCHYENA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern2[] = {
-    {
-    .iv =100,
-    .lvl = 36,
-    .species = SPECIES_CARVANHA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern3[] = {
-    {
-    .iv =100,
-    .lvl = 36,
-    .species = SPECIES_ZUBAT,
-    }
-};
-
 static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = {
     {
     .iv =100,
@@ -52,14 +26,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = 
     .iv =100,
     .lvl = 1,
     .species = SPECIES_EKANS,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern4[] = {
-    {
-    .iv =100,
-    .lvl = 36,
-    .species = SPECIES_CARVANHA,
     }
 };
 
@@ -281,37 +247,6 @@ static const struct TrainerMonItemCustomMoves sParty_ShellyWeatherInstitute[] = 
     .species = SPECIES_BEEDRILL,
     .heldItem = ITEM_BEEDRILLITE,
     .moves = {MOVE_X_SCISSOR, MOVE_POISON_JAB, MOVE_DRILL_RUN, MOVE_DRILL_PECK}
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_ShellySeafloorCavern[] = {
-    {
-    .iv = 100,
-    .lvl = 37,
-    .species = SPECIES_SHARPEDO,
-    },
-    {
-    .iv = 100,
-    .lvl = 37,
-    .species = SPECIES_MIGHTYENA,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_Archie[] = {
-    {
-    .iv = 150,
-    .lvl = 41,
-    .species = SPECIES_MIGHTYENA,
-    },
-    {
-    .iv = 150,
-    .lvl = 41,
-    .species = SPECIES_CROBAT,
-    },
-    {
-    .iv = 150,
-    .lvl = 43,
-    .species = SPECIES_SHARPEDO,
     }
 };
 
@@ -12155,6 +12090,233 @@ static const struct TrainerMonItemCustomMoves sParty_MaxieMossdeep[] = {
     }
 };
 
+// Seafloor cavern
+
+static const struct TrainerMonItemCustomMoves sParty_GruntSeafloorCavern1[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Moxie
+    .species = SPECIES_MIGHTYENA,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_CRUNCH, MOVE_FIRE_FANG, MOVE_ICE_FANG, MOVE_DOUBLE_EDGE}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_CROBAT,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_ACROBATICS, MOVE_SLUDGE_BOMB, MOVE_CRUNCH, MOVE_GIGA_DRAIN}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Speed Boost
+    .species = SPECIES_SHARPEDO,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_WATERFALL, MOVE_CRUNCH, MOVE_ICE_FANG, MOVE_EARTHQUAKE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GruntSeafloorCavern2[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_HUNTAIL,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_CRUNCH, MOVE_AQUA_TAIL, MOVE_ICE_FANG, MOVE_SHELL_SMASH}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_MUK,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_GUNK_SHOT, MOVE_FIRE_BLAST, MOVE_TOXIC, MOVE_MINIMIZE}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Intimidate
+    .species = SPECIES_SCRAFTY,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_DRAIN_PUNCH, MOVE_CRUNCH, MOVE_HEAD_SMASH, MOVE_EARTHQUAKE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GruntSeafloorCavern3[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_WAILORD,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_DIVE, MOVE_BOUNCE, MOVE_DOUBLE_EDGE, MOVE_AQUA_RING}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_SKUNTANK,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_POISON_JAB, MOVE_CRUNCH, MOVE_TOXIC, MOVE_PROTECT}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Lightningrod
+    .species = SPECIES_SEAKING,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_WATERFALL, MOVE_MEGAHORN, MOVE_THROAT_CHOP, MOVE_SWORDS_DANCE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GruntSeafloorCavern4[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_GOREBYSS,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_SHELL_SMASH}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_PURUGLY,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_FAKE_OUT, MOVE_BODY_SLAM, MOVE_PLAY_ROUGH, MOVE_U_TURN}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_TOXAPEX,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_LIQUIDATION, MOVE_TOXIC, MOVE_BANEFUL_BUNKER, MOVE_RECOVER}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_GruntSeafloorCavern5[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_MANDIBUZZ,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_KNOCK_OFF, MOVE_BRAVE_BIRD, MOVE_BONE_RUSH, MOVE_ROOST}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_GYARADOS,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_BOUNCE, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_FIRE_BLAST}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_ARBOK,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_POISON_JAB, MOVE_CRUNCH, MOVE_COIL, MOVE_SEED_BOMB}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_ShellySeafloorCavern[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Snow Warning
+    .species = SPECIES_NINETALES_ALOLAN,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .moves = {MOVE_BLIZZARD, MOVE_MOONBLAST, MOVE_ENERGY_BALL, MOVE_AURORA_VEIL}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 1, // Slush Rush
+    .species = SPECIES_EMPOLEON,
+    .heldItem = ITEM_PETAYA_BERRY,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_BLIZZARD, MOVE_FLASH_CANNON, MOVE_GRASS_KNOT}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Adaptability
+    .species = SPECIES_CRAWDAUNT,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_CRABHAMMER, MOVE_KNOCK_OFF, MOVE_CLOSE_COMBAT, MOVE_DRAGON_DANCE}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 1, // Magic Guard
+    .species = SPECIES_CLEFABLE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_MYSTICAL_FIRE, MOVE_DRAINING_KISS, MOVE_STORED_POWER, MOVE_CALM_MIND}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 1, // Swift Swim
+    .species = SPECIES_LUDICOLO,
+    .heldItem = ITEM_SAFETY_GOGGLES,
+    .moves = {MOVE_SCALD, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED, MOVE_BLIZZARD}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_BEEDRILL,
+    .heldItem = ITEM_BEEDRILLITE,
+    .moves = {MOVE_MEGAHORN, MOVE_POISON_JAB, MOVE_DRILL_RUN, MOVE_KNOCK_OFF}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Archie[] = {
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 0, // Drizzle
+    .species = SPECIES_KYOGRE,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_ORIGIN_PULSE, MOVE_THUNDER, MOVE_ICE_BEAM, MOVE_CALM_MIND}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 1, // Hydration
+    .species = SPECIES_GOODRA,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_AQUA_TAIL, MOVE_REST, MOVE_CURSE}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Rain Dish
+    .species = SPECIES_TENTACRUEL,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_WATERFALL, MOVE_POISON_JAB, MOVE_SWORDS_DANCE, MOVE_PROTECT}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Swift Swim
+    .species = SPECIES_POLIWRATH,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_WATERFALL, MOVE_CLOSE_COMBAT, MOVE_ICE_PUNCH, MOVE_HYPNOSIS}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Swift Swim
+    .species = SPECIES_EELEKTROSS,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_THUNDER, MOVE_GRASS_KNOT, MOVE_FLASH_CANNON, MOVE_ACID_SPRAY}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .ability = 2, // Speed Boost-> Strong Jaw
+    .species = SPECIES_SHARPEDO,
+    .heldItem = ITEM_SHARPEDONITE,
+    .moves = {MOVE_LIQUIDATION, MOVE_CRUNCH, MOVE_PSYCHIC_FANGS, MOVE_CLOSE_COMBAT}
+    }
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -15003,19 +15165,6 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Julio[] = {
     .iv =100,
     .lvl = 1,
     .species = SPECIES_GASTLY,
-    }
-};
-
-static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern5[] = {
-    {
-    .iv = 50,
-    .lvl = 35,
-    .species = SPECIES_MIGHTYENA,
-    },
-    {
-    .iv = 50,
-    .lvl = 35,
-    .species = SPECIES_GOLBAT,
     }
 };
 
