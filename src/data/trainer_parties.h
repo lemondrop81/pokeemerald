@@ -3852,7 +3852,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan1[] = {
     .ability = 2, // Ice body
     .species = SPECIES_GLACEON,
     .heldItem = ITEM_CHOICE_SPECS,
-    .moves = {MOVE_BLIZZARD, MOVE_FROST_BREATH, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL
+    .moves = {MOVE_BLIZZARD, MOVE_FROST_BREATH, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL}
     },
     {
     .iv = 200,
@@ -12405,6 +12405,8 @@ static const struct TrainerMonItemCustomMoves sParty_Bridget[] = {
     }
 };
 
+// Victory Road
+
 static const struct TrainerMonNoItemDefaultMoves sParty_Benny[] = {
     {
     .iv =100,
@@ -19033,7 +19035,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan2[] = {
     .ability = 2, // Ice body
     .species = SPECIES_GLACEON,
     .heldItem = ITEM_CHOICE_SPECS,
-    .moves = {MOVE_BLIZZARD, MOVE_FROST_BREATH, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL
+    .moves = {MOVE_BLIZZARD, MOVE_FROST_BREATH, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL}
     },
     {
     .iv = 200,
@@ -19082,7 +19084,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan3[] = {
     .ability = 2, // Ice body
     .species = SPECIES_GLACEON,
     .heldItem = ITEM_CHOICE_SPECS,
-    .moves = {MOVE_BLIZZARD, MOVE_FROST_BREATH, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL
+    .moves = {MOVE_BLIZZARD, MOVE_FROST_BREATH, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL}
     },
     {
     .iv = 200,
@@ -19131,7 +19133,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan4[] = {
     .ability = 2, // Ice body
     .species = SPECIES_GLACEON,
     .heldItem = ITEM_CHOICE_SPECS,
-    .moves = {MOVE_BLIZZARD, MOVE_FROST_BREATH, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL
+    .moves = {MOVE_BLIZZARD, MOVE_FROST_BREATH, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL}
     },
     {
     .iv = 200,
@@ -19180,7 +19182,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan5[] = {
     .ability = 2, // Ice body
     .species = SPECIES_GLACEON,
     .heldItem = ITEM_CHOICE_SPECS,
-    .moves = {MOVE_BLIZZARD, MOVE_FROST_BREATH, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL
+    .moves = {MOVE_BLIZZARD, MOVE_FROST_BREATH, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL}
     },
     {
     .iv = 200,
