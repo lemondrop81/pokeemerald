@@ -19228,44 +19228,49 @@ static const struct TrainerMonItemCustomMoves sParty_Steven[] = {
     {
     .iv = 255,
     .lvl = 77,
+    .ability = 1, // Sturdy
     .species = SPECIES_SKARMORY,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_TOXIC, MOVE_AERIAL_ACE, MOVE_SPIKES, MOVE_STEEL_WING}
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_DRILL_PECK, MOVE_TOXIC, MOVE_SPIKES, MOVE_ROOST}
     },
     {
     .iv = 255,
     .lvl = 75,
-    .species = SPECIES_CLAYDOL,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_ANCIENT_POWER, MOVE_EARTHQUAKE}
+    .ability = 0, // Rock Head
+    .species = SPECIES_AERODACTYL,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_BRAVE_BIRD, MOVE_STRENGTH, MOVE_EARTHQUAKE, MOVE_HONE_CLAWS}
     },
     {
     .iv = 255,
     .lvl = 76,
-    .species = SPECIES_AGGRON,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_THUNDER, MOVE_EARTHQUAKE, MOVE_SOLAR_BEAM, MOVE_DRAGON_CLAW}
-    },
-    {
-    .iv = 255,
-    .lvl = 76,
+    .ability = 2, // Storm Drain
     .species = SPECIES_CRADILY,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_GIGA_DRAIN, MOVE_ANCIENT_POWER, MOVE_INGRAIN, MOVE_CONFUSE_RAY}
+    .heldItem = ITEM_BIG_ROOT,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_EARTH_POWER, MOVE_RECOVER, MOVE_ACID_SPRAY}
     },
     {
     .iv = 255,
     .lvl = 76,
-    .species = SPECIES_ARMALDO,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_WATER_PULSE, MOVE_ANCIENT_POWER, MOVE_AERIAL_ACE, MOVE_SLASH}
+    .ability = 0, // Iron Fist
+    .species = SPECIES_MELMETAL,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_DOUBLE_IRON_BASH, MOVE_EARTHQUAKE, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
+    },
+    {
+    .iv = 255,
+    .lvl = 76,
+    .ability = 0, // Flash Fire
+    .species = SPECIES_HEATRAN,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .moves = {MOVE_ERUPTION, MOVE_EARTH_POWER, MOVE_FLASH_CANNON, MOVE_HIDDEN_POWER}
     },
     {
     .iv = 255,
     .lvl = 78,
     .species = SPECIES_METAGROSS,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_METEOR_MASH, MOVE_SHADOW_BALL}
+    .heldItem = ITEM_METAGROSSITE,
+    .moves = {MOVE_METEOR_MASH, MOVE_ZEN_HEADBUTT, MOVE_GRASS_KNOT, MOVE_EARTHQUAKE}
     }
 };
 
