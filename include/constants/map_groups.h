@@ -65,6 +65,7 @@
 #define MAP_LITTLEROOTGARDENS4  (60 | (0 << 8))
 #define MAP_LITTLEROOTGARDENS5  (61 | (0 << 8))
 #define MAP_LITTLEROOTGARDENS6  (62 | (0 << 8))
+#define MAP_LITTLEROOTGARDENS7  (63 | (0 << 8))
 
 // Map Group 1
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))

@@ -1068,3 +1068,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Littlerootgardens5/scripts.inc"
 
 	.include "data/maps/Littlerootgardens6/scripts.inc"
+
+	.include "data/maps/Littlerootgardens7/scripts.inc"
