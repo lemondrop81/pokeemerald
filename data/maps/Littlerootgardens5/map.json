@@ -17,6 +17,11 @@
       "direction": "left",
       "offset": 0,
       "map": "MAP_LITTLEROOTGARDENS4"
+    },
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_LITTLEROOTGARDENS6"
     }
   ],
   "object_events": [
