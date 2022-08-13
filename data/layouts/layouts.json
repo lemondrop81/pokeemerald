@@ -4460,6 +4460,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Littlerootgardens5/border.bin",
       "blockdata_filepath": "data/layouts/Littlerootgardens5/map.bin"
+    },
+    {
+      "id": "LAYOUT_LITTLEROOTGARDENS6",
+      "name": "Littlerootgardens6_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Littlerootgardens6/border.bin",
+      "blockdata_filepath": "data/layouts/Littlerootgardens6/map.bin"
     }
   ]
 }
