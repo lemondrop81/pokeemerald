@@ -121,20 +121,8 @@ PetalburgCity_Gym_EventScript_NormanAddressPlayerEast::
 
 PetalburgCity_Gym_EventScript_NormanNoBadges::
 	msgbox PetalburgCity_Gym_Text_NormanGoToRustboro, MSGBOX_DEFAULT
-	giveitem ITEM_ROOT_FOSSIL
-	setflag FLAG_RECEIVED_EXP_SHARE
-	msgbox PetalburgCity_Gym_Text_ExplainExpShare MSGBOX_DEFAULT
 	release
 	end
-
-PetalburgCity_Gym_Text_ExplainExpShare:
-	.string "Norman: A POKéMON holding that\n"
-	.string "EXP. SHARE will be given some of the\l"
-	.string "EXP Points from battle.\p"
-	.string "It will get EXP Points even if it didn't\n"
-	.string "actually battle.\p"
-	.string "I would say EXP. SHARE is quite useful\n"
-	.string "for raising weak POKéMON.$"
 
 PetalburgCity_Gym_EventScript_NormanOneBadge::
 	msgbox PetalburgCity_Gym_Text_NormanGoToDewford, MSGBOX_DEFAULT

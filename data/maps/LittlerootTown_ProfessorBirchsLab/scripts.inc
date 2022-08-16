@@ -555,8 +555,20 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex::
 	setflag FLAG_SYS_NATIONAL_DEX
 	special EnableNationalPokedex
 	setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+	giveitem ITEM_ROOT_FOSSIL
+	setflag FLAG_RECEIVED_EXP_SHARE
+	msgbox _ProfessorBirch_Text_ExplainExpShare MSGBOX_DEFAULT
 	setvar VAR_CABLE_CLUB_TUTORIAL_STATE, 1
 	return
+
+_ProfessorBirch_Text_ExplainExpShare:
+	.string "Birch: A POKéMON holding that\n"
+	.string "EXP. SHARE will be given some of the\l"
+	.string "EXP Points from battle.\p"
+	.string "It will get EXP Points even if it didn't\n"
+	.string "actually battle.\p"
+	.string "I would say EXP. SHARE is quite useful\n"
+	.string "for raising weak POKéMON.$"
 
 LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait, MSGBOX_DEFAULT
