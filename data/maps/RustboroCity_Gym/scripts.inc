@@ -5,7 +5,7 @@ RustboroCity_Gym_EventScript_Sandy::
 	trainerbattle_single TRAINER_Sandy_1, RustboroCity_Gym_Text_SandyIntro, RustboroCity_Gym_Text_SandyDefeat, RustboroCity_Gym_EventScript_SandyDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, RustboroCity_Gym_EventScript_SandyRematch
-	goto_if_unset FLAG_RECEIVED_TM39, RustboroCity_Gym_EventScript_GiveRockTomb
+	goto_if_unset FLAG_RECEIVED_TM78, RustboroCity_Gym_EventScript_GiveBulldoze
 	msgbox RustboroCity_Gym_Text_SandyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -22,14 +22,14 @@ RustboroCity_Gym_EventScript_SandyDefeated::
 	setvar VAR_0x8008, 1
 	call Common_EventScript_SetGymTrainers
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
-	goto RustboroCity_Gym_EventScript_GiveRockTomb
+	goto RustboroCity_Gym_EventScript_GiveRoBulldoze
 	end
 
-RustboroCity_Gym_EventScript_GiveRockTomb::
-	giveitem ITEM_TM39
+RustboroCity_Gym_EventScript_GiveRoBulldoze::
+	giveitem ITEM_TM78
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_TM39
-	msgbox RustboroCity_Gym_Text_ExplainRockTomb, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM78
+	msgbox RustboroCity_Gym_Text_ExplainBulldoze, MSGBOX_DEFAULT
 	release
 	end
 
@@ -117,8 +117,8 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "And that's where I come in!\n"
 	.string "I'm here to provide expert advice!\p"
 	.string "Sandy, the GYM LEADER, is a user\n"
-	.string "of ROCK-type POKéMON.\p"
-	.string "The ROCK type is very durable, but\n"
+	.string "of GROUND-type POKéMON.\p"
+	.string "The GROUNd type is very durable, but\n"
 	.string "it can't stand WATER-type and\l"
 	.string "GRASS-type moves.\p"
 	.string "Come see me afterwards, if you beat\n"
@@ -130,7 +130,7 @@ RustboroCity_Gym_Text_GymGuidePostVictory:
 	.string "My cheering must've worked!\p"
 	.string "Great!\n"
 	.string "Check your TRAINER CARD.\p"
-	.string "The STONE BADGE you got should be\n"
+	.string "The EARTH BADGE you got should be\n"
 	.string "properly recorded on it.\p"
 	.string "In other words…\p"
 	.string "You've climbed the first step on\n"
@@ -145,7 +145,7 @@ RustboroCity_Gym_Text_JoshDefeat:
 	.string "You were too good for me…$"
 
 RustboroCity_Gym_Text_JoshPostBattle:
-	.string "You haven't seen anything of the ROCK\n"
+	.string "You haven't seen anything of the GROUNd\n"
 	.string "type's terrifying power!$"
 
 RustboroCity_Gym_Text_TommyIntro:
@@ -163,7 +163,7 @@ RustboroCity_Gym_Text_TommyPostBattle:
 RustboroCity_Gym_Text_MarcIntro:
 	.string "We might be in the middle of town,\n"
 	.string "but so what?\p"
-	.string "My ROCK POKéMON need room to\n"
+	.string "My GROUND POKéMON need room to\n"
 	.string "rampage!$"
 
 RustboroCity_Gym_Text_MarcDefeat:
@@ -173,7 +173,7 @@ RustboroCity_Gym_Text_MarcDefeat:
 RustboroCity_Gym_Text_MarcPostBattle:
 	.string "I have to hand it to our LEADER.\p"
 	.string "It took smarts and sense for her to\n"
-	.string "pick the ROCK type at her young age.$"
+	.string "pick the GROUND type at her young age.$"
 
 RustboroCity_Gym_Text_SandyIntro:
 	.string "Hello, I am Sandy, the RUSTBORO\n"
@@ -207,15 +207,13 @@ RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
 	.string "CUT outside of battle.\p"
 	.string "Please take this with you, too.$"
 
-RustboroCity_Gym_Text_ExplainRockTomb:
-	.string "That TECHNICAL MACHINE, TM39,\n"
-	.string "contains ROCK TOMB.\p"
-	.string "It not only inflicts damage by dropping\n"
-	.string "rocks, it also lowers SPEED.\p"
+RustboroCity_Gym_Text_ExplainBulldoze:
+	.string "That TECHNICAL MACHINE, TM78,\n"
+	.string "contains BULLDOZE.\p"
+	.string "It not only inflicts damage by shaking\n"
+	.string "the earth, it also lowers SPEED.\p"
 	.string "If you use a TM, it instantly teaches\n"
 	.string "the move to a POKéMON.\p"
-	.string "Remember, a TM can be used only once,\n"
-	.string "so think before you use it.$"
 
 RustboroCity_Gym_Text_SandyPostBattle:
 	.string "Since you are so strong, you should\n"
