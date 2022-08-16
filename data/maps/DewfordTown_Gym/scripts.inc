@@ -136,7 +136,7 @@ DewfordTown_Gym_EventScript_Brawly::
 	trainerbattle_single TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, DewfordTown_Gym_EventScript_BrawlyRematch
-	goto_if_unset FLAG_RECEIVED_TM08, DewfordTown_Gym_EventScript_GiveBulkUp2
+	goto_if_unset FLAG_RECEIVED_TM66, DewfordTown_Gym_EventScript_GivePayback2
 	msgbox DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -153,7 +153,7 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
 	setvar VAR_0x8008, 2
 	call Common_EventScript_SetGymTrainers
-	call DewfordTown_Gym_EventScript_GiveBulkUp
+	call DewfordTown_Gym_EventScript_GivePayback
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
@@ -167,18 +167,18 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	release
 	end
 
-DewfordTown_Gym_EventScript_GiveBulkUp::
-	giveitem ITEM_TM08
+DewfordTown_Gym_EventScript_GivePayback::
+	giveitem ITEM_TM66
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_BagIsFull
-	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM08
+	msgbox DewfordTown_Gym_Text_ExplainPayback, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM66
 	return
 
-DewfordTown_Gym_EventScript_GiveBulkUp2:
-	giveitem ITEM_TM08
+DewfordTown_Gym_EventScript_GivePayback2:
+	giveitem ITEM_TM66
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_ShowBagIsFull
-	msgbox DewfordTown_Gym_Text_ExplainBulkUp, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_TM08
+	msgbox DewfordTown_Gym_Text_ExplainPayback, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM66
 	release
 	end
 
@@ -286,11 +286,11 @@ DewfordTown_Gym_Text_GymGuideAdvice:
 	.string "Hey, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
 	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
-	.string "FIGHTING-type POKéMON.\p"
-	.string "Going against him with NORMAL-type\n"
+	.string "DARK-type POKéMON.\p"
+	.string "Going against him with PSYCHIC-type\n"
 	.string "POKéMON is asking for trouble.\p"
-	.string "FIGHTING POKéMON will lay a serious\n"
-	.string "smack down on NORMAL POKéMON,\l"
+	.string "DARK POKéMON will lay a serious\n"
+	.string "smack down on PSYCHIC POKéMON,\l"
 	.string "so be careful!\p"
 	.string "What's worse, the GYM is as dark as\n"
 	.string "the ocean floor.\p"
@@ -408,10 +408,10 @@ DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 	.string "If you'd like, use this TECHNICAL\n"
 	.string "MACHINE, too.$"
 
-DewfordTown_Gym_Text_ExplainBulkUp:
-	.string "That TM08 contains BULK UP.\p"
-	.string "It's a move that raises both ATTACK\n"
-	.string "and DEFENSE stats.\p"
+DewfordTown_Gym_Text_ExplainPayback:
+	.string "That TM66 contains PAYBACK.\p"
+	.string "It's a move that causes double\n"
+	.string "damage if the foe uses an item.\p"
 	.string "… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:

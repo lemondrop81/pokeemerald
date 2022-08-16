@@ -22,10 +22,10 @@ RustboroCity_Gym_EventScript_SandyDefeated::
 	setvar VAR_0x8008, 1
 	call Common_EventScript_SetGymTrainers
 	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
-	goto RustboroCity_Gym_EventScript_GiveRoBulldoze
+	goto RustboroCity_Gym_EventScript_GiveBulldoze
 	end
 
-RustboroCity_Gym_EventScript_GiveRoBulldoze::
+RustboroCity_Gym_EventScript_GiveBulldoze::
 	giveitem ITEM_TM78
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_TM78
