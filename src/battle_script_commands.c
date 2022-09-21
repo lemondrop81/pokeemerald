@@ -3505,9 +3505,15 @@ void SetMoveEffect(bool32 primary, u32 certain)
 static void Cmd_seteffectwithchance(void)
 {
     u32 percentChance;
+    u8 moveType = gBattleMoves[gCurrentMove].type;
+    u8 moveEffect = gBattleMoves[gCurrentMove].effect;
 
     if (GetBattlerAbility(gBattlerAttacker) == ABILITY_SERENE_GRACE)
         percentChance = gBattleMoves[gCurrentMove].secondaryEffectChance * 2;
+    else if (GetBattlerAbility(gBattlerAttacker) == ABILITY_PYROMANCY
+             && moveType == TYPE_FIRE
+             && moveEffect == EFFECT_BURN_HIT)
+        percentChance = gBattleMoves[gCurrentMove].secondaryEffectChance * 5;
     else
         percentChance = gBattleMoves[gCurrentMove].secondaryEffectChance;
 
@@ -8052,6 +8058,15 @@ static void Cmd_various(void)
         BtlController_EmitSetMonData(BUFFER_A, REQUEST_PP_DATA_BATTLE, 0, 5, data);
         MarkBattlerForControllerExec(gActiveBattler);
         break;
+    case VARIOUS_TRY_ACTIVATE_RAMPAGE:
+        if (GetBattlerAbility(gActiveBattler) == ABILITY_RAMPAGE
+          && HasAttackerFaintedTarget()
+          && !NoAliveMonsForEitherParty())
+        {
+            gDisableStructs[gActiveBattler].rechargeTimer = 0;
+            gBattleMons[gActiveBattler].status2 &= ~(STATUS2_RECHARGE);
+        }
+        break;
     case VARIOUS_TRY_ACTIVATE_MOXIE:    // and chilling neigh + as one ice rider
     {
         u16 battlerAbility = GetBattlerAbility(gActiveBattler);
@@ -11430,7 +11445,7 @@ static u8 AttacksThisTurn(u8 battlerId, u16 move) // Note: returns 1 if it's a c
 {
     // first argument is unused
     if (gBattleMoves[move].effect == EFFECT_SOLAR_BEAM
-        && IsBattlerWeatherAffected(battlerId, B_WEATHER_SUN))
+        && IsBattlerWeatherAffected(battlerId, B_WEATHER_SUN || GetBattlerAbility(gBattlerAttacker) == ABILITY_CHLOROPLAST))
         return 2;
 
     if (gBattleMoves[move].effect == EFFECT_SKULL_BASH
@@ -12090,10 +12105,13 @@ static void Cmd_recoverbasedonsunlight(void)
         }
         else
         {
-            if (!(gBattleWeather & B_WEATHER_ANY) || !WEATHER_HAS_EFFECT || GetBattlerHoldEffect(gBattlerAttacker, TRUE) == HOLD_EFFECT_UTILITY_UMBRELLA)
+            if ((!(gBattleWeather & B_WEATHER_ANY) || !WEATHER_HAS_EFFECT || GetBattlerHoldEffect(gBattlerAttacker, TRUE) == HOLD_EFFECT_UTILITY_UMBRELLA)
+                && GetBattlerAbility(gBattlerAttacker) != ABILITY_CHLOROPLAST) // Tidy up this block later
                 gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 2;
-            else if (gBattleWeather & B_WEATHER_SUN)
+            else if (gBattleWeather & B_WEATHER_SUN || GetBattlerAbility(gBattlerAttacker) == ABILITY_CHLOROPLAST)
                 gBattleMoveDamage = 20 * gBattleMons[gBattlerAttacker].maxHP / 30;
+            else if (!(gBattleWeather & B_WEATHER_ANY) || !WEATHER_HAS_EFFECT)
+                gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 2;
             else // not sunny weather
                 gBattleMoveDamage = gBattleMons[gBattlerAttacker].maxHP / 4;
         }

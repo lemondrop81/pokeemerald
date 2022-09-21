@@ -364,6 +364,13 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_GALLADITE] = {gItemIcon_Galladite, gItemIconPalette_Galladite},
     [ITEM_AUDINITE] = {gItemIcon_Audinite, gItemIconPalette_Audinite},
     [ITEM_DIANCITE] = {gItemIcon_Diancite, gItemIconPalette_Diancite},
+    [ITEM_MILOTICITE] = {gItemIcon_Miloticite, gItemIconPalette_Miloticite},
+    [ITEM_BUTTERFRENITE] = {gItemIcon_Butterfrenite, gItemIconPalette_Butterfrenite},
+    [ITEM_MACHAMPITE] = {gItemIcon_Machampite, gItemIconPalette_Machampite},
+    [ITEM_KINGLERITE] = {gItemIcon_Kinglerite, gItemIconPalette_Kinglerite},
+    [ITEM_LAPRASITE] = {gItemIcon_Laprasite, gItemIconPalette_Laprasite},
+    [ITEM_KINGDRANITE]= {gItemIcon_Kingdranite, gItemIconPalette_Kingdranite},
+    [ITEM_FLYGONITE] = {gItemIcon_Flygonite, gItemIconPalette_Flygonite},
     // Gems
     [ITEM_NORMAL_GEM] = {gItemIcon_NormalGem, gItemIconPalette_NormalGem},
     [ITEM_FIRE_GEM] = {gItemIcon_FireGem, gItemIconPalette_FireGem},

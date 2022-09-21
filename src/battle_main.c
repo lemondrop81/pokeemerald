@@ -4646,6 +4646,10 @@ s8 GetMovePriority(u32 battlerId, u16 move)
             break;
         }
     }
+    else if (GetBattlerAbility(battlerId) == ABILITY_BLITZ_BOXER && (gBattleMoves[move].flags & FLAG_IRON_FIST_BOOST))
+    {
+        priority++;
+    }
 
     return priority;
 }
@@ -5511,6 +5515,10 @@ void SetTypeBeforeUsingMove(u16 move, u8 battlerAtk)
              && attackerAbility == ABILITY_LIQUID_VOICE)
     {
         gBattleStruct->dynamicMoveType = TYPE_WATER | F_DYNAMIC_TYPE_2;
+    }
+    else if (gBattleMoves[move].flags & FLAG_SOUND && attackerAbility == ABILITY_SAND_SONG)
+    {
+        gBattleStruct->dynamicMoveType = TYPE_GROUND | F_DYNAMIC_TYPE_2;
     }
     else if (gStatuses4[battlerAtk] & STATUS4_PLASMA_FISTS && moveType == TYPE_NORMAL)
     {

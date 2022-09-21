@@ -978,7 +978,16 @@
 #define ITEM_RUBY 756
 #define ITEM_SAPPHIRE 757
 
-#define ITEMS_COUNT 758
+// Custom mega evolutions
+#define ITEM_BUTTERFRENITE 758
+#define ITEM_FLYGONITE 759
+#define ITEM_LAPRASITE 760
+#define ITEM_MACHAMPITE 761
+#define ITEM_KINGLERITE 762
+#define ITEM_KINGDRANITE 763
+#define ITEM_MILOTICITE 764
+
+#define ITEMS_COUNT 765
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // Range of berries given out by various NPCS

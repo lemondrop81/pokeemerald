@@ -8209,6 +8209,15 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         if (gBattleMoves[move].flags & FLAG_IRON_FIST_BOOST)
            MulModifier(&modifier, UQ_4_12(1.2));
         break;
+    case ABILITY_POWER_FISTS:
+        if (gBattleMoves[move].flags & FLAG_IRON_FIST_BOOST)
+           MulModifier(&modifier, UQ_4_12(1.2));
+        break;
+            break;
+    case ABILITY_KEEN_EDGE:
+        if (gBattleMoves[move].flags & FLAG_KEEN_EDGE_BOOST)
+           MulModifier(&modifier, UQ_4_12(1.3));
+        break;
     case ABILITY_SHEER_FORCE:
         if (gBattleMoves[move].flags & FLAG_SHEER_FORCE_BOOST)
            MulModifier(&modifier, UQ_4_12(1.3));
@@ -8449,7 +8458,8 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
             MulModifier(&modifier, UQ_4_12(2.0));
         break;
     case EFFECT_SOLAR_BEAM:
-        if (IsBattlerWeatherAffected(battlerAtk, (B_WEATHER_HAIL | B_WEATHER_SANDSTORM | B_WEATHER_RAIN)))
+        if (IsBattlerWeatherAffected(battlerAtk, (B_WEATHER_HAIL | B_WEATHER_SANDSTORM | B_WEATHER_RAIN))
+            && GetBattlerAbility(gBattlerAttacker) != ABILITY_CHLOROPLAST)
             MulModifier(&modifier, UQ_4_12(0.5));
         break;
     case EFFECT_STOMPING_TANTRUM:
@@ -8592,6 +8602,15 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         if (moveType == TYPE_GRASS && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
+    case ABILITY_VENGEANCE:
+        if (moveType == TYPE_GHOST)
+        {
+            if (gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
+                MulModifier(&modifier, UQ_4_12(1.5));
+            else
+                MulModifier(&modifier, UQ_4_12(1.2));
+        }
+        break;
     case ABILITY_PLUS:
     case ABILITY_MINUS:
         if (IsBattlerAlive(BATTLE_PARTNER(battlerAtk)))
@@ -8612,6 +8631,10 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
     case ABILITY_STAKEOUT:
         if (gDisableStructs[battlerDef].isFirstTurn == 2) // just switched in
             MulModifier(&modifier, UQ_4_12(2.0));
+        break;
+    case ABILITY_WHITEOUT: // Boosts damage of Ice-type moves in hail
+        if (moveType == TYPE_ICE && WEATHER_HAS_EFFECT && gBattleWeather & B_WEATHER_HAIL)
+            MulModifier(&modifier, UQ_4_12(1.5));
         break;
     case ABILITY_GUTS:
         if (gBattleMons[battlerAtk].status1 & STATUS1_ANY && IS_MOVE_PHYSICAL(move))
@@ -8721,6 +8744,13 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
         defStat = def;
         defStage = gBattleMons[battlerDef].statStages[STAT_DEF];
         usesDefStat = TRUE;
+    }
+    // Power Fists makes punching moves do special damage
+    else if (gBattleMons[battlerAtk].ability == ABILITY_POWER_FISTS && gBattleMoves[move].flags & FLAG_IRON_FIST_BOOST) 
+    {
+        defStat = gBattleMons[battlerDef].spDefense;
+        defStage = gBattleMons[battlerDef].statStages[STAT_SPDEF];
+        usesDefStat = FALSE;
     }
     else // is special
     {
@@ -8931,6 +8961,14 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
     case ABILITY_PRISM_ARMOR:
         if (typeEffectivenessModifier >= UQ_4_12(2.0))
             MulModifier(&finalModifier, UQ_4_12(0.75));
+        break;
+    case ABILITY_ICE_SCALES:
+        if (IS_MOVE_SPECIAL(move))
+            MulModifier(&finalModifier, UQ_4_12(0.50));
+        break;
+    case ABILITY_PRISM_SCALES:
+        if (IS_MOVE_SPECIAL(move))
+            MulModifier(&finalModifier, UQ_4_12(0.70));
         break;
     }
 

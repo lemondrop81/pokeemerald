@@ -1761,6 +1761,41 @@ static const u8 sDianciteDesc[] = _(
     "Diancie to Mega\n"
     "Evolve in battle.");
 
+static const u8 sMiloticiteDesc[] = _(
+    "This stone enables\n"
+    "Milotic to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sButterfreniteDesc[] = _(
+    "This stone enables\n"
+    "Butterfree to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sMachampiteDesc[] = _(
+    "This stone enables\n"
+    "Machamp to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sKingleriteDesc[] = _(
+    "This stone enables\n"
+    "Kingler to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sLaprasiteDesc[] = _(
+    "This stone enables\n"
+    "Lapras to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sKingdraniteDesc[] = _(
+    "This stone enables\n"
+    "Kingdra to Mega\n"
+    "Evolve in battle.");
+
+static const u8 sFlygoniteDesc[] = _(
+    "This stone enables\n"
+    "Flygon to Mega\n"
+    "Evolve in battle.");
+
 // Gems
 static const u8 sNormalGemDesc[] = _(
     "Increases the\n"

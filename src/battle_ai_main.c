@@ -1942,7 +1942,8 @@ static s16 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
             break;
         case EFFECT_SOLAR_BEAM:
             if (AI_DATA->atkHoldEffect == HOLD_EFFECT_POWER_HERB
-              || (AI_WeatherHasEffect() && gBattleWeather & B_WEATHER_SUN && AI_DATA->atkHoldEffect != HOLD_EFFECT_UTILITY_UMBRELLA))
+              || (AI_WeatherHasEffect() && gBattleWeather & B_WEATHER_SUN && AI_DATA->atkHoldEffect != HOLD_EFFECT_UTILITY_UMBRELLA)
+              || AI_DATA->atkAbility == ABILITY_CHLOROPLAST)
                 break;
             if (CanTargetFaintAi(battlerDef, battlerAtk)) //Attacker can be knocked out
                 score -= 4;
@@ -3281,6 +3282,10 @@ static s16 AI_CheckViability(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
         IncreaseStatUpScore(battlerAtk, battlerDef, STAT_ACC, &score);
         break;
     case EFFECT_GROWTH:
+        if ((AI_WeatherHasEffect() && gBattleWeather & B_WEATHER_SUN && AI_DATA->atkHoldEffect != HOLD_EFFECT_UTILITY_UMBRELLA)
+                || AI_DATA->atkAbility == ABILITY_CHLOROPLAST)
+                score++;
+                // fallthrough
     case EFFECT_ATTACK_SPATK_UP:    // work up
         if (GetHealthPercentage(battlerAtk) <= 40 || AI_DATA->atkAbility == ABILITY_CONTRARY)
             break;
@@ -4587,7 +4592,7 @@ static s16 AI_CheckViability(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
     case EFFECT_TWO_TURNS_ATTACK:
     case EFFECT_SKULL_BASH:
     case EFFECT_SOLAR_BEAM:
-        if (AI_DATA->atkHoldEffect == HOLD_EFFECT_POWER_HERB)
+        if (AI_DATA->atkHoldEffect == HOLD_EFFECT_POWER_HERB || AI_DATA->atkAbility == ABILITY_CHLOROPLAST)
             score += 2;
         break;
     case EFFECT_COUNTER:
@@ -4660,6 +4665,10 @@ static s16 AI_CheckViability(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
         {
             score++;
         }
+        break;
+    case EFFECT_RECHARGE:
+        if (AI_DATA->atkAbility == ABILITY_RAMPAGE && CanIndexMoveFaintTarget(battlerAtk, battlerDef, AI_THINKING_STRUCT->movesetIndex, 0))
+            score += 4; // No recharge if Rampage attacker KOs the target
         break;
     //case EFFECT_EXTREME_EVOBOOST: // TODO
         //break;
