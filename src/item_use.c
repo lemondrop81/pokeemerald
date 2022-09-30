@@ -56,7 +56,6 @@ static void PlayerFaceHiddenItem(u8 a);
 static void CheckForHiddenItemsInMapConnection(u8 taskId);
 static void Task_OpenRegisteredPokeblockCase(u8 taskId);
 static void ItemUseOnFieldCB_Bike(u8 taskId);
-static void ItemUseOnFieldCB_Rod(u8);
 static void ItemUseOnFieldCB_Itemfinder(u8);
 static void ItemUseOnFieldCB_Berry(u8 taskId);
 static void ItemUseOnFieldCB_WailmerPailBerry(u8 taskId);
@@ -276,23 +275,6 @@ static bool32 CanFish(void)
     }
 
     return FALSE;
-}
-
-void ItemUseOutOfBattle_Rod(u8 taskId)
-{
-    if (CanFish() == TRUE)
-    {
-        sItemUseOnFieldCB = ItemUseOnFieldCB_Rod;
-        SetUpItemUseOnFieldCallback(taskId);
-    }
-    else
-        DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
-}
-
-static void ItemUseOnFieldCB_Rod(u8 taskId)
-{
-    StartFishing(ItemId_GetSecondaryId(gSpecialVar_ItemId));
-    DestroyTask(taskId);
 }
 
 void ItemUseOutOfBattle_Itemfinder(u8 var)

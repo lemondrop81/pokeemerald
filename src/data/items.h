@@ -9481,48 +9481,6 @@ const struct Item gItems[] =
         .secondaryId = ACRO_BIKE,
     },
 
-    [ITEM_OLD_ROD] =
-    {
-        .name = _("Old Rod"),
-        .itemId = ITEM_OLD_ROD,
-        .price = 0,
-        .description = sOldRodDesc,
-        .importance = 1,
-        .registrability = TRUE,
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Rod,
-        .secondaryId = OLD_ROD,
-    },
-
-    [ITEM_GOOD_ROD] =
-    {
-        .name = _("Good Rod"),
-        .itemId = ITEM_GOOD_ROD,
-        .price = 0,
-        .description = sGoodRodDesc,
-        .importance = 1,
-        .registrability = TRUE,
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Rod,
-        .secondaryId = GOOD_ROD,
-    },
-
-    [ITEM_SUPER_ROD] =
-    {
-        .name = _("Super Rod"),
-        .itemId = ITEM_SUPER_ROD,
-        .price = 0,
-        .description = sSuperRodDesc,
-        .importance = 1,
-        .registrability = TRUE,
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Rod,
-        .secondaryId = SUPER_ROD,
-    },
-
     [ITEM_DOWSING_MACHINE] =
     {
         .name = _("Dowsing MCHN"),

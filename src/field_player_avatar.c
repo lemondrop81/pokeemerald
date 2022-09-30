@@ -121,25 +121,6 @@ static void CreateStopSurfingTask(u8);
 static void Task_StopSurfingInit(u8 taskId);
 static void Task_WaitStopSurfing(u8 taskId);
 
-static void Task_Fishing(u8 taskId);
-static u8 Fishing_Init(struct Task *task);
-static u8 Fishing_GetRodOut(struct Task *task);
-static u8 Fishing_WaitBeforeDots(struct Task *task);
-static u8 Fishing_InitDots(struct Task *task);
-static u8 Fishing_ShowDots(struct Task *task);
-static u8 Fishing_CheckForBite(struct Task *task);
-static u8 Fishing_GotBite(struct Task *task);
-static u8 Fishing_WaitForA(struct Task *task);
-static u8 Fishing_CheckMoreDots(struct Task *task);
-static u8 Fishing_MonOnHook(struct Task *task);
-static u8 Fishing_StartEncounter(struct Task *task);
-static u8 Fishing_NotEvenNibble(struct Task *task);
-static u8 Fishing_GotAway(struct Task *task);
-static u8 Fishing_NoMon(struct Task *task);
-static u8 Fishing_PutRodAway(struct Task *task);
-static u8 Fishing_EndNoMon(struct Task *task);
-static void AlignFishingAnimationFrames(void);
-
 static u8 TrySpinPlayerForWarp(struct ObjectEvent *object, s16 *a1);
 
 static bool8 (*const sForcedMovementTestFuncs[NUM_FORCED_MOVEMENTS])(u8) =
@@ -220,7 +201,6 @@ static void (*const sPlayerAvatarTransitionFuncs[])(struct ObjectEvent *) =
     [PLAYER_AVATAR_STATE_SURFING]    = PlayerAvatarTransition_Surfing,
     [PLAYER_AVATAR_STATE_UNDERWATER] = PlayerAvatarTransition_Underwater,
     [PLAYER_AVATAR_STATE_FIELD_MOVE] = PlayerAvatarTransition_ReturnToField,
-    [PLAYER_AVATAR_STATE_FISHING]    = PlayerAvatarTransition_Dummy,
     [PLAYER_AVATAR_STATE_WATERING]   = PlayerAvatarTransition_Dummy,
 };
 
@@ -240,7 +220,6 @@ static const u8 sRivalAvatarGfxIds[][2] =
     [PLAYER_AVATAR_STATE_SURFING]    = {OBJ_EVENT_GFX_RIVAL_BRENDAN_SURFING,    OBJ_EVENT_GFX_RIVAL_MAY_SURFING},
     [PLAYER_AVATAR_STATE_UNDERWATER] = {OBJ_EVENT_GFX_BRENDAN_UNDERWATER,       OBJ_EVENT_GFX_MAY_UNDERWATER},
     [PLAYER_AVATAR_STATE_FIELD_MOVE] = {OBJ_EVENT_GFX_RIVAL_BRENDAN_FIELD_MOVE, OBJ_EVENT_GFX_RIVAL_MAY_FIELD_MOVE},
-    [PLAYER_AVATAR_STATE_FISHING]    = {OBJ_EVENT_GFX_BRENDAN_FISHING,          OBJ_EVENT_GFX_MAY_FISHING},
     [PLAYER_AVATAR_STATE_WATERING]   = {OBJ_EVENT_GFX_BRENDAN_WATERING,         OBJ_EVENT_GFX_MAY_WATERING}
 };
 
@@ -252,7 +231,6 @@ static const u8 sPlayerAvatarGfxIds[][2] =
     [PLAYER_AVATAR_STATE_SURFING]    = {OBJ_EVENT_GFX_BRENDAN_SURFING,    OBJ_EVENT_GFX_MAY_SURFING},
     [PLAYER_AVATAR_STATE_UNDERWATER] = {OBJ_EVENT_GFX_BRENDAN_UNDERWATER, OBJ_EVENT_GFX_MAY_UNDERWATER},
     [PLAYER_AVATAR_STATE_FIELD_MOVE] = {OBJ_EVENT_GFX_BRENDAN_FIELD_MOVE, OBJ_EVENT_GFX_MAY_FIELD_MOVE},
-    [PLAYER_AVATAR_STATE_FISHING]    = {OBJ_EVENT_GFX_BRENDAN_FISHING,    OBJ_EVENT_GFX_MAY_FISHING},
     [PLAYER_AVATAR_STATE_WATERING]   = {OBJ_EVENT_GFX_BRENDAN_WATERING,   OBJ_EVENT_GFX_MAY_WATERING},
 };
 
@@ -1247,7 +1225,6 @@ u8 unref_GetRivalAvatarGenderByGraphicsId(u8 gfxId)
     case OBJ_EVENT_GFX_RIVAL_MAY_SURFING:
     case OBJ_EVENT_GFX_RIVAL_MAY_FIELD_MOVE:
     case OBJ_EVENT_GFX_MAY_UNDERWATER:
-    case OBJ_EVENT_GFX_MAY_FISHING:
     case OBJ_EVENT_GFX_MAY_WATERING:
         return FEMALE;
     default:
@@ -1265,7 +1242,6 @@ u8 GetPlayerAvatarGenderByGraphicsId(u8 gfxId)
     case OBJ_EVENT_GFX_MAY_SURFING:
     case OBJ_EVENT_GFX_MAY_FIELD_MOVE:
     case OBJ_EVENT_GFX_MAY_UNDERWATER:
-    case OBJ_EVENT_GFX_MAY_FISHING:
     case OBJ_EVENT_GFX_MAY_WATERING:
         return FEMALE;
     default:
@@ -1400,12 +1376,6 @@ void SetPlayerAvatarFieldMove(void)
 {
     ObjectEventSetGraphicsId(&gObjectEvents[gPlayerAvatar.objectEventId], GetPlayerAvatarGraphicsIdByStateId(PLAYER_AVATAR_STATE_FIELD_MOVE));
     StartSpriteAnim(&gSprites[gPlayerAvatar.spriteId], ANIM_FIELD_MOVE);
-}
-
-static void SetPlayerAvatarFishing(u8 direction)
-{
-    ObjectEventSetGraphicsId(&gObjectEvents[gPlayerAvatar.objectEventId], GetPlayerAvatarGraphicsIdByStateId(PLAYER_AVATAR_STATE_FISHING));
-    StartSpriteAnim(&gSprites[gPlayerAvatar.spriteId], GetFishingDirectionAnimNum(direction));
 }
 
 void PlayerUseAcroBikeOnBumpySlope(u8 direction)
@@ -1663,390 +1633,12 @@ static void Task_WaitStopSurfing(u8 taskId)
     }
 }
 
-#define tStep              data[0]
-#define tFrameCounter      data[1]
 #define tNumDots           data[2]
 #define tDotsRequired      data[3]
 #define tRoundsPlayed      data[12]
 #define tMinRoundsRequired data[13]
 #define tPlayerGfxId       data[14]
-#define tFishingRod        data[15]
 
-// Some states are jumped to directly, labeled below
-#define FISHING_START_ROUND 3
-#define FISHING_GOT_BITE 6
-#define FISHING_ON_HOOK 9
-#define FISHING_NO_BITE 11
-#define FISHING_GOT_AWAY 12
-#define FISHING_SHOW_RESULT 13
-
-static bool8 (*const sFishingStateFuncs[])(struct Task *) =
-{
-    Fishing_Init,
-    Fishing_GetRodOut,
-    Fishing_WaitBeforeDots,
-    Fishing_InitDots,       // FISHING_START_ROUND
-    Fishing_ShowDots,
-    Fishing_CheckForBite,
-    Fishing_GotBite,        // FISHING_GOT_BITE
-    Fishing_WaitForA,
-    Fishing_CheckMoreDots,
-    Fishing_MonOnHook,      // FISHING_ON_HOOK
-    Fishing_StartEncounter,
-    Fishing_NotEvenNibble,  // FISHING_NO_BITE
-    Fishing_GotAway,        // FISHING_GOT_AWAY
-    Fishing_NoMon,          // FISHING_SHOW_RESULT
-    Fishing_PutRodAway,
-    Fishing_EndNoMon,
-};
-
-void StartFishing(u8 rod)
-{
-    u8 taskId = CreateTask(Task_Fishing, 0xFF);
-
-    gTasks[taskId].tFishingRod = rod;
-    Task_Fishing(taskId);
-}
-
-static void Task_Fishing(u8 taskId)
-{
-    while (sFishingStateFuncs[gTasks[taskId].tStep](&gTasks[taskId]))
-        ;
-}
-
-static bool8 Fishing_Init(struct Task *task)
-{
-    ScriptContext2_Enable();
-    gPlayerAvatar.preventStep = TRUE;
-    task->tStep++;
-    return FALSE;
-}
-
-static bool8 Fishing_GetRodOut(struct Task *task)
-{
-    struct ObjectEvent *playerObjEvent;
-    const s16 minRounds1[] = {
-        [OLD_ROD]   = 1,
-        [GOOD_ROD]  = 1,
-        [SUPER_ROD] = 1
-    };
-    const s16 minRounds2[] = {
-        [OLD_ROD]   = 1,
-        [GOOD_ROD]  = 3,
-        [SUPER_ROD] = 6
-    };
-
-    task->tRoundsPlayed = 0;
-    task->tMinRoundsRequired = minRounds1[task->tFishingRod] + (Random() % minRounds2[task->tFishingRod]);
-    task->tPlayerGfxId = gObjectEvents[gPlayerAvatar.objectEventId].graphicsId;
-    playerObjEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
-    ObjectEventClearHeldMovementIfActive(playerObjEvent);
-    playerObjEvent->enableAnim = TRUE;
-    SetPlayerAvatarFishing(playerObjEvent->facingDirection);
-    task->tStep++;
-    return FALSE;
-}
-
-static bool8 Fishing_WaitBeforeDots(struct Task *task)
-{
-    AlignFishingAnimationFrames();
-
-    // Wait one second
-    task->tFrameCounter++;
-    if (task->tFrameCounter >= 60)
-        task->tStep++;
-    return FALSE;
-}
-
-static bool8 Fishing_InitDots(struct Task *task)
-{
-    u32 randVal;
-
-    LoadMessageBoxAndFrameGfx(0, TRUE);
-    task->tStep++;
-    task->tFrameCounter = 0;
-    task->tNumDots = 0;
-    randVal = Random();
-    randVal %= 10;
-    task->tDotsRequired = randVal + 1;
-    if (task->tRoundsPlayed == 0)
-        task->tDotsRequired = randVal + 4;
-    if (task->tDotsRequired >= 10)
-        task->tDotsRequired = 10;
-    return TRUE;
-}
-
-static bool8 Fishing_ShowDots(struct Task *task)
-{
-    const u8 dot[] = _("·");
-
-    AlignFishingAnimationFrames();
-    task->tFrameCounter++;
-    if (JOY_NEW(A_BUTTON))
-    {
-        task->tStep = FISHING_NO_BITE;
-        if (task->tRoundsPlayed != 0)
-            task->tStep = FISHING_GOT_AWAY;
-        return TRUE;
-    }
-    else
-    {
-        if (task->tFrameCounter >= 20)
-        {
-            task->tFrameCounter = 0;
-            if (task->tNumDots >= task->tDotsRequired)
-            {
-                task->tStep++;
-                if (task->tRoundsPlayed != 0)
-                    task->tStep++;
-                task->tRoundsPlayed++;
-            }
-            else
-            {
-                AddTextPrinterParameterized(0, FONT_NORMAL, dot, task->tNumDots * 8, 1, 0, NULL);
-                task->tNumDots++;
-            }
-        }
-        return FALSE;
-    }
-}
-
-static bool8 Fishing_CheckForBite(struct Task *task)
-{
-    bool8 bite;
-
-    AlignFishingAnimationFrames();
-    task->tStep++;
-    bite = FALSE;
-
-    if (!DoesCurrentMapHaveFishingMons())
-    {
-        task->tStep = FISHING_NO_BITE;
-    }
-    else
-    {
-        if (!GetMonData(&gPlayerParty[0], MON_DATA_SANITY_IS_EGG))
-        {
-            u16 ability = GetMonAbility(&gPlayerParty[0]);
-            if (ability == ABILITY_SUCTION_CUPS || ability  == ABILITY_STICKY_HOLD)
-            {
-                if (Random() % 100 > 14)
-                    bite = TRUE;
-            }
-        }
-
-        if (!bite)
-        {
-            if (Random() & 1)
-                task->tStep = FISHING_NO_BITE;
-            else
-                bite = TRUE;
-        }
-
-        if (bite == TRUE)
-            StartSpriteAnim(&gSprites[gPlayerAvatar.spriteId], GetFishingBiteDirectionAnimNum(GetPlayerFacingDirection()));
-    }
-    return TRUE;
-}
-
-static bool8 Fishing_GotBite(struct Task *task)
-{
-    AlignFishingAnimationFrames();
-    AddTextPrinterParameterized(0, FONT_NORMAL, gText_OhABite, 0, 17, 0, NULL);
-    task->tStep++;
-    task->tFrameCounter = 0;
-    return FALSE;
-}
-
-// We have a bite. Now, wait for the player to press A, or the timer to expire.
-static bool8 Fishing_WaitForA(struct Task *task)
-{
-    const s16 reelTimeouts[3] = {
-        [OLD_ROD]   = 36,
-        [GOOD_ROD]  = 33,
-        [SUPER_ROD] = 30
-    };
-
-    AlignFishingAnimationFrames();
-    task->tFrameCounter++;
-    if (task->tFrameCounter >= reelTimeouts[task->tFishingRod])
-        task->tStep = FISHING_GOT_AWAY;
-    else if (JOY_NEW(A_BUTTON))
-        task->tStep++;
-    return FALSE;
-}
-
-// Determine if we're going to play the dot game again
-static bool8 Fishing_CheckMoreDots(struct Task *task)
-{
-    const s16 moreDotsChance[][2] =
-    {
-        [OLD_ROD]   = {0, 0},
-        [GOOD_ROD]  = {40, 10},
-        [SUPER_ROD] = {70, 30}
-    };
-
-    AlignFishingAnimationFrames();
-    task->tStep++;
-    if (task->tRoundsPlayed < task->tMinRoundsRequired)
-    {
-        task->tStep = FISHING_START_ROUND;
-    }
-    else if (task->tRoundsPlayed < 2)
-    {
-        // probability of having to play another round
-        s16 probability = Random() % 100;
-
-        if (moreDotsChance[task->tFishingRod][task->tRoundsPlayed] > probability)
-            task->tStep = FISHING_START_ROUND;
-    }
-    return FALSE;
-}
-
-static bool8 Fishing_MonOnHook(struct Task *task)
-{
-    AlignFishingAnimationFrames();
-    FillWindowPixelBuffer(0, PIXEL_FILL(1));
-    AddTextPrinterParameterized2(0, FONT_NORMAL, gText_PokemonOnHook, 1, 0, 2, 1, 3);
-    task->tStep++;
-    task->tFrameCounter = 0;
-    return FALSE;
-}
-
-static bool8 Fishing_StartEncounter(struct Task *task)
-{
-    if (task->tFrameCounter == 0)
-        AlignFishingAnimationFrames();
-
-    RunTextPrinters();
-
-    if (task->tFrameCounter == 0)
-    {
-        if (!IsTextPrinterActive(0))
-        {
-            struct ObjectEvent *playerObjEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
-
-            ObjectEventSetGraphicsId(playerObjEvent, task->tPlayerGfxId);
-            ObjectEventTurn(playerObjEvent, playerObjEvent->movementDirection);
-            if (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING)
-                SetSurfBlob_PlayerOffset(gObjectEvents[gPlayerAvatar.objectEventId].fieldEffectSpriteId, FALSE, 0);
-            gSprites[gPlayerAvatar.spriteId].x2 = 0;
-            gSprites[gPlayerAvatar.spriteId].y2 = 0;
-            ClearDialogWindowAndFrame(0, TRUE);
-            task->tFrameCounter++;
-            return FALSE;
-        }
-    }
-
-    if (task->tFrameCounter != 0)
-    {
-        gPlayerAvatar.preventStep = FALSE;
-        ScriptContext2_Disable();
-        FishingWildEncounter(task->tFishingRod);
-        RecordFishingAttemptForTV(TRUE);
-        DestroyTask(FindTaskIdByFunc(Task_Fishing));
-    }
-    return FALSE;
-}
-
-static bool8 Fishing_NotEvenNibble(struct Task *task)
-{
-    AlignFishingAnimationFrames();
-    StartSpriteAnim(&gSprites[gPlayerAvatar.spriteId], GetFishingNoCatchDirectionAnimNum(GetPlayerFacingDirection()));
-    FillWindowPixelBuffer(0, PIXEL_FILL(1));
-    AddTextPrinterParameterized2(0, FONT_NORMAL, gText_NotEvenANibble, 1, 0, 2, 1, 3);
-    task->tStep = FISHING_SHOW_RESULT;
-    return TRUE;
-}
-
-static bool8 Fishing_GotAway(struct Task *task)
-{
-    AlignFishingAnimationFrames();
-    StartSpriteAnim(&gSprites[gPlayerAvatar.spriteId], GetFishingNoCatchDirectionAnimNum(GetPlayerFacingDirection()));
-    FillWindowPixelBuffer(0, PIXEL_FILL(1));
-    AddTextPrinterParameterized2(0, FONT_NORMAL, gText_ItGotAway, 1, 0, 2, 1, 3);
-    task->tStep++;
-    return TRUE;
-}
-
-static bool8 Fishing_NoMon(struct Task *task)
-{
-    AlignFishingAnimationFrames();
-    task->tStep++;
-    return FALSE;
-}
-
-static bool8 Fishing_PutRodAway(struct Task *task)
-{
-    AlignFishingAnimationFrames();
-    if (gSprites[gPlayerAvatar.spriteId].animEnded)
-    {
-        struct ObjectEvent *playerObjEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
-
-        ObjectEventSetGraphicsId(playerObjEvent, task->tPlayerGfxId);
-        ObjectEventTurn(playerObjEvent, playerObjEvent->movementDirection);
-        if (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING)
-            SetSurfBlob_PlayerOffset(gObjectEvents[gPlayerAvatar.objectEventId].fieldEffectSpriteId, FALSE, 0);
-        gSprites[gPlayerAvatar.spriteId].x2 = 0;
-        gSprites[gPlayerAvatar.spriteId].y2 = 0;
-        task->tStep++;
-    }
-    return FALSE;
-}
-
-static bool8 Fishing_EndNoMon(struct Task *task)
-{
-    RunTextPrinters();
-    if (!IsTextPrinterActive(0))
-    {
-        gPlayerAvatar.preventStep = FALSE;
-        ScriptContext2_Disable();
-        UnfreezeObjectEvents();
-        ClearDialogWindowAndFrame(0, TRUE);
-        RecordFishingAttemptForTV(FALSE);
-        DestroyTask(FindTaskIdByFunc(Task_Fishing));
-    }
-    return FALSE;
-}
-
-#undef tStep
-#undef tFrameCounter
-#undef tFishingRod
-
-static void AlignFishingAnimationFrames(void)
-{
-    struct Sprite *playerSprite = &gSprites[gPlayerAvatar.spriteId];
-    u8 animCmdIndex;
-    u8 animType;
-
-    AnimateSprite(playerSprite);
-    playerSprite->x2 = 0;
-    playerSprite->y2 = 0;
-    animCmdIndex = playerSprite->animCmdIndex;
-    if (playerSprite->anims[playerSprite->animNum][animCmdIndex].type == -1)
-    {
-        animCmdIndex--;
-    }
-    else
-    {
-        playerSprite->animDelayCounter++;
-        if (playerSprite->anims[playerSprite->animNum][animCmdIndex].type == -1)
-            animCmdIndex--;
-    }
-    animType = playerSprite->anims[playerSprite->animNum][animCmdIndex].type;
-    if (animType == 1 || animType == 2 || animType == 3)
-    {
-        playerSprite->x2 = 8;
-        if (GetPlayerFacingDirection() == 3)
-            playerSprite->x2 = -8;
-    }
-    if (animType == 5)
-        playerSprite->y2 = -8;
-    if (animType == 10 || animType == 11)
-        playerSprite->y2 = 8;
-    if (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING)
-        SetSurfBlob_PlayerOffset(gObjectEvents[gPlayerAvatar.objectEventId].fieldEffectSpriteId, TRUE, playerSprite->y2);
-}
 
 void SetSpinStartFacingDir(u8 direction)
 {

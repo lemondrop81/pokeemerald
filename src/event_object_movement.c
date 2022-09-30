@@ -798,39 +798,7 @@ static const u8 sAcroWheeliePedalDirectionAnimNums[] = {
     [DIR_NORTHWEST] = ANIM_MOVING_WHEELIE_NORTH,
     [DIR_NORTHEAST] = ANIM_MOVING_WHEELIE_NORTH,
 };
-static const u8 sFishingDirectionAnimNums[] = {
-    [DIR_NONE] = ANIM_TAKE_OUT_ROD_SOUTH,
-    [DIR_SOUTH] = ANIM_TAKE_OUT_ROD_SOUTH,
-    [DIR_NORTH] = ANIM_TAKE_OUT_ROD_NORTH,
-    [DIR_WEST] = ANIM_TAKE_OUT_ROD_WEST,
-    [DIR_EAST] = ANIM_TAKE_OUT_ROD_EAST,
-    [DIR_SOUTHWEST] = ANIM_TAKE_OUT_ROD_SOUTH,
-    [DIR_SOUTHEAST] = ANIM_TAKE_OUT_ROD_SOUTH,
-    [DIR_NORTHWEST] = ANIM_TAKE_OUT_ROD_NORTH,
-    [DIR_NORTHEAST] = ANIM_TAKE_OUT_ROD_NORTH,
-};
-static const u8 sFishingNoCatchDirectionAnimNums[] = {
-    [DIR_NONE] = ANIM_PUT_AWAY_ROD_SOUTH,
-    [DIR_SOUTH] = ANIM_PUT_AWAY_ROD_SOUTH,
-    [DIR_NORTH] = ANIM_PUT_AWAY_ROD_NORTH,
-    [DIR_WEST] = ANIM_PUT_AWAY_ROD_WEST,
-    [DIR_EAST] = ANIM_PUT_AWAY_ROD_EAST,
-    [DIR_SOUTHWEST] = ANIM_PUT_AWAY_ROD_SOUTH,
-    [DIR_SOUTHEAST] = ANIM_PUT_AWAY_ROD_SOUTH,
-    [DIR_NORTHWEST] = ANIM_PUT_AWAY_ROD_NORTH,
-    [DIR_NORTHEAST] = ANIM_PUT_AWAY_ROD_NORTH,
-};
-static const u8 sFishingBiteDirectionAnimNums[] = {
-    [DIR_NONE] = ANIM_HOOKED_POKEMON_SOUTH,
-    [DIR_SOUTH] = ANIM_HOOKED_POKEMON_SOUTH,
-    [DIR_NORTH] = ANIM_HOOKED_POKEMON_NORTH,
-    [DIR_WEST] = ANIM_HOOKED_POKEMON_WEST,
-    [DIR_EAST] = ANIM_HOOKED_POKEMON_EAST,
-    [DIR_SOUTHWEST] = ANIM_HOOKED_POKEMON_SOUTH,
-    [DIR_SOUTHEAST] = ANIM_HOOKED_POKEMON_SOUTH,
-    [DIR_NORTHWEST] = ANIM_HOOKED_POKEMON_NORTH,
-    [DIR_NORTHEAST] = ANIM_HOOKED_POKEMON_NORTH,
-};
+
 static const u8 sRunningDirectionAnimNums[] = {
     [DIR_NONE] = ANIM_RUN_SOUTH,
     [DIR_SOUTH] = ANIM_RUN_SOUTH,
@@ -4515,21 +4483,6 @@ u8 GetAcroUnusedActionDirectionAnimNum(u8 direction)
 u8 GetAcroWheeliePedalDirectionAnimNum(u8 direction)
 {
     return sAcroWheeliePedalDirectionAnimNums[direction];
-}
-
-u8 GetFishingDirectionAnimNum(u8 direction)
-{
-    return sFishingDirectionAnimNums[direction];
-}
-
-u8 GetFishingNoCatchDirectionAnimNum(u8 direction)
-{
-    return sFishingNoCatchDirectionAnimNums[direction];
-}
-
-u8 GetFishingBiteDirectionAnimNum(u8 direction)
-{
-    return sFishingBiteDirectionAnimNums[direction];
 }
 
 u8 GetRunningDirectionAnimNum(u8 direction)

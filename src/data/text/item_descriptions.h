@@ -3685,21 +3685,6 @@ static const u8 sAcroBikeDesc[] = _(
     "capable of jumps\n"
     "and wheelies.");
 
-static const u8 sOldRodDesc[] = _(
-    "Use by any body of\n"
-    "water to fish for\n"
-    "wild Pokémon.");
-
-static const u8 sGoodRodDesc[] = _(
-    "A decent fishing\n"
-    "rod for catching\n"
-    "wild Pokémon.");
-
-static const u8 sSuperRodDesc[] = _(
-    "The best fishing\n"
-    "rod for catching\n"
-    "wild Pokémon.");
-
 static const u8 sDowsingMachineDesc[] = _(
     "A device that\n"
     "signals an invisible\n"

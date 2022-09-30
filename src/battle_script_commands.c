@@ -13484,7 +13484,7 @@ static void Cmd_handleballthrow(void)
             break;
         case ITEM_DIVE_BALL:
             #if B_DIVE_BALL_MODIFIER >= GEN_4
-                if (GetCurrentMapType() == MAP_TYPE_UNDERWATER || gIsFishingEncounter || gIsSurfingEncounter)
+                if (GetCurrentMapType() == MAP_TYPE_UNDERWATER || gIsSurfingEncounter)
                     ballMultiplier = 35;
             #else
                 if (GetCurrentMapType() == MAP_TYPE_UNDERWATER)
@@ -13552,14 +13552,6 @@ static void Cmd_handleballthrow(void)
                 ballMultiplier = 40;
             else if (gBattleMons[gBattlerAttacker].level > gBattleMons[gBattlerTarget].level)
                 ballMultiplier = 20;
-            break;
-        case ITEM_LURE_BALL:
-            if (gIsFishingEncounter)
-                #if B_LURE_BALL_MODIFIER >= GEN_7
-                    ballMultiplier = 50;
-                #else
-                    ballMultiplier = 30;
-                #endif
             break;
         case ITEM_MOON_BALL:
             for (i = 0; i < EVOS_PER_MON; i++)

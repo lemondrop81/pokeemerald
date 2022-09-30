@@ -926,9 +926,6 @@
 #define ITEM_BICYCLE 706
 #define ITEM_MACH_BIKE 707
 #define ITEM_ACRO_BIKE 708
-#define ITEM_OLD_ROD 709
-#define ITEM_GOOD_ROD 710
-#define ITEM_SUPER_ROD 711
 #define ITEM_DOWSING_MACHINE 712
 #define ITEM_TOWN_MAP 713
 #define ITEM_VS_SEEKER 714
@@ -1022,11 +1019,6 @@
 #define BAG_ITEM_CAPACITY_DIGITS 2
 #define BERRY_CAPACITY_DIGITS 3
 #define MAX_ITEM_DIGITS BERRY_CAPACITY_DIGITS
-
-// Secondary IDs for rods
-#define OLD_ROD   0
-#define GOOD_ROD  1
-#define SUPER_ROD 2
 
 // Secondary IDs for bikes
 #define MACH_BIKE 0
