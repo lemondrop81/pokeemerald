@@ -191,6 +191,13 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_GALLADE_MEGA] = sGalladeFormSpeciesIdTable,
     [SPECIES_AUDINO_MEGA] = sAudinoFormSpeciesIdTable,
     [SPECIES_DIANCIE_MEGA] = sDiancieFormSpeciesIdTable,
+    [SPECIES_BUTTERFREE_MEGA] = sButterfreeFormSpeciesIdTable,
+    [SPECIES_FLYGON_MEGA] = sFlygonFormSpeciesIdTable,
+    [SPECIES_KINGDRA_MEGA] = sKingdraFormSpeciesIdTable,
+    [SPECIES_KINGLER_MEGA] = sKinglerFormSpeciesIdTable,
+    [SPECIES_LAPRAS_MEGA] = sLaprasFormSpeciesIdTable,
+    [SPECIES_MACHAMP_MEGA] = sMachampFormSpeciesIdTable,
+    [SPECIES_MILOTIC_MEGA] = sMiloticFormSpeciesIdTable,
     // Special Mega + Primals
     [SPECIES_RAYQUAZA_MEGA] = sRayquazaFormSpeciesIdTable,
     [SPECIES_KYOGRE_PRIMAL] = sKyogreFormSpeciesIdTable,
