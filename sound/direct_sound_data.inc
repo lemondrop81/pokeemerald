@@ -4319,6 +4319,18 @@ Cry_DeltaVenusaur::
 	.incbin "sound/direct_sound_samples/cries/venusaur.bin"
 
 	.align 2
+Cry_DeltaCharmander::
+	.incbin "sound/direct_sound_samples/cries/charmander.bin"
+
+	.align 2
+Cry_DeltaChameleon::
+	.incbin "sound/direct_sound_samples/cries/charmeleon.bin"
+
+	.align 2
+Cry_DeltaCharizard::
+	.incbin "sound/direct_sound_samples/cries/charizard.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 

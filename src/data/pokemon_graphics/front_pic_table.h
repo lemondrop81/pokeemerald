@@ -1275,6 +1275,9 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(DELTA_BULBASAUR, gMonFrontPic_DeltaBulbasaur),
     SPECIES_SPRITE(DELTA_IVYSAUR, gMonFrontPic_DeltaIvysaur),
     SPECIES_SPRITE(DELTA_VENUSAUR, gMonFrontPic_DeltaVenusaur),
+    SPECIES_SPRITE(DELTA_CHARMANDER, gMonFrontPic_DeltaCharmander),
+    SPECIES_SPRITE(DELTA_CHARMELEON, gMonFrontPic_DeltaCharmeleon),
+    SPECIES_SPRITE(DELTA_CHARIZARD, gMonFrontPic_DeltaCharizard),
 
     SPECIES_SPRITE(EGG, gMonFrontPic_Egg),
 };

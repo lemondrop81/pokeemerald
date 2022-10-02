@@ -5365,3 +5365,22 @@ const u8 gDeltaVenusaurPokedexText[] = _(
     "a shard of its crystal is embedded in its \n"
     "forehead. Even when it sleeps, its crystal \n"
     "is capable of providing protection. ");
+
+const u8 gDeltaCharmanderPokedexText[] = _(
+    "A Delta Species discovered by EchoTheThird.\n"
+    "While the flame on its tail does not appear\n"
+    "immediately after its birth, it burns\n"
+    "more fiercely with age. ");
+
+const u8 gDeltaCharmeleonPokedexText[] = _(
+    "Its claws tear into its foe's spirit.\n"
+    " When facing powerful opponents, the\n"
+    "flame on its tail gives off the\n"
+    " appearance of a face. ");
+
+const u8 gDeltaCharizardPokedexText[] = _(
+    "The flame on its tail grows in the\n"
+    "presence of strong opponents. Its\n"
+    "breath gives the impression of being\n"
+    "engulfed in magma but causes no\n"
+    "physical harm.");

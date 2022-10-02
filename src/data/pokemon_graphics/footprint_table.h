@@ -902,5 +902,8 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_DELTA_BULBASAUR] = gMonFootprint_DeltaBulbasaur,
     [SPECIES_DELTA_IVYSAUR] = gMonFootprint_DeltaIvysaur,
     [SPECIES_DELTA_VENUSAUR] = gMonFootprint_DeltaVenusaur,
+    [SPECIES_DELTA_CHARMANDER] = gMonFootprint_DeltaCharmander,
+    [SPECIES_DELTA_CHARMELEON] = gMonFootprint_DeltaCharmeleon,
+    [SPECIES_DELTA_CHARIZARD] = gMonFootprint_DeltaCharizard,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

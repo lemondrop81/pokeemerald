@@ -1248,6 +1248,9 @@ const u8 *const gMonIconTable[] =
     [SPECIES_DELTA_BULBASAUR] = gMonIcon_DeltaBulbasaur,
     [SPECIES_DELTA_IVYSAUR] = gMonIcon_DeltaIvysaur,
     [SPECIES_DELTA_VENUSAUR] = gMonIcon_DeltaVenusaur,
+    [SPECIES_DELTA_CHARMANDER] = gMonIcon_DeltaCharmander,
+    [SPECIES_DELTA_CHARMELEON] = gMonIcon_DeltaCharmeleon,
+    [SPECIES_DELTA_CHARIZARD] = gMonIcon_DeltaCharizard,
     [SPECIES_EGG] = gMonIcon_Egg,
 };
 
@@ -2448,6 +2451,9 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_DELTA_BULBASAUR] = 2,
     [SPECIES_DELTA_IVYSAUR] = 2,
     [SPECIES_DELTA_VENUSAUR] = 2,
+    [SPECIES_DELTA_CHARMANDER] = 0,
+    [SPECIES_DELTA_CHARMELEON] = 0,
+    [SPECIES_DELTA_CHARIZARD] = 0,
     [SPECIES_EGG] = 1,
 };
 

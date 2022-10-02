@@ -8545,6 +8545,24 @@ static const union AnimCmd sAnim_DELTA_VENUSAUR_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_DELTA_CHARMANDER_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_DELTA_CHARMELEON_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_DELTA_CHARIZARD_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_VENUSAUR_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -14074,6 +14092,21 @@ static const union AnimCmd *const sAnims_DELTA_VENUSAUR[] ={
     sAnim_DELTA_VENUSAUR_1,
 };
 
+static const union AnimCmd *const sAnims_DELTA_CHARMANDER[] ={
+    sAnim_GeneralFrame0,
+    sAnim_DELTA_CHARMANDER_1,
+};
+
+static const union AnimCmd *const sAnims_DELTA_CHARMELEON[] ={
+    sAnim_GeneralFrame0,
+    sAnim_DELTA_CHARMELEON_1,
+};
+
+static const union AnimCmd *const sAnims_DELTA_CHARIZARD[] ={
+    sAnim_GeneralFrame0,
+    sAnim_DELTA_CHARIZARD_1,
+};
+
 static const union AnimCmd *const sAnims_VENUSAUR_MEGA[] ={
     sAnim_GeneralFrame0,
     sAnim_VENUSAUR_MEGA_1,
@@ -15609,6 +15642,9 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(DELTA_BULBASAUR),
     ANIM_CMD(DELTA_IVYSAUR),
     ANIM_CMD(DELTA_VENUSAUR),
+    ANIM_CMD(DELTA_CHARMANDER),
+    ANIM_CMD(DELTA_CHARMELEON),
+    ANIM_CMD(DELTA_CHARIZARD),
     ANIM_CMD(VENUSAUR_MEGA),
     ANIM_CMD(CHARIZARD_MEGA_X),
     ANIM_CMD(CHARIZARD_MEGA_Y),

@@ -1285,6 +1285,12 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     // Delta Ivysaur
     [SPECIES_DELTA_IVYSAUR] = sDeltaIvysaurLevelUpLearnset,
     // Delta Bulbasaur
-    [SPECIES_DELTA_VENUSAUR] = sDeltaVenusaurLevelUpLearnset
+    [SPECIES_DELTA_VENUSAUR] = sDeltaVenusaurLevelUpLearnset,
+    // Delta Charmander
+    [SPECIES_DELTA_CHARMANDER] = sDeltaCharmanderLevelUpLearnset,
+    // Delta Charmeleon
+    [SPECIES_DELTA_CHARMELEON] = sDeltaCharmeleonLevelUpLearnset,
+    // Delta Charizard
+    [SPECIES_DELTA_CHARIZARD] = sDeltaCharizardLevelUpLearnset,
 
 };

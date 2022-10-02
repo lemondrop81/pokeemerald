@@ -1275,6 +1275,9 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(DELTA_BULBASAUR, gMonShinyPalette_DeltaBulbasaur),
     SPECIES_SHINY_PAL(DELTA_IVYSAUR, gMonShinyPalette_DeltaIvysaur),
     SPECIES_SHINY_PAL(DELTA_VENUSAUR, gMonShinyPalette_DeltaVenusaur),
+    SPECIES_SHINY_PAL(DELTA_CHARMANDER, gMonShinyPalette_DeltaCharmander),
+    SPECIES_SHINY_PAL(DELTA_CHARMELEON, gMonShinyPalette_DeltaCharmeleon),
+    SPECIES_SHINY_PAL(DELTA_CHARIZARD, gMonShinyPalette_DeltaCharizard),
 
     SPECIES_SHINY_PAL(EGG, gMonPalette_Egg),
 };

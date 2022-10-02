@@ -901,6 +901,9 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_DELTA_BULBASAUR] = _("Bulbasaur"),
     [SPECIES_DELTA_IVYSAUR] = _("Ivysaur"),
     [SPECIES_DELTA_VENUSAUR] = _("Venusaur"),
+    [SPECIES_DELTA_CHARMANDER] = _("Charmander"),
+    [SPECIES_DELTA_CHARMELEON] = _("Charmeleon"),
+    [SPECIES_DELTA_CHARIZARD] = _("Charizard"),
 
     // Megas
     [SPECIES_VENUSAUR_MEGA] = _("Venusaur"),

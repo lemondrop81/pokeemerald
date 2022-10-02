@@ -10823,4 +10823,40 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+
+    [NATIONAL_DEX_DELTA_CHARMANDER] =
+    {
+        .categoryName = _("Bone Lizard"),
+        .height = .6,
+        .weight = 8.5,
+        .description = gDeltaCharmanderPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DELTA_CHARMELEON] =
+    {
+        .categoryName = _("Skeleton"),
+        .height = 1.1,
+        .weight = 19.0,
+        .description = gDeltaCharmeleonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DELTA_CHARIZARD] =
+    {
+        .categoryName = _("Skeleton"),
+        .height = 1.7,
+        .weight = 90.5,
+        .description = gDeltaCharizardPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };
