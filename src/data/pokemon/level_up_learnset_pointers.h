@@ -1280,4 +1280,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     // Calyrex
     [SPECIES_CALYREX_ICE_RIDER] = sCalyrexIceRiderLevelUpLearnset,
     [SPECIES_CALYREX_SHADOW_RIDER] = sCalyrexShadowRiderLevelUpLearnset,
+    // Delta Bulbasaur
+    [SPECIES_DELTA_BULBASAUR] = sDeltaBulbasaurLevelUpLearnset
+
 };

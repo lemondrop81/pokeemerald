@@ -6140,6 +6140,12 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 7,
     },
+    // Delta Bulbasaur
+    [SPECIES_DELTA_BULBASAUR] =
+    {
+        .size = MON_COORDS_SIZE(64, 56),
+        .y_offset = 1,
+    },
     // Egg
     [SPECIES_EGG] =
     {

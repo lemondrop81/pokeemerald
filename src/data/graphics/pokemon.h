@@ -1156,6 +1156,7 @@ const u32 gMonFrontPic_UrshifuRapidStrikeStyle[] = INCBIN_U32("graphics/pokemon/
 const u32 gMonFrontPic_ZarudeDada[] = INCBIN_U32("graphics/pokemon/zarude/dada/front.4bpp.lz");
 const u32 gMonFrontPic_CalyrexIceRider[] = INCBIN_U32("graphics/pokemon/calyrex/ice_rider/front.4bpp.lz");
 const u32 gMonFrontPic_CalyrexShadowRider[] = INCBIN_U32("graphics/pokemon/calyrex/shadow_rider/front.4bpp.lz");
+const u32 gMonFrontPic_DeltaBulbasaur[] = INCBIN_U32("graphics/pokemon/Delta_Bulbasaur/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 
 const u32 gMonBackPic_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/back.4bpp.lz");
@@ -2315,6 +2316,7 @@ const u32 gMonBackPic_UrshifuRapidStrikeStyle[] = INCBIN_U32("graphics/pokemon/u
 const u32 gMonBackPic_ZarudeDada[] = INCBIN_U32("graphics/pokemon/zarude/dada/back.4bpp.lz");
 const u32 gMonBackPic_CalyrexIceRider[] = INCBIN_U32("graphics/pokemon/calyrex/ice_rider/back.4bpp.lz");
 const u32 gMonBackPic_CalyrexShadowRider[] = INCBIN_U32("graphics/pokemon/calyrex/shadow_rider/back.4bpp.lz");
+const u32 gMonBackPic_DeltaBulbasaur[] = INCBIN_U32("graphics/pokemon/Delta_Bulbasaur/back.4bpp.lz");
 
 const u32 gMonPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/normal.gbapal.lz");
 const u32 gMonPalette_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/normal.gbapal.lz");
@@ -3492,6 +3494,7 @@ const u32 gMonPalette_UrshifuRapidStrikeStyle[] = INCBIN_U32("graphics/pokemon/u
 const u32 gMonPalette_ZarudeDada[] = INCBIN_U32("graphics/pokemon/zarude/dada/normal.gbapal.lz");
 const u32 gMonPalette_CalyrexIceRider[] = INCBIN_U32("graphics/pokemon/calyrex/ice_rider/normal.gbapal.lz");
 const u32 gMonPalette_CalyrexShadowRider[] = INCBIN_U32("graphics/pokemon/calyrex/shadow_rider/normal.gbapal.lz");
+const u32 gMonPalette_DeltaBulbasaur[] = INCBIN_U32("graphics/pokemon/Delta_Bulbasaur/normal.gbapal.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
 
 const u32 gMonShinyPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/shiny.gbapal.lz");
@@ -4664,6 +4667,7 @@ const u32 gMonShinyPalette_UrshifuRapidStrikeStyle[] = INCBIN_U32("graphics/poke
 const u32 gMonShinyPalette_ZarudeDada[] = INCBIN_U32("graphics/pokemon/zarude/dada/shiny.gbapal.lz");
 const u32 gMonShinyPalette_CalyrexIceRider[] = INCBIN_U32("graphics/pokemon/calyrex/ice_rider/shiny.gbapal.lz");
 const u32 gMonShinyPalette_CalyrexShadowRider[] = INCBIN_U32("graphics/pokemon/calyrex/shadow_rider/shiny.gbapal.lz");
+const u32 gMonShinyPalette_DeltaBulbasaur[] = INCBIN_U32("graphics/pokemon/Delta_Bulbasaur/shiny.gbapal.lz");
 
 const u8 gMonIcon_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/icon.4bpp");
 const u8 gMonIcon_Bulbasaur[] = INCBIN_U8("graphics/pokemon/bulbasaur/icon.4bpp");
@@ -5825,6 +5829,7 @@ const u8 gMonIcon_EternatusEternamax[] = INCBIN_U8("graphics/pokemon/eternatus/e
 const u8 gMonIcon_ZarudeDada[] = INCBIN_U8("graphics/pokemon/zarude/dada/icon.4bpp");
 //const u8 gMonIcon_CalyrexIceRider[] = INCBIN_U8("graphics/pokemon/calyrex/ice_rider/icon.4bpp");
 //const u8 gMonIcon_CalyrexShadowRider[] = INCBIN_U8("graphics/pokemon/calyrex/shadow_rider/icon.4bpp");
+const u8 gMonIcon_DeltaBulbasaur[] = INCBIN_U8("graphics/pokemon/Delta_Bulbasaur/icon.4bpp");
 const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
 
 const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/footprint.1bpp");
@@ -6726,3 +6731,4 @@ const u8 gMonFootprint_Regidrago[] = INCBIN_U8("graphics/pokemon/regidrago/footp
 const u8 gMonFootprint_Glastrier[] = INCBIN_U8("graphics/pokemon/glastrier/footprint.1bpp");
 const u8 gMonFootprint_Spectrier[] = INCBIN_U8("graphics/pokemon/spectrier/footprint.1bpp");
 const u8 gMonFootprint_Calyrex[] = INCBIN_U8("graphics/pokemon/calyrex/footprint.1bpp");
+const u8 gMonFootprint_DeltaBulbasaur[] = INCBIN_U8("graphics/pokemon/Delta_Bulbasaur/footprint.1bpp");

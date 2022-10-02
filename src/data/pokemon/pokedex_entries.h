@@ -10787,4 +10787,16 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+
+    [NATIONAL_DEX_DELTA_BULBASAUR] =
+    {
+        .categoryName = _("Crystal"),
+        .height = .7,
+        .weight = 6.9,
+        .description = gDeltaBulbasaurPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

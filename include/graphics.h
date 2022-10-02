@@ -1216,6 +1216,7 @@ extern const u32 gMonFrontPic_UrshifuRapidStrikeStyle[];
 extern const u32 gMonFrontPic_ZarudeDada[];
 extern const u32 gMonFrontPic_CalyrexIceRider[];
 extern const u32 gMonFrontPic_CalyrexShadowRider[];
+extern const u32 gMonFrontPic_DeltaBulbasaur[];
 extern const u32 gMonFrontPic_Egg[];
 
 extern const u32 gMonBackPic_CircledQuestionMark[];
@@ -2368,6 +2369,7 @@ extern const u32 gMonBackPic_UrshifuRapidStrikeStyle[];
 extern const u32 gMonBackPic_ZarudeDada[];
 extern const u32 gMonBackPic_CalyrexIceRider[];
 extern const u32 gMonBackPic_CalyrexShadowRider[];
+extern const u32 gMonBackPic_DeltaBulbasaur[];
 
 extern const u32 gMonPalette_CircledQuestionMark[];
 extern const u32 gMonPalette_DoubleQuestionMark[];
@@ -3538,6 +3540,7 @@ extern const u32 gMonPalette_UrshifuRapidStrikeStyle[];
 extern const u32 gMonPalette_ZarudeDada[];
 extern const u32 gMonPalette_CalyrexIceRider[];
 extern const u32 gMonPalette_CalyrexShadowRider[];
+extern const u32 gMonPalette_DeltaBulbasaur[];
 extern const u32 gMonPalette_Egg[];
 
 extern const u32 gMonShinyPalette_CircledQuestionMark[];
@@ -4704,6 +4707,7 @@ extern const u32 gMonShinyPalette_UrshifuRapidStrikeStyle[];
 extern const u32 gMonShinyPalette_ZarudeDada[];
 extern const u32 gMonShinyPalette_CalyrexIceRider[];
 extern const u32 gMonShinyPalette_CalyrexShadowRider[];
+extern const u32 gMonShinyPalette_DeltaBulbasaur[];
 
 extern const u8 gMonIcon_QuestionMark[];
 extern const u8 gMonIcon_Bulbasaur[];
@@ -5865,6 +5869,7 @@ extern const u8 gMonIcon_EternatusEternamax[];
 extern const u8 gMonIcon_ZarudeDada[];
 //extern const u8 gMonIcon_CalyrexIceRider[];
 //extern const u8 gMonIcon_CalyrexShadowRider[];
+extern const u8 gMonIcon_DeltaBulbasaur[];
 extern const u8 gMonIcon_Egg[];
 
 extern const u8 gMonFootprint_QuestionMark[];
@@ -6766,6 +6771,7 @@ extern const u8 gMonFootprint_Regidrago[];
 extern const u8 gMonFootprint_Glastrier[];
 extern const u8 gMonFootprint_Spectrier[];
 extern const u8 gMonFootprint_Calyrex[];
+extern const u8 gMonFootprint_DeltaBulbasaur[];
 
 // trainer sprites
 extern const u32 gTrainerFrontPic_Hiker[];

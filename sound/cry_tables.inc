@@ -898,6 +898,7 @@ gCryTable::
 	cry Cry_Glastrier
 	cry Cry_Spectrier
 	cry Cry_Calyrex
+	cry Cry_DeltaBulbasaur
 	@ Megas
 	cry Cry_VenusaurMega
 	cry Cry_CharizardMegaX

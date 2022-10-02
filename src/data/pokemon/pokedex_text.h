@@ -5348,3 +5348,8 @@ const u8 gCalyrexPokedexText[] = _(
     "providing healing and blessings. It\n"
     "reigned over the Galar region in times\n"
     "of yore.");
+
+const u8 gDeltaBulbasaurPokedexText[] = _(
+    "A Delta Species discovered by EchoTheThird.\n" 
+    "The crystal growing from its back uses\n" 
+    "its mental energy to grow. ");

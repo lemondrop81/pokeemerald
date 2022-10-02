@@ -4307,6 +4307,10 @@ Cry_CalyrexShadowRider::
 	.incbin "sound/direct_sound_samples/cries/calyrex_shadow_rider.bin"
 
 	.align 2
+Cry_DeltaBulbasaur::
+	.incbin "sound/direct_sound_samples/cries/bulbasaur.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 
