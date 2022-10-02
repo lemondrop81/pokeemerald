@@ -10799,4 +10799,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+
+    [NATIONAL_DEX_DELTA_IVYSAUR] =
+    {
+        .categoryName = _("Crystal"),
+        .height = 1,
+        .weight = 13.0,
+        .description = gDeltaIvysaurPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DELTA_VENUSAUR] =
+    {
+        .categoryName = _("Crystal"),
+        .height = 2,
+        .weight = 100,
+        .description = gDeltaVenusaurPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

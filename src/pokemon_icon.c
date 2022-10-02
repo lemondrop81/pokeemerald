@@ -1246,6 +1246,8 @@ const u8 *const gMonIconTable[] =
     [SPECIES_CALYREX_SHADOW_RIDER] = gMonIcon_QuestionMark,//gMonIcon_CalyrexShadowRider,
 
     [SPECIES_DELTA_BULBASAUR] = gMonIcon_DeltaBulbasaur,
+    [SPECIES_DELTA_IVYSAUR] = gMonIcon_DeltaIvysaur,
+    [SPECIES_DELTA_VENUSAUR] = gMonIcon_DeltaVenusaur,
     [SPECIES_EGG] = gMonIcon_Egg,
 };
 
@@ -2444,6 +2446,8 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_CALYREX_SHADOW_RIDER] = 0,
 
     [SPECIES_DELTA_BULBASAUR] = 2,
+    [SPECIES_DELTA_IVYSAUR] = 2,
+    [SPECIES_DELTA_VENUSAUR] = 2,
     [SPECIES_EGG] = 1,
 };
 

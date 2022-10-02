@@ -8533,6 +8533,18 @@ static const union AnimCmd sAnim_DELTA_BULBASAUR_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_DELTA_IVYSAUR_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_DELTA_VENUSAUR_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_VENUSAUR_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
@@ -14052,6 +14064,16 @@ static const union AnimCmd *const sAnims_DELTA_BULBASAUR[] ={
     sAnim_DELTA_BULBASAUR_1,
 };
 
+static const union AnimCmd *const sAnims_DELTA_IVYSAUR[] ={
+    sAnim_GeneralFrame0,
+    sAnim_DELTA_IVYSAUR_1,
+};
+
+static const union AnimCmd *const sAnims_DELTA_VENUSAUR[] ={
+    sAnim_GeneralFrame0,
+    sAnim_DELTA_VENUSAUR_1,
+};
+
 static const union AnimCmd *const sAnims_VENUSAUR_MEGA[] ={
     sAnim_GeneralFrame0,
     sAnim_VENUSAUR_MEGA_1,
@@ -15585,6 +15607,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(SPECTRIER),
     ANIM_CMD(CALYREX),
     ANIM_CMD(DELTA_BULBASAUR),
+    ANIM_CMD(DELTA_IVYSAUR),
+    ANIM_CMD(DELTA_VENUSAUR),
     ANIM_CMD(VENUSAUR_MEGA),
     ANIM_CMD(CHARIZARD_MEGA_X),
     ANIM_CMD(CHARIZARD_MEGA_Y),

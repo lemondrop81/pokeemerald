@@ -899,6 +899,8 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_SPECTRIER] = _("Spectrier"),
     [SPECIES_CALYREX] = _("Calyrex"),
     [SPECIES_DELTA_BULBASAUR] = _("Bulbasaur"),
+    [SPECIES_DELTA_IVYSAUR] = _("Ivysaur"),
+    [SPECIES_DELTA_VENUSAUR] = _("Venusaur"),
 
     // Megas
     [SPECIES_VENUSAUR_MEGA] = _("Venusaur"),

@@ -1273,6 +1273,8 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(CALYREX_SHADOW_RIDER, gMonPalette_CalyrexShadowRider),
 
     SPECIES_PAL(DELTA_BULBASAUR, gMonPalette_DeltaBulbasaur),
+    SPECIES_PAL(DELTA_IVYSAUR, gMonPalette_DeltaIvysaur),
+    SPECIES_PAL(DELTA_VENUSAUR, gMonPalette_DeltaVenusaur),
 
     SPECIES_PAL(EGG, gMonPalette_Egg),
 };

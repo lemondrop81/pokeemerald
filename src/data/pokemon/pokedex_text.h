@@ -5353,3 +5353,15 @@ const u8 gDeltaBulbasaurPokedexText[] = _(
     "A Delta Species discovered by EchoTheThird.\n" 
     "The crystal growing from its back uses\n" 
     "its mental energy to grow. ");
+
+const u8 gDeltaIvysaurPokedexText[] = _(
+    "Its body naturally changes in order \n"
+    "to help counteract the crystal's growing \n"
+    "weight. Its crystal resonates with /n"
+    "increased brain activity.");
+
+const u8 gDeltaVenusaurPokedexText[] = _(
+    "In order to increase its psychic powers, \n"
+    "a shard of its crystal is embedded in its \n"
+    "forehead. Even when it sleeps, its crystal \n"
+    "is capable of providing protection. ");

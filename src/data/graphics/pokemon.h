@@ -1157,6 +1157,8 @@ const u32 gMonFrontPic_ZarudeDada[] = INCBIN_U32("graphics/pokemon/zarude/dada/f
 const u32 gMonFrontPic_CalyrexIceRider[] = INCBIN_U32("graphics/pokemon/calyrex/ice_rider/front.4bpp.lz");
 const u32 gMonFrontPic_CalyrexShadowRider[] = INCBIN_U32("graphics/pokemon/calyrex/shadow_rider/front.4bpp.lz");
 const u32 gMonFrontPic_DeltaBulbasaur[] = INCBIN_U32("graphics/pokemon/Delta_Bulbasaur/anim_front.4bpp.lz");
+const u32 gMonFrontPic_DeltaIvysaur[] = INCBIN_U32("graphics/pokemon/Delta_Ivysaur/anim_front.4bpp.lz");
+const u32 gMonFrontPic_DeltaVenusaur[] = INCBIN_U32("graphics/pokemon/Delta_Venusaur/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 
 const u32 gMonBackPic_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/back.4bpp.lz");
@@ -2317,6 +2319,8 @@ const u32 gMonBackPic_ZarudeDada[] = INCBIN_U32("graphics/pokemon/zarude/dada/ba
 const u32 gMonBackPic_CalyrexIceRider[] = INCBIN_U32("graphics/pokemon/calyrex/ice_rider/back.4bpp.lz");
 const u32 gMonBackPic_CalyrexShadowRider[] = INCBIN_U32("graphics/pokemon/calyrex/shadow_rider/back.4bpp.lz");
 const u32 gMonBackPic_DeltaBulbasaur[] = INCBIN_U32("graphics/pokemon/Delta_Bulbasaur/back.4bpp.lz");
+const u32 gMonBackPic_DeltaIvysaur[] = INCBIN_U32("graphics/pokemon/Delta_Ivysaur/back.4bpp.lz");
+const u32 gMonBackPic_DeltaVenusaur[] = INCBIN_U32("graphics/pokemon/Delta_Venusaur/back.4bpp.lz");
 
 const u32 gMonPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/normal.gbapal.lz");
 const u32 gMonPalette_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/normal.gbapal.lz");
@@ -3495,6 +3499,8 @@ const u32 gMonPalette_ZarudeDada[] = INCBIN_U32("graphics/pokemon/zarude/dada/no
 const u32 gMonPalette_CalyrexIceRider[] = INCBIN_U32("graphics/pokemon/calyrex/ice_rider/normal.gbapal.lz");
 const u32 gMonPalette_CalyrexShadowRider[] = INCBIN_U32("graphics/pokemon/calyrex/shadow_rider/normal.gbapal.lz");
 const u32 gMonPalette_DeltaBulbasaur[] = INCBIN_U32("graphics/pokemon/Delta_Bulbasaur/normal.gbapal.lz");
+const u32 gMonPalette_DeltaIvysaur[] = INCBIN_U32("graphics/pokemon/Delta_Ivysaur/normal.gbapal.lz");
+const u32 gMonPalette_DeltaVenusaur[] = INCBIN_U32("graphics/pokemon/Delta_Venusaur/normal.gbapal.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
 
 const u32 gMonShinyPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/shiny.gbapal.lz");
@@ -4668,6 +4674,8 @@ const u32 gMonShinyPalette_ZarudeDada[] = INCBIN_U32("graphics/pokemon/zarude/da
 const u32 gMonShinyPalette_CalyrexIceRider[] = INCBIN_U32("graphics/pokemon/calyrex/ice_rider/shiny.gbapal.lz");
 const u32 gMonShinyPalette_CalyrexShadowRider[] = INCBIN_U32("graphics/pokemon/calyrex/shadow_rider/shiny.gbapal.lz");
 const u32 gMonShinyPalette_DeltaBulbasaur[] = INCBIN_U32("graphics/pokemon/Delta_Bulbasaur/shiny.gbapal.lz");
+const u32 gMonShinyPalette_DeltaIvysaur[] = INCBIN_U32("graphics/pokemon/Delta_Ivysaur/shiny.gbapal.lz");
+const u32 gMonShinyPalette_DeltaVenusaur[] = INCBIN_U32("graphics/pokemon/Delta_Venusaur/shiny.gbapal.lz");
 
 const u8 gMonIcon_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/icon.4bpp");
 const u8 gMonIcon_Bulbasaur[] = INCBIN_U8("graphics/pokemon/bulbasaur/icon.4bpp");
@@ -5830,6 +5838,8 @@ const u8 gMonIcon_ZarudeDada[] = INCBIN_U8("graphics/pokemon/zarude/dada/icon.4b
 //const u8 gMonIcon_CalyrexIceRider[] = INCBIN_U8("graphics/pokemon/calyrex/ice_rider/icon.4bpp");
 //const u8 gMonIcon_CalyrexShadowRider[] = INCBIN_U8("graphics/pokemon/calyrex/shadow_rider/icon.4bpp");
 const u8 gMonIcon_DeltaBulbasaur[] = INCBIN_U8("graphics/pokemon/Delta_Bulbasaur/icon.4bpp");
+const u8 gMonIcon_DeltaIvysaur[] = INCBIN_U8("graphics/pokemon/Delta_Ivysaur/icon.4bpp");
+const u8 gMonIcon_DeltaVenusaur[] = INCBIN_U8("graphics/pokemon/Delta_Venusaur/icon.4bpp");
 const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
 
 const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/footprint.1bpp");
@@ -6732,3 +6742,5 @@ const u8 gMonFootprint_Glastrier[] = INCBIN_U8("graphics/pokemon/glastrier/footp
 const u8 gMonFootprint_Spectrier[] = INCBIN_U8("graphics/pokemon/spectrier/footprint.1bpp");
 const u8 gMonFootprint_Calyrex[] = INCBIN_U8("graphics/pokemon/calyrex/footprint.1bpp");
 const u8 gMonFootprint_DeltaBulbasaur[] = INCBIN_U8("graphics/pokemon/Delta_Bulbasaur/footprint.1bpp");
+const u8 gMonFootprint_DeltaIvysaur[] = INCBIN_U8("graphics/pokemon/Delta_Ivysaur/footprint.1bpp");
+const u8 gMonFootprint_DeltaVenusaur[] = INCBIN_U8("graphics/pokemon/Delta_Venusaur/footprint.1bpp");

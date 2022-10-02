@@ -4311,6 +4311,14 @@ Cry_DeltaBulbasaur::
 	.incbin "sound/direct_sound_samples/cries/bulbasaur.bin"
 
 	.align 2
+Cry_DeltaIvysaur::
+	.incbin "sound/direct_sound_samples/cries/ivysaur.bin"
+
+	.align 2
+Cry_DeltaVenusaur::
+	.incbin "sound/direct_sound_samples/cries/venusaur.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 

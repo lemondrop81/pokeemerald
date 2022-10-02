@@ -34175,4 +34175,62 @@ const struct BaseStats gBaseStats[] =
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
     },
+
+    [SPECIES_DELTA_IVYSAUR] =
+    {
+        .baseHP        = 60,
+        .baseAttack    = 62,
+        .baseDefense   = 63,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 80,
+        .type1 = TYPE_FAIRY,
+        .type2 = TYPE_PSYCHIC,
+        .catchRate = 45,
+        .expYield = 142,
+        .evYield_SpAttack  = 1,
+        .evYield_SpDefense = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_UNDISCOVERED,
+        .eggGroup2 = EGG_GROUP_UNDISCOVERED,
+        #ifdef BATTLE_ENGINE
+            .abilities = {ABILITY_REGENERATOR, ABILITY_NONE},
+        #else
+            .abilities = {ABILITY_NONE, ABILITY_NONE},
+        #endif
+        .bodyColor = BODY_COLOR_PINK,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_DELTA_VENUSAUR] =
+    {
+        .baseHP        = 80,
+        .baseAttack    = 82,
+        .baseDefense   = 83,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 100,
+        .baseSpDefense = 100,
+        .type1 = TYPE_FAIRY,
+        .type2 = TYPE_PSYCHIC,
+        .catchRate = 45,
+        .expYield = 236,
+        .evYield_SpAttack  = 2,
+        .evYield_SpDefense = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_UNDISCOVERED,
+        .eggGroup2 = EGG_GROUP_UNDISCOVERED,
+        #ifdef BATTLE_ENGINE
+            .abilities = {ABILITY_REGENERATOR, ABILITY_NONE},
+        #else
+            .abilities = {ABILITY_NONE, ABILITY_NONE},
+        #endif
+        .bodyColor = BODY_COLOR_PINK,
+        .noFlip = FALSE,
+    },
 };

@@ -6146,6 +6146,18 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,
     },
+    // Delta Ivysaur
+    [SPECIES_DELTA_IVYSAUR] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
+    },
+    // Delta Venusaur
+    [SPECIES_DELTA_VENUSAUR] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
+    },
     // Egg
     [SPECIES_EGG] =
     {
