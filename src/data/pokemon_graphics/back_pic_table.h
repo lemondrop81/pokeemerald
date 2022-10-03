@@ -1275,6 +1275,12 @@ const struct CompressedSpriteSheet gMonBackPicTable[] =
     SPECIES_SPRITE(DELTA_BULBASAUR, gMonBackPic_DeltaBulbasaur),
     SPECIES_SPRITE(DELTA_IVYSAUR, gMonBackPic_DeltaIvysaur),
     SPECIES_SPRITE(DELTA_VENUSAUR, gMonBackPic_DeltaVenusaur),
+    SPECIES_SPRITE(DELTA_CHARMANDER, gMonBackPic_DeltaCharmander),
+    SPECIES_SPRITE(DELTA_CHARMELEON, gMonBackPic_DeltaCharmeleon),
+    SPECIES_SPRITE(DELTA_CHARIZARD, gMonBackPic_DeltaCharizard),
+    SPECIES_SPRITE(DELTA_SQUIRTLE, gMonBackPic_DeltaSquirtle),
+    SPECIES_SPRITE(DELTA_WARTORTLE, gMonBackPic_DeltaWartortle),
+    SPECIES_SPRITE(DELTA_BLASTOISE, gMonBackPic_DeltaBlastoise),
 
     SPECIES_SPRITE(EGG, gMonFrontPic_Egg),
 };

@@ -10859,4 +10859,40 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+
+    [NATIONAL_DEX_DELTA_SQUIRTLE] =
+    {
+        .categoryName = _("Ninja"),
+        .height = .5,
+        .weight = 9.0,
+        .description = gDeltaSquirtlePokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DELTA_WARTORTLE] =
+    {
+        .categoryName = _("Ninja"),
+        .height = 1.0,
+        .weight = 22.5,
+        .description = gDeltaWartortlePokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DELTA_BLASTOISE] =
+    {
+        .categoryName = _("Selfish"),
+        .height = 1.6,
+        .weight = 85.5,
+        .description = gDeltaBlastoisePokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

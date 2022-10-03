@@ -34318,4 +34318,89 @@ const struct BaseStats gBaseStats[] =
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
+
+    [SPECIES_DELTA_SQUIRTLE] =
+    {
+        .baseHP        = 44,
+        .baseAttack    = 48,
+        .baseDefense   = 65,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 64,
+        .baseSpDefense = 43,
+        .type1 = TYPE_DARK,
+        .type2 = TYPE_FIGHTING,
+        .catchRate = 45,
+        .expYield = 63,
+        .evYield_Defense   = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_UNDISCOVERED,
+        .eggGroup2 = EGG_GROUP_UNDISCOVERED,
+        #ifdef BATTLE_ENGINE
+            .abilities = {ABILITY_DARK_AURA, ABILITY_NONE},
+        #else
+            .abilities = {ABILITY_NONE, ABILITY_NONE},
+        #endif
+        .bodyColor = BODY_COLOR_WHITE,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_DELTA_WARTORTLE] =
+    {
+        .baseHP        = 59,
+        .baseAttack    = 63,
+        .baseDefense   = 80,
+        .baseSpeed     = 58,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 80,
+        .type1 = TYPE_DARK,
+        .type2 = TYPE_FIGHTING,
+        .catchRate = 45,
+        .expYield = 142,
+        .evYield_Defense   = 1,
+        .evYield_SpDefense = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_UNDISCOVERED,
+        .eggGroup2 = EGG_GROUP_UNDISCOVERED,
+        #ifdef BATTLE_ENGINE
+            .abilities = {ABILITY_DARK_AURA, ABILITY_NONE},
+        #else
+            .abilities = {ABILITY_NONE, ABILITY_NONE},
+        #endif
+        .bodyColor = BODY_COLOR_BLACK,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_DELTA_BLASTOISE] =
+    {
+        .baseHP        = 79,
+        .baseAttack    = 83,
+        .baseDefense   = 100,
+        .baseSpeed     = 78,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 105,
+        .type1 = TYPE_DARK,
+        .type2 = TYPE_FIGHTING,
+        .catchRate = 45,
+        .expYield = 239,
+        .evYield_SpDefense = 3,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroup1 = EGG_GROUP_UNDISCOVERED,
+        .eggGroup2 = EGG_GROUP_UNDISCOVERED,
+        #ifdef BATTLE_ENGINE
+            .abilities = {ABILITY_DARK_AURA, ABILITY_NONE},
+        #else
+            .abilities = {ABILITY_NONE, ABILITY_NONE},
+        #endif
+        .bodyColor = BODY_COLOR_BLACK,
+        .noFlip = FALSE,
+    },
 };

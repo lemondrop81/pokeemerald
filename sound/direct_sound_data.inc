@@ -4331,6 +4331,18 @@ Cry_DeltaCharizard::
 	.incbin "sound/direct_sound_samples/cries/charizard.bin"
 
 	.align 2
+Cry_DeltaSquirtle::
+	.incbin "sound/direct_sound_samples/cries/squirtle.bin"
+
+	.align 2
+Cry_DeltaWartortle::
+	.incbin "sound/direct_sound_samples/cries/wartortle.bin"
+
+	.align 2
+Cry_DeltaBlastoise::
+	.incbin "sound/direct_sound_samples/cries/blastoise.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 

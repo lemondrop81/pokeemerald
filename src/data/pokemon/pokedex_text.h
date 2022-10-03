@@ -5384,3 +5384,21 @@ const u8 gDeltaCharizardPokedexText[] = _(
     "breath gives the impression of being\n"
     "engulfed in magma but causes no\n"
     "physical harm.");
+
+const u8 gDeltaSquirtlePokedexText[] = _(
+    "A Delta Species discovered by EchoTheThird.\n"
+    "Though its shell causes it to stand out\n"
+    "when hiding in the shadows, it conceals\n"
+    "itself using the cloth on its back. ");
+
+const u8 gDeltaWartortlePokedexText[] = _(
+    "Its tail splits to better conceal\n"
+    "the back of its shell while it waits\n"
+    "for foes. Its gloves help better channel\n"
+    "its inner spirit energy. ");
+
+const u8 gDeltaBlastoisePokedexText[] = _(
+    "Though its shell now blends in with the\n"
+    "darkness, it welcomes foolish opponents who\n"
+    "attack it from behind. It concentrates its\n"
+    "spirit into blasts of energy. ");

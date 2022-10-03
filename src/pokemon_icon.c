@@ -1251,6 +1251,9 @@ const u8 *const gMonIconTable[] =
     [SPECIES_DELTA_CHARMANDER] = gMonIcon_DeltaCharmander,
     [SPECIES_DELTA_CHARMELEON] = gMonIcon_DeltaCharmeleon,
     [SPECIES_DELTA_CHARIZARD] = gMonIcon_DeltaCharizard,
+    [SPECIES_DELTA_SQUIRTLE] = gMonIcon_DeltaSquirtle,
+    [SPECIES_DELTA_WARTORTLE] = gMonIcon_DeltaWartortle,
+    [SPECIES_DELTA_BLASTOISE] = gMonIcon_DeltaBlastoise,
     [SPECIES_EGG] = gMonIcon_Egg,
 };
 

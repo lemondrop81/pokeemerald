@@ -1222,6 +1222,9 @@ extern const u32 gMonFrontPic_DeltaVenusaur[];
 extern const u32 gMonFrontPic_DeltaCharmander[];
 extern const u32 gMonFrontPic_DeltaCharmeleon[];
 extern const u32 gMonFrontPic_DeltaCharizard[];
+extern const u32 gMonFrontPic_DeltaSquirtle[];
+extern const u32 gMonFrontPic_DeltaWartortle[];
+extern const u32 gMonFrontPic_DeltaBlastoise[];
 extern const u32 gMonFrontPic_Egg[];
 
 extern const u32 gMonBackPic_CircledQuestionMark[];
@@ -2380,6 +2383,9 @@ extern const u32 gMonBackPic_DeltaVenusaur[];
 extern const u32 gMonBackPic_DeltaCharmander[];
 extern const u32 gMonBackPic_DeltaCharmeleon[];
 extern const u32 gMonBackPic_DeltaCharizard[];
+extern const u32 gMonBackPic_DeltaSquirtle[];
+extern const u32 gMonBackPic_DeltaWartortle[];
+extern const u32 gMonBackPic_DeltaBlastoise[];
 
 extern const u32 gMonPalette_CircledQuestionMark[];
 extern const u32 gMonPalette_DoubleQuestionMark[];
@@ -3556,6 +3562,9 @@ extern const u32 gMonPalette_DeltaVenusaur[];
 extern const u32 gMonPalette_DeltaCharmander[];
 extern const u32 gMonPalette_DeltaCharmeleon[];
 extern const u32 gMonPalette_DeltaCharizard[];
+extern const u32 gMonPalette_DeltaSquirtle[];
+extern const u32 gMonPalette_DeltaWartortle[];
+extern const u32 gMonPalette_DeltaBlastoise[];
 extern const u32 gMonPalette_Egg[];
 
 extern const u32 gMonShinyPalette_CircledQuestionMark[];
@@ -4728,6 +4737,9 @@ extern const u32 gMonShinyPalette_DeltaVenusaur[];
 extern const u32 gMonShinyPalette_DeltaCharmander[];
 extern const u32 gMonShinyPalette_DeltaCharmeleon[];
 extern const u32 gMonShinyPalette_DeltaCharizard[];
+extern const u32 gMonShinyPalette_DeltaSquirtle[];
+extern const u32 gMonShinyPalette_DeltaWartortle[];
+extern const u32 gMonShinyPalette_DeltaBlastoise[];
 
 extern const u8 gMonIcon_QuestionMark[];
 extern const u8 gMonIcon_Bulbasaur[];
@@ -5895,6 +5907,9 @@ extern const u8 gMonIcon_DeltaVenusaur[];
 extern const u8 gMonIcon_DeltaCharmander[];
 extern const u8 gMonIcon_DeltaCharmeleon[];
 extern const u8 gMonIcon_DeltaCharizard[];
+extern const u8 gMonIcon_DeltaSquirtle[];
+extern const u8 gMonIcon_DeltaWartortle[];
+extern const u8 gMonIcon_DeltaBlastoise[];
 extern const u8 gMonIcon_Egg[];
 
 extern const u8 gMonFootprint_QuestionMark[];
@@ -6802,6 +6817,9 @@ extern const u8 gMonFootprint_DeltaVenusaur[];
 extern const u8 gMonFootprint_DeltaCharmander[];
 extern const u8 gMonFootprint_DeltaCharmeleon[];
 extern const u8 gMonFootprint_DeltaCharizard[];
+extern const u8 gMonFootprint_DeltaSquirtle[];
+extern const u8 gMonFootprint_DeltaWartortle[];
+extern const u8 gMonFootprint_DeltaBlastoise[];
 
 // trainer sprites
 extern const u32 gTrainerFrontPic_Hiker[];
