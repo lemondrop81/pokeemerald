@@ -904,9 +904,11 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_DELTA_CHARMANDER] = _("Charmander"),
     [SPECIES_DELTA_CHARMELEON] = _("Charmeleon"),
     [SPECIES_DELTA_CHARIZARD] = _("Charizard"),
-     [SPECIES_DELTA_SQUIRTLE] = _("Squirtle"),
+    [SPECIES_DELTA_SQUIRTLE] = _("Squirtle"),
     [SPECIES_DELTA_WARTORTLE] = _("Wartortle"),
     [SPECIES_DELTA_BLASTOISE] = _("Blastoise"),
+    [SPECIES_DELTA_PAWNIARD] = _("Pawniard"),
+    [SPECIES_DELTA_BISHARP] = _("Bisharp"),
 
     // Megas
     [SPECIES_VENUSAUR_MEGA] = _("Venusaur"),

@@ -10895,4 +10895,28 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+
+    [NATIONAL_DEX_DELTA_PAWNIARD] =
+    {
+        .categoryName = _("Air Blade"),
+        .height = .5,
+        .weight = 10.2,
+        .description = gDeltaPawniardPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DELTA_BISHARP] =
+    {
+        .categoryName = _("Flying Sword"),
+        .height = 1.6,
+        .weight = 70.0,
+        .description = gDeltaBisharpPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

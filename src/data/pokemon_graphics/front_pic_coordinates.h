@@ -6194,6 +6194,18 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 0,
     },
+    // Delta Pawniard
+    [SPECIES_DELTA_PAWNIARD] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
+    },
+    // Delta Bisharp
+    [SPECIES_DELTA_BISHARP] =
+    {
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 0,
+    },
     // Egg
     [SPECIES_EGG] =
     {

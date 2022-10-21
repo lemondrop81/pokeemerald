@@ -1165,6 +1165,8 @@ const u32 gMonFrontPic_DeltaCharizard[] = INCBIN_U32("graphics/pokemon/Delta_Cha
 const u32 gMonFrontPic_DeltaSquirtle[] = INCBIN_U32("graphics/pokemon/Delta_Squirtle/anim_front.4bpp.lz");
 const u32 gMonFrontPic_DeltaWartortle[] = INCBIN_U32("graphics/pokemon/Delta_Wartortle/anim_front.4bpp.lz");
 const u32 gMonFrontPic_DeltaBlastoise[] = INCBIN_U32("graphics/pokemon/Delta_Blastoise/anim_front.4bpp.lz");
+const u32 gMonFrontPic_DeltaPawniard[] = INCBIN_U32("graphics/pokemon/Delta_pawniard/anim_front.4bpp.lz");
+const u32 gMonFrontPic_DeltaBisharp[] = INCBIN_U32("graphics/pokemon/Delta_bisharp/anim_front.4bpp.lz");
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 
 const u32 gMonBackPic_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/back.4bpp.lz");
@@ -2333,6 +2335,8 @@ const u32 gMonBackPic_DeltaCharizard[] = INCBIN_U32("graphics/pokemon/Delta_Char
 const u32 gMonBackPic_DeltaSquirtle[] = INCBIN_U32("graphics/pokemon/delta_squirtle/back.4bpp.lz");
 const u32 gMonBackPic_DeltaWartortle[] = INCBIN_U32("graphics/pokemon/delta_wartortle/back.4bpp.lz");
 const u32 gMonBackPic_DeltaBlastoise[] = INCBIN_U32("graphics/pokemon/Delta_Blastoise/back.4bpp.lz");
+const u32 gMonBackPic_DeltaPawniard[] = INCBIN_U32("graphics/pokemon/delta_pawniard/back.4bpp.lz");
+const u32 gMonBackPic_DeltaBisharp[] = INCBIN_U32("graphics/pokemon/Delta_bisharp/back.4bpp.lz");
 
 const u32 gMonPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/normal.gbapal.lz");
 const u32 gMonPalette_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/normal.gbapal.lz");
@@ -3519,6 +3523,8 @@ const u32 gMonPalette_DeltaCharizard[] = INCBIN_U32("graphics/pokemon/Delta_Char
 const u32 gMonPalette_DeltaSquirtle[] = INCBIN_U32("graphics/pokemon/Delta_squirtle/normal.gbapal.lz");
 const u32 gMonPalette_DeltaWartortle[] = INCBIN_U32("graphics/pokemon/Delta_wartortle/normal.gbapal.lz");
 const u32 gMonPalette_DeltaBlastoise[] = INCBIN_U32("graphics/pokemon/Delta_Blastoise/normal.gbapal.lz");
+const u32 gMonPalette_DeltaPawniard[] = INCBIN_U32("graphics/pokemon/Delta_pawniard/normal.gbapal.lz");
+const u32 gMonPalette_DeltaBisharp[] = INCBIN_U32("graphics/pokemon/Delta_bisharp/normal.gbapal.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
 
 const u32 gMonShinyPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/shiny.gbapal.lz");
@@ -4700,6 +4706,8 @@ const u32 gMonShinyPalette_DeltaCharizard[] = INCBIN_U32("graphics/pokemon/Delta
 const u32 gMonShinyPalette_DeltaSquirtle[] = INCBIN_U32("graphics/pokemon/Delta_squirtle/shiny.gbapal.lz");
 const u32 gMonShinyPalette_DeltaWartortle[] = INCBIN_U32("graphics/pokemon/delta_wartortle/shiny.gbapal.lz");
 const u32 gMonShinyPalette_DeltaBlastoise[] = INCBIN_U32("graphics/pokemon/Delta_blastoise/shiny.gbapal.lz");
+const u32 gMonShinyPalette_DeltaPawniard[] = INCBIN_U32("graphics/pokemon/delta_pawniard/shiny.gbapal.lz");
+const u32 gMonShinyPalette_DeltaBisharp[] = INCBIN_U32("graphics/pokemon/Delta_bisharp/shiny.gbapal.lz");
 
 const u8 gMonIcon_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/icon.4bpp");
 const u8 gMonIcon_Bulbasaur[] = INCBIN_U8("graphics/pokemon/bulbasaur/icon.4bpp");
@@ -5870,6 +5878,8 @@ const u8 gMonIcon_DeltaCharizard[] = INCBIN_U8("graphics/pokemon/Delta_Charizard
 const u8 gMonIcon_DeltaSquirtle[] = INCBIN_U8("graphics/pokemon/Delta_squirtle/icon.4bpp");
 const u8 gMonIcon_DeltaWartortle[] = INCBIN_U8("graphics/pokemon/Delta_wartortle/icon.4bpp");
 const u8 gMonIcon_DeltaBlastoise[] = INCBIN_U8("graphics/pokemon/Delta_blastoise/icon.4bpp");
+const u8 gMonIcon_DeltaPawniard[] = INCBIN_U8("graphics/pokemon/Delta_pawniard/icon.4bpp");
+const u8 gMonIcon_DeltaBisharp[] = INCBIN_U8("graphics/pokemon/Delta_bisharp/icon.4bpp");
 const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
 
 const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/footprint.1bpp");
@@ -6780,3 +6790,5 @@ const u8 gMonFootprint_DeltaCharizard[] = INCBIN_U8("graphics/pokemon/Delta_Char
 const u8 gMonFootprint_DeltaSquirtle[] = INCBIN_U8("graphics/pokemon/Delta_Squirtle/footprint.1bpp");
 const u8 gMonFootprint_DeltaWartortle[] = INCBIN_U8("graphics/pokemon/Delta_Wartortle/footprint.1bpp");
 const u8 gMonFootprint_DeltaBlastoise[] = INCBIN_U8("graphics/pokemon/Delta_Blastoise/footprint.1bpp");
+const u8 gMonFootprint_DeltaPawniard[] = INCBIN_U8("graphics/pokemon/Delta_pawniard/footprint.1bpp");
+const u8 gMonFootprint_DeltaBisharp[] = INCBIN_U8("graphics/pokemon/Delta_bisharp/footprint.1bpp");

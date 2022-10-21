@@ -5402,3 +5402,13 @@ const u8 gDeltaBlastoisePokedexText[] = _(
     "darkness, it welcomes foolish opponents who\n"
     "attack it from behind. It concentrates its\n"
     "spirit into blasts of energy. ");
+
+const u8 gDeltaPawniardPokedexText[] = _(
+    "A Delta Species discovered by EchoTheThird\n"
+    "and Zero Breaker. It flies through the air\n"
+    "and strikes at its prey.");    
+
+const u8 gDeltaBisharpPokedexText[] = _(
+    "It commands a large group of Pawniard.\n"
+    "A single swing of its arm is enough\n"
+    "to summon a hurricane.");

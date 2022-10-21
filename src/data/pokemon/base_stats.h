@@ -34403,4 +34403,60 @@ const struct BaseStats gBaseStats[] =
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
+
+    [SPECIES_DELTA_PAWNIARD] =
+    {
+        .baseHP        = 45,
+        .baseAttack    = 85,
+        .baseDefense   = 70,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 40,
+        .baseSpDefense = 40,
+        .type1 = TYPE_FLYING,
+        .type2 = TYPE_FIGHTING,
+        .catchRate = 120,
+        .expYield = 68,
+        .evYield_Attack    = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 35,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
+        .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
+        #ifdef BATTLE_ENGINE
+            .abilities = {ABILITY_DEFIANT, ABILITY_FRISK, ABILITY_NONE},
+        #else
+            .abilities = {ABILITY_NONE, ABILITY_INNER_FOCUS, ABILITY_PRESSURE},
+        #endif
+        .bodyColor = BODY_COLOR_RED,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_DELTA_BISHARP] =
+    {
+        .baseHP        = 65,
+        .baseAttack    = 125,
+        .baseDefense   = 100,
+        .baseSpeed     = 70,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 70,
+        .type1 = TYPE_FLYING,
+        .type2 = TYPE_FIGHTING,
+        .catchRate = 45,
+        .expYield = 172,
+        .evYield_Attack    = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 35,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
+        .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
+        #ifdef BATTLE_ENGINE
+            .abilities = {ABILITY_DEFIANT, ABILITY_INNER_FOCUS, ABILITY_PRESSURE},
+        #else
+            .abilities = {ABILITY_NONE, ABILITY_INNER_FOCUS, ABILITY_PRESSURE},
+        #endif
+        .bodyColor = BODY_COLOR_RED,
+        .noFlip = FALSE,
+    },
 };

@@ -1281,6 +1281,8 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(DELTA_SQUIRTLE, gMonPalette_DeltaSquirtle),
     SPECIES_PAL(DELTA_WARTORTLE, gMonPalette_DeltaWartortle),
     SPECIES_PAL(DELTA_BLASTOISE, gMonPalette_DeltaBlastoise),
+    SPECIES_PAL(DELTA_PAWNIARD, gMonPalette_DeltaPawniard),
+    SPECIES_PAL(DELTA_BISHARP, gMonPalette_DeltaBisharp),
 
     SPECIES_PAL(EGG, gMonPalette_Egg),
 };

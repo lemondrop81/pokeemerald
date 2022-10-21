@@ -1254,6 +1254,8 @@ const u8 *const gMonIconTable[] =
     [SPECIES_DELTA_SQUIRTLE] = gMonIcon_DeltaSquirtle,
     [SPECIES_DELTA_WARTORTLE] = gMonIcon_DeltaWartortle,
     [SPECIES_DELTA_BLASTOISE] = gMonIcon_DeltaBlastoise,
+    [SPECIES_DELTA_PAWNIARD] = gMonIcon_DeltaPawniard,
+    [SPECIES_DELTA_BISHARP] = gMonIcon_DeltaBisharp,
     [SPECIES_EGG] = gMonIcon_Egg,
 };
 
@@ -2457,6 +2459,11 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_DELTA_CHARMANDER] = 0,
     [SPECIES_DELTA_CHARMELEON] = 0,
     [SPECIES_DELTA_CHARIZARD] = 0,
+    [SPECIES_DELTA_SQUIRTLE] = 0,
+    [SPECIES_DELTA_WARTORTLE] = 0,
+    [SPECIES_DELTA_BLASTOISE] = 0,
+    [SPECIES_DELTA_PAWNIARD] = 0,
+    [SPECIES_DELTA_BISHARP] = 0,
     [SPECIES_EGG] = 1,
 };
 
