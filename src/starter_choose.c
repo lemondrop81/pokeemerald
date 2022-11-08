@@ -166,9 +166,9 @@ static const u16 sStarterMonAlola[STARTER_MON_COUNT] =
 
 static const u16 sStarterMonMystery[STARTER_MON_COUNT] =
 {
-    SPECIES_NECROZMA_DUSK_MANE,
+    SPECIES_DELTA_SQUIRTLE,
     SPECIES_DELTA_BULBASAUR,
-    SPECIES_MARSHADOW,
+    SPECIES_DELTA_CHARMANDER,
 };
 
 static const struct BgTemplate sBgTemplates[3] =
